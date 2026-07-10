@@ -1,0 +1,118 @@
+{
+  "slug": "east-staffordshire",
+  "name": "East Staffordshire District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000193",
+  "colour": "hsl(165, 45%, 55%)",
+  "initials": "ES",
+  "leader": "Cllr Duncan Goodfellow",
+  "chiefExecutive": "Brendan Sherwin",
+  "councillors": 37,
+  "website": "https://www.eaststaffsbc.gov.uk",
+  "taxBands": {
+    "2021": 1904.0,
+    "2022": 1962.0,
+    "2023": 2054.0,
+    "2024": 2151.0,
+    "2025": 2257.0,
+    "2026": 2351.0
+  },
+  "taxCurrent": 2257.0,
+  "taxPrev": 2151.0,
+  "taxChange": 106.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7264.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3771.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3211.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1977.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1386.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 644.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -272.0
+    }
+  ],
+  "budgetTotal": 18253.0,
+  "perHousehold": 365,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3211.0,
+      "perHousehold": 64,
+      "description": "allocated \u00a33.2m to Culture & Leisure (\u2248\u00a364 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1977.0,
+      "perHousehold": 40,
+      "description": "allocated \u00a32.0m to Planning & Development (\u2248\u00a340 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3771.0,
+      "perHousehold": 75,
+      "description": "allocated \u00a33.8m to Council Running Costs (\u2248\u00a375 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7264.0,
+      "perHousehold": 145,
+      "description": "allocated \u00a37.3m to Environment & Streets (\u2248\u00a3145 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 106.0,
+      "perHousehold": 106.0,
+      "description": "raised Band D council tax by \u00a3106 (4.9%) to \u00a32257",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

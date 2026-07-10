@@ -1,0 +1,112 @@
+{
+  "slug": "havant",
+  "name": "Havant District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000090",
+  "colour": "hsl(181, 45%, 55%)",
+  "initials": "HAV",
+  "leader": "",
+  "chiefExecutive": "Steve Jorden",
+  "councillors": 38,
+  "website": "https://www.havant.gov.uk",
+  "taxBands": {
+    "2021": 1862.0,
+    "2022": 1922.0,
+    "2023": 2018.0,
+    "2024": 2110.0,
+    "2025": 2213.0,
+    "2026": 2320.0
+  },
+  "taxCurrent": 2213.0,
+  "taxPrev": 2110.0,
+  "taxChange": 103.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 9608.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5441.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3648.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2764.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1319.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": -16.0
+    }
+  ],
+  "budgetTotal": 21461.0,
+  "perHousehold": 429,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5441.0,
+      "perHousehold": 109,
+      "description": "allocated \u00a35.4m to Housing (\u2248\u00a3109 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3648.0,
+      "perHousehold": 73,
+      "description": "allocated \u00a33.6m to Planning & Development (\u2248\u00a373 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2764.0,
+      "perHousehold": 55,
+      "description": "allocated \u00a32.8m to Council Running Costs (\u2248\u00a355 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 9608.0,
+      "perHousehold": 192,
+      "description": "allocated \u00a39.6m to Environment & Streets (\u2248\u00a3192 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 103.0,
+      "perHousehold": 103.0,
+      "description": "raised Band D council tax by \u00a3103 (4.9%) to \u00a32213",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

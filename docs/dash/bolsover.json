@@ -1,0 +1,118 @@
+{
+  "slug": "bolsover",
+  "name": "Bolsover District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000033",
+  "colour": "hsl(141, 45%, 55%)",
+  "initials": "BOL",
+  "leader": "",
+  "chiefExecutive": "Karen Hanson (Shared with NE Derbyshire)",
+  "councillors": 37,
+  "website": "https://www.bolsover.gov.uk",
+  "taxBands": {
+    "2021": 2040.0,
+    "2022": 2111.0,
+    "2023": 2201.0,
+    "2024": 2321.0,
+    "2025": 2448.0,
+    "2026": 2559.0
+  },
+  "taxCurrent": 2448.0,
+  "taxPrev": 2321.0,
+  "taxChange": 127.0,
+  "taxChangePct": 5.5,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5122.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4674.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2386.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1970.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1727.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 376.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -1.0
+    }
+  ],
+  "budgetTotal": 16255.0,
+  "perHousehold": 325,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4674.0,
+      "perHousehold": 93,
+      "description": "allocated \u00a34.7m to Council Running Costs (\u2248\u00a393 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2386.0,
+      "perHousehold": 48,
+      "description": "allocated \u00a32.4m to Culture & Leisure (\u2248\u00a348 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1970.0,
+      "perHousehold": 39,
+      "description": "allocated \u00a32.0m to Planning & Development (\u2248\u00a339 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5122.0,
+      "perHousehold": 102,
+      "description": "allocated \u00a35.1m to Environment & Streets (\u2248\u00a3102 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 127.0,
+      "perHousehold": 127.0,
+      "description": "raised Band D council tax by \u00a3127 (5.5%) to \u00a32448",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

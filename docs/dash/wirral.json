@@ -1,0 +1,142 @@
+{
+  "slug": "wirral",
+  "name": "Wirral Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000015",
+  "colour": "hsl(346, 45%, 55%)",
+  "initials": "WIR",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 66,
+  "website": "https://www.wirral.gov.uk",
+  "taxBands": {
+    "2021": 1991.0,
+    "2022": 2053.0,
+    "2023": 2158.0,
+    "2024": 2263.0,
+    "2025": 2382.0,
+    "2026": 2501.0
+  },
+  "taxCurrent": 2382.0,
+  "taxPrev": 2263.0,
+  "taxChange": 119.0,
+  "taxChangePct": 5.3,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 260457.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 149774.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 86130.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 35927.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 17732.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 17085.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 12585.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 10541.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 9921.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 9241.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4130.0
+    }
+  ],
+  "budgetTotal": 613523.0,
+  "perHousehold": 4719,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 149774.0,
+      "perHousehold": 1152,
+      "description": "allocated \u00a3149.8m to Adult Social Care (\u2248\u00a31152 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 86130.0,
+      "perHousehold": 663,
+      "description": "allocated \u00a386.1m to Children's Social Care (\u2248\u00a3663 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 35927.0,
+      "perHousehold": 276,
+      "description": "allocated \u00a335.9m to Public Health (\u2248\u00a3276 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 260457.0,
+      "perHousehold": 2004,
+      "description": "allocated \u00a3260.5m to Education (\u2248\u00a32004 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 119.0,
+      "perHousehold": 119.0,
+      "description": "raised Band D council tax by \u00a3119 (5.3%) to \u00a32382",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

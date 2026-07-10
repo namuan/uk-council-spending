@@ -1,0 +1,136 @@
+{
+  "slug": "barnet",
+  "name": "Barnet",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000003",
+  "colour": "hsl(117, 45%, 55%)",
+  "initials": "BAR",
+  "leader": "",
+  "chiefExecutive": "Cath Shaw",
+  "councillors": 63,
+  "website": "https://www.barnet.gov.uk",
+  "taxBands": {
+    "2021": 1701.0,
+    "2022": 1746.0,
+    "2023": 1836.0,
+    "2024": 1943.0,
+    "2025": 2036.0,
+    "2026": 2133.0
+  },
+  "taxCurrent": 2036.0,
+  "taxPrev": 1943.0,
+  "taxChange": 93.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 289332.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 185034.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 87080.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 26207.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 19228.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 13285.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 12402.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8783.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8473.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3141.0
+    }
+  ],
+  "budgetTotal": 652965.0,
+  "perHousehold": 5936,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 185034.0,
+      "perHousehold": 1682,
+      "description": "allocated \u00a3185.0m to Adult Social Care (\u2248\u00a31682 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 87080.0,
+      "perHousehold": 792,
+      "description": "allocated \u00a387.1m to Children's Social Care (\u2248\u00a3792 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 26207.0,
+      "perHousehold": 238,
+      "description": "allocated \u00a326.2m to Environment & Streets (\u2248\u00a3238 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 289332.0,
+      "perHousehold": 2630,
+      "description": "allocated \u00a3289.3m to Education (\u2248\u00a32630 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 93.0,
+      "perHousehold": 93.0,
+      "description": "raised Band D council tax by \u00a393 (4.8%) to \u00a32036",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

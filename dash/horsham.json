@@ -1,0 +1,130 @@
+{
+  "slug": "horsham",
+  "name": "Horsham District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000227",
+  "colour": "hsl(345, 45%, 55%)",
+  "initials": "HOR",
+  "leader": "Cllr Martin Boffey",
+  "chiefExecutive": "Jane Eaton",
+  "councillors": 48,
+  "website": "https://www.horsham.gov.uk",
+  "taxBands": {
+    "2021": 1950.0,
+    "2022": 2010.0,
+    "2023": 2109.0,
+    "2024": 2213.0,
+    "2025": 2322.0,
+    "2026": 2441.0
+  },
+  "taxCurrent": 2322.0,
+  "taxPrev": 2213.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8091.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5623.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4224.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3911.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2970.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2124.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 365.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 167.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 8.0
+    }
+  ],
+  "budgetTotal": 24513.0,
+  "perHousehold": 490,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3911.0,
+      "perHousehold": 78,
+      "description": "allocated \u00a33.9m to Council Running Costs (\u2248\u00a378 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4224.0,
+      "perHousehold": 84,
+      "description": "allocated \u00a34.2m to Culture & Leisure (\u2248\u00a384 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5623.0,
+      "perHousehold": 112,
+      "description": "allocated \u00a35.6m to Planning & Development (\u2248\u00a3112 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8091.0,
+      "perHousehold": 162,
+      "description": "allocated \u00a38.1m to Environment & Streets (\u2248\u00a3162 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.9%) to \u00a32322",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

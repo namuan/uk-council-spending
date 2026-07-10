@@ -1,0 +1,142 @@
+{
+  "slug": "haringey",
+  "name": "Haringey",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000014",
+  "colour": "hsl(84, 45%, 55%)",
+  "initials": "HAR",
+  "leader": "",
+  "chiefExecutive": "A Donald",
+  "councillors": 57,
+  "website": "https://www.haringey.gov.uk",
+  "taxBands": {
+    "2021": 1805.0,
+    "2022": 1880.0,
+    "2023": 1992.0,
+    "2024": 2107.0,
+    "2025": 2208.0,
+    "2026": 2314.0
+  },
+  "taxCurrent": 2208.0,
+  "taxPrev": 2107.0,
+  "taxChange": 101.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 348900.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 115146.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 53359.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 31142.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 24946.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 22728.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 22183.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 14239.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8883.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -8182.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3451.0
+    }
+  ],
+  "budgetTotal": 644977.0,
+  "perHousehold": 5863,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 31142.0,
+      "perHousehold": 283,
+      "description": "allocated \u00a331.1m to Housing (\u2248\u00a3283 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 53359.0,
+      "perHousehold": 485,
+      "description": "allocated \u00a353.4m to Children's Social Care (\u2248\u00a3485 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 348900.0,
+      "perHousehold": 3172,
+      "description": "allocated \u00a3348.9m to Education (\u2248\u00a33172 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 115146.0,
+      "perHousehold": 1047,
+      "description": "allocated \u00a3115.1m to Adult Social Care (\u2248\u00a31047 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 101.0,
+      "perHousehold": 101.0,
+      "description": "raised Band D council tax by \u00a3101 (4.8%) to \u00a32208",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

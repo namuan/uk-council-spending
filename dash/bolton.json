@@ -1,0 +1,142 @@
+{
+  "slug": "bolton",
+  "name": "Bolton Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000001",
+  "colour": "hsl(262, 45%, 55%)",
+  "initials": "BOL",
+  "leader": "",
+  "chiefExecutive": "Sue Johnson",
+  "councillors": 60,
+  "website": "https://www.bolton.gov.uk",
+  "taxBands": {
+    "2021": 1889.0,
+    "2022": 1960.0,
+    "2023": 2045.0,
+    "2024": 2147.0,
+    "2025": 2267.0,
+    "2026": 2400.0
+  },
+  "taxCurrent": 2267.0,
+  "taxPrev": 2147.0,
+  "taxChange": 120.0,
+  "taxChangePct": 5.6,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 275682.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 126454.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 72766.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 23552.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 20431.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 15991.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12237.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10844.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8952.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 6675.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3937.0
+    }
+  ],
+  "budgetTotal": 577521.0,
+  "perHousehold": 4442,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 275682.0,
+      "perHousehold": 2121,
+      "description": "allocated \u00a3275.7m to Education (\u2248\u00a32121 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 72766.0,
+      "perHousehold": 560,
+      "description": "allocated \u00a372.8m to Children's Social Care (\u2248\u00a3560 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 126454.0,
+      "perHousehold": 973,
+      "description": "allocated \u00a3126.5m to Adult Social Care (\u2248\u00a3973 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 23552.0,
+      "perHousehold": 181,
+      "description": "allocated \u00a323.6m to Public Health (\u2248\u00a3181 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 120.0,
+      "perHousehold": 120.0,
+      "description": "raised Band D council tax by \u00a3120 (5.6%) to \u00a32267",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

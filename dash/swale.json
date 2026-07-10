@@ -1,0 +1,118 @@
+{
+  "slug": "swale",
+  "name": "Swale District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000113",
+  "colour": "hsl(307, 45%, 55%)",
+  "initials": "SWA",
+  "leader": "Cllr Mike Baldock",
+  "chiefExecutive": "Larissa Reed",
+  "councillors": 47,
+  "website": "https://www.swale.gov.uk",
+  "taxBands": {
+    "2021": 1935.0,
+    "2022": 1995.0,
+    "2023": 2094.0,
+    "2024": 2196.0,
+    "2025": 2306.0,
+    "2026": 2406.0
+  },
+  "taxCurrent": 2306.0,
+  "taxPrev": 2196.0,
+  "taxChange": 110.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 11858.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6196.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5800.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4137.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1653.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1037.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 136.0
+    }
+  ],
+  "budgetTotal": 29780.0,
+  "perHousehold": 596,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6196.0,
+      "perHousehold": 124,
+      "description": "allocated \u00a36.2m to Housing (\u2248\u00a3124 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 11858.0,
+      "perHousehold": 237,
+      "description": "allocated \u00a311.9m to Environment & Streets (\u2248\u00a3237 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5800.0,
+      "perHousehold": 116,
+      "description": "allocated \u00a35.8m to Council Running Costs (\u2248\u00a3116 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4137.0,
+      "perHousehold": 83,
+      "description": "allocated \u00a34.1m to Culture & Leisure (\u2248\u00a383 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (5.0%) to \u00a32306",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

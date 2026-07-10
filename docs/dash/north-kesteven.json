@@ -1,0 +1,118 @@
+{
+  "slug": "north-kesteven",
+  "name": "North Kesteven District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000139",
+  "colour": "hsl(142, 45%, 55%)",
+  "initials": "NK",
+  "leader": "Cllr Richard Wright",
+  "chiefExecutive": "Ian Fytche",
+  "councillors": 43,
+  "website": "https://www.n-kesteven.gov.uk",
+  "taxBands": {
+    "2021": 1903.0,
+    "2022": 1990.16,
+    "2023": 2088.04,
+    "2024": 2186.65,
+    "2025": 2261.06,
+    "2026": 2337.81
+  },
+  "taxCurrent": 2261.06,
+  "taxPrev": 2186.65,
+  "taxChange": 74.41,
+  "taxChangePct": 3.4,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6427.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5214.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3633.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1518.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1484.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 163.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 58.0
+    }
+  ],
+  "budgetTotal": 18497.0,
+  "perHousehold": 370,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3633.0,
+      "perHousehold": 73,
+      "description": "allocated \u00a33.6m to Planning & Development (\u2248\u00a373 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6427.0,
+      "perHousehold": 129,
+      "description": "allocated \u00a36.4m to Environment & Streets (\u2248\u00a3129 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1518.0,
+      "perHousehold": 30,
+      "description": "allocated \u00a31.5m to Culture & Leisure (\u2248\u00a330 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5214.0,
+      "perHousehold": 104,
+      "description": "allocated \u00a35.2m to Council Running Costs (\u2248\u00a3104 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 74.0,
+      "perHousehold": 74.0,
+      "description": "raised Band D council tax by \u00a374 (3.4%) to \u00a32261",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

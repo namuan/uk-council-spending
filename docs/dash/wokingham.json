@@ -1,0 +1,136 @@
+{
+  "slug": "wokingham",
+  "name": "Wokingham Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000041",
+  "colour": "hsl(229, 45%, 55%)",
+  "initials": "WOK",
+  "leader": "Stephen Conway",
+  "chiefExecutive": "Susan Parsonage",
+  "councillors": 54,
+  "website": "https://www.wokingham.gov.uk",
+  "taxBands": {
+    "2021": 1989.0,
+    "2022": 2053.0,
+    "2023": 2157.0,
+    "2024": 2263.0,
+    "2025": 2376.0,
+    "2026": 2498.0
+  },
+  "taxCurrent": 2376.0,
+  "taxPrev": 2263.0,
+  "taxChange": 113.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 126203.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 72032.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 31545.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 20461.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12796.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 12373.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 6005.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4970.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2262.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1704.0
+    }
+  ],
+  "budgetTotal": 290351.0,
+  "perHousehold": 2904,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 31545.0,
+      "perHousehold": 315,
+      "description": "allocated \u00a331.5m to Children's Social Care (\u2248\u00a3315 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 126203.0,
+      "perHousehold": 1262,
+      "description": "allocated \u00a3126.2m to Education (\u2248\u00a31262 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 20461.0,
+      "perHousehold": 205,
+      "description": "allocated \u00a320.5m to Environment & Streets (\u2248\u00a3205 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 72032.0,
+      "perHousehold": 720,
+      "description": "allocated \u00a372.0m to Adult Social Care (\u2248\u00a3720 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (5.0%) to \u00a32376",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

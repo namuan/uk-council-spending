@@ -1,0 +1,142 @@
+{
+  "slug": "luton",
+  "name": "Luton Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000032",
+  "colour": "hsl(42, 45%, 55%)",
+  "initials": "LUT",
+  "leader": "Cllr Hazel Simmons",
+  "chiefExecutive": "Robin Porter",
+  "councillors": 48,
+  "website": "https://www.luton.gov.uk",
+  "taxBands": {
+    "2021": 1943.0,
+    "2022": 2004.0,
+    "2023": 2107.0,
+    "2024": 2210.0,
+    "2025": 2320.0,
+    "2026": 2440.0
+  },
+  "taxCurrent": 2320.0,
+  "taxPrev": 2210.0,
+  "taxChange": 110.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 206517.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 78624.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 59629.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 24412.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 17056.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 13881.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 11616.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 9522.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 6566.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 5401.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3267.0
+    }
+  ],
+  "budgetTotal": 436491.0,
+  "perHousehold": 4365,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 24412.0,
+      "perHousehold": 244,
+      "description": "allocated \u00a324.4m to Environment & Streets (\u2248\u00a3244 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 78624.0,
+      "perHousehold": 786,
+      "description": "allocated \u00a378.6m to Adult Social Care (\u2248\u00a3786 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 59629.0,
+      "perHousehold": 596,
+      "description": "allocated \u00a359.6m to Children's Social Care (\u2248\u00a3596 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 206517.0,
+      "perHousehold": 2065,
+      "description": "allocated \u00a3206.5m to Education (\u2248\u00a32065 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (5.0%) to \u00a32320",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

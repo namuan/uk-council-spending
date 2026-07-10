@@ -1,0 +1,112 @@
+{
+  "slug": "warwick",
+  "name": "Warwick District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000222",
+  "colour": "hsl(82, 45%, 55%)",
+  "initials": "WAR",
+  "leader": "Cllr Ian Davison",
+  "chiefExecutive": "Chris Elliott",
+  "councillors": 44,
+  "website": "https://www.warwickdc.gov.uk",
+  "taxBands": {
+    "2021": 1996.0,
+    "2022": 2066.0,
+    "2023": 2144.0,
+    "2024": 2248.0,
+    "2025": 2357.0,
+    "2026": 2462.0
+  },
+  "taxCurrent": 2357.0,
+  "taxPrev": 2248.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 12398.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 7796.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 6180.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4779.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2644.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2086.0
+    }
+  ],
+  "budgetTotal": 33239.0,
+  "perHousehold": 665,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 7796.0,
+      "perHousehold": 156,
+      "description": "allocated \u00a37.8m to Culture & Leisure (\u2248\u00a3156 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 6180.0,
+      "perHousehold": 124,
+      "description": "allocated \u00a36.2m to Planning & Development (\u2248\u00a3124 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4779.0,
+      "perHousehold": 96,
+      "description": "allocated \u00a34.8m to Council Running Costs (\u2248\u00a396 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 12398.0,
+      "perHousehold": 248,
+      "description": "allocated \u00a312.4m to Environment & Streets (\u2248\u00a3248 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.8%) to \u00a32357",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "charnwood",
+  "name": "Charnwood District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000130",
+  "colour": "hsl(270, 45%, 55%)",
+  "initials": "CHA",
+  "leader": "Cllr Jewel Miah",
+  "chiefExecutive": "Rob Mitchell",
+  "councillors": 52,
+  "website": "https://www.charnwood.gov.uk",
+  "taxBands": {
+    "2021": 1951.0,
+    "2022": 2016.0,
+    "2023": 2119.0,
+    "2024": 2219.0,
+    "2025": 2328.0,
+    "2026": 2406.0
+  },
+  "taxCurrent": 2328.0,
+  "taxPrev": 2219.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7575.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4807.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3199.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2607.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2288.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 2176.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 626.0
+    }
+  ],
+  "budgetTotal": 23278.0,
+  "perHousehold": 466,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4807.0,
+      "perHousehold": 96,
+      "description": "allocated \u00a34.8m to Council Running Costs (\u2248\u00a396 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3199.0,
+      "perHousehold": 64,
+      "description": "allocated \u00a33.2m to Culture & Leisure (\u2248\u00a364 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7575.0,
+      "perHousehold": 152,
+      "description": "allocated \u00a37.6m to Environment & Streets (\u2248\u00a3152 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2607.0,
+      "perHousehold": 52,
+      "description": "allocated \u00a32.6m to Housing (\u2248\u00a352 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.9%) to \u00a32328",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

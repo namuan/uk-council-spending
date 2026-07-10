@@ -1,0 +1,136 @@
+{
+  "slug": "bexley",
+  "name": "Bexley",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000004",
+  "colour": "hsl(179, 45%, 55%)",
+  "initials": "BEX",
+  "leader": "",
+  "chiefExecutive": "Paul Thorogood",
+  "councillors": 45,
+  "website": "https://www.bexley.gov.uk",
+  "taxBands": {
+    "2021": 1847.0,
+    "2022": 1923.0,
+    "2023": 2038.0,
+    "2024": 2155.0,
+    "2025": 2258.0,
+    "2026": 2366.0
+  },
+  "taxCurrent": 2258.0,
+  "taxPrev": 2155.0,
+  "taxChange": 103.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 128654.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 80819.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 56688.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 29823.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 19192.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 11016.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8615.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7632.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 5174.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1365.0
+    }
+  ],
+  "budgetTotal": 348978.0,
+  "perHousehold": 3173,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 56688.0,
+      "perHousehold": 515,
+      "description": "allocated \u00a356.7m to Children's Social Care (\u2248\u00a3515 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 80819.0,
+      "perHousehold": 735,
+      "description": "allocated \u00a380.8m to Adult Social Care (\u2248\u00a3735 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 29823.0,
+      "perHousehold": 271,
+      "description": "allocated \u00a329.8m to Environment & Streets (\u2248\u00a3271 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 128654.0,
+      "perHousehold": 1170,
+      "description": "allocated \u00a3128.7m to Education (\u2248\u00a31170 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 103.0,
+      "perHousehold": 103.0,
+      "description": "raised Band D council tax by \u00a3103 (4.8%) to \u00a32258",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "plymouth",
+  "name": "Plymouth Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000026",
+  "colour": "hsl(127, 45%, 55%)",
+  "initials": "PLY",
+  "leader": "Cllr Tudor Evans",
+  "chiefExecutive": "Tracey Lee",
+  "councillors": 57,
+  "website": "https://www.plymouth.gov.uk",
+  "taxBands": {
+    "2021": 1980.0,
+    "2022": 2008.0,
+    "2023": 2112.0,
+    "2024": 2215.0,
+    "2025": 2325.0,
+    "2026": 2442.0
+  },
+  "taxCurrent": 2325.0,
+  "taxPrev": 2215.0,
+  "taxChange": 110.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 118915.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 114349.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 76616.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 23055.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 17138.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 15723.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12721.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 10791.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8892.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -4013.0
+    }
+  ],
+  "budgetTotal": 398200.0,
+  "perHousehold": 3982,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 114349.0,
+      "perHousehold": 1143,
+      "description": "allocated \u00a3114.3m to Adult Social Care (\u2248\u00a31143 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 23055.0,
+      "perHousehold": 231,
+      "description": "allocated \u00a323.1m to Environment & Streets (\u2248\u00a3231 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 76616.0,
+      "perHousehold": 766,
+      "description": "allocated \u00a376.6m to Children's Social Care (\u2248\u00a3766 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 118915.0,
+      "perHousehold": 1189,
+      "description": "allocated \u00a3118.9m to Education (\u2248\u00a31189 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (5.0%) to \u00a32325",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

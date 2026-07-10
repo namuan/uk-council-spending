@@ -1,0 +1,141 @@
+{
+  "slug": "norfolk",
+  "name": "Norfolk County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000020",
+  "colour": "hsl(94, 45%, 55%)",
+  "initials": "NOR",
+  "leader": "Cllr Kay Mason Billig",
+  "chiefExecutive": "Tom McCabe",
+  "councillors": 84,
+  "website": "https://www.norfolk.gov.uk",
+  "taxBands": {
+    "2021": 1472.94,
+    "2022": 1516.95,
+    "2023": 1593.0,
+    "2024": 1672.0,
+    "2025": 1756.0
+  },
+  "taxCurrent": 1756.0,
+  "taxPrev": 1672.0,
+  "taxChange": 84.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 526117.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 413001.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 221878.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 54394.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 53773.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 47893.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 23128.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 14274.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 6983.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5235.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 4175.0
+    }
+  ],
+  "budgetTotal": 1370851.0,
+  "perHousehold": 3917,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 54394.0,
+      "perHousehold": 155,
+      "description": "allocated \u00a354.4m to Public Health (\u2248\u00a3155 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 413001.0,
+      "perHousehold": 1180,
+      "description": "allocated \u00a3413.0m to Adult Social Care (\u2248\u00a31180 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 221878.0,
+      "perHousehold": 634,
+      "description": "allocated \u00a3221.9m to Children's Social Care (\u2248\u00a3634 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 526117.0,
+      "perHousehold": 1503,
+      "description": "allocated \u00a3526.1m to Education (\u2248\u00a31503 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 84.0,
+      "perHousehold": 84.0,
+      "description": "raised Band D council tax by \u00a384 (5.0%) to \u00a31756",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

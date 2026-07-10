@@ -1,0 +1,142 @@
+{
+  "slug": "brighton-and-hove",
+  "name": "Brighton & Hove Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000043",
+  "colour": "hsl(9, 45%, 55%)",
+  "initials": "BH",
+  "leader": "",
+  "chiefExecutive": "Jessica Gibbons",
+  "councillors": 54,
+  "website": "https://www.brighton-hove.gov.uk",
+  "taxBands": {
+    "2021": 2055.0,
+    "2022": 2119.0,
+    "2023": 2229.0,
+    "2024": 2339.0,
+    "2025": 2457.0,
+    "2026": 2581.0
+  },
+  "taxCurrent": 2457.0,
+  "taxPrev": 2339.0,
+  "taxChange": 118.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 244603.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 149232.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 68642.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 41592.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 27783.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 25748.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 22241.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 7671.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -7567.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 540.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 361.0
+    }
+  ],
+  "budgetTotal": 588413.0,
+  "perHousehold": 5884,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 41592.0,
+      "perHousehold": 416,
+      "description": "allocated \u00a341.6m to Environment & Streets (\u2248\u00a3416 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 68642.0,
+      "perHousehold": 686,
+      "description": "allocated \u00a368.6m to Children's Social Care (\u2248\u00a3686 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 149232.0,
+      "perHousehold": 1492,
+      "description": "allocated \u00a3149.2m to Adult Social Care (\u2248\u00a31492 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 244603.0,
+      "perHousehold": 2446,
+      "description": "allocated \u00a3244.6m to Education (\u2248\u00a32446 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 118.0,
+      "perHousehold": 118.0,
+      "description": "raised Band D council tax by \u00a3118 (5.0%) to \u00a32457",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

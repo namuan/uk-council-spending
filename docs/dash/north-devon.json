@@ -1,0 +1,112 @@
+{
+  "slug": "north-devon",
+  "name": "North Devon District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000043",
+  "colour": "hsl(0, 45%, 55%)",
+  "initials": "ND",
+  "leader": "",
+  "chiefExecutive": "Ken Miles",
+  "councillors": 42,
+  "website": "https://www.northdevon.gov.uk",
+  "taxBands": {
+    "2021": 2102.0,
+    "2022": 2170.0,
+    "2023": 2279.0,
+    "2024": 2394.0,
+    "2025": 2515.0,
+    "2026": 2642.0
+  },
+  "taxCurrent": 2515.0,
+  "taxPrev": 2394.0,
+  "taxChange": 121.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8632.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4633.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2854.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2325.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1409.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1085.0
+    }
+  ],
+  "budgetTotal": 18613.0,
+  "perHousehold": 372,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8632.0,
+      "perHousehold": 173,
+      "description": "allocated \u00a38.6m to Environment & Streets (\u2248\u00a3173 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4633.0,
+      "perHousehold": 93,
+      "description": "allocated \u00a34.6m to Council Running Costs (\u2248\u00a393 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2854.0,
+      "perHousehold": 57,
+      "description": "allocated \u00a32.9m to Housing (\u2248\u00a357 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1409.0,
+      "perHousehold": 28,
+      "description": "allocated \u00a31.4m to Planning & Development (\u2248\u00a328 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 121.0,
+      "perHousehold": 121.0,
+      "description": "raised Band D council tax by \u00a3121 (5.1%) to \u00a32515",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

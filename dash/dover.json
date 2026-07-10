@@ -1,0 +1,124 @@
+{
+  "slug": "dover",
+  "name": "Dover District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000108",
+  "colour": "hsl(297, 45%, 55%)",
+  "initials": "DOV",
+  "leader": "Cllr Kevin Mills",
+  "chiefExecutive": "Nadeem Aziz",
+  "councillors": 32,
+  "website": "https://www.dover.gov.uk",
+  "taxBands": {
+    "2021": 1986.0,
+    "2022": 2050.0,
+    "2023": 2151.0,
+    "2024": 2253.0,
+    "2025": 2364.0,
+    "2026": 2462.0
+  },
+  "taxCurrent": 2364.0,
+  "taxPrev": 2253.0,
+  "taxChange": 111.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10974.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6252.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5478.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4405.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3512.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1323.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -1088.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 64.0
+    }
+  ],
+  "budgetTotal": 30685.0,
+  "perHousehold": 614,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10974.0,
+      "perHousehold": 219,
+      "description": "allocated \u00a311.0m to Environment & Streets (\u2248\u00a3219 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4405.0,
+      "perHousehold": 88,
+      "description": "allocated \u00a34.4m to Planning & Development (\u2248\u00a388 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5478.0,
+      "perHousehold": 110,
+      "description": "allocated \u00a35.5m to Housing (\u2248\u00a3110 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6252.0,
+      "perHousehold": 125,
+      "description": "allocated \u00a36.3m to Council Running Costs (\u2248\u00a3125 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 111.0,
+      "perHousehold": 111.0,
+      "description": "raised Band D council tax by \u00a3111 (4.9%) to \u00a32364",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

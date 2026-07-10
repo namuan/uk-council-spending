@@ -1,0 +1,118 @@
+{
+  "slug": "lincoln",
+  "name": "Lincoln District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000138",
+  "colour": "hsl(343, 45%, 55%)",
+  "initials": "LIN",
+  "leader": "Cllr Ric Sherrington",
+  "chiefExecutive": "Angela Andrews",
+  "councillors": 33,
+  "website": "https://www.lincoln.gov.uk",
+  "taxBands": {
+    "2021": 1916.0,
+    "2022": 1999.0,
+    "2023": 2094.0,
+    "2024": 2191.0,
+    "2025": 2261.0,
+    "2026": 2323.0
+  },
+  "taxCurrent": 2261.0,
+  "taxPrev": 2191.0,
+  "taxChange": 70.0,
+  "taxChangePct": 3.2,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8116.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4353.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 4098.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4055.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -3802.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3568.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1850.0
+    }
+  ],
+  "budgetTotal": 26040.0,
+  "perHousehold": 521,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4055.0,
+      "perHousehold": 81,
+      "description": "allocated \u00a34.1m to Council Running Costs (\u2248\u00a381 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4353.0,
+      "perHousehold": 87,
+      "description": "allocated \u00a34.4m to Planning & Development (\u2248\u00a387 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8116.0,
+      "perHousehold": 162,
+      "description": "allocated \u00a38.1m to Environment & Streets (\u2248\u00a3162 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 4098.0,
+      "perHousehold": 82,
+      "description": "allocated \u00a34.1m to Other Services (\u2248\u00a382 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 70.0,
+      "perHousehold": 70.0,
+      "description": "raised Band D council tax by \u00a370 (3.2%) to \u00a32261",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

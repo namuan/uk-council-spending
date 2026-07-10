@@ -1,0 +1,135 @@
+{
+  "slug": "warwickshire",
+  "name": "Warwickshire County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000031",
+  "colour": "hsl(236, 45%, 55%)",
+  "initials": "WAR",
+  "leader": "Cllr George Finch",
+  "chiefExecutive": "Monica Fogarty",
+  "councillors": 57,
+  "website": "https://www.warwickshire.gov.uk",
+  "taxBands": {
+    "2021": 1533.51,
+    "2022": 1590.93,
+    "2023": 1654.0,
+    "2024": 1736.0,
+    "2025": 1823.0
+  },
+  "taxCurrent": 1823.0,
+  "taxPrev": 1736.0,
+  "taxChange": 87.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 378734.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 216723.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 140126.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 35433.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 26025.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 25261.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 15078.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10059.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 9709.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4795.0
+    }
+  ],
+  "budgetTotal": 861943.0,
+  "perHousehold": 2463,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 35433.0,
+      "perHousehold": 101,
+      "description": "allocated \u00a335.4m to Roads & Transport (\u2248\u00a3101 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 140126.0,
+      "perHousehold": 400,
+      "description": "allocated \u00a3140.1m to Children's Social Care (\u2248\u00a3400 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 216723.0,
+      "perHousehold": 619,
+      "description": "allocated \u00a3216.7m to Adult Social Care (\u2248\u00a3619 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 378734.0,
+      "perHousehold": 1082,
+      "description": "allocated \u00a3378.7m to Education (\u2248\u00a31082 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 87.0,
+      "perHousehold": 87.0,
+      "description": "raised Band D council tax by \u00a387 (5.0%) to \u00a31823",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "redditch",
+  "name": "Redditch District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000236",
+  "colour": "hsl(5, 45%, 55%)",
+  "initials": "RED",
+  "leader": "Cllr Matt Sherrey",
+  "chiefExecutive": "Kevin Dicks",
+  "councillors": 29,
+  "website": "https://www.redditchbc.gov.uk",
+  "taxBands": {
+    "2021": 1921.0,
+    "2022": 1991.0,
+    "2023": 2087.0,
+    "2024": 2186.0,
+    "2025": 2289.0,
+    "2026": 2463.0
+  },
+  "taxCurrent": 2289.0,
+  "taxPrev": 2186.0,
+  "taxChange": 103.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8998.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4698.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 2667.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1971.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1495.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 1200.0
+    }
+  ],
+  "budgetTotal": 21029.0,
+  "perHousehold": 421,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1971.0,
+      "perHousehold": 39,
+      "description": "allocated \u00a32.0m to Culture & Leisure (\u2248\u00a339 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4698.0,
+      "perHousehold": 94,
+      "description": "allocated \u00a34.7m to Council Running Costs (\u2248\u00a394 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 2667.0,
+      "perHousehold": 53,
+      "description": "allocated \u00a32.7m to Environment & Streets (\u2248\u00a353 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8998.0,
+      "perHousehold": 180,
+      "description": "allocated \u00a39.0m to Housing (\u2248\u00a3180 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 103.0,
+      "perHousehold": 103.0,
+      "description": "raised Band D council tax by \u00a3103 (4.7%) to \u00a32289",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

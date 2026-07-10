@@ -1,0 +1,118 @@
+{
+  "slug": "braintree",
+  "name": "Braintree District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000067",
+  "colour": "hsl(201, 45%, 55%)",
+  "initials": "BRA",
+  "leader": "",
+  "chiefExecutive": "Dan Gascoyne",
+  "councillors": 49,
+  "website": "https://www.braintree.gov.uk",
+  "taxBands": {
+    "2021": 1855.0,
+    "2022": 1933.0,
+    "2023": 2010.0,
+    "2024": 2110.0,
+    "2025": 2195.0,
+    "2026": 2280.0
+  },
+  "taxCurrent": 2195.0,
+  "taxPrev": 2110.0,
+  "taxChange": 85.0,
+  "taxChangePct": 4.0,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8668.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7047.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3493.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2971.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2328.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -425.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 339.0
+    }
+  ],
+  "budgetTotal": 24846.0,
+  "perHousehold": 497,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7047.0,
+      "perHousehold": 141,
+      "description": "allocated \u00a37.0m to Council Running Costs (\u2248\u00a3141 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3493.0,
+      "perHousehold": 70,
+      "description": "allocated \u00a33.5m to Planning & Development (\u2248\u00a370 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2971.0,
+      "perHousehold": 59,
+      "description": "allocated \u00a33.0m to Housing (\u2248\u00a359 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8668.0,
+      "perHousehold": 173,
+      "description": "allocated \u00a38.7m to Environment & Streets (\u2248\u00a3173 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 85.0,
+      "perHousehold": 85.0,
+      "description": "raised Band D council tax by \u00a385 (4.0%) to \u00a32195",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

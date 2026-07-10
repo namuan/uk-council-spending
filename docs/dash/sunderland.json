@@ -1,0 +1,142 @@
+{
+  "slug": "sunderland",
+  "name": "Sunderland Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000024",
+  "colour": "hsl(334, 45%, 55%)",
+  "initials": "SUN",
+  "leader": "Cllr Michael Mordey",
+  "chiefExecutive": "Patrick Melia",
+  "councillors": 75,
+  "website": "https://www.sunderland.gov.uk",
+  "taxBands": {
+    "2021": 1774.0,
+    "2022": 1832.0,
+    "2023": 1899.0,
+    "2024": 1997.0,
+    "2025": 2093.0,
+    "2026": 2197.0
+  },
+  "taxCurrent": 2093.0,
+  "taxPrev": 1997.0,
+  "taxChange": 96.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 142845.0
+    },
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 135437.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 81842.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 38771.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 26967.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 19258.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 15881.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8805.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 8096.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8005.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 3782.0
+    }
+  ],
+  "budgetTotal": 489689.0,
+  "perHousehold": 3767,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 142845.0,
+      "perHousehold": 1099,
+      "description": "allocated \u00a3142.8m to Adult Social Care (\u2248\u00a31099 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 135437.0,
+      "perHousehold": 1042,
+      "description": "allocated \u00a3135.4m to Education (\u2248\u00a31042 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 81842.0,
+      "perHousehold": 630,
+      "description": "allocated \u00a381.8m to Children's Social Care (\u2248\u00a3630 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 38771.0,
+      "perHousehold": 298,
+      "description": "allocated \u00a338.8m to Environment & Streets (\u2248\u00a3298 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 96.0,
+      "perHousehold": 96.0,
+      "description": "raised Band D council tax by \u00a396 (4.8%) to \u00a32093",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "west-sussex",
+  "name": "West Sussex County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000032",
+  "colour": "hsl(14, 45%, 55%)",
+  "initials": "WS",
+  "leader": "Cllr Paul Marshall",
+  "chiefExecutive": "Leigh Whitehouse",
+  "councillors": 70,
+  "website": "https://www.westsussex.gov.uk",
+  "taxBands": {
+    "2021": 1510.56,
+    "2022": 1555.74,
+    "2023": 1633.0,
+    "2024": 1715.0,
+    "2025": 1801.0
+  },
+  "taxCurrent": 1801.0,
+  "taxPrev": 1715.0,
+  "taxChange": 86.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 658759.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 331320.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 206626.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 84962.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 65445.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 48172.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 27496.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 12337.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6611.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3615.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1507.0
+    }
+  ],
+  "budgetTotal": 1446850.0,
+  "perHousehold": 4134,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 331320.0,
+      "perHousehold": 947,
+      "description": "allocated \u00a3331.3m to Adult Social Care (\u2248\u00a3947 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 658759.0,
+      "perHousehold": 1882,
+      "description": "allocated \u00a3658.8m to Education (\u2248\u00a31882 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 84962.0,
+      "perHousehold": 243,
+      "description": "allocated \u00a385.0m to Environment & Streets (\u2248\u00a3243 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 206626.0,
+      "perHousehold": 590,
+      "description": "allocated \u00a3206.6m to Children's Social Care (\u2248\u00a3590 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 86.0,
+      "perHousehold": 86.0,
+      "description": "raised Band D council tax by \u00a386 (5.0%) to \u00a31801",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

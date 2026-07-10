@@ -1,0 +1,142 @@
+{
+  "slug": "east-riding-of-yorkshire",
+  "name": "East Riding of Yorkshire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000011",
+  "colour": "hsl(251, 45%, 55%)",
+  "initials": "EY",
+  "leader": "",
+  "chiefExecutive": "Alan Menzies",
+  "councillors": 67,
+  "website": "https://www.eastriding.gov.uk",
+  "taxBands": {
+    "2021": 1945.0,
+    "2022": 2021.0,
+    "2023": 2124.0,
+    "2024": 2230.0,
+    "2025": 2344.0,
+    "2026": 2466.0
+  },
+  "taxCurrent": 2344.0,
+  "taxPrev": 2230.0,
+  "taxChange": 114.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 248983.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 159961.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 65638.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 48226.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 26938.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 22695.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 18163.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 14483.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 14247.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4890.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -1724.0
+    }
+  ],
+  "budgetTotal": 624224.0,
+  "perHousehold": 6242,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 248983.0,
+      "perHousehold": 2490,
+      "description": "allocated \u00a3249.0m to Education (\u2248\u00a32490 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 48226.0,
+      "perHousehold": 482,
+      "description": "allocated \u00a348.2m to Environment & Streets (\u2248\u00a3482 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 159961.0,
+      "perHousehold": 1600,
+      "description": "allocated \u00a3160.0m to Adult Social Care (\u2248\u00a31600 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 65638.0,
+      "perHousehold": 656,
+      "description": "allocated \u00a365.6m to Children's Social Care (\u2248\u00a3656 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 114.0,
+      "perHousehold": 114.0,
+      "description": "raised Band D council tax by \u00a3114 (5.1%) to \u00a32344",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

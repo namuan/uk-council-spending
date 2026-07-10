@@ -1,0 +1,118 @@
+{
+  "slug": "stafford",
+  "name": "Stafford District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000197",
+  "colour": "hsl(208, 45%, 55%)",
+  "initials": "STA",
+  "leader": "Cllr Aidan Godfrey",
+  "chiefExecutive": "Tim Clegg",
+  "councillors": 40,
+  "website": "https://www.staffordbc.gov.uk",
+  "taxBands": {
+    "2021": 1866.0,
+    "2022": 1922.0,
+    "2023": 2012.0,
+    "2024": 2108.0,
+    "2025": 2211.0,
+    "2026": 2303.0
+  },
+  "taxCurrent": 2211.0,
+  "taxPrev": 2108.0,
+  "taxChange": 103.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5298.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3502.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3293.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2981.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2111.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 293.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 47.0
+    }
+  ],
+  "budgetTotal": 17525.0,
+  "perHousehold": 350,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3293.0,
+      "perHousehold": 66,
+      "description": "allocated \u00a33.3m to Planning & Development (\u2248\u00a366 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3502.0,
+      "perHousehold": 70,
+      "description": "allocated \u00a33.5m to Council Running Costs (\u2248\u00a370 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5298.0,
+      "perHousehold": 106,
+      "description": "allocated \u00a35.3m to Environment & Streets (\u2248\u00a3106 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2981.0,
+      "perHousehold": 60,
+      "description": "allocated \u00a33.0m to Culture & Leisure (\u2248\u00a360 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 103.0,
+      "perHousehold": 103.0,
+      "description": "raised Band D council tax by \u00a3103 (4.9%) to \u00a32211",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "west-oxfordshire",
+  "name": "West Oxfordshire District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000181",
+  "colour": "hsl(335, 45%, 55%)",
+  "initials": "WO",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 49,
+  "website": "https://www.westoxon.gov.uk",
+  "taxBands": {
+    "2021": 2005.0,
+    "2022": 2103.0,
+    "2023": 2208.0,
+    "2024": 2320.0,
+    "2025": 2444.0,
+    "2026": 2567.0
+  },
+  "taxCurrent": 2444.0,
+  "taxPrev": 2320.0,
+  "taxChange": 124.0,
+  "taxChangePct": 5.3,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8601.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7523.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 997.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 881.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": -658.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 246.0
+    }
+  ],
+  "budgetTotal": 18248.0,
+  "perHousehold": 365,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7523.0,
+      "perHousehold": 150,
+      "description": "allocated \u00a37.5m to Environment & Streets (\u2248\u00a3150 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 997.0,
+      "perHousehold": 20,
+      "description": "allocated \u00a31.0m to Planning & Development (\u2248\u00a320 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 881.0,
+      "perHousehold": 18,
+      "description": "allocated \u00a30.9m to Housing (\u2248\u00a318 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8601.0,
+      "perHousehold": 172,
+      "description": "allocated \u00a38.6m to Council Running Costs (\u2248\u00a3172 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 124.0,
+      "perHousehold": 124.0,
+      "description": "raised Band D council tax by \u00a3124 (5.3%) to \u00a32444",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

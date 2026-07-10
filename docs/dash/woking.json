@@ -1,0 +1,130 @@
+{
+  "slug": "woking",
+  "name": "Woking District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000217",
+  "colour": "hsl(65, 45%, 55%)",
+  "initials": "WOK",
+  "leader": "Cllr Ann-Marie Maybury",
+  "chiefExecutive": "Julie Fisher",
+  "councillors": 30,
+  "website": "https://www.woking.gov.uk",
+  "taxBands": {
+    "2021": 2085.0,
+    "2022": 2177.0,
+    "2023": 2249.0,
+    "2024": 2372.0,
+    "2025": 2482.0,
+    "2026": 2598.0
+  },
+  "taxCurrent": 2482.0,
+  "taxPrev": 2372.0,
+  "taxChange": 110.0,
+  "taxChangePct": 4.6,
+  "budgetCategories": [
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -7317.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6919.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6739.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5232.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3264.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2790.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1947.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 983.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 20.0
+    }
+  ],
+  "budgetTotal": 25104.0,
+  "perHousehold": 502,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3264.0,
+      "perHousehold": 65,
+      "description": "allocated \u00a33.3m to Culture & Leisure (\u2248\u00a365 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6919.0,
+      "perHousehold": 138,
+      "description": "allocated \u00a36.9m to Council Running Costs (\u2248\u00a3138 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5232.0,
+      "perHousehold": 105,
+      "description": "allocated \u00a35.2m to Environment & Streets (\u2248\u00a3105 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6739.0,
+      "perHousehold": 135,
+      "description": "allocated \u00a36.7m to Housing (\u2248\u00a3135 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (4.6%) to \u00a32482",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "leeds",
+  "name": "Leeds Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000035",
+  "colour": "hsl(241, 45%, 55%)",
+  "initials": "LEE",
+  "leader": "Cllr James Lewis",
+  "chiefExecutive": "Ed Whiting OBE",
+  "councillors": 99,
+  "website": "https://www.leeds.gov.uk",
+  "taxBands": {
+    "2021": 1809.0,
+    "2022": 1869.0,
+    "2023": 1968.0,
+    "2024": 2066.0,
+    "2025": 2172.0,
+    "2026": 2284.0
+  },
+  "taxCurrent": 2172.0,
+  "taxPrev": 2066.0,
+  "taxChange": 106.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 782366.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 301533.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 212708.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 100411.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 65900.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 53950.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 35235.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 26791.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 21808.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -13646.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 8626.0
+    }
+  ],
+  "budgetTotal": 1609328.0,
+  "perHousehold": 12379,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 100411.0,
+      "perHousehold": 772,
+      "description": "allocated \u00a3100.4m to Environment & Streets (\u2248\u00a3772 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 301533.0,
+      "perHousehold": 2319,
+      "description": "allocated \u00a3301.5m to Adult Social Care (\u2248\u00a32319 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 212708.0,
+      "perHousehold": 1636,
+      "description": "allocated \u00a3212.7m to Children's Social Care (\u2248\u00a31636 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 782366.0,
+      "perHousehold": 6018,
+      "description": "allocated \u00a3782.4m to Education (\u2248\u00a36018 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 106.0,
+      "perHousehold": 106.0,
+      "description": "raised Band D council tax by \u00a3106 (5.1%) to \u00a32172",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

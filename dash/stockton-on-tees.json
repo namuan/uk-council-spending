@@ -1,0 +1,142 @@
+{
+  "slug": "stockton-on-tees",
+  "name": "Stockton-on-Tees Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000004",
+  "colour": "hsl(196, 45%, 55%)",
+  "initials": "STO",
+  "leader": "Cllr Bob Cook",
+  "chiefExecutive": "Jonathan Nair",
+  "councillors": 56,
+  "website": "https://www.stockton.gov.uk",
+  "taxBands": {
+    "2021": 2076.0,
+    "2022": 2138.0,
+    "2023": 2245.0,
+    "2024": 2353.0,
+    "2025": 2469.0,
+    "2026": 2590.0
+  },
+  "taxCurrent": 2469.0,
+  "taxPrev": 2353.0,
+  "taxChange": 116.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 115939.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 75043.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 64982.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 19891.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 15661.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 12174.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 11074.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7490.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3883.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2435.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 260.0
+    }
+  ],
+  "budgetTotal": 328832.0,
+  "perHousehold": 3288,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 19891.0,
+      "perHousehold": 199,
+      "description": "allocated \u00a319.9m to Environment & Streets (\u2248\u00a3199 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 115939.0,
+      "perHousehold": 1159,
+      "description": "allocated \u00a3115.9m to Education (\u2248\u00a31159 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 64982.0,
+      "perHousehold": 650,
+      "description": "allocated \u00a365.0m to Children's Social Care (\u2248\u00a3650 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 75043.0,
+      "perHousehold": 750,
+      "description": "allocated \u00a375.0m to Adult Social Care (\u2248\u00a3750 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 116.0,
+      "perHousehold": 116.0,
+      "description": "raised Band D council tax by \u00a3116 (4.9%) to \u00a32469",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

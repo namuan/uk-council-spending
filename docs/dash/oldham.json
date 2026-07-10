@@ -1,0 +1,136 @@
+{
+  "slug": "oldham",
+  "name": "Oldham Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000004",
+  "colour": "hsl(277, 45%, 55%)",
+  "initials": "OLD",
+  "leader": "Cllr Arooj Shah",
+  "chiefExecutive": "Shelley Kipling",
+  "councillors": 60,
+  "website": "https://www.oldham.gov.uk",
+  "taxBands": {
+    "2021": 2037.0,
+    "2022": 2128.0,
+    "2023": 2220.0,
+    "2024": 2331.0,
+    "2025": 2459.0,
+    "2026": 2602.0
+  },
+  "taxCurrent": 2459.0,
+  "taxPrev": 2331.0,
+  "taxChange": 128.0,
+  "taxChangePct": 5.5,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 230373.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 91654.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 73064.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 20751.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 16875.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 15450.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 13830.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 11197.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 9265.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5120.0
+    }
+  ],
+  "budgetTotal": 487579.0,
+  "perHousehold": 3751,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 230373.0,
+      "perHousehold": 1772,
+      "description": "allocated \u00a3230.4m to Education (\u2248\u00a31772 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 91654.0,
+      "perHousehold": 705,
+      "description": "allocated \u00a391.7m to Adult Social Care (\u2248\u00a3705 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 20751.0,
+      "perHousehold": 160,
+      "description": "allocated \u00a320.8m to Public Health (\u2248\u00a3160 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 73064.0,
+      "perHousehold": 562,
+      "description": "allocated \u00a373.1m to Children's Social Care (\u2248\u00a3562 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 128.0,
+      "perHousehold": 128.0,
+      "description": "raised Band D council tax by \u00a3128 (5.5%) to \u00a32459",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

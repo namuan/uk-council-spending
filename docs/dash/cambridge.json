@@ -1,0 +1,112 @@
+{
+  "slug": "cambridge",
+  "name": "Cambridge District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000008",
+  "colour": "hsl(333, 45%, 55%)",
+  "initials": "CAM",
+  "leader": "",
+  "chiefExecutive": "Robert Pollock",
+  "councillors": 42,
+  "website": "https://www.cambridge.gov.uk",
+  "taxBands": {
+    "2021": 1928.0,
+    "2022": 2015.0,
+    "2023": 2126.0,
+    "2024": 2249.0,
+    "2025": 2355.0,
+    "2026": 2467.0
+  },
+  "taxCurrent": 2355.0,
+  "taxPrev": 2249.0,
+  "taxChange": 106.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 9481.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7493.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 7369.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5788.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4313.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -3881.0
+    }
+  ],
+  "budgetTotal": 34444.0,
+  "perHousehold": 689,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 9481.0,
+      "perHousehold": 190,
+      "description": "allocated \u00a39.5m to Environment & Streets (\u2248\u00a3190 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7493.0,
+      "perHousehold": 150,
+      "description": "allocated \u00a37.5m to Council Running Costs (\u2248\u00a3150 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5788.0,
+      "perHousehold": 116,
+      "description": "allocated \u00a35.8m to Planning & Development (\u2248\u00a3116 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 7369.0,
+      "perHousehold": 147,
+      "description": "allocated \u00a37.4m to Culture & Leisure (\u2248\u00a3147 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 106.0,
+      "perHousehold": 106.0,
+      "description": "raised Band D council tax by \u00a3106 (4.7%) to \u00a32355",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

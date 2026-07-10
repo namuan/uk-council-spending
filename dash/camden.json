@@ -1,0 +1,142 @@
+{
+  "slug": "camden",
+  "name": "Camden",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000007",
+  "colour": "hsl(337, 45%, 55%)",
+  "initials": "CAM",
+  "leader": "Cllr Richard Olszewski",
+  "chiefExecutive": "Jon Rowney",
+  "councillors": 55,
+  "website": "https://www.camden.gov.uk",
+  "taxBands": {
+    "2021": 1720.0,
+    "2022": 1792.0,
+    "2023": 1900.0,
+    "2024": 2011.0,
+    "2025": 2107.0,
+    "2026": 2208.0
+  },
+  "taxCurrent": 2107.0,
+  "taxPrev": 2011.0,
+  "taxChange": 96.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 247852.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 143983.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 77954.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 42359.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 39859.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 39036.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 35808.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 34537.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -17522.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 11927.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 7903.0
+    }
+  ],
+  "budgetTotal": 681218.0,
+  "perHousehold": 6193,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 143983.0,
+      "perHousehold": 1309,
+      "description": "allocated \u00a3144.0m to Adult Social Care (\u2248\u00a31309 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 77954.0,
+      "perHousehold": 709,
+      "description": "allocated \u00a378.0m to Children's Social Care (\u2248\u00a3709 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 42359.0,
+      "perHousehold": 385,
+      "description": "allocated \u00a342.4m to Other Services (\u2248\u00a3385 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 247852.0,
+      "perHousehold": 2253,
+      "description": "allocated \u00a3247.9m to Education (\u2248\u00a32253 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 96.0,
+      "perHousehold": 96.0,
+      "description": "raised Band D council tax by \u00a396 (4.8%) to \u00a32107",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

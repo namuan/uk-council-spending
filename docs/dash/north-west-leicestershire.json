@@ -1,0 +1,118 @@
+{
+  "slug": "north-west-leicestershire",
+  "name": "North West Leicestershire District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000134",
+  "colour": "hsl(176, 45%, 55%)",
+  "initials": "NL",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 38,
+  "website": "https://www.nwleics.gov.uk",
+  "taxBands": {
+    "2021": 1971.0,
+    "2022": 2031.0,
+    "2023": 2131.0,
+    "2024": 2231.0,
+    "2025": 2338.0,
+    "2026": 2418.0
+  },
+  "taxCurrent": 2338.0,
+  "taxPrev": 2231.0,
+  "taxChange": 107.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7241.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3091.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2937.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1961.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1776.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 415.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 301.0
+    }
+  ],
+  "budgetTotal": 17722.0,
+  "perHousehold": 354,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2937.0,
+      "perHousehold": 59,
+      "description": "allocated \u00a32.9m to Planning & Development (\u2248\u00a359 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7241.0,
+      "perHousehold": 145,
+      "description": "allocated \u00a37.2m to Environment & Streets (\u2248\u00a3145 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3091.0,
+      "perHousehold": 62,
+      "description": "allocated \u00a33.1m to Council Running Costs (\u2248\u00a362 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1961.0,
+      "perHousehold": 39,
+      "description": "allocated \u00a32.0m to Housing (\u2248\u00a339 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 107.0,
+      "perHousehold": 107.0,
+      "description": "raised Band D council tax by \u00a3107 (4.8%) to \u00a32338",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

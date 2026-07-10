@@ -1,0 +1,142 @@
+{
+  "slug": "derby",
+  "name": "Derby Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000015",
+  "colour": "hsl(310, 45%, 55%)",
+  "initials": "DER",
+  "leader": "",
+  "chiefExecutive": "Paul Simpson",
+  "councillors": 51,
+  "website": "https://www.derby.gov.uk",
+  "taxBands": {
+    "2021": 1868.0,
+    "2022": 1910.0,
+    "2023": 2009.0,
+    "2024": 2107.0,
+    "2025": 2196.0,
+    "2026": 2306.0
+  },
+  "taxCurrent": 2196.0,
+  "taxPrev": 2107.0,
+  "taxChange": 89.0,
+  "taxChangePct": 4.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 189448.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 84377.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 84002.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 24986.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 21745.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 12244.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 9441.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8559.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7428.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4406.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2802.0
+    }
+  ],
+  "budgetTotal": 449438.0,
+  "perHousehold": 4494,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 84377.0,
+      "perHousehold": 844,
+      "description": "allocated \u00a384.4m to Adult Social Care (\u2248\u00a3844 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 84002.0,
+      "perHousehold": 840,
+      "description": "allocated \u00a384.0m to Children's Social Care (\u2248\u00a3840 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 189448.0,
+      "perHousehold": 1894,
+      "description": "allocated \u00a3189.4m to Education (\u2248\u00a31894 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 24986.0,
+      "perHousehold": 250,
+      "description": "allocated \u00a325.0m to Environment & Streets (\u2248\u00a3250 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 89.0,
+      "perHousehold": 89.0,
+      "description": "raised Band D council tax by \u00a389 (4.2%) to \u00a32196",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

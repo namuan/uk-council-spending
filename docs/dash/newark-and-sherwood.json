@@ -1,0 +1,118 @@
+{
+  "slug": "newark-and-sherwood",
+  "name": "Newark & Sherwood District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000175",
+  "colour": "hsl(245, 45%, 55%)",
+  "initials": "NS",
+  "leader": "Cllr Paul Peacock",
+  "chiefExecutive": "John Robinson",
+  "councillors": 39,
+  "website": "https://www.newark-sherwooddc.gov.uk",
+  "taxBands": {
+    "2021": 2171.0,
+    "2022": 2252.0,
+    "2023": 2357.0,
+    "2024": 2468.0,
+    "2025": 2582.0,
+    "2026": 2682.0
+  },
+  "taxCurrent": 2582.0,
+  "taxPrev": 2468.0,
+  "taxChange": 114.0,
+  "taxChangePct": 4.6,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7837.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4496.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4354.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3154.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1771.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 1066.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -634.0
+    }
+  ],
+  "budgetTotal": 22678.0,
+  "perHousehold": 454,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4496.0,
+      "perHousehold": 90,
+      "description": "allocated \u00a34.5m to Council Running Costs (\u2248\u00a390 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4354.0,
+      "perHousehold": 87,
+      "description": "allocated \u00a34.4m to Culture & Leisure (\u2248\u00a387 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7837.0,
+      "perHousehold": 157,
+      "description": "allocated \u00a37.8m to Environment & Streets (\u2248\u00a3157 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3154.0,
+      "perHousehold": 63,
+      "description": "allocated \u00a33.2m to Planning & Development (\u2248\u00a363 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 114.0,
+      "perHousehold": 114.0,
+      "description": "raised Band D council tax by \u00a3114 (4.6%) to \u00a32582",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

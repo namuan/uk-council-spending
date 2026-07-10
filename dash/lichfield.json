@@ -1,0 +1,118 @@
+{
+  "slug": "lichfield",
+  "name": "Lichfield District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000194",
+  "colour": "hsl(338, 45%, 55%)",
+  "initials": "LIC",
+  "leader": "Cllr Doug Pullen",
+  "chiefExecutive": "Simon Fletcher",
+  "councillors": 47,
+  "website": "https://www.lichfielddc.gov.uk",
+  "taxBands": {
+    "2021": 1916.0,
+    "2022": 1972.0,
+    "2023": 2058.0,
+    "2024": 2155.0,
+    "2025": 2259.0,
+    "2026": 2352.0
+  },
+  "taxCurrent": 2259.0,
+  "taxPrev": 2155.0,
+  "taxChange": 104.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4660.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3631.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1871.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1619.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1249.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1104.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 463.0
+    }
+  ],
+  "budgetTotal": 13493.0,
+  "perHousehold": 270,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3631.0,
+      "perHousehold": 73,
+      "description": "allocated \u00a33.6m to Council Running Costs (\u2248\u00a373 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4660.0,
+      "perHousehold": 93,
+      "description": "allocated \u00a34.7m to Environment & Streets (\u2248\u00a393 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1619.0,
+      "perHousehold": 32,
+      "description": "allocated \u00a31.6m to Culture & Leisure (\u2248\u00a332 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1871.0,
+      "perHousehold": 37,
+      "description": "allocated \u00a31.9m to Planning & Development (\u2248\u00a337 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 104.0,
+      "perHousehold": 104.0,
+      "description": "raised Band D council tax by \u00a3104 (4.8%) to \u00a32259",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

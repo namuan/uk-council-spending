@@ -1,0 +1,136 @@
+{
+  "slug": "buckinghamshire",
+  "name": "Buckinghamshire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000060",
+  "colour": "hsl(166, 45%, 55%)",
+  "initials": "BUC",
+  "leader": "",
+  "chiefExecutive": "Ms RA Shimmin",
+  "councillors": 97,
+  "website": "https://www.buckinghamshire.gov.uk",
+  "taxBands": {
+    "2021": 1982.0,
+    "2022": 2068.0,
+    "2023": 2177.0,
+    "2024": 2286.0,
+    "2025": 2402.0,
+    "2026": 2527.0
+  },
+  "taxCurrent": 2402.0,
+  "taxPrev": 2286.0,
+  "taxChange": 116.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 421263.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 252635.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 143750.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 45197.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 39328.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 25661.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 21396.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 15382.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 13980.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 9092.0
+    }
+  ],
+  "budgetTotal": 987684.0,
+  "perHousehold": 9877,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 143750.0,
+      "perHousehold": 1438,
+      "description": "allocated \u00a3143.8m to Children's Social Care (\u2248\u00a31438 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 252635.0,
+      "perHousehold": 2526,
+      "description": "allocated \u00a3252.6m to Adult Social Care (\u2248\u00a32526 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 421263.0,
+      "perHousehold": 4213,
+      "description": "allocated \u00a3421.3m to Education (\u2248\u00a34213 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 45197.0,
+      "perHousehold": 452,
+      "description": "allocated \u00a345.2m to Roads & Transport (\u2248\u00a3452 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 116.0,
+      "perHousehold": 116.0,
+      "description": "raised Band D council tax by \u00a3116 (5.1%) to \u00a32402",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

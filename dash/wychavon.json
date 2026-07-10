@@ -1,0 +1,130 @@
+{
+  "slug": "wychavon",
+  "name": "Wychavon District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000238",
+  "colour": "hsl(36, 45%, 55%)",
+  "initials": "WYC",
+  "leader": "Cllr Bradley Thomas",
+  "chiefExecutive": "Vic Allison",
+  "councillors": 43,
+  "website": "https://www.wychavon.gov.uk",
+  "taxBands": {
+    "2021": 1844.0,
+    "2022": 1909.0,
+    "2023": 2002.0,
+    "2024": 2101.0,
+    "2025": 2201.0,
+    "2026": 2373.0
+  },
+  "taxCurrent": 2201.0,
+  "taxPrev": 2101.0,
+  "taxChange": 100.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7072.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4876.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4413.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2556.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2419.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 1784.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -595.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 211.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 96.0
+    }
+  ],
+  "budgetTotal": 23427.0,
+  "perHousehold": 469,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7072.0,
+      "perHousehold": 141,
+      "description": "allocated \u00a37.1m to Environment & Streets (\u2248\u00a3141 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2556.0,
+      "perHousehold": 51,
+      "description": "allocated \u00a32.6m to Culture & Leisure (\u2248\u00a351 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4413.0,
+      "perHousehold": 88,
+      "description": "allocated \u00a34.4m to Planning & Development (\u2248\u00a388 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4876.0,
+      "perHousehold": 98,
+      "description": "allocated \u00a34.9m to Council Running Costs (\u2248\u00a398 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 100.0,
+      "perHousehold": 100.0,
+      "description": "raised Band D council tax by \u00a3100 (4.8%) to \u00a32201",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "sandwell",
+  "name": "Sandwell Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000028",
+  "colour": "hsl(333, 45%, 55%)",
+  "initials": "SAN",
+  "leader": "Cllr Kerrie Carmichael",
+  "chiefExecutive": "Shokat Lal",
+  "councillors": 72,
+  "website": "https://www.sandwell.gov.uk",
+  "taxBands": {
+    "2021": 1742.0,
+    "2022": 1831.0,
+    "2023": 1930.0,
+    "2024": 2028.0,
+    "2025": 2133.0,
+    "2026": 2244.0
+  },
+  "taxCurrent": 2133.0,
+  "taxPrev": 2028.0,
+  "taxChange": 105.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 325056.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 163465.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 87710.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 37987.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 29824.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 17799.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 13626.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 13128.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 9483.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 9353.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 6387.0
+    }
+  ],
+  "budgetTotal": 713818.0,
+  "perHousehold": 5491,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 325056.0,
+      "perHousehold": 2500,
+      "description": "allocated \u00a3325.1m to Education (\u2248\u00a32500 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 87710.0,
+      "perHousehold": 675,
+      "description": "allocated \u00a387.7m to Children's Social Care (\u2248\u00a3675 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 37987.0,
+      "perHousehold": 292,
+      "description": "allocated \u00a338.0m to Environment & Streets (\u2248\u00a3292 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 163465.0,
+      "perHousehold": 1257,
+      "description": "allocated \u00a3163.5m to Adult Social Care (\u2248\u00a31257 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 105.0,
+      "perHousehold": 105.0,
+      "description": "raised Band D council tax by \u00a3105 (5.2%) to \u00a32133",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

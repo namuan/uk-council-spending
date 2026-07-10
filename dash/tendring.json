@@ -1,0 +1,130 @@
+{
+  "slug": "tendring",
+  "name": "Tendring District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000076",
+  "colour": "hsl(131, 45%, 55%)",
+  "initials": "TEN",
+  "leader": "Cllr Neil Stock OBE",
+  "chiefExecutive": "Ian Davidson",
+  "councillors": 48,
+  "website": "https://www.tendringdc.gov.uk",
+  "taxBands": {
+    "2021": 1844.0,
+    "2022": 1923.0,
+    "2023": 1999.0,
+    "2024": 2094.0,
+    "2025": 2178.0,
+    "2026": 2270.0
+  },
+  "taxCurrent": 2178.0,
+  "taxPrev": 2094.0,
+  "taxChange": 84.0,
+  "taxChangePct": 4.0,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8862.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4816.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4335.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3317.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3044.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 1604.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 711.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 163.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 61.0
+    }
+  ],
+  "budgetTotal": 26913.0,
+  "perHousehold": 538,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3317.0,
+      "perHousehold": 66,
+      "description": "allocated \u00a33.3m to Housing (\u2248\u00a366 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8862.0,
+      "perHousehold": 177,
+      "description": "allocated \u00a38.9m to Environment & Streets (\u2248\u00a3177 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4335.0,
+      "perHousehold": 87,
+      "description": "allocated \u00a34.3m to Council Running Costs (\u2248\u00a387 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4816.0,
+      "perHousehold": 96,
+      "description": "allocated \u00a34.8m to Culture & Leisure (\u2248\u00a396 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 84.0,
+      "perHousehold": 84.0,
+      "description": "raised Band D council tax by \u00a384 (4.0%) to \u00a32178",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

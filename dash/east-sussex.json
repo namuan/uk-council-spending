@@ -1,0 +1,135 @@
+{
+  "slug": "east-sussex",
+  "name": "East Sussex County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000011",
+  "colour": "hsl(241, 45%, 55%)",
+  "initials": "ES",
+  "leader": "",
+  "chiefExecutive": "Becky Shaw",
+  "councillors": 50,
+  "website": "https://www.eastsussex.gov.uk",
+  "taxBands": {
+    "2021": 1544.04,
+    "2022": 1613.34,
+    "2023": 1694.0,
+    "2024": 1778.0,
+    "2025": 1867.0
+  },
+  "taxCurrent": 1867.0,
+  "taxPrev": 1778.0,
+  "taxChange": 89.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 322872.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 306844.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 134091.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 44328.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 41043.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 36189.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 13131.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10705.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6252.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2520.0
+    }
+  ],
+  "budgetTotal": 917975.0,
+  "perHousehold": 2623,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 322872.0,
+      "perHousehold": 922,
+      "description": "allocated \u00a3322.9m to Education (\u2248\u00a3922 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 44328.0,
+      "perHousehold": 127,
+      "description": "allocated \u00a344.3m to Environment & Streets (\u2248\u00a3127 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 306844.0,
+      "perHousehold": 877,
+      "description": "allocated \u00a3306.8m to Adult Social Care (\u2248\u00a3877 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 134091.0,
+      "perHousehold": 383,
+      "description": "allocated \u00a3134.1m to Children's Social Care (\u2248\u00a3383 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 89.0,
+      "perHousehold": 89.0,
+      "description": "raised Band D council tax by \u00a389 (5.0%) to \u00a31867",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "halton",
+  "name": "Halton Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000006",
+  "colour": "hsl(57, 45%, 55%)",
+  "initials": "HAL",
+  "leader": "",
+  "chiefExecutive": "Stephen Young",
+  "councillors": 54,
+  "website": "https://www.halton.gov.uk",
+  "taxBands": {
+    "2021": 1879.0,
+    "2022": 1937.0,
+    "2023": 2037.0,
+    "2024": 2137.0,
+    "2025": 2249.0,
+    "2026": 2367.0
+  },
+  "taxCurrent": 2249.0,
+  "taxPrev": 2137.0,
+  "taxChange": 112.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 105013.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 67904.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 47282.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 14281.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 12941.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 12464.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -6208.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4431.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3343.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 3170.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3117.0
+    }
+  ],
+  "budgetTotal": 273946.0,
+  "perHousehold": 2739,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 14281.0,
+      "perHousehold": 143,
+      "description": "allocated \u00a314.3m to Public Health (\u2248\u00a3143 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 105013.0,
+      "perHousehold": 1050,
+      "description": "allocated \u00a3105.0m to Education (\u2248\u00a31050 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 47282.0,
+      "perHousehold": 473,
+      "description": "allocated \u00a347.3m to Children's Social Care (\u2248\u00a3473 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 67904.0,
+      "perHousehold": 679,
+      "description": "allocated \u00a367.9m to Adult Social Care (\u2248\u00a3679 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 112.0,
+      "perHousehold": 112.0,
+      "description": "raised Band D council tax by \u00a3112 (5.2%) to \u00a32249",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

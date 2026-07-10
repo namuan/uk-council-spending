@@ -1,0 +1,112 @@
+{
+  "slug": "torridge",
+  "name": "Torridge District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000046",
+  "colour": "hsl(164, 45%, 55%)",
+  "initials": "TOR",
+  "leader": "Cllr Ken James",
+  "chiefExecutive": "Steve Hearse",
+  "councillors": 36,
+  "website": "https://www.torridge.gov.uk",
+  "taxBands": {
+    "2021": 2079.0,
+    "2022": 2145.0,
+    "2023": 2255.0,
+    "2024": 2363.0,
+    "2025": 2479.0,
+    "2026": 2601.0
+  },
+  "taxCurrent": 2479.0,
+  "taxPrev": 2363.0,
+  "taxChange": 116.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5401.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3053.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1759.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1323.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1067.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -777.0
+    }
+  ],
+  "budgetTotal": 12603.0,
+  "perHousehold": 252,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3053.0,
+      "perHousehold": 61,
+      "description": "allocated \u00a33.1m to Council Running Costs (\u2248\u00a361 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5401.0,
+      "perHousehold": 108,
+      "description": "allocated \u00a35.4m to Environment & Streets (\u2248\u00a3108 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1759.0,
+      "perHousehold": 35,
+      "description": "allocated \u00a31.8m to Planning & Development (\u2248\u00a335 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1323.0,
+      "perHousehold": 26,
+      "description": "allocated \u00a31.3m to Housing (\u2248\u00a326 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 116.0,
+      "perHousehold": 116.0,
+      "description": "raised Band D council tax by \u00a3116 (4.9%) to \u00a32479",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

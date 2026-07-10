@@ -1,0 +1,112 @@
+{
+  "slug": "derbyshire-dales",
+  "name": "Derbyshire Dales District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000035",
+  "colour": "hsl(78, 45%, 55%)",
+  "initials": "DD",
+  "leader": "Cllr Steve Flitter",
+  "chiefExecutive": "Paul Wilson",
+  "councillors": 34,
+  "website": "https://www.derbyshiredales.gov.uk",
+  "taxBands": {
+    "2021": 1984.0,
+    "2022": 2042.0,
+    "2023": 2125.0,
+    "2024": 2224.0,
+    "2025": 2332.0,
+    "2026": 2445.0
+  },
+  "taxCurrent": 2332.0,
+  "taxPrev": 2224.0,
+  "taxChange": 108.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7799.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2597.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2238.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2224.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2179.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1820.0
+    }
+  ],
+  "budgetTotal": 17037.0,
+  "perHousehold": 341,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2597.0,
+      "perHousehold": 52,
+      "description": "allocated \u00a32.6m to Council Running Costs (\u2248\u00a352 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7799.0,
+      "perHousehold": 156,
+      "description": "allocated \u00a37.8m to Environment & Streets (\u2248\u00a3156 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2238.0,
+      "perHousehold": 45,
+      "description": "allocated \u00a32.2m to Planning & Development (\u2248\u00a345 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2224.0,
+      "perHousehold": 44,
+      "description": "allocated \u00a32.2m to Culture & Leisure (\u2248\u00a344 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 108.0,
+      "perHousehold": 108.0,
+      "description": "raised Band D council tax by \u00a3108 (4.9%) to \u00a32332",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

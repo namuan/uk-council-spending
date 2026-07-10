@@ -1,0 +1,112 @@
+{
+  "slug": "cheltenham",
+  "name": "Cheltenham District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000078",
+  "colour": "hsl(81, 45%, 55%)",
+  "initials": "CHE",
+  "leader": "Cllr Rowena Hay",
+  "chiefExecutive": "Gareth Edmundson",
+  "councillors": 40,
+  "website": "https://www.cheltenham.gov.uk",
+  "taxBands": {
+    "2021": 1906.0,
+    "2022": 1964.0,
+    "2023": 2059.0,
+    "2024": 2157.0,
+    "2025": 2258.0,
+    "2026": 2370.0
+  },
+  "taxCurrent": 2258.0,
+  "taxPrev": 2157.0,
+  "taxChange": 101.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7338.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7101.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4954.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -3247.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1954.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 553.0
+    }
+  ],
+  "budgetTotal": 21900.0,
+  "perHousehold": 438,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7101.0,
+      "perHousehold": 142,
+      "description": "allocated \u00a37.1m to Council Running Costs (\u2248\u00a3142 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7338.0,
+      "perHousehold": 147,
+      "description": "allocated \u00a37.3m to Environment & Streets (\u2248\u00a3147 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4954.0,
+      "perHousehold": 99,
+      "description": "allocated \u00a35.0m to Culture & Leisure (\u2248\u00a399 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1954.0,
+      "perHousehold": 39,
+      "description": "allocated \u00a32.0m to Planning & Development (\u2248\u00a339 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 101.0,
+      "perHousehold": 101.0,
+      "description": "raised Band D council tax by \u00a3101 (4.7%) to \u00a32258",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

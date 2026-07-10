@@ -1,0 +1,112 @@
+{
+  "slug": "chelmsford",
+  "name": "Chelmsford District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000070",
+  "colour": "hsl(139, 45%, 55%)",
+  "initials": "CHE",
+  "leader": "",
+  "chiefExecutive": "Nick Eveleigh",
+  "councillors": 57,
+  "website": "https://www.chelmsford.gov.uk",
+  "taxBands": {
+    "2021": 1867.0,
+    "2022": 1946.0,
+    "2023": 2025.0,
+    "2024": 2122.0,
+    "2025": 2207.0,
+    "2026": 2300.0
+  },
+  "taxCurrent": 2207.0,
+  "taxPrev": 2122.0,
+  "taxChange": 85.0,
+  "taxChangePct": 4.0,
+  "budgetCategories": [
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 10723.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 9100.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8479.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6756.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -4049.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2966.0
+    }
+  ],
+  "budgetTotal": 38024.0,
+  "perHousehold": 760,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8479.0,
+      "perHousehold": 170,
+      "description": "allocated \u00a38.5m to Culture & Leisure (\u2248\u00a3170 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6756.0,
+      "perHousehold": 135,
+      "description": "allocated \u00a36.8m to Council Running Costs (\u2248\u00a3135 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 10723.0,
+      "perHousehold": 214,
+      "description": "allocated \u00a310.7m to Housing (\u2248\u00a3214 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 9100.0,
+      "perHousehold": 182,
+      "description": "allocated \u00a39.1m to Environment & Streets (\u2248\u00a3182 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 85.0,
+      "perHousehold": 85.0,
+      "description": "raised Band D council tax by \u00a385 (4.0%) to \u00a32207",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

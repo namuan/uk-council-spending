@@ -1,0 +1,142 @@
+{
+  "slug": "stockport",
+  "name": "Stockport Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000007",
+  "colour": "hsl(274, 45%, 55%)",
+  "initials": "STO",
+  "leader": "Cllr Mark Hunter",
+  "chiefExecutive": "",
+  "councillors": 63,
+  "website": "https://www.stockport.gov.uk",
+  "taxBands": {
+    "2021": 2059.0,
+    "2022": 2142.0,
+    "2023": 2235.0,
+    "2024": 2347.0,
+    "2025": 2475.0,
+    "2026": 2619.0
+  },
+  "taxCurrent": 2475.0,
+  "taxPrev": 2347.0,
+  "taxChange": 128.0,
+  "taxChangePct": 5.5,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 268896.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 140728.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 60858.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 19784.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 17259.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 12768.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 9012.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 8509.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7195.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5218.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3715.0
+    }
+  ],
+  "budgetTotal": 553942.0,
+  "perHousehold": 4261,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 60858.0,
+      "perHousehold": 468,
+      "description": "allocated \u00a360.9m to Children's Social Care (\u2248\u00a3468 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 19784.0,
+      "perHousehold": 152,
+      "description": "allocated \u00a319.8m to Public Health (\u2248\u00a3152 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 268896.0,
+      "perHousehold": 2068,
+      "description": "allocated \u00a3268.9m to Education (\u2248\u00a32068 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 140728.0,
+      "perHousehold": 1083,
+      "description": "allocated \u00a3140.7m to Adult Social Care (\u2248\u00a31083 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 128.0,
+      "perHousehold": 128.0,
+      "description": "raised Band D council tax by \u00a3128 (5.5%) to \u00a32475",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "darlington",
+  "name": "Darlington Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000005",
+  "colour": "hsl(157, 45%, 55%)",
+  "initials": "DAR",
+  "leader": "",
+  "chiefExecutive": "Ian Williams",
+  "councillors": 50,
+  "website": "https://www.darlington.gov.uk",
+  "taxBands": {
+    "2021": 1987.0,
+    "2022": 2048.0,
+    "2023": 2153.0,
+    "2024": 2259.0,
+    "2025": 2372.0,
+    "2026": 2494.0
+  },
+  "taxCurrent": 2372.0,
+  "taxPrev": 2259.0,
+  "taxChange": 113.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 48628.0
+    },
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 46145.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 36935.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 11674.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 9335.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8290.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8073.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 6670.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2358.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2272.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -11.0
+    }
+  ],
+  "budgetTotal": 180380.0,
+  "perHousehold": 1804,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 36935.0,
+      "perHousehold": 369,
+      "description": "allocated \u00a336.9m to Children's Social Care (\u2248\u00a3369 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 46145.0,
+      "perHousehold": 461,
+      "description": "allocated \u00a346.1m to Education (\u2248\u00a3461 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 48628.0,
+      "perHousehold": 486,
+      "description": "allocated \u00a348.6m to Adult Social Care (\u2248\u00a3486 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 11674.0,
+      "perHousehold": 117,
+      "description": "allocated \u00a311.7m to Environment & Streets (\u2248\u00a3117 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (5.0%) to \u00a32372",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

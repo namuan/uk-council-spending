@@ -1,0 +1,142 @@
+{
+  "slug": "isle-of-wight",
+  "name": "Isle of Wight Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000046",
+  "colour": "hsl(106, 45%, 55%)",
+  "initials": "IW",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 39,
+  "website": "https://www.iow.gov.uk",
+  "taxBands": {
+    "2021": 2072.0,
+    "2022": 2140.0,
+    "2023": 2258.0,
+    "2024": 2374.0,
+    "2025": 2493.0,
+    "2026": 2626.0
+  },
+  "taxCurrent": 2493.0,
+  "taxPrev": 2374.0,
+  "taxChange": 119.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 118385.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 77178.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 37163.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 12239.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10740.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 9619.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8745.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6466.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4542.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2056.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 161.0
+    }
+  ],
+  "budgetTotal": 287294.0,
+  "perHousehold": 2873,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 12239.0,
+      "perHousehold": 122,
+      "description": "allocated \u00a312.2m to Roads & Transport (\u2248\u00a3122 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 118385.0,
+      "perHousehold": 1184,
+      "description": "allocated \u00a3118.4m to Education (\u2248\u00a31184 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 77178.0,
+      "perHousehold": 772,
+      "description": "allocated \u00a377.2m to Adult Social Care (\u2248\u00a3772 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 37163.0,
+      "perHousehold": 372,
+      "description": "allocated \u00a337.2m to Children's Social Care (\u2248\u00a3372 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 119.0,
+      "perHousehold": 119.0,
+      "description": "raised Band D council tax by \u00a3119 (5.0%) to \u00a32493",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

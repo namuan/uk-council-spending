@@ -1,0 +1,136 @@
+{
+  "slug": "warrington",
+  "name": "Warrington Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000007",
+  "colour": "hsl(53, 45%, 55%)",
+  "initials": "WAR",
+  "leader": "Cllr Hans Mundry",
+  "chiefExecutive": "Steven Broomhead MBE",
+  "councillors": 58,
+  "website": "https://www.warrington.gov.uk",
+  "taxBands": {
+    "2021": 1909.0,
+    "2022": 1969.0,
+    "2023": 2070.0,
+    "2024": 2171.0,
+    "2025": 2281.0,
+    "2026": 2448.0
+  },
+  "taxCurrent": 2281.0,
+  "taxPrev": 2171.0,
+  "taxChange": 110.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 143257.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 98709.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 46759.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 16620.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 14680.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 14055.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 13641.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 9645.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3974.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -1691.0
+    }
+  ],
+  "budgetTotal": 361340.0,
+  "perHousehold": 3613,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 16620.0,
+      "perHousehold": 166,
+      "description": "allocated \u00a316.6m to Environment & Streets (\u2248\u00a3166 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 46759.0,
+      "perHousehold": 468,
+      "description": "allocated \u00a346.8m to Children's Social Care (\u2248\u00a3468 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 143257.0,
+      "perHousehold": 1433,
+      "description": "allocated \u00a3143.3m to Education (\u2248\u00a31433 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 98709.0,
+      "perHousehold": 987,
+      "description": "allocated \u00a398.7m to Adult Social Care (\u2248\u00a3987 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (5.1%) to \u00a32281",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

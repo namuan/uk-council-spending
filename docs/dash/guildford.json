@@ -1,0 +1,130 @@
+{
+  "slug": "guildford",
+  "name": "Guildford District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000209",
+  "colour": "hsl(97, 45%, 55%)",
+  "initials": "GUI",
+  "leader": "",
+  "chiefExecutive": "Pedro Wrobel",
+  "councillors": 48,
+  "website": "https://www.guildford.gov.uk",
+  "taxBands": {
+    "2021": 2050.0,
+    "2022": 2144.0,
+    "2023": 2215.0,
+    "2024": 2319.0,
+    "2025": 2429.0,
+    "2026": 2547.0
+  },
+  "taxCurrent": 2429.0,
+  "taxPrev": 2319.0,
+  "taxChange": 110.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 17190.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 12971.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -6724.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -6486.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6239.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4085.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 1159.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 958.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 83.0
+    }
+  ],
+  "budgetTotal": 42685.0,
+  "perHousehold": 854,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 12971.0,
+      "perHousehold": 259,
+      "description": "allocated \u00a313.0m to Housing (\u2248\u00a3259 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 17190.0,
+      "perHousehold": 344,
+      "description": "allocated \u00a317.2m to Council Running Costs (\u2248\u00a3344 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6239.0,
+      "perHousehold": 125,
+      "description": "allocated \u00a36.2m to Environment & Streets (\u2248\u00a3125 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4085.0,
+      "perHousehold": 82,
+      "description": "allocated \u00a34.1m to Culture & Leisure (\u2248\u00a382 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (4.7%) to \u00a32429",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

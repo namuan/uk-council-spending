@@ -1,0 +1,136 @@
+{
+  "slug": "redcar-and-cleveland",
+  "name": "Redcar & Cleveland Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000003",
+  "colour": "hsl(341, 45%, 55%)",
+  "initials": "RC",
+  "leader": "",
+  "chiefExecutive": "John Sampson",
+  "councillors": 59,
+  "website": "https://www.redcar-cleveland.gov.uk",
+  "taxBands": {
+    "2021": 2067.0,
+    "2022": 2112.0,
+    "2023": 2201.0,
+    "2024": 2309.0,
+    "2025": 2424.0,
+    "2026": 2544.0
+  },
+  "taxCurrent": 2424.0,
+  "taxPrev": 2309.0,
+  "taxChange": 115.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 60611.0
+    },
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 58711.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 45856.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 13429.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 12774.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 12020.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5752.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4873.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2743.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1293.0
+    }
+  ],
+  "budgetTotal": 218062.0,
+  "perHousehold": 2181,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 60611.0,
+      "perHousehold": 606,
+      "description": "allocated \u00a360.6m to Adult Social Care (\u2248\u00a3606 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 58711.0,
+      "perHousehold": 587,
+      "description": "allocated \u00a358.7m to Education (\u2248\u00a3587 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 13429.0,
+      "perHousehold": 134,
+      "description": "allocated \u00a313.4m to Environment & Streets (\u2248\u00a3134 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 45856.0,
+      "perHousehold": 459,
+      "description": "allocated \u00a345.9m to Children's Social Care (\u2248\u00a3459 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (5.0%) to \u00a32424",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

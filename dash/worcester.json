@@ -1,0 +1,112 @@
+{
+  "slug": "worcester",
+  "name": "Worcester District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000237",
+  "colour": "hsl(189, 45%, 55%)",
+  "initials": "WOR",
+  "leader": "Cllr Adrian Sherrey",
+  "chiefExecutive": "David Blake",
+  "councillors": 35,
+  "website": "https://www.worcester.gov.uk",
+  "taxBands": {
+    "2021": 1872.0,
+    "2022": 1941.0,
+    "2023": 2036.0,
+    "2024": 2132.0,
+    "2025": 2234.0,
+    "2026": 2406.0
+  },
+  "taxCurrent": 2234.0,
+  "taxPrev": 2132.0,
+  "taxChange": 102.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5025.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3142.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2748.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2666.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2300.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2171.0
+    }
+  ],
+  "budgetTotal": 15752.0,
+  "perHousehold": 315,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3142.0,
+      "perHousehold": 63,
+      "description": "allocated \u00a33.1m to Planning & Development (\u2248\u00a363 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5025.0,
+      "perHousehold": 100,
+      "description": "allocated \u00a35.0m to Environment & Streets (\u2248\u00a3100 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2666.0,
+      "perHousehold": 53,
+      "description": "allocated \u00a32.7m to Council Running Costs (\u2248\u00a353 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2748.0,
+      "perHousehold": 55,
+      "description": "allocated \u00a32.7m to Culture & Leisure (\u2248\u00a355 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 102.0,
+      "perHousehold": 102.0,
+      "description": "raised Band D council tax by \u00a3102 (4.8%) to \u00a32234",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

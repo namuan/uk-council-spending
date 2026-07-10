@@ -1,0 +1,112 @@
+{
+  "slug": "tunbridge-wells",
+  "name": "Tunbridge Wells District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000116",
+  "colour": "hsl(57, 45%, 55%)",
+  "initials": "TW",
+  "leader": "Cllr Ben Chapelard",
+  "chiefExecutive": "Paul Taylor",
+  "councillors": 48,
+  "website": "https://www.tunbridgewells.gov.uk",
+  "taxBands": {
+    "2021": 1968.0,
+    "2022": 2030.0,
+    "2023": 2135.0,
+    "2024": 2238.0,
+    "2025": 2347.0,
+    "2026": 2446.0
+  },
+  "taxCurrent": 2347.0,
+  "taxPrev": 2238.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5913.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4259.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3943.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3266.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2951.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2659.0
+    }
+  ],
+  "budgetTotal": 20040.0,
+  "perHousehold": 401,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3943.0,
+      "perHousehold": 79,
+      "description": "allocated \u00a33.9m to Council Running Costs (\u2248\u00a379 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4259.0,
+      "perHousehold": 85,
+      "description": "allocated \u00a34.3m to Culture & Leisure (\u2248\u00a385 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5913.0,
+      "perHousehold": 118,
+      "description": "allocated \u00a35.9m to Environment & Streets (\u2248\u00a3118 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3266.0,
+      "perHousehold": 65,
+      "description": "allocated \u00a33.3m to Planning & Development (\u2248\u00a365 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.9%) to \u00a32347",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

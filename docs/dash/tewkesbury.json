@@ -1,0 +1,118 @@
+{
+  "slug": "tewkesbury",
+  "name": "Tewkesbury District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000083",
+  "colour": "hsl(296, 45%, 55%)",
+  "initials": "TEW",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 38,
+  "website": "https://www.tewkesbury.gov.uk",
+  "taxBands": {
+    "2021": 1872.0,
+    "2022": 1934.0,
+    "2023": 2029.0,
+    "2024": 2126.0,
+    "2025": 2227.0,
+    "2026": 2341.0
+  },
+  "taxCurrent": 2227.0,
+  "taxPrev": 2126.0,
+  "taxChange": 101.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6483.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5976.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2378.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1665.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 709.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -396.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -74.0
+    }
+  ],
+  "budgetTotal": 17211.0,
+  "perHousehold": 344,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1665.0,
+      "perHousehold": 33,
+      "description": "allocated \u00a31.7m to Housing (\u2248\u00a333 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6483.0,
+      "perHousehold": 130,
+      "description": "allocated \u00a36.5m to Environment & Streets (\u2248\u00a3130 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2378.0,
+      "perHousehold": 48,
+      "description": "allocated \u00a32.4m to Planning & Development (\u2248\u00a348 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5976.0,
+      "perHousehold": 120,
+      "description": "allocated \u00a36.0m to Council Running Costs (\u2248\u00a3120 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 101.0,
+      "perHousehold": 101.0,
+      "description": "raised Band D council tax by \u00a3101 (4.8%) to \u00a32227",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "north-east-lincolnshire",
+  "name": "North East Lincolnshire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000012",
+  "colour": "hsl(330, 45%, 55%)",
+  "initials": "NL",
+  "leader": "",
+  "chiefExecutive": "R Walsh",
+  "councillors": 42,
+  "website": "https://www.nelincs.gov.uk",
+  "taxBands": {
+    "2021": 2019.0,
+    "2022": 2080.0,
+    "2023": 2170.0,
+    "2024": 2276.0,
+    "2025": 2371.0,
+    "2026": 2484.0
+  },
+  "taxCurrent": 2371.0,
+  "taxPrev": 2276.0,
+  "taxChange": 95.0,
+  "taxChangePct": 4.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 62904.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 62052.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 56889.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 17081.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 16399.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 10459.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 9458.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6100.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5427.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 4751.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2997.0
+    }
+  ],
+  "budgetTotal": 254517.0,
+  "perHousehold": 2545,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 56889.0,
+      "perHousehold": 569,
+      "description": "allocated \u00a356.9m to Children's Social Care (\u2248\u00a3569 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 62052.0,
+      "perHousehold": 621,
+      "description": "allocated \u00a362.1m to Adult Social Care (\u2248\u00a3621 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 17081.0,
+      "perHousehold": 171,
+      "description": "allocated \u00a317.1m to Environment & Streets (\u2248\u00a3171 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 62904.0,
+      "perHousehold": 629,
+      "description": "allocated \u00a362.9m to Education (\u2248\u00a3629 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 95.0,
+      "perHousehold": 95.0,
+      "description": "raised Band D council tax by \u00a395 (4.2%) to \u00a32371",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

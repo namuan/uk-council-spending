@@ -1,0 +1,112 @@
+{
+  "slug": "arun",
+  "name": "Arun District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000224",
+  "colour": "hsl(163, 45%, 55%)",
+  "initials": "ARU",
+  "leader": "",
+  "chiefExecutive": "Dawn Hudd",
+  "councillors": 54,
+  "website": "https://www.arun.gov.uk",
+  "taxBands": {
+    "2021": 1995.0,
+    "2022": 2057.0,
+    "2023": 2158.0,
+    "2024": 2262.0,
+    "2025": 2371.0,
+    "2026": 2487.0
+  },
+  "taxCurrent": 2371.0,
+  "taxPrev": 2262.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 13665.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6234.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4422.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4085.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3656.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1047.0
+    }
+  ],
+  "budgetTotal": 32062.0,
+  "perHousehold": 641,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6234.0,
+      "perHousehold": 125,
+      "description": "allocated \u00a36.2m to Council Running Costs (\u2248\u00a3125 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4422.0,
+      "perHousehold": 88,
+      "description": "allocated \u00a34.4m to Housing (\u2248\u00a388 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 13665.0,
+      "perHousehold": 273,
+      "description": "allocated \u00a313.7m to Environment & Streets (\u2248\u00a3273 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4085.0,
+      "perHousehold": 82,
+      "description": "allocated \u00a34.1m to Planning & Development (\u2248\u00a382 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.8%) to \u00a32371",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

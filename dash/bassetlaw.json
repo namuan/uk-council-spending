@@ -1,0 +1,118 @@
+{
+  "slug": "bassetlaw",
+  "name": "Bassetlaw District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000171",
+  "colour": "hsl(297, 45%, 55%)",
+  "initials": "BAS",
+  "leader": "",
+  "chiefExecutive": "David Armiger",
+  "councillors": 48,
+  "website": "https://www.bassetlaw.gov.uk",
+  "taxBands": {
+    "2021": 2129.0,
+    "2022": 2210.0,
+    "2023": 2317.0,
+    "2024": 2424.0,
+    "2025": 2540.0,
+    "2026": 2645.0
+  },
+  "taxCurrent": 2540.0,
+  "taxPrev": 2424.0,
+  "taxChange": 116.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6811.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4062.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4051.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3887.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2296.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -359.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -349.0
+    }
+  ],
+  "budgetTotal": 21107.0,
+  "perHousehold": 422,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4062.0,
+      "perHousehold": 81,
+      "description": "allocated \u00a34.1m to Council Running Costs (\u2248\u00a381 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6811.0,
+      "perHousehold": 136,
+      "description": "allocated \u00a36.8m to Environment & Streets (\u2248\u00a3136 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3887.0,
+      "perHousehold": 78,
+      "description": "allocated \u00a33.9m to Planning & Development (\u2248\u00a378 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4051.0,
+      "perHousehold": 81,
+      "description": "allocated \u00a34.1m to Culture & Leisure (\u2248\u00a381 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 116.0,
+      "perHousehold": 116.0,
+      "description": "raised Band D council tax by \u00a3116 (4.8%) to \u00a32540",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

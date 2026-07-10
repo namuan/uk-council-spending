@@ -1,0 +1,142 @@
+{
+  "slug": "south-gloucestershire",
+  "name": "South Gloucestershire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000025",
+  "colour": "hsl(202, 45%, 55%)",
+  "initials": "SG",
+  "leader": "Cllr Claire Young",
+  "chiefExecutive": "Dave Perry",
+  "councillors": 61,
+  "website": "https://www.southglos.gov.uk",
+  "taxBands": {
+    "2021": 2022.0,
+    "2022": 2086.0,
+    "2023": 2191.0,
+    "2024": 2310.0,
+    "2025": 2428.0,
+    "2026": 2551.0
+  },
+  "taxCurrent": 2428.0,
+  "taxPrev": 2310.0,
+  "taxChange": 118.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 191284.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 148878.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 58414.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 36067.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 15293.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 14246.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 11537.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 11433.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 6258.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5837.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5502.0
+    }
+  ],
+  "budgetTotal": 504749.0,
+  "perHousehold": 5047,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 191284.0,
+      "perHousehold": 1913,
+      "description": "allocated \u00a3191.3m to Education (\u2248\u00a31913 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 36067.0,
+      "perHousehold": 361,
+      "description": "allocated \u00a336.1m to Environment & Streets (\u2248\u00a3361 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 58414.0,
+      "perHousehold": 584,
+      "description": "allocated \u00a358.4m to Children's Social Care (\u2248\u00a3584 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 148878.0,
+      "perHousehold": 1489,
+      "description": "allocated \u00a3148.9m to Adult Social Care (\u2248\u00a31489 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 118.0,
+      "perHousehold": 118.0,
+      "description": "raised Band D council tax by \u00a3118 (5.1%) to \u00a32428",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

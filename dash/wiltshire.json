@@ -1,0 +1,136 @@
+{
+  "slug": "wiltshire",
+  "name": "Wiltshire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000054",
+  "colour": "hsl(159, 45%, 55%)",
+  "initials": "WIL",
+  "leader": "Cllr Richard Clewer",
+  "chiefExecutive": "Lucy Townsend",
+  "councillors": 98,
+  "website": "https://www.wiltshire.gov.uk",
+  "taxBands": {
+    "2021": 2031.0,
+    "2022": 2100.0,
+    "2023": 2216.0,
+    "2024": 2330.0,
+    "2025": 2443.0,
+    "2026": 2572.0
+  },
+  "taxCurrent": 2443.0,
+  "taxPrev": 2330.0,
+  "taxChange": 113.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 388788.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 217014.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 91118.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 55209.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 32471.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 23693.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 22306.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 17207.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 12695.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 10372.0
+    }
+  ],
+  "budgetTotal": 870873.0,
+  "perHousehold": 8709,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 91118.0,
+      "perHousehold": 911,
+      "description": "allocated \u00a391.1m to Children's Social Care (\u2248\u00a3911 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 388788.0,
+      "perHousehold": 3888,
+      "description": "allocated \u00a3388.8m to Education (\u2248\u00a33888 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 217014.0,
+      "perHousehold": 2170,
+      "description": "allocated \u00a3217.0m to Adult Social Care (\u2248\u00a32170 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 55209.0,
+      "perHousehold": 552,
+      "description": "allocated \u00a355.2m to Environment & Streets (\u2248\u00a3552 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (4.8%) to \u00a32443",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

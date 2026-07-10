@@ -1,0 +1,118 @@
+{
+  "slug": "dartford",
+  "name": "Dartford District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000107",
+  "colour": "hsl(264, 45%, 55%)",
+  "initials": "DAR",
+  "leader": "Cllr Jeremy Kite",
+  "chiefExecutive": "Sarah Martin",
+  "councillors": 42,
+  "website": "https://www.dartford.gov.uk",
+  "taxBands": {
+    "2021": 1931.0,
+    "2022": 1985.0,
+    "2023": 2078.0,
+    "2024": 2175.0,
+    "2025": 2281.0,
+    "2026": 2375.0
+  },
+  "taxCurrent": 2281.0,
+  "taxPrev": 2175.0,
+  "taxChange": 106.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10047.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 7827.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6446.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2911.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1645.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 124.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 9.0
+    }
+  ],
+  "budgetTotal": 29009.0,
+  "perHousehold": 580,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6446.0,
+      "perHousehold": 129,
+      "description": "allocated \u00a36.4m to Council Running Costs (\u2248\u00a3129 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10047.0,
+      "perHousehold": 201,
+      "description": "allocated \u00a310.0m to Environment & Streets (\u2248\u00a3201 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2911.0,
+      "perHousehold": 58,
+      "description": "allocated \u00a32.9m to Planning & Development (\u2248\u00a358 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 7827.0,
+      "perHousehold": 157,
+      "description": "allocated \u00a37.8m to Housing (\u2248\u00a3157 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 106.0,
+      "perHousehold": 106.0,
+      "description": "raised Band D council tax by \u00a3106 (4.9%) to \u00a32281",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

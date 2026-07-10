@@ -1,0 +1,142 @@
+{
+  "slug": "westminster",
+  "name": "Westminster",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000033",
+  "colour": "hsl(163, 45%, 55%)",
+  "initials": "WES",
+  "leader": "Cllr Adam Hug",
+  "chiefExecutive": "Stuart Love",
+  "councillors": 54,
+  "website": "https://www.westminster.gov.uk",
+  "taxBands": {
+    "2021": 829.0,
+    "2022": 866.0,
+    "2023": 914.0,
+    "2024": 975.0,
+    "2025": 1019.0,
+    "2026": 1050.0
+  },
+  "taxCurrent": 1019.0,
+  "taxPrev": 975.0,
+  "taxChange": 44.0,
+  "taxChangePct": 4.5,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 128468.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 103337.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 99607.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 68876.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -55517.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 45297.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 39577.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 28170.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 20047.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 17568.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10977.0
+    }
+  ],
+  "budgetTotal": 561924.0,
+  "perHousehold": 5108,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 68876.0,
+      "perHousehold": 626,
+      "description": "allocated \u00a368.9m to Environment & Streets (\u2248\u00a3626 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 99607.0,
+      "perHousehold": 906,
+      "description": "allocated \u00a399.6m to Housing (\u2248\u00a3906 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 128468.0,
+      "perHousehold": 1168,
+      "description": "allocated \u00a3128.5m to Education (\u2248\u00a31168 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 103337.0,
+      "perHousehold": 939,
+      "description": "allocated \u00a3103.3m to Adult Social Care (\u2248\u00a3939 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 44.0,
+      "perHousehold": 44.0,
+      "description": "raised Band D council tax by \u00a344 (4.5%) to \u00a31019",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

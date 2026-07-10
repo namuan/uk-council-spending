@@ -1,0 +1,142 @@
+{
+  "slug": "tower-hamlets",
+  "name": "Tower Hamlets",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000030",
+  "colour": "hsl(111, 45%, 55%)",
+  "initials": "TH",
+  "leader": "Mayor Lutfur Rahman",
+  "chiefExecutive": "Steve Halsey",
+  "councillors": 45,
+  "website": "https://www.towerhamlets.gov.uk",
+  "taxBands": {
+    "2021": 1477.0,
+    "2022": 1520.0,
+    "2023": 1581.0,
+    "2024": 1676.0,
+    "2025": 1755.0,
+    "2026": 1838.0
+  },
+  "taxCurrent": 1755.0,
+  "taxPrev": 1676.0,
+  "taxChange": 79.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 543913.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 148876.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 89020.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 58729.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 46878.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 41749.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 28994.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 16898.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 15493.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 3100.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1685.0
+    }
+  ],
+  "budgetTotal": 993650.0,
+  "perHousehold": 9033,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 89020.0,
+      "perHousehold": 809,
+      "description": "allocated \u00a389.0m to Children's Social Care (\u2248\u00a3809 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 543913.0,
+      "perHousehold": 4945,
+      "description": "allocated \u00a3543.9m to Education (\u2248\u00a34945 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 148876.0,
+      "perHousehold": 1353,
+      "description": "allocated \u00a3148.9m to Adult Social Care (\u2248\u00a31353 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 58729.0,
+      "perHousehold": 534,
+      "description": "allocated \u00a358.7m to Environment & Streets (\u2248\u00a3534 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 79.0,
+      "perHousehold": 79.0,
+      "description": "raised Band D council tax by \u00a379 (4.7%) to \u00a31755",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

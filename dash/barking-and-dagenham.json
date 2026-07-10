@@ -1,0 +1,142 @@
+{
+  "slug": "barking-and-dagenham",
+  "name": "Barking & Dagenham",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000002",
+  "colour": "hsl(195, 45%, 55%)",
+  "initials": "BD",
+  "leader": "",
+  "chiefExecutive": "Fiona Taylor",
+  "councillors": 51,
+  "website": "https://www.lbbd.gov.uk",
+  "taxBands": {
+    "2021": 1713.0,
+    "2022": 1785.0,
+    "2023": 1893.0,
+    "2024": 2003.0,
+    "2025": 2098.0,
+    "2026": 2199.0
+  },
+  "taxCurrent": 2098.0,
+  "taxPrev": 2003.0,
+  "taxChange": 95.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 333618.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 78520.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 74069.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 18989.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 17554.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 14159.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 13278.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5424.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4206.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3908.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -3432.0
+    }
+  ],
+  "budgetTotal": 563725.0,
+  "perHousehold": 5125,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 78520.0,
+      "perHousehold": 714,
+      "description": "allocated \u00a378.5m to Children's Social Care (\u2248\u00a3714 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 333618.0,
+      "perHousehold": 3033,
+      "description": "allocated \u00a3333.6m to Education (\u2248\u00a33033 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 74069.0,
+      "perHousehold": 673,
+      "description": "allocated \u00a374.1m to Adult Social Care (\u2248\u00a3673 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 18989.0,
+      "perHousehold": 173,
+      "description": "allocated \u00a319.0m to Public Health (\u2248\u00a3173 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 95.0,
+      "perHousehold": 95.0,
+      "description": "raised Band D council tax by \u00a395 (4.7%) to \u00a32098",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

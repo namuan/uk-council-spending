@@ -1,0 +1,136 @@
+{
+  "slug": "slough",
+  "name": "Slough Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000039",
+  "colour": "hsl(107, 45%, 55%)",
+  "initials": "SLO",
+  "leader": "Cllr Dexter Smith",
+  "chiefExecutive": "Will Tuckley",
+  "councillors": 42,
+  "website": "https://www.slough.gov.uk",
+  "taxBands": {
+    "2021": 1795.0,
+    "2022": 1855.0,
+    "2023": 2027.0,
+    "2024": 2187.0,
+    "2025": 2299.0,
+    "2026": 2414.0
+  },
+  "taxCurrent": 2299.0,
+  "taxPrev": 2187.0,
+  "taxChange": 112.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 98714.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 52974.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 40960.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 15201.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 11779.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 11173.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 10075.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 3166.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2672.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1885.0
+    }
+  ],
+  "budgetTotal": 248599.0,
+  "perHousehold": 2486,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 98714.0,
+      "perHousehold": 987,
+      "description": "allocated \u00a398.7m to Education (\u2248\u00a3987 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 52974.0,
+      "perHousehold": 530,
+      "description": "allocated \u00a353.0m to Adult Social Care (\u2248\u00a3530 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 15201.0,
+      "perHousehold": 152,
+      "description": "allocated \u00a315.2m to Council Running Costs (\u2248\u00a3152 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 40960.0,
+      "perHousehold": 410,
+      "description": "allocated \u00a341.0m to Children's Social Care (\u2248\u00a3410 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 112.0,
+      "perHousehold": 112.0,
+      "description": "raised Band D council tax by \u00a3112 (5.1%) to \u00a32299",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

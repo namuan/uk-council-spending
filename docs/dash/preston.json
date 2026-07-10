@@ -1,0 +1,118 @@
+{
+  "slug": "preston",
+  "name": "Preston District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000123",
+  "colour": "hsl(254, 45%, 55%)",
+  "initials": "PRE",
+  "leader": "Cllr Matthew Brown",
+  "chiefExecutive": "Adrian Phillips",
+  "councillors": 48,
+  "website": "https://www.preston.gov.uk",
+  "taxBands": {
+    "2021": 2091.0,
+    "2022": 2171.0,
+    "2023": 2262.0,
+    "2024": 2365.0,
+    "2025": 2478.0,
+    "2026": 2576.0
+  },
+  "taxCurrent": 2478.0,
+  "taxPrev": 2365.0,
+  "taxChange": 113.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 8833.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7566.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6262.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4511.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4463.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 453.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 378.0
+    }
+  ],
+  "budgetTotal": 32466.0,
+  "perHousehold": 649,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6262.0,
+      "perHousehold": 125,
+      "description": "allocated \u00a36.3m to Council Running Costs (\u2248\u00a3125 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7566.0,
+      "perHousehold": 151,
+      "description": "allocated \u00a37.6m to Environment & Streets (\u2248\u00a3151 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4511.0,
+      "perHousehold": 90,
+      "description": "allocated \u00a34.5m to Housing (\u2248\u00a390 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 8833.0,
+      "perHousehold": 177,
+      "description": "allocated \u00a38.8m to Planning & Development (\u2248\u00a3177 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (4.8%) to \u00a32478",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

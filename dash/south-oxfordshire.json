@@ -1,0 +1,112 @@
+{
+  "slug": "south-oxfordshire",
+  "name": "South Oxfordshire District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000179",
+  "colour": "hsl(133, 45%, 55%)",
+  "initials": "SO",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 36,
+  "website": "https://www.southoxon.gov.uk",
+  "taxBands": {
+    "2021": 2035.0,
+    "2022": 2133.0,
+    "2023": 2240.0,
+    "2024": 2357.0,
+    "2025": 2474.0,
+    "2026": 2598.0
+  },
+  "taxCurrent": 2474.0,
+  "taxPrev": 2357.0,
+  "taxChange": 117.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8822.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7090.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4680.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2236.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2003.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -596.0
+    }
+  ],
+  "budgetTotal": 24831.0,
+  "perHousehold": 497,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8822.0,
+      "perHousehold": 176,
+      "description": "allocated \u00a38.8m to Environment & Streets (\u2248\u00a3176 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7090.0,
+      "perHousehold": 142,
+      "description": "allocated \u00a37.1m to Council Running Costs (\u2248\u00a3142 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2236.0,
+      "perHousehold": 45,
+      "description": "allocated \u00a32.2m to Housing (\u2248\u00a345 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4680.0,
+      "perHousehold": 94,
+      "description": "allocated \u00a34.7m to Planning & Development (\u2248\u00a394 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 117.0,
+      "perHousehold": 117.0,
+      "description": "raised Band D council tax by \u00a3117 (5.0%) to \u00a32474",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

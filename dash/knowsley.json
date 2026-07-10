@@ -1,0 +1,142 @@
+{
+  "slug": "knowsley",
+  "name": "Knowsley Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000011",
+  "colour": "hsl(126, 45%, 55%)",
+  "initials": "KNO",
+  "leader": "",
+  "chiefExecutive": "M Harden",
+  "councillors": 45,
+  "website": "https://www.knowsley.gov.uk",
+  "taxBands": {
+    "2021": 1986.0,
+    "2022": 2047.0,
+    "2023": 2150.0,
+    "2024": 2256.0,
+    "2025": 2371.0,
+    "2026": 2488.0
+  },
+  "taxCurrent": 2371.0,
+  "taxPrev": 2256.0,
+  "taxChange": 115.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 144243.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 104533.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 57332.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 27730.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 24501.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 21181.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 16204.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 12871.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 9731.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8152.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6152.0
+    }
+  ],
+  "budgetTotal": 432630.0,
+  "perHousehold": 3328,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 144243.0,
+      "perHousehold": 1110,
+      "description": "allocated \u00a3144.2m to Education (\u2248\u00a31110 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 57332.0,
+      "perHousehold": 441,
+      "description": "allocated \u00a357.3m to Children's Social Care (\u2248\u00a3441 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 27730.0,
+      "perHousehold": 213,
+      "description": "allocated \u00a327.7m to Planning & Development (\u2248\u00a3213 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 104533.0,
+      "perHousehold": 804,
+      "description": "allocated \u00a3104.5m to Adult Social Care (\u2248\u00a3804 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (5.1%) to \u00a32371",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

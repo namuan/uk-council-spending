@@ -1,0 +1,130 @@
+{
+  "slug": "waverley",
+  "name": "Waverley District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000216",
+  "colour": "hsl(228, 45%, 55%)",
+  "initials": "WAV",
+  "leader": "Cllr Paul Follows",
+  "chiefExecutive": "Tom Horwood",
+  "councillors": 50,
+  "website": "https://www.waverley.gov.uk",
+  "taxBands": {
+    "2021": 2091.0,
+    "2022": 2188.0,
+    "2023": 2263.0,
+    "2024": 2371.0,
+    "2025": 2484.0,
+    "2026": 2605.0
+  },
+  "taxCurrent": 2484.0,
+  "taxPrev": 2371.0,
+  "taxChange": 113.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7513.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6658.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5300.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -3775.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1984.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1918.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 797.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 151.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 8.0
+    }
+  ],
+  "budgetTotal": 24329.0,
+  "perHousehold": 487,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6658.0,
+      "perHousehold": 133,
+      "description": "allocated \u00a36.7m to Council Running Costs (\u2248\u00a3133 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5300.0,
+      "perHousehold": 106,
+      "description": "allocated \u00a35.3m to Planning & Development (\u2248\u00a3106 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7513.0,
+      "perHousehold": 150,
+      "description": "allocated \u00a37.5m to Environment & Streets (\u2248\u00a3150 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1984.0,
+      "perHousehold": 40,
+      "description": "allocated \u00a32.0m to Housing (\u2248\u00a340 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (4.8%) to \u00a32484",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

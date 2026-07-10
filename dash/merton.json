@@ -1,0 +1,142 @@
+{
+  "slug": "merton",
+  "name": "Merton",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000024",
+  "colour": "hsl(141, 45%, 55%)",
+  "initials": "MER",
+  "leader": "",
+  "chiefExecutive": "H. Doody",
+  "councillors": 57,
+  "website": "https://www.merton.gov.uk",
+  "taxBands": {
+    "2021": 1709.0,
+    "2022": 1781.0,
+    "2023": 1889.0,
+    "2024": 1999.0,
+    "2025": 2094.0,
+    "2026": 2147.0
+  },
+  "taxCurrent": 2094.0,
+  "taxPrev": 1999.0,
+  "taxChange": 95.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 245929.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 76860.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 39668.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 20851.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 15496.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 14149.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 14020.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8084.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5941.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2375.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -960.0
+    }
+  ],
+  "budgetTotal": 440998.0,
+  "perHousehold": 4009,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 39668.0,
+      "perHousehold": 361,
+      "description": "allocated \u00a339.7m to Children's Social Care (\u2248\u00a3361 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 245929.0,
+      "perHousehold": 2236,
+      "description": "allocated \u00a3245.9m to Education (\u2248\u00a32236 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 76860.0,
+      "perHousehold": 699,
+      "description": "allocated \u00a376.9m to Adult Social Care (\u2248\u00a3699 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 20851.0,
+      "perHousehold": 190,
+      "description": "allocated \u00a320.9m to Environment & Streets (\u2248\u00a3190 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 95.0,
+      "perHousehold": 95.0,
+      "description": "raised Band D council tax by \u00a395 (4.8%) to \u00a32094",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

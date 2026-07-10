@@ -1,0 +1,135 @@
+{
+  "slug": "kent",
+  "name": "Kent County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000016",
+  "colour": "hsl(233, 45%, 55%)",
+  "initials": "KEN",
+  "leader": "Cllr Linden Kemkaran",
+  "chiefExecutive": "Amanda Beer",
+  "councillors": 81,
+  "website": "https://www.kent.gov.uk",
+  "taxBands": {
+    "2021": 1418.76,
+    "2022": 1461.24,
+    "2023": 1534.0,
+    "2024": 1611.0,
+    "2025": 1691.19
+  },
+  "taxCurrent": 1691.19,
+  "taxPrev": 1611.0,
+  "taxChange": 80.19,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 1283952.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 756869.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 398145.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 96282.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 95306.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 91729.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 41842.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 30391.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 10209.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4743.0
+    }
+  ],
+  "budgetTotal": 2809468.0,
+  "perHousehold": 8027,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 756869.0,
+      "perHousehold": 2162,
+      "description": "allocated \u00a3756.9m to Adult Social Care (\u2248\u00a32162 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 398145.0,
+      "perHousehold": 1138,
+      "description": "allocated \u00a3398.1m to Children's Social Care (\u2248\u00a31138 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 1283952.0,
+      "perHousehold": 3668,
+      "description": "allocated \u00a31284.0m to Education (\u2248\u00a33668 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 96282.0,
+      "perHousehold": 275,
+      "description": "allocated \u00a396.3m to Environment & Streets (\u2248\u00a3275 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 80.0,
+      "perHousehold": 80.0,
+      "description": "raised Band D council tax by \u00a380 (5.0%) to \u00a31691",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "oxford",
+  "name": "Oxford District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000178",
+  "colour": "hsl(262, 45%, 55%)",
+  "initials": "OXF",
+  "leader": "Cllr Susan Brown",
+  "chiefExecutive": "Caroline Green",
+  "councillors": 48,
+  "website": "https://www.oxford.gov.uk",
+  "taxBands": {
+    "2021": 2131.0,
+    "2022": 2225.0,
+    "2023": 2332.0,
+    "2024": 2442.0,
+    "2025": 2557.0,
+    "2026": 2678.0
+  },
+  "taxCurrent": 2557.0,
+  "taxPrev": 2442.0,
+  "taxChange": 115.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 14603.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8307.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6417.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6336.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -6003.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 3138.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1905.0
+    }
+  ],
+  "budgetTotal": 38801.0,
+  "perHousehold": 776,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6417.0,
+      "perHousehold": 128,
+      "description": "allocated \u00a36.4m to Council Running Costs (\u2248\u00a3128 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 14603.0,
+      "perHousehold": 292,
+      "description": "allocated \u00a314.6m to Environment & Streets (\u2248\u00a3292 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8307.0,
+      "perHousehold": 166,
+      "description": "allocated \u00a38.3m to Culture & Leisure (\u2248\u00a3166 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6336.0,
+      "perHousehold": 127,
+      "description": "allocated \u00a36.3m to Housing (\u2248\u00a3127 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (4.7%) to \u00a32557",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

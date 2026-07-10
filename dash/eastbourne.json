@@ -1,0 +1,118 @@
+{
+  "slug": "eastbourne",
+  "name": "Eastbourne District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000061",
+  "colour": "hsl(269, 45%, 55%)",
+  "initials": "EAS",
+  "leader": "Cllr Stephen Sherwin",
+  "chiefExecutive": "Robert Gilliat",
+  "councillors": 27,
+  "website": "https://www.lewes-eastbourne.gov.uk",
+  "taxBands": {
+    "2021": 2113.0,
+    "2022": 2199.0,
+    "2023": 2308.0,
+    "2024": 2416.0,
+    "2025": 2532.0,
+    "2026": 2654.0
+  },
+  "taxCurrent": 2532.0,
+  "taxPrev": 2416.0,
+  "taxChange": 116.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 14079.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3036.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1315.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": -1167.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 1102.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 618.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -49.0
+    }
+  ],
+  "budgetTotal": 20150.0,
+  "perHousehold": 403,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 14079.0,
+      "perHousehold": 282,
+      "description": "allocated \u00a314.1m to Other Services (\u2248\u00a3282 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 1102.0,
+      "perHousehold": 22,
+      "description": "allocated \u00a31.1m to Council Running Costs (\u2248\u00a322 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1315.0,
+      "perHousehold": 26,
+      "description": "allocated \u00a31.3m to Culture & Leisure (\u2248\u00a326 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3036.0,
+      "perHousehold": 61,
+      "description": "allocated \u00a33.0m to Environment & Streets (\u2248\u00a361 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 116.0,
+      "perHousehold": 116.0,
+      "description": "raised Band D council tax by \u00a3116 (4.8%) to \u00a32532",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

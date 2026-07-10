@@ -1,0 +1,118 @@
+{
+  "slug": "tandridge",
+  "name": "Tandridge District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000215",
+  "colour": "hsl(69, 45%, 55%)",
+  "initials": "TAN",
+  "leader": "Cllr Catherine Sheridan",
+  "chiefExecutive": "David Ford",
+  "councillors": 43,
+  "website": "https://www.tandridge.gov.uk",
+  "taxBands": {
+    "2021": 2088.0,
+    "2022": 2181.0,
+    "2023": 2252.0,
+    "2024": 2359.0,
+    "2025": 2472.0,
+    "2026": 2595.0
+  },
+  "taxCurrent": 2472.0,
+  "taxPrev": 2359.0,
+  "taxChange": 113.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6671.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3485.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1756.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1442.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1110.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 87.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 1.0
+    }
+  ],
+  "budgetTotal": 14552.0,
+  "perHousehold": 291,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3485.0,
+      "perHousehold": 70,
+      "description": "allocated \u00a33.5m to Environment & Streets (\u2248\u00a370 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1442.0,
+      "perHousehold": 29,
+      "description": "allocated \u00a31.4m to Housing (\u2248\u00a329 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1756.0,
+      "perHousehold": 35,
+      "description": "allocated \u00a31.8m to Planning & Development (\u2248\u00a335 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6671.0,
+      "perHousehold": 133,
+      "description": "allocated \u00a36.7m to Council Running Costs (\u2248\u00a3133 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (4.8%) to \u00a32472",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

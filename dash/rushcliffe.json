@@ -1,0 +1,118 @@
+{
+  "slug": "rushcliffe",
+  "name": "Rushcliffe District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000176",
+  "colour": "hsl(221, 45%, 55%)",
+  "initials": "RUS",
+  "leader": "Cllr Neil Clarke",
+  "chiefExecutive": "Kath Marriott",
+  "councillors": 44,
+  "website": "https://www.rushcliffe.gov.uk",
+  "taxBands": {
+    "2021": 2124.0,
+    "2022": 2206.0,
+    "2023": 2311.0,
+    "2024": 2417.0,
+    "2025": 2532.0,
+    "2026": 2643.0
+  },
+  "taxCurrent": 2532.0,
+  "taxPrev": 2417.0,
+  "taxChange": 115.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6743.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3192.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2556.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2304.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1289.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -661.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 315.0
+    }
+  ],
+  "budgetTotal": 16399.0,
+  "perHousehold": 328,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6743.0,
+      "perHousehold": 135,
+      "description": "allocated \u00a36.7m to Environment & Streets (\u2248\u00a3135 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2556.0,
+      "perHousehold": 51,
+      "description": "allocated \u00a32.6m to Planning & Development (\u2248\u00a351 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3192.0,
+      "perHousehold": 64,
+      "description": "allocated \u00a33.2m to Council Running Costs (\u2248\u00a364 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2304.0,
+      "perHousehold": 46,
+      "description": "allocated \u00a32.3m to Culture & Leisure (\u2248\u00a346 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (4.8%) to \u00a32532",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

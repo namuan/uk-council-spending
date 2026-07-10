@@ -1,0 +1,136 @@
+{
+  "slug": "cheshire-west-and-chester",
+  "name": "Cheshire West & Chester Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000050",
+  "colour": "hsl(229, 45%, 55%)",
+  "initials": "CC",
+  "leader": "",
+  "chiefExecutive": "Delyth Curtis",
+  "councillors": 70,
+  "website": "https://www.cheshirewestandchester.gov.uk",
+  "taxBands": {
+    "2021": 1998.0,
+    "2022": 2061.0,
+    "2023": 2169.0,
+    "2024": 2277.0,
+    "2025": 2392.0,
+    "2026": 2517.0
+  },
+  "taxCurrent": 2392.0,
+  "taxPrev": 2277.0,
+  "taxChange": 115.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 291666.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 185304.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 100791.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 43604.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 19466.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 13092.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 10218.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 9996.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 9333.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7311.0
+    }
+  ],
+  "budgetTotal": 690781.0,
+  "perHousehold": 6908,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 100791.0,
+      "perHousehold": 1008,
+      "description": "allocated \u00a3100.8m to Children's Social Care (\u2248\u00a31008 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 185304.0,
+      "perHousehold": 1853,
+      "description": "allocated \u00a3185.3m to Adult Social Care (\u2248\u00a31853 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 291666.0,
+      "perHousehold": 2917,
+      "description": "allocated \u00a3291.7m to Education (\u2248\u00a32917 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 43604.0,
+      "perHousehold": 436,
+      "description": "allocated \u00a343.6m to Environment & Streets (\u2248\u00a3436 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (5.1%) to \u00a32392",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

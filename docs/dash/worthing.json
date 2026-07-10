@@ -1,0 +1,112 @@
+{
+  "slug": "worthing",
+  "name": "Worthing District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000229",
+  "colour": "hsl(248, 45%, 55%)",
+  "initials": "WOR",
+  "leader": "Cllr Sophie Cox",
+  "chiefExecutive": "Catherine Howe",
+  "councillors": 37,
+  "website": "https://www.adur-worthing.gov.uk",
+  "taxBands": {
+    "2021": 1973.0,
+    "2022": 2033.0,
+    "2023": 2133.0,
+    "2024": 2236.0,
+    "2025": 2343.0,
+    "2026": 2456.0
+  },
+  "taxCurrent": 2343.0,
+  "taxPrev": 2236.0,
+  "taxChange": 107.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5336.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4846.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4805.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 2049.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1660.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1266.0
+    }
+  ],
+  "budgetTotal": 18696.0,
+  "perHousehold": 374,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4805.0,
+      "perHousehold": 96,
+      "description": "allocated \u00a34.8m to Council Running Costs (\u2248\u00a396 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5336.0,
+      "perHousehold": 107,
+      "description": "allocated \u00a35.3m to Housing (\u2248\u00a3107 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 2049.0,
+      "perHousehold": 41,
+      "description": "allocated \u00a32.0m to Environment & Streets (\u2248\u00a341 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4846.0,
+      "perHousehold": 97,
+      "description": "allocated \u00a34.8m to Culture & Leisure (\u2248\u00a397 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 107.0,
+      "perHousehold": 107.0,
+      "description": "raised Band D council tax by \u00a3107 (4.8%) to \u00a32343",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

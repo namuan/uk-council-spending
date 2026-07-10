@@ -1,0 +1,129 @@
+{
+  "slug": "staffordshire",
+  "name": "Staffordshire County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000028",
+  "colour": "hsl(242, 45%, 55%)",
+  "initials": "STA",
+  "leader": "Cllr Martin Murray",
+  "chiefExecutive": "Patrick Flaherty",
+  "councillors": 62,
+  "website": "https://www.staffordshire.gov.uk",
+  "taxBands": {
+    "2021": 1360.62,
+    "2022": 1401.3,
+    "2023": 1471.0,
+    "2024": 1545.0,
+    "2025": 1622.0
+  },
+  "taxCurrent": 1622.0,
+  "taxPrev": 1545.0,
+  "taxChange": 77.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 491610.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 358261.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 196787.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 66389.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 52680.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 46455.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 13907.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8281.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 7357.0
+    }
+  ],
+  "budgetTotal": 1241727.0,
+  "perHousehold": 3548,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 66389.0,
+      "perHousehold": 190,
+      "description": "allocated \u00a366.4m to Roads & Transport (\u2248\u00a3190 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 196787.0,
+      "perHousehold": 562,
+      "description": "allocated \u00a3196.8m to Children's Social Care (\u2248\u00a3562 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 491610.0,
+      "perHousehold": 1405,
+      "description": "allocated \u00a3491.6m to Education (\u2248\u00a31405 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 358261.0,
+      "perHousehold": 1024,
+      "description": "allocated \u00a3358.3m to Adult Social Care (\u2248\u00a31024 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 77.0,
+      "perHousehold": 77.0,
+      "description": "raised Band D council tax by \u00a377 (5.0%) to \u00a31622",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

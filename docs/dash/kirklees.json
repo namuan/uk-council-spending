@@ -1,0 +1,142 @@
+{
+  "slug": "kirklees",
+  "name": "Kirklees Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000034",
+  "colour": "hsl(204, 45%, 55%)",
+  "initials": "KIR",
+  "leader": "",
+  "chiefExecutive": "Steve Mawson",
+  "councillors": 69,
+  "website": "https://www.kirklees.gov.uk",
+  "taxBands": {
+    "2021": 1932.0,
+    "2022": 1997.0,
+    "2023": 2102.0,
+    "2024": 2208.0,
+    "2025": 2322.0,
+    "2026": 2441.0
+  },
+  "taxCurrent": 2322.0,
+  "taxPrev": 2208.0,
+  "taxChange": 114.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 322103.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 185245.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 78668.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 39676.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 28395.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 20463.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 17584.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 11838.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5719.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 3990.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 3085.0
+    }
+  ],
+  "budgetTotal": 716766.0,
+  "perHousehold": 5514,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 78668.0,
+      "perHousehold": 605,
+      "description": "allocated \u00a378.7m to Children's Social Care (\u2248\u00a3605 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 39676.0,
+      "perHousehold": 305,
+      "description": "allocated \u00a339.7m to Environment & Streets (\u2248\u00a3305 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 185245.0,
+      "perHousehold": 1425,
+      "description": "allocated \u00a3185.2m to Adult Social Care (\u2248\u00a31425 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 322103.0,
+      "perHousehold": 2478,
+      "description": "allocated \u00a3322.1m to Education (\u2248\u00a32478 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 114.0,
+      "perHousehold": 114.0,
+      "description": "raised Band D council tax by \u00a3114 (5.2%) to \u00a32322",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

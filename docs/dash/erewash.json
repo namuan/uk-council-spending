@@ -1,0 +1,118 @@
+{
+  "slug": "erewash",
+  "name": "Erewash District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000036",
+  "colour": "hsl(210, 45%, 55%)",
+  "initials": "ERE",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 47,
+  "website": "https://www.erewash.gov.uk",
+  "taxBands": {
+    "2021": 1913.0,
+    "2022": 1972.0,
+    "2023": 2054.0,
+    "2024": 2155.0,
+    "2025": 2260.0,
+    "2026": 2361.0
+  },
+  "taxCurrent": 2260.0,
+  "taxPrev": 2155.0,
+  "taxChange": 105.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4560.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4449.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2341.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2035.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1216.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 530.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -416.0
+    }
+  ],
+  "budgetTotal": 15131.0,
+  "perHousehold": 303,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4560.0,
+      "perHousehold": 91,
+      "description": "allocated \u00a34.6m to Environment & Streets (\u2248\u00a391 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2341.0,
+      "perHousehold": 47,
+      "description": "allocated \u00a32.3m to Culture & Leisure (\u2248\u00a347 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2035.0,
+      "perHousehold": 41,
+      "description": "allocated \u00a32.0m to Housing (\u2248\u00a341 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4449.0,
+      "perHousehold": 89,
+      "description": "allocated \u00a34.4m to Council Running Costs (\u2248\u00a389 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 105.0,
+      "perHousehold": 105.0,
+      "description": "raised Band D council tax by \u00a3105 (4.9%) to \u00a32260",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "coventry",
+  "name": "Coventry Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000026",
+  "colour": "hsl(66, 45%, 55%)",
+  "initials": "COV",
+  "leader": "Cllr George Duggins",
+  "chiefExecutive": "Julie Nugent",
+  "councillors": 54,
+  "website": "https://www.coventry.gov.uk",
+  "taxBands": {
+    "2021": 2009.0,
+    "2022": 2076.0,
+    "2023": 2186.0,
+    "2024": 2296.0,
+    "2025": 2414.0,
+    "2026": 2517.0
+  },
+  "taxCurrent": 2414.0,
+  "taxPrev": 2296.0,
+  "taxChange": 118.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 242779.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 147758.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 108798.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 30025.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 24514.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 18902.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 17711.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12460.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 11050.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5140.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 1838.0
+    }
+  ],
+  "budgetTotal": 620975.0,
+  "perHousehold": 4777,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 30025.0,
+      "perHousehold": 231,
+      "description": "allocated \u00a330.0m to Environment & Streets (\u2248\u00a3231 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 242779.0,
+      "perHousehold": 1868,
+      "description": "allocated \u00a3242.8m to Education (\u2248\u00a31868 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 108798.0,
+      "perHousehold": 837,
+      "description": "allocated \u00a3108.8m to Children's Social Care (\u2248\u00a3837 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 147758.0,
+      "perHousehold": 1137,
+      "description": "allocated \u00a3147.8m to Adult Social Care (\u2248\u00a31137 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 118.0,
+      "perHousehold": 118.0,
+      "description": "raised Band D council tax by \u00a3118 (5.1%) to \u00a32414",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

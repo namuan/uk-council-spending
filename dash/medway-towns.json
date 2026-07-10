@@ -1,0 +1,136 @@
+{
+  "slug": "medway-towns",
+  "name": "Medway Towns Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000035",
+  "colour": "hsl(150, 45%, 55%)",
+  "initials": "MT",
+  "leader": "",
+  "chiefExecutive": "Richard Hicks",
+  "councillors": 59,
+  "website": "https://www.medway.gov.uk",
+  "taxBands": {
+    "2021": 1850.0,
+    "2022": 1909.0,
+    "2023": 2009.0,
+    "2024": 2108.0,
+    "2025": 2215.0,
+    "2026": 2329.0
+  },
+  "taxCurrent": 2215.0,
+  "taxPrev": 2108.0,
+  "taxChange": 107.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 140792.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 102886.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 79641.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 34506.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 19038.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 17128.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 10158.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 9402.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8242.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3748.0
+    }
+  ],
+  "budgetTotal": 425541.0,
+  "perHousehold": 4255,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 34506.0,
+      "perHousehold": 345,
+      "description": "allocated \u00a334.5m to Environment & Streets (\u2248\u00a3345 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 140792.0,
+      "perHousehold": 1408,
+      "description": "allocated \u00a3140.8m to Education (\u2248\u00a31408 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 102886.0,
+      "perHousehold": 1029,
+      "description": "allocated \u00a3102.9m to Adult Social Care (\u2248\u00a31029 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 79641.0,
+      "perHousehold": 796,
+      "description": "allocated \u00a379.6m to Children's Social Care (\u2248\u00a3796 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 107.0,
+      "perHousehold": 107.0,
+      "description": "raised Band D council tax by \u00a3107 (5.1%) to \u00a32215",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

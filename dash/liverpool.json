@@ -1,0 +1,142 @@
+{
+  "slug": "liverpool",
+  "name": "Liverpool Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000012",
+  "colour": "hsl(79, 45%, 55%)",
+  "initials": "LIV",
+  "leader": "Cllr Liam Robinson",
+  "chiefExecutive": "Andrew Lewis",
+  "councillors": 85,
+  "website": "https://liverpool.gov.uk",
+  "taxBands": {
+    "2021": 2129.0,
+    "2022": 2195.0,
+    "2023": 2308.0,
+    "2024": 2420.0,
+    "2025": 2546.0,
+    "2026": 2674.0
+  },
+  "taxCurrent": 2546.0,
+  "taxPrev": 2420.0,
+  "taxChange": 126.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 519400.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 286378.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 155067.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 60146.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 38803.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 38800.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 32052.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 31590.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 30278.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 27691.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1363.0
+    }
+  ],
+  "budgetTotal": 1220205.0,
+  "perHousehold": 9386,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 286378.0,
+      "perHousehold": 2203,
+      "description": "allocated \u00a3286.4m to Adult Social Care (\u2248\u00a32203 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 155067.0,
+      "perHousehold": 1193,
+      "description": "allocated \u00a3155.1m to Children's Social Care (\u2248\u00a31193 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 519400.0,
+      "perHousehold": 3995,
+      "description": "allocated \u00a3519.4m to Education (\u2248\u00a33995 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 60146.0,
+      "perHousehold": 463,
+      "description": "allocated \u00a360.1m to Public Health (\u2248\u00a3463 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 126.0,
+      "perHousehold": 126.0,
+      "description": "raised Band D council tax by \u00a3126 (5.2%) to \u00a32546",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

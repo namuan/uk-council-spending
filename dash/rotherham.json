@@ -1,0 +1,136 @@
+{
+  "slug": "rotherham",
+  "name": "Rotherham Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000018",
+  "colour": "hsl(84, 45%, 55%)",
+  "initials": "ROT",
+  "leader": "",
+  "chiefExecutive": "Sharon Kemp",
+  "councillors": 59,
+  "website": "https://www.rotherham.gov.uk",
+  "taxBands": {
+    "2021": 1949.0,
+    "2022": 2035.0,
+    "2023": 2126.0,
+    "2024": 2211.0,
+    "2025": 2283.0,
+    "2026": 2382.0
+  },
+  "taxCurrent": 2283.0,
+  "taxPrev": 2211.0,
+  "taxChange": 72.0,
+  "taxChangePct": 3.3,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 138538.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 121418.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 82041.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 20874.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 19843.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 12590.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 10077.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 7856.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5019.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4786.0
+    }
+  ],
+  "budgetTotal": 423042.0,
+  "perHousehold": 3254,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 121418.0,
+      "perHousehold": 934,
+      "description": "allocated \u00a3121.4m to Adult Social Care (\u2248\u00a3934 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 82041.0,
+      "perHousehold": 631,
+      "description": "allocated \u00a382.0m to Children's Social Care (\u2248\u00a3631 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 138538.0,
+      "perHousehold": 1066,
+      "description": "allocated \u00a3138.5m to Education (\u2248\u00a31066 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 20874.0,
+      "perHousehold": 161,
+      "description": "allocated \u00a320.9m to Public Health (\u2248\u00a3161 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 72.0,
+      "perHousehold": 72.0,
+      "description": "raised Band D council tax by \u00a372 (3.3%) to \u00a32283",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

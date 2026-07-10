@@ -1,0 +1,136 @@
+{
+  "slug": "kingston-upon-thames",
+  "name": "Kingston upon Thames",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000021",
+  "colour": "hsl(335, 45%, 55%)",
+  "initials": "KT",
+  "leader": "",
+  "chiefExecutive": "Sarah Ireland",
+  "councillors": 48,
+  "website": "https://www.kingston.gov.uk",
+  "taxBands": {
+    "2021": 2057.0,
+    "2022": 2123.0,
+    "2023": 2248.0,
+    "2024": 2375.0,
+    "2025": 2489.0,
+    "2026": 2609.0
+  },
+  "taxCurrent": 2489.0,
+  "taxPrev": 2375.0,
+  "taxChange": 114.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 117680.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 59876.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 40984.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 16334.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 13201.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 11902.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 10783.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 7440.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3208.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 2414.0
+    }
+  ],
+  "budgetTotal": 283822.0,
+  "perHousehold": 2580,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 59876.0,
+      "perHousehold": 544,
+      "description": "allocated \u00a359.9m to Adult Social Care (\u2248\u00a3544 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 16334.0,
+      "perHousehold": 148,
+      "description": "allocated \u00a316.3m to Environment & Streets (\u2248\u00a3148 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 117680.0,
+      "perHousehold": 1070,
+      "description": "allocated \u00a3117.7m to Education (\u2248\u00a31070 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 40984.0,
+      "perHousehold": 373,
+      "description": "allocated \u00a341.0m to Children's Social Care (\u2248\u00a3373 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 114.0,
+      "perHousehold": 114.0,
+      "description": "raised Band D council tax by \u00a3114 (4.8%) to \u00a32489",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

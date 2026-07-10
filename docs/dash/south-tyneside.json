@@ -1,0 +1,142 @@
+{
+  "slug": "south-tyneside",
+  "name": "South Tyneside Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000023",
+  "colour": "hsl(224, 45%, 55%)",
+  "initials": "ST",
+  "leader": "Cllr Tracey Dixon",
+  "chiefExecutive": "Jonathan Tew",
+  "councillors": 54,
+  "website": "https://www.southtyneside.gov.uk",
+  "taxBands": {
+    "2021": 1923.0,
+    "2022": 1985.0,
+    "2023": 2091.0,
+    "2024": 2197.0,
+    "2025": 2311.0,
+    "2026": 2434.0
+  },
+  "taxCurrent": 2311.0,
+  "taxPrev": 2197.0,
+  "taxChange": 114.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 147698.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 83353.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 45174.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 15415.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 15128.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12445.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 9894.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 8249.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3387.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -1488.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1220.0
+    }
+  ],
+  "budgetTotal": 341963.0,
+  "perHousehold": 2630,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 147698.0,
+      "perHousehold": 1136,
+      "description": "allocated \u00a3147.7m to Education (\u2248\u00a31136 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 15415.0,
+      "perHousehold": 119,
+      "description": "allocated \u00a315.4m to Environment & Streets (\u2248\u00a3119 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 45174.0,
+      "perHousehold": 347,
+      "description": "allocated \u00a345.2m to Children's Social Care (\u2248\u00a3347 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 83353.0,
+      "perHousehold": 641,
+      "description": "allocated \u00a383.4m to Adult Social Care (\u2248\u00a3641 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 114.0,
+      "perHousehold": 114.0,
+      "description": "raised Band D council tax by \u00a3114 (5.2%) to \u00a32311",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "wigan",
+  "name": "Wigan Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000010",
+  "colour": "hsl(99, 45%, 55%)",
+  "initials": "WIG",
+  "leader": "",
+  "chiefExecutive": "Alison McKenzie-Folan",
+  "councillors": 75,
+  "website": "https://www.wigan.gov.uk",
+  "taxBands": {
+    "2021": 1678.0,
+    "2022": 1741.0,
+    "2023": 1832.0,
+    "2024": 1924.0,
+    "2025": 2031.0,
+    "2026": 2153.0
+  },
+  "taxCurrent": 2031.0,
+  "taxPrev": 1924.0,
+  "taxChange": 107.0,
+  "taxChangePct": 5.6,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 304434.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 130554.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 77416.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 32212.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 30190.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 22121.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12700.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 9070.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 7816.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4734.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 3300.0
+    }
+  ],
+  "budgetTotal": 634547.0,
+  "perHousehold": 4881,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 77416.0,
+      "perHousehold": 596,
+      "description": "allocated \u00a377.4m to Children's Social Care (\u2248\u00a3596 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 130554.0,
+      "perHousehold": 1004,
+      "description": "allocated \u00a3130.6m to Adult Social Care (\u2248\u00a31004 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 32212.0,
+      "perHousehold": 248,
+      "description": "allocated \u00a332.2m to Public Health (\u2248\u00a3248 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 304434.0,
+      "perHousehold": 2342,
+      "description": "allocated \u00a3304.4m to Education (\u2248\u00a32342 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 107.0,
+      "perHousehold": 107.0,
+      "description": "raised Band D council tax by \u00a3107 (5.6%) to \u00a32031",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "crawley",
+  "name": "Crawley District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000226",
+  "colour": "hsl(190, 45%, 55%)",
+  "initials": "CRA",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 36,
+  "website": "https://www.crawley.gov.uk",
+  "taxBands": {
+    "2021": 1939.0,
+    "2022": 1999.0,
+    "2023": 2099.0,
+    "2024": 2200.0,
+    "2025": 2306.0,
+    "2026": 2418.0
+  },
+  "taxCurrent": 2306.0,
+  "taxPrev": 2200.0,
+  "taxChange": 106.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 9114.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8313.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5453.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5292.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3211.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -1735.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -91.0
+    }
+  ],
+  "budgetTotal": 31383.0,
+  "perHousehold": 628,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5292.0,
+      "perHousehold": 106,
+      "description": "allocated \u00a35.3m to Environment & Streets (\u2248\u00a3106 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5453.0,
+      "perHousehold": 109,
+      "description": "allocated \u00a35.5m to Council Running Costs (\u2248\u00a3109 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 9114.0,
+      "perHousehold": 182,
+      "description": "allocated \u00a39.1m to Housing (\u2248\u00a3182 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8313.0,
+      "perHousehold": 166,
+      "description": "allocated \u00a38.3m to Culture & Leisure (\u2248\u00a3166 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 106.0,
+      "perHousehold": 106.0,
+      "description": "raised Band D council tax by \u00a3106 (4.8%) to \u00a32306",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

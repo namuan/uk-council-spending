@@ -1,0 +1,141 @@
+{
+  "slug": "suffolk",
+  "name": "Suffolk County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000029",
+  "colour": "hsl(87, 45%, 55%)",
+  "initials": "SUF",
+  "leader": "Cllr Matthew Hicks",
+  "chiefExecutive": "Nicola Beach",
+  "councillors": 75,
+  "website": "https://www.suffolk.gov.uk",
+  "taxBands": {
+    "2021": 1397.16,
+    "2022": 1438.92,
+    "2023": 1496.0,
+    "2024": 1571.0,
+    "2025": 1649.0
+  },
+  "taxCurrent": 1649.0,
+  "taxPrev": 1571.0,
+  "taxChange": 78.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 368675.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 364900.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 153042.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 39389.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 38383.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 27035.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 11017.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7137.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 5991.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4554.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 310.0
+    }
+  ],
+  "budgetTotal": 1020433.0,
+  "perHousehold": 2916,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 364900.0,
+      "perHousehold": 1043,
+      "description": "allocated \u00a3364.9m to Adult Social Care (\u2248\u00a31043 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 39389.0,
+      "perHousehold": 113,
+      "description": "allocated \u00a339.4m to Roads & Transport (\u2248\u00a3113 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 368675.0,
+      "perHousehold": 1053,
+      "description": "allocated \u00a3368.7m to Education (\u2248\u00a31053 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 153042.0,
+      "perHousehold": 437,
+      "description": "allocated \u00a3153.0m to Children's Social Care (\u2248\u00a3437 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 78.0,
+      "perHousehold": 78.0,
+      "description": "raised Band D council tax by \u00a378 (5.0%) to \u00a31649",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

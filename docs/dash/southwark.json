@@ -1,0 +1,136 @@
+{
+  "slug": "southwark",
+  "name": "Southwark",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000028",
+  "colour": "hsl(214, 45%, 55%)",
+  "initials": "SOU",
+  "leader": "",
+  "chiefExecutive": "A Loderick",
+  "councillors": 63,
+  "website": "https://www.southwark.gov.uk",
+  "taxBands": {
+    "2021": 1528.0,
+    "2022": 1595.0,
+    "2023": 1693.0,
+    "2024": 1793.0,
+    "2025": 1878.0,
+    "2026": 1967.0
+  },
+  "taxCurrent": 1878.0,
+  "taxPrev": 1793.0,
+  "taxChange": 85.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 234656.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 100203.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 71587.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 53671.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 38680.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 34481.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 31419.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 20114.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 18044.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 14214.0
+    }
+  ],
+  "budgetTotal": 617069.0,
+  "perHousehold": 5610,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 100203.0,
+      "perHousehold": 911,
+      "description": "allocated \u00a3100.2m to Adult Social Care (\u2248\u00a3911 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 71587.0,
+      "perHousehold": 651,
+      "description": "allocated \u00a371.6m to Children's Social Care (\u2248\u00a3651 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 53671.0,
+      "perHousehold": 488,
+      "description": "allocated \u00a353.7m to Environment & Streets (\u2248\u00a3488 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 234656.0,
+      "perHousehold": 2133,
+      "description": "allocated \u00a3234.7m to Education (\u2248\u00a32133 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 85.0,
+      "perHousehold": 85.0,
+      "description": "raised Band D council tax by \u00a385 (4.7%) to \u00a31878",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

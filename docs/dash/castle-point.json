@@ -1,0 +1,118 @@
+{
+  "slug": "castle-point",
+  "name": "Castle Point District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000069",
+  "colour": "hsl(121, 45%, 55%)",
+  "initials": "CP",
+  "leader": "Cllr Dave Blackwell",
+  "chiefExecutive": "Angela Hutchings",
+  "councillors": 41,
+  "website": "https://www.castlepoint.gov.uk",
+  "taxBands": {
+    "2021": 1900.0,
+    "2022": 1977.0,
+    "2023": 2054.0,
+    "2024": 2143.0,
+    "2025": 2227.0,
+    "2026": 2319.0
+  },
+  "taxCurrent": 2227.0,
+  "taxPrev": 2143.0,
+  "taxChange": 84.0,
+  "taxChangePct": 3.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4593.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3190.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3126.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1396.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1079.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 552.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 381.0
+    }
+  ],
+  "budgetTotal": 14317.0,
+  "perHousehold": 286,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4593.0,
+      "perHousehold": 92,
+      "description": "allocated \u00a34.6m to Environment & Streets (\u2248\u00a392 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1396.0,
+      "perHousehold": 28,
+      "description": "allocated \u00a31.4m to Culture & Leisure (\u2248\u00a328 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3126.0,
+      "perHousehold": 63,
+      "description": "allocated \u00a33.1m to Housing (\u2248\u00a363 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3190.0,
+      "perHousehold": 64,
+      "description": "allocated \u00a33.2m to Council Running Costs (\u2248\u00a364 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 84.0,
+      "perHousehold": 84.0,
+      "description": "raised Band D council tax by \u00a384 (3.9%) to \u00a32227",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

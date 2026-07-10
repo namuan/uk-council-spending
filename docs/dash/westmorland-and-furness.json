@@ -1,0 +1,140 @@
+{
+  "slug": "westmorland-and-furness",
+  "name": "Westmorland and Furness Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000064",
+  "colour": "hsl(39, 45%, 55%)",
+  "initials": "WF",
+  "leader": "",
+  "chiefExecutive": "Sam Plum",
+  "councillors": 65,
+  "website": "https://www.westmorlandandfurness.gov.uk",
+  "taxBands": {
+    "2023": 2173.0,
+    "2024": 2277.0,
+    "2025": 2389.0,
+    "2026": 2508.0
+  },
+  "taxCurrent": 2389.0,
+  "taxPrev": 2277.0,
+  "taxChange": 112.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 168705.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 107794.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 49573.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 35643.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 25477.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 22695.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10433.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 8219.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 7953.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3564.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 28.0
+    }
+  ],
+  "budgetTotal": 440084.0,
+  "perHousehold": 4401,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 35643.0,
+      "perHousehold": 356,
+      "description": "allocated \u00a335.6m to Environment & Streets (\u2248\u00a3356 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 49573.0,
+      "perHousehold": 496,
+      "description": "allocated \u00a349.6m to Children's Social Care (\u2248\u00a3496 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 168705.0,
+      "perHousehold": 1687,
+      "description": "allocated \u00a3168.7m to Education (\u2248\u00a31687 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 107794.0,
+      "perHousehold": 1078,
+      "description": "allocated \u00a3107.8m to Adult Social Care (\u2248\u00a31078 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 112.0,
+      "perHousehold": 112.0,
+      "description": "raised Band D council tax by \u00a3112 (4.9%) to \u00a32389",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

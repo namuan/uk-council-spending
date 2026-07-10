@@ -1,0 +1,124 @@
+{
+  "slug": "west-lindsey",
+  "name": "West Lindsey District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000142",
+  "colour": "hsl(183, 45%, 55%)",
+  "initials": "WL",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 36,
+  "website": "https://www.west-lindsey.gov.uk",
+  "taxBands": {
+    "2021": 1926.0,
+    "2022": 2011.0,
+    "2023": 2111.0,
+    "2024": 2209.0,
+    "2025": 2280.0,
+    "2026": 2354.0
+  },
+  "taxCurrent": 2280.0,
+  "taxPrev": 2209.0,
+  "taxChange": 71.0,
+  "taxChangePct": 3.2,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5433.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5237.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3313.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2013.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 771.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 115.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 14.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 3.0
+    }
+  ],
+  "budgetTotal": 16899.0,
+  "perHousehold": 338,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3313.0,
+      "perHousehold": 66,
+      "description": "allocated \u00a33.3m to Planning & Development (\u2248\u00a366 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2013.0,
+      "perHousehold": 40,
+      "description": "allocated \u00a32.0m to Housing (\u2248\u00a340 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5433.0,
+      "perHousehold": 109,
+      "description": "allocated \u00a35.4m to Environment & Streets (\u2248\u00a3109 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5237.0,
+      "perHousehold": 105,
+      "description": "allocated \u00a35.2m to Council Running Costs (\u2248\u00a3105 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 71.0,
+      "perHousehold": 71.0,
+      "description": "raised Band D council tax by \u00a371 (3.2%) to \u00a32280",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

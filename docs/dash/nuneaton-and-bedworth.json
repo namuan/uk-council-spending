@@ -1,0 +1,118 @@
+{
+  "slug": "nuneaton-and-bedworth",
+  "name": "Nuneaton & Bedworth District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000219",
+  "colour": "hsl(18, 45%, 55%)",
+  "initials": "NB",
+  "leader": "Cllr Jill Sherr",
+  "chiefExecutive": "Brent Davis",
+  "councillors": 38,
+  "website": "https://www.nuneatonandbedworth.gov.uk",
+  "taxBands": {
+    "2021": 2030.0,
+    "2022": 2102.0,
+    "2023": 2186.0,
+    "2024": 2289.0,
+    "2025": 2398.0,
+    "2026": 2502.0
+  },
+  "taxCurrent": 2398.0,
+  "taxPrev": 2289.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 8392.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6628.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3591.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1526.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": -523.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 462.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 7.0
+    }
+  ],
+  "budgetTotal": 20606.0,
+  "perHousehold": 412,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 8392.0,
+      "perHousehold": 168,
+      "description": "allocated \u00a38.4m to Other Services (\u2248\u00a3168 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3591.0,
+      "perHousehold": 72,
+      "description": "allocated \u00a33.6m to Council Running Costs (\u2248\u00a372 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1526.0,
+      "perHousehold": 31,
+      "description": "allocated \u00a31.5m to Planning & Development (\u2248\u00a331 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6628.0,
+      "perHousehold": 133,
+      "description": "allocated \u00a36.6m to Environment & Streets (\u2248\u00a3133 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.8%) to \u00a32398",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

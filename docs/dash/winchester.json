@@ -1,0 +1,112 @@
+{
+  "slug": "winchester",
+  "name": "Winchester District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000094",
+  "colour": "hsl(339, 45%, 55%)",
+  "initials": "WIN",
+  "leader": "",
+  "chiefExecutive": "Laura Taylor",
+  "councillors": 45,
+  "website": "https://www.winchester.gov.uk",
+  "taxBands": {
+    "2021": 1884.0,
+    "2022": 1949.0,
+    "2023": 2047.0,
+    "2024": 2143.0,
+    "2025": 2251.0,
+    "2026": 2360.0
+  },
+  "taxCurrent": 2251.0,
+  "taxPrev": 2143.0,
+  "taxChange": 108.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8542.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6584.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2975.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2853.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2498.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2314.0
+    }
+  ],
+  "budgetTotal": 22913.0,
+  "perHousehold": 458,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2498.0,
+      "perHousehold": 50,
+      "description": "allocated \u00a32.5m to Culture & Leisure (\u2248\u00a350 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2975.0,
+      "perHousehold": 60,
+      "description": "allocated \u00a33.0m to Planning & Development (\u2248\u00a360 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8542.0,
+      "perHousehold": 171,
+      "description": "allocated \u00a38.5m to Environment & Streets (\u2248\u00a3171 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6584.0,
+      "perHousehold": 132,
+      "description": "allocated \u00a36.6m to Council Running Costs (\u2248\u00a3132 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 108.0,
+      "perHousehold": 108.0,
+      "description": "raised Band D council tax by \u00a3108 (5.0%) to \u00a32251",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

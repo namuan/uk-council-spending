@@ -1,0 +1,118 @@
+{
+  "slug": "thanet",
+  "name": "Thanet District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000114",
+  "colour": "hsl(21, 45%, 55%)",
+  "initials": "THA",
+  "leader": "Cllr Ash Sherrin",
+  "chiefExecutive": "Colin Carmichael",
+  "councillors": 56,
+  "website": "https://www.thanet.gov.uk",
+  "taxBands": {
+    "2021": 2010.0,
+    "2022": 2070.0,
+    "2023": 2173.0,
+    "2024": 2276.0,
+    "2025": 2391.0,
+    "2026": 2491.0
+  },
+  "taxCurrent": 2391.0,
+  "taxPrev": 2276.0,
+  "taxChange": 115.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10049.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5870.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5585.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3813.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2110.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1134.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -711.0
+    }
+  ],
+  "budgetTotal": 27427.0,
+  "perHousehold": 549,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5870.0,
+      "perHousehold": 117,
+      "description": "allocated \u00a35.9m to Housing (\u2248\u00a3117 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10049.0,
+      "perHousehold": 201,
+      "description": "allocated \u00a310.0m to Environment & Streets (\u2248\u00a3201 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5585.0,
+      "perHousehold": 112,
+      "description": "allocated \u00a35.6m to Council Running Costs (\u2248\u00a3112 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3813.0,
+      "perHousehold": 76,
+      "description": "allocated \u00a33.8m to Culture & Leisure (\u2248\u00a376 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (5.1%) to \u00a32391",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

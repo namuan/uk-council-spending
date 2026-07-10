@@ -1,0 +1,136 @@
+{
+  "slug": "swindon",
+  "name": "Swindon Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000030",
+  "colour": "hsl(286, 45%, 55%)",
+  "initials": "SWI",
+  "leader": "",
+  "chiefExecutive": "Sam Mowbray",
+  "councillors": 57,
+  "website": "https://www.swindon.gov.uk",
+  "taxBands": {
+    "2021": 1922.0,
+    "2022": 1982.0,
+    "2023": 2086.0,
+    "2024": 2198.0,
+    "2025": 2318.0,
+    "2026": 2438.0
+  },
+  "taxCurrent": 2318.0,
+  "taxPrev": 2198.0,
+  "taxChange": 120.0,
+  "taxChangePct": 5.5,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 105739.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 95872.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 68266.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 18648.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 13306.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5866.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 5415.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5412.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3655.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2797.0
+    }
+  ],
+  "budgetTotal": 324976.0,
+  "perHousehold": 3250,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 18648.0,
+      "perHousehold": 186,
+      "description": "allocated \u00a318.6m to Environment & Streets (\u2248\u00a3186 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 105739.0,
+      "perHousehold": 1057,
+      "description": "allocated \u00a3105.7m to Education (\u2248\u00a31057 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 68266.0,
+      "perHousehold": 683,
+      "description": "allocated \u00a368.3m to Children's Social Care (\u2248\u00a3683 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 95872.0,
+      "perHousehold": 959,
+      "description": "allocated \u00a395.9m to Adult Social Care (\u2248\u00a3959 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 120.0,
+      "perHousehold": 120.0,
+      "description": "raised Band D council tax by \u00a3120 (5.5%) to \u00a32318",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "essex",
+  "name": "Essex County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000012",
+  "colour": "hsl(43, 45%, 55%)",
+  "initials": "ESS",
+  "leader": "Cllr Kevin Bentley",
+  "chiefExecutive": "Nicole Wood",
+  "councillors": 75,
+  "website": "https://www.essex.gov.uk",
+  "taxBands": {
+    "2021": 1340.91,
+    "2022": 1401.12,
+    "2023": 1450.0,
+    "2024": 1523.0,
+    "2025": 1580.0
+  },
+  "taxCurrent": 1580.0,
+  "taxPrev": 1523.0,
+  "taxChange": 57.0,
+  "taxChangePct": 3.7,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 915446.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 727350.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 222195.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 98689.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 96757.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 76749.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 29914.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 27293.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 11070.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1236.0
+    }
+  ],
+  "budgetTotal": 2206699.0,
+  "perHousehold": 6305,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 727350.0,
+      "perHousehold": 2078,
+      "description": "allocated \u00a3727.4m to Adult Social Care (\u2248\u00a32078 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 98689.0,
+      "perHousehold": 282,
+      "description": "allocated \u00a398.7m to Roads & Transport (\u2248\u00a3282 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 915446.0,
+      "perHousehold": 2616,
+      "description": "allocated \u00a3915.4m to Education (\u2248\u00a32616 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 222195.0,
+      "perHousehold": 635,
+      "description": "allocated \u00a3222.2m to Children's Social Care (\u2248\u00a3635 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 57.0,
+      "perHousehold": 57.0,
+      "description": "raised Band D council tax by \u00a357 (3.7%) to \u00a31580",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

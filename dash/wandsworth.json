@@ -1,0 +1,136 @@
+{
+  "slug": "wandsworth",
+  "name": "Wandsworth",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000032",
+  "colour": "hsl(31, 45%, 55%)",
+  "initials": "WAN",
+  "leader": "",
+  "chiefExecutive": "B. Reilly",
+  "councillors": 58,
+  "website": "https://www.wandsworth.gov.uk",
+  "taxBands": {
+    "2021": 845.0,
+    "2022": 873.0,
+    "2023": 921.0,
+    "2024": 969.0,
+    "2025": 998.0,
+    "2026": 1028.0
+  },
+  "taxCurrent": 998.0,
+  "taxPrev": 969.0,
+  "taxChange": 29.0,
+  "taxChangePct": 3.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 207110.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 128109.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 66740.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 34391.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 28217.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 18515.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 16760.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10517.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -8162.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4251.0
+    }
+  ],
+  "budgetTotal": 514610.0,
+  "perHousehold": 4678,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 128109.0,
+      "perHousehold": 1165,
+      "description": "allocated \u00a3128.1m to Adult Social Care (\u2248\u00a31165 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 66740.0,
+      "perHousehold": 607,
+      "description": "allocated \u00a366.7m to Children's Social Care (\u2248\u00a3607 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 207110.0,
+      "perHousehold": 1883,
+      "description": "allocated \u00a3207.1m to Education (\u2248\u00a31883 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 34391.0,
+      "perHousehold": 313,
+      "description": "allocated \u00a334.4m to Public Health (\u2248\u00a3313 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 29.0,
+      "perHousehold": 29.0,
+      "description": "raised Band D council tax by \u00a329 (3.0%) to \u00a3998",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

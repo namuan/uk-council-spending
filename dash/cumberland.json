@@ -1,0 +1,140 @@
+{
+  "slug": "cumberland",
+  "name": "Cumberland Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000063",
+  "colour": "hsl(163, 45%, 55%)",
+  "initials": "CUM",
+  "leader": "",
+  "chiefExecutive": "Andrew Seekings",
+  "councillors": 46,
+  "website": "https://www.cumberland.gov.uk",
+  "taxBands": {
+    "2023": 2175.0,
+    "2024": 2284.0,
+    "2025": 2394.0,
+    "2026": 2511.0
+  },
+  "taxCurrent": 2394.0,
+  "taxPrev": 2284.0,
+  "taxChange": 110.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 198012.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 119145.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 85927.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 45601.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 29196.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 26853.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 14816.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 12562.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 9897.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 7603.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5283.0
+    }
+  ],
+  "budgetTotal": 554895.0,
+  "perHousehold": 5549,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 45601.0,
+      "perHousehold": 456,
+      "description": "allocated \u00a345.6m to Environment & Streets (\u2248\u00a3456 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 119145.0,
+      "perHousehold": 1191,
+      "description": "allocated \u00a3119.1m to Adult Social Care (\u2248\u00a31191 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 85927.0,
+      "perHousehold": 859,
+      "description": "allocated \u00a385.9m to Children's Social Care (\u2248\u00a3859 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 198012.0,
+      "perHousehold": 1980,
+      "description": "allocated \u00a3198.0m to Education (\u2248\u00a31980 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (4.8%) to \u00a32394",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

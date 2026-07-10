@@ -1,0 +1,136 @@
+{
+  "slug": "barnsley",
+  "name": "Barnsley Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000038",
+  "colour": "hsl(2, 45%, 55%)",
+  "initials": "BAR",
+  "leader": "",
+  "chiefExecutive": "Sarah Norman",
+  "councillors": 63,
+  "website": "https://www.barnsley.gov.uk",
+  "taxBands": {
+    "2021": 1882.0,
+    "2022": 1949.0,
+    "2023": 2033.0,
+    "2024": 2134.0,
+    "2025": 2241.0,
+    "2026": 2326.0
+  },
+  "taxCurrent": 2241.0,
+  "taxPrev": 2134.0,
+  "taxChange": 107.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 165519.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 119167.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 77153.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 23610.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 23429.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 12424.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 9821.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 9778.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 6026.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2071.0
+    }
+  ],
+  "budgetTotal": 448998.0,
+  "perHousehold": 3454,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 77153.0,
+      "perHousehold": 593,
+      "description": "allocated \u00a377.2m to Children's Social Care (\u2248\u00a3593 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 119167.0,
+      "perHousehold": 917,
+      "description": "allocated \u00a3119.2m to Adult Social Care (\u2248\u00a3917 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 165519.0,
+      "perHousehold": 1273,
+      "description": "allocated \u00a3165.5m to Education (\u2248\u00a31273 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 23610.0,
+      "perHousehold": 182,
+      "description": "allocated \u00a323.6m to Environment & Streets (\u2248\u00a3182 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 107.0,
+      "perHousehold": 107.0,
+      "description": "raised Band D council tax by \u00a3107 (5.0%) to \u00a32241",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

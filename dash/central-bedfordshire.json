@@ -1,0 +1,142 @@
+{
+  "slug": "central-bedfordshire",
+  "name": "Central Bedfordshire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000056",
+  "colour": "hsl(213, 45%, 55%)",
+  "initials": "CB",
+  "leader": "",
+  "chiefExecutive": "Marcel Coiffait",
+  "councillors": 63,
+  "website": "https://www.centralbedfordshire.gov.uk",
+  "taxBands": {
+    "2021": 2093.0,
+    "2022": 2142.0,
+    "2023": 2170.0,
+    "2024": 2276.0,
+    "2025": 2394.0,
+    "2026": 2516.0
+  },
+  "taxCurrent": 2394.0,
+  "taxPrev": 2276.0,
+  "taxChange": 118.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 200315.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 134740.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 51223.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 27207.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 14124.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 13917.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7026.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 6631.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 6303.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5496.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -4836.0
+    }
+  ],
+  "budgetTotal": 466982.0,
+  "perHousehold": 4670,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 51223.0,
+      "perHousehold": 512,
+      "description": "allocated \u00a351.2m to Children's Social Care (\u2248\u00a3512 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 134740.0,
+      "perHousehold": 1347,
+      "description": "allocated \u00a3134.7m to Adult Social Care (\u2248\u00a31347 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 27207.0,
+      "perHousehold": 272,
+      "description": "allocated \u00a327.2m to Environment & Streets (\u2248\u00a3272 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 200315.0,
+      "perHousehold": 2003,
+      "description": "allocated \u00a3200.3m to Education (\u2248\u00a32003 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 118.0,
+      "perHousehold": 118.0,
+      "description": "raised Band D council tax by \u00a3118 (5.2%) to \u00a32394",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

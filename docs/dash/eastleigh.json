@@ -1,0 +1,112 @@
+{
+  "slug": "eastleigh",
+  "name": "Eastleigh District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000086",
+  "colour": "hsl(168, 45%, 55%)",
+  "initials": "EAS",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 39,
+  "website": "https://www.eastleigh.gov.uk",
+  "taxBands": {
+    "2021": 1850.0,
+    "2022": 1911.0,
+    "2023": 2021.0,
+    "2024": 2118.0,
+    "2025": 2228.0,
+    "2026": 2342.0
+  },
+  "taxCurrent": 2228.0,
+  "taxPrev": 2118.0,
+  "taxChange": 110.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12401.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4784.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": -2763.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -909.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 854.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 214.0
+    }
+  ],
+  "budgetTotal": 18253.0,
+  "perHousehold": 365,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 854.0,
+      "perHousehold": 17,
+      "description": "allocated \u00a30.9m to Planning & Development (\u2248\u00a317 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 214.0,
+      "perHousehold": 4,
+      "description": "allocated \u00a30.2m to Culture & Leisure (\u2248\u00a34 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12401.0,
+      "perHousehold": 248,
+      "description": "allocated \u00a312.4m to Council Running Costs (\u2248\u00a3248 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4784.0,
+      "perHousehold": 96,
+      "description": "allocated \u00a34.8m to Environment & Streets (\u2248\u00a396 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (5.2%) to \u00a32228",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

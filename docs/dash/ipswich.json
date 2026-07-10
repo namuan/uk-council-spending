@@ -1,0 +1,118 @@
+{
+  "slug": "ipswich",
+  "name": "Ipswich District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000202",
+  "colour": "hsl(28, 45%, 55%)",
+  "initials": "IPS",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 48,
+  "website": "https://www.ipswich.gov.uk",
+  "taxBands": {
+    "2021": 2012.0,
+    "2022": 2071.0,
+    "2023": 2155.0,
+    "2024": 2254.0,
+    "2025": 2359.0,
+    "2026": 2468.0
+  },
+  "taxCurrent": 2359.0,
+  "taxPrev": 2254.0,
+  "taxChange": 105.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 9644.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8164.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5954.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4307.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2675.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -1553.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1152.0
+    }
+  ],
+  "budgetTotal": 30744.0,
+  "perHousehold": 615,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8164.0,
+      "perHousehold": 163,
+      "description": "allocated \u00a38.2m to Environment & Streets (\u2248\u00a3163 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5954.0,
+      "perHousehold": 119,
+      "description": "allocated \u00a36.0m to Council Running Costs (\u2248\u00a3119 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4307.0,
+      "perHousehold": 86,
+      "description": "allocated \u00a34.3m to Housing (\u2248\u00a386 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 9644.0,
+      "perHousehold": 193,
+      "description": "allocated \u00a39.6m to Culture & Leisure (\u2248\u00a3193 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 105.0,
+      "perHousehold": 105.0,
+      "description": "raised Band D council tax by \u00a3105 (4.7%) to \u00a32359",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

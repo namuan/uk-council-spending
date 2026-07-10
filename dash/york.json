@@ -1,0 +1,136 @@
+{
+  "slug": "york",
+  "name": "York Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000014",
+  "colour": "hsl(173, 45%, 55%)",
+  "initials": "YOR",
+  "leader": "",
+  "chiefExecutive": "Ian Floyd",
+  "councillors": 47,
+  "website": "https://www.york.gov.uk",
+  "taxBands": {
+    "2021": 1810.0,
+    "2022": 1865.0,
+    "2023": 1960.0,
+    "2024": 2053.0,
+    "2025": 2175.0,
+    "2026": 2287.0
+  },
+  "taxCurrent": 2175.0,
+  "taxPrev": 2053.0,
+  "taxChange": 122.0,
+  "taxChangePct": 5.9,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 101920.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 66163.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 25045.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 18201.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 10042.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7443.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6490.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 6454.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5648.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3956.0
+    }
+  ],
+  "budgetTotal": 251362.0,
+  "perHousehold": 2514,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 101920.0,
+      "perHousehold": 1019,
+      "description": "allocated \u00a3101.9m to Education (\u2248\u00a31019 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 18201.0,
+      "perHousehold": 182,
+      "description": "allocated \u00a318.2m to Environment & Streets (\u2248\u00a3182 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 66163.0,
+      "perHousehold": 662,
+      "description": "allocated \u00a366.2m to Adult Social Care (\u2248\u00a3662 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 25045.0,
+      "perHousehold": 250,
+      "description": "allocated \u00a325.0m to Children's Social Care (\u2248\u00a3250 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 122.0,
+      "perHousehold": 122.0,
+      "description": "raised Band D council tax by \u00a3122 (5.9%) to \u00a32175",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

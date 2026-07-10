@@ -1,0 +1,142 @@
+{
+  "slug": "bromley",
+  "name": "Bromley",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000006",
+  "colour": "hsl(350, 45%, 55%)",
+  "initials": "BRO",
+  "leader": "",
+  "chiefExecutive": "A Adetosoye",
+  "councillors": 58,
+  "website": "https://www.bromley.gov.uk",
+  "taxBands": {
+    "2021": 1692.0,
+    "2022": 1737.0,
+    "2023": 1842.0,
+    "2024": 1950.0,
+    "2025": 2042.0,
+    "2026": 2140.0
+  },
+  "taxCurrent": 2042.0,
+  "taxPrev": 1950.0,
+  "taxChange": 92.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 148546.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 117357.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 75845.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 34009.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 23429.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 17579.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 15024.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 14780.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 14282.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 13508.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1378.0
+    }
+  ],
+  "budgetTotal": 475737.0,
+  "perHousehold": 4325,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 75845.0,
+      "perHousehold": 690,
+      "description": "allocated \u00a375.8m to Children's Social Care (\u2248\u00a3690 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 34009.0,
+      "perHousehold": 309,
+      "description": "allocated \u00a334.0m to Environment & Streets (\u2248\u00a3309 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 117357.0,
+      "perHousehold": 1067,
+      "description": "allocated \u00a3117.4m to Adult Social Care (\u2248\u00a31067 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 148546.0,
+      "perHousehold": 1350,
+      "description": "allocated \u00a3148.5m to Education (\u2248\u00a31350 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 92.0,
+      "perHousehold": 92.0,
+      "description": "raised Band D council tax by \u00a392 (4.7%) to \u00a32042",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

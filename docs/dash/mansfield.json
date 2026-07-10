@@ -1,0 +1,112 @@
+{
+  "slug": "mansfield",
+  "name": "Mansfield District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000174",
+  "colour": "hsl(84, 45%, 55%)",
+  "initials": "MAN",
+  "leader": "Cllr Andy Abrahams",
+  "chiefExecutive": "Hayley Barsby",
+  "councillors": 36,
+  "website": "https://www.mansfield.gov.uk",
+  "taxBands": {
+    "2021": 2106.0,
+    "2022": 2181.0,
+    "2023": 2281.0,
+    "2024": 2386.0,
+    "2025": 2498.0,
+    "2026": 2600.0
+  },
+  "taxCurrent": 2498.0,
+  "taxPrev": 2386.0,
+  "taxChange": 112.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6351.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2654.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2567.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -957.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 829.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 453.0
+    }
+  ],
+  "budgetTotal": 12854.0,
+  "perHousehold": 257,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6351.0,
+      "perHousehold": 127,
+      "description": "allocated \u00a36.4m to Environment & Streets (\u2248\u00a3127 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2567.0,
+      "perHousehold": 51,
+      "description": "allocated \u00a32.6m to Council Running Costs (\u2248\u00a351 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 829.0,
+      "perHousehold": 17,
+      "description": "allocated \u00a30.8m to Housing (\u2248\u00a317 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2654.0,
+      "perHousehold": 53,
+      "description": "allocated \u00a32.7m to Culture & Leisure (\u2248\u00a353 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 112.0,
+      "perHousehold": 112.0,
+      "description": "raised Band D council tax by \u00a3112 (4.7%) to \u00a32498",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

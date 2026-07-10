@@ -1,0 +1,142 @@
+{
+  "slug": "hammersmith-and-fulham",
+  "name": "Hammersmith & Fulham",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000013",
+  "colour": "hsl(263, 45%, 55%)",
+  "initials": "HF",
+  "leader": "Cllr Stephen Cowan",
+  "chiefExecutive": "Sharon Lea",
+  "councillors": 50,
+  "website": "https://www.lbhf.gov.uk",
+  "taxBands": {
+    "2021": 1196.0,
+    "2022": 1228.0,
+    "2023": 1306.0,
+    "2024": 1387.0,
+    "2025": 1451.0,
+    "2026": 1520.0
+  },
+  "taxCurrent": 1451.0,
+  "taxPrev": 1387.0,
+  "taxChange": 64.0,
+  "taxChangePct": 4.6,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 111259.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 79689.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 55532.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 33913.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 24461.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -19904.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 16046.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 13577.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 11863.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5413.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4411.0
+    }
+  ],
+  "budgetTotal": 356164.0,
+  "perHousehold": 3238,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 111259.0,
+      "perHousehold": 1011,
+      "description": "allocated \u00a3111.3m to Education (\u2248\u00a31011 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 33913.0,
+      "perHousehold": 308,
+      "description": "allocated \u00a333.9m to Environment & Streets (\u2248\u00a3308 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 79689.0,
+      "perHousehold": 724,
+      "description": "allocated \u00a379.7m to Adult Social Care (\u2248\u00a3724 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 55532.0,
+      "perHousehold": 505,
+      "description": "allocated \u00a355.5m to Children's Social Care (\u2248\u00a3505 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 64.0,
+      "perHousehold": 64.0,
+      "description": "raised Band D council tax by \u00a364 (4.6%) to \u00a31451",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

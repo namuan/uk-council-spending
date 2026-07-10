@@ -1,0 +1,142 @@
+{
+  "slug": "walsall",
+  "name": "Walsall Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000030",
+  "colour": "hsl(243, 45%, 55%)",
+  "initials": "WAL",
+  "leader": "",
+  "chiefExecutive": "Emma Bennett",
+  "councillors": 60,
+  "website": "https://go.walsall.gov.uk",
+  "taxBands": {
+    "2021": 2112.0,
+    "2022": 2183.0,
+    "2023": 2261.0,
+    "2024": 2375.0,
+    "2025": 2498.0,
+    "2026": 2627.0
+  },
+  "taxCurrent": 2498.0,
+  "taxPrev": 2375.0,
+  "taxChange": 123.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 251826.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 121744.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 96790.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 24302.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 21754.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 20992.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 20658.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 16345.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 10982.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8430.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 8325.0
+    }
+  ],
+  "budgetTotal": 602148.0,
+  "perHousehold": 4632,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 121744.0,
+      "perHousehold": 936,
+      "description": "allocated \u00a3121.7m to Adult Social Care (\u2248\u00a3936 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 96790.0,
+      "perHousehold": 745,
+      "description": "allocated \u00a396.8m to Children's Social Care (\u2248\u00a3745 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 24302.0,
+      "perHousehold": 187,
+      "description": "allocated \u00a324.3m to Environment & Streets (\u2248\u00a3187 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 251826.0,
+      "perHousehold": 1937,
+      "description": "allocated \u00a3251.8m to Education (\u2248\u00a31937 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 123.0,
+      "perHousehold": 123.0,
+      "description": "raised Band D council tax by \u00a3123 (5.2%) to \u00a32498",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

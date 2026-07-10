@@ -1,0 +1,142 @@
+{
+  "slug": "croydon",
+  "name": "Croydon",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000008",
+  "colour": "hsl(346, 45%, 55%)",
+  "initials": "CRO",
+  "leader": "Mayor Jason Perry",
+  "chiefExecutive": "Katherine Kerswell",
+  "councillors": 70,
+  "website": "https://www.croydon.gov.uk",
+  "taxBands": {
+    "2021": 1888.0,
+    "2022": 1966.0,
+    "2023": 2240.0,
+    "2024": 2367.0,
+    "2025": 2480.0,
+    "2026": 2600.0
+  },
+  "taxCurrent": 2480.0,
+  "taxPrev": 2367.0,
+  "taxChange": 113.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 272141.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 200771.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 123399.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 45429.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 39186.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 25980.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 11603.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 10751.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10154.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 8080.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 5733.0
+    }
+  ],
+  "budgetTotal": 753227.0,
+  "perHousehold": 6848,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 123399.0,
+      "perHousehold": 1122,
+      "description": "allocated \u00a3123.4m to Children's Social Care (\u2248\u00a31122 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 272141.0,
+      "perHousehold": 2474,
+      "description": "allocated \u00a3272.1m to Education (\u2248\u00a32474 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 200771.0,
+      "perHousehold": 1825,
+      "description": "allocated \u00a3200.8m to Adult Social Care (\u2248\u00a31825 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 45429.0,
+      "perHousehold": 413,
+      "description": "allocated \u00a345.4m to Environment & Streets (\u2248\u00a3413 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (4.8%) to \u00a32480",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

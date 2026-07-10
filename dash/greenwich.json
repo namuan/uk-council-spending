@@ -1,0 +1,142 @@
+{
+  "slug": "greenwich",
+  "name": "Greenwich",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000011",
+  "colour": "hsl(297, 45%, 55%)",
+  "initials": "GRE",
+  "leader": "",
+  "chiefExecutive": "D Warren",
+  "councillors": 55,
+  "website": "https://www.royalgreenwich.gov.uk",
+  "taxBands": {
+    "2021": 1640.0,
+    "2022": 1710.0,
+    "2023": 1814.0,
+    "2024": 1921.0,
+    "2025": 2012.0,
+    "2026": 2108.0
+  },
+  "taxCurrent": 2012.0,
+  "taxPrev": 1921.0,
+  "taxChange": 91.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 306205.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 113184.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 74638.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 42106.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 26693.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 25919.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 24758.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 16172.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 12135.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 11219.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 8190.0
+    }
+  ],
+  "budgetTotal": 661219.0,
+  "perHousehold": 6011,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 42106.0,
+      "perHousehold": 383,
+      "description": "allocated \u00a342.1m to Environment & Streets (\u2248\u00a3383 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 74638.0,
+      "perHousehold": 679,
+      "description": "allocated \u00a374.6m to Children's Social Care (\u2248\u00a3679 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 113184.0,
+      "perHousehold": 1029,
+      "description": "allocated \u00a3113.2m to Adult Social Care (\u2248\u00a31029 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 306205.0,
+      "perHousehold": 2784,
+      "description": "allocated \u00a3306.2m to Education (\u2248\u00a32784 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 91.0,
+      "perHousehold": 91.0,
+      "description": "raised Band D council tax by \u00a391 (4.7%) to \u00a32012",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

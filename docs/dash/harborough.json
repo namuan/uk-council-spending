@@ -1,0 +1,124 @@
+{
+  "slug": "harborough",
+  "name": "Harborough District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000131",
+  "colour": "hsl(114, 45%, 55%)",
+  "initials": "HAR",
+  "leader": "Cllr Phil King",
+  "chiefExecutive": "Norman Proudfoot",
+  "councillors": 34,
+  "website": "https://www.harborough.gov.uk",
+  "taxBands": {
+    "2021": 1957.0,
+    "2022": 2020.0,
+    "2023": 2117.0,
+    "2024": 2212.0,
+    "2025": 2325.0,
+    "2026": 2390.0
+  },
+  "taxCurrent": 2325.0,
+  "taxPrev": 2212.0,
+  "taxChange": 113.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6516.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3895.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3556.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1087.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1084.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -248.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 204.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 162.0
+    }
+  ],
+  "budgetTotal": 16504.0,
+  "perHousehold": 330,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6516.0,
+      "perHousehold": 130,
+      "description": "allocated \u00a36.5m to Environment & Streets (\u2248\u00a3130 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3556.0,
+      "perHousehold": 71,
+      "description": "allocated \u00a33.6m to Planning & Development (\u2248\u00a371 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3895.0,
+      "perHousehold": 78,
+      "description": "allocated \u00a33.9m to Council Running Costs (\u2248\u00a378 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1087.0,
+      "perHousehold": 22,
+      "description": "allocated \u00a31.1m to Culture & Leisure (\u2248\u00a322 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (5.1%) to \u00a32325",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

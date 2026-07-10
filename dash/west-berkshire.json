@@ -1,0 +1,136 @@
+{
+  "slug": "west-berkshire",
+  "name": "West Berkshire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000037",
+  "colour": "hsl(305, 45%, 55%)",
+  "initials": "WB",
+  "leader": "",
+  "chiefExecutive": "Joseph Holmes",
+  "councillors": 43,
+  "website": "https://www.westberks.gov.uk",
+  "taxBands": {
+    "2021": 1966.0,
+    "2022": 2046.0,
+    "2023": 2153.0,
+    "2024": 2264.0,
+    "2025": 2383.0,
+    "2026": 2505.0
+  },
+  "taxCurrent": 2383.0,
+  "taxPrev": 2264.0,
+  "taxChange": 119.0,
+  "taxChangePct": 5.3,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 146017.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 74524.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 33630.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 26306.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 6701.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5218.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 4875.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4241.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3060.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3060.0
+    }
+  ],
+  "budgetTotal": 307632.0,
+  "perHousehold": 3076,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 26306.0,
+      "perHousehold": 263,
+      "description": "allocated \u00a326.3m to Environment & Streets (\u2248\u00a3263 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 33630.0,
+      "perHousehold": 336,
+      "description": "allocated \u00a333.6m to Children's Social Care (\u2248\u00a3336 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 74524.0,
+      "perHousehold": 745,
+      "description": "allocated \u00a374.5m to Adult Social Care (\u2248\u00a3745 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 146017.0,
+      "perHousehold": 1460,
+      "description": "allocated \u00a3146.0m to Education (\u2248\u00a31460 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 119.0,
+      "perHousehold": 119.0,
+      "description": "raised Band D council tax by \u00a3119 (5.3%) to \u00a32383",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

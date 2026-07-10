@@ -1,0 +1,136 @@
+{
+  "slug": "hartlepool",
+  "name": "Hartlepool Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000001",
+  "colour": "hsl(246, 45%, 55%)",
+  "initials": "HAR",
+  "leader": "",
+  "chiefExecutive": "Denise McGuckin",
+  "councillors": 36,
+  "website": "https://www.hartlepool.gov.uk",
+  "taxBands": {
+    "2021": 2099.0,
+    "2022": 2197.0,
+    "2023": 2307.0,
+    "2024": 2380.0,
+    "2025": 2499.0,
+    "2026": 2560.0
+  },
+  "taxCurrent": 2499.0,
+  "taxPrev": 2380.0,
+  "taxChange": 119.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 59918.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 46724.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 42097.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 11261.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10507.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 7472.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 7437.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5488.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2002.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1001.0
+    }
+  ],
+  "budgetTotal": 193907.0,
+  "perHousehold": 1939,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 11261.0,
+      "perHousehold": 113,
+      "description": "allocated \u00a311.3m to Public Health (\u2248\u00a3113 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 46724.0,
+      "perHousehold": 467,
+      "description": "allocated \u00a346.7m to Adult Social Care (\u2248\u00a3467 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 59918.0,
+      "perHousehold": 599,
+      "description": "allocated \u00a359.9m to Education (\u2248\u00a3599 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 42097.0,
+      "perHousehold": 421,
+      "description": "allocated \u00a342.1m to Children's Social Care (\u2248\u00a3421 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 119.0,
+      "perHousehold": 119.0,
+      "description": "raised Band D council tax by \u00a3119 (5.0%) to \u00a32499",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

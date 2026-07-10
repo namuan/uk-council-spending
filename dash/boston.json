@@ -1,0 +1,118 @@
+{
+  "slug": "boston",
+  "name": "Boston District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000136",
+  "colour": "hsl(14, 45%, 55%)",
+  "initials": "BOS",
+  "leader": "Cllr Dale Broughton",
+  "chiefExecutive": "Rob Barlow",
+  "councillors": 30,
+  "website": "https://www.boston.gov.uk",
+  "taxBands": {
+    "2021": 1889.0,
+    "2022": 1973.0,
+    "2023": 2068.0,
+    "2024": 2165.0,
+    "2025": 2237.0,
+    "2026": 2309.0
+  },
+  "taxCurrent": 2237.0,
+  "taxPrev": 2165.0,
+  "taxChange": 72.0,
+  "taxChangePct": 3.3,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7555.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2747.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1968.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1778.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1713.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -400.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 20.0
+    }
+  ],
+  "budgetTotal": 15781.0,
+  "perHousehold": 316,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1778.0,
+      "perHousehold": 36,
+      "description": "allocated \u00a31.8m to Planning & Development (\u2248\u00a336 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1968.0,
+      "perHousehold": 39,
+      "description": "allocated \u00a32.0m to Culture & Leisure (\u2248\u00a339 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7555.0,
+      "perHousehold": 151,
+      "description": "allocated \u00a37.6m to Environment & Streets (\u2248\u00a3151 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2747.0,
+      "perHousehold": 55,
+      "description": "allocated \u00a32.7m to Council Running Costs (\u2248\u00a355 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 72.0,
+      "perHousehold": 72.0,
+      "description": "raised Band D council tax by \u00a372 (3.3%) to \u00a32237",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

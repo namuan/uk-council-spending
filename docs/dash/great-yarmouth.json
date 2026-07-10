@@ -1,0 +1,118 @@
+{
+  "slug": "great-yarmouth",
+  "name": "Great Yarmouth District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000145",
+  "colour": "hsl(105, 45%, 55%)",
+  "initials": "GY",
+  "leader": "Cllr Carl Smith",
+  "chiefExecutive": "Sheila Oxtoby",
+  "councillors": 39,
+  "website": "https://www.great-yarmouth.gov.uk",
+  "taxBands": {
+    "2021": 1940.0,
+    "2022": 2002.0,
+    "2023": 2100.0,
+    "2024": 2201.0,
+    "2025": 2305.0,
+    "2026": 2414.0
+  },
+  "taxCurrent": 2305.0,
+  "taxPrev": 2201.0,
+  "taxChange": 104.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6517.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4065.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2595.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1952.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1569.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -803.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 593.0
+    }
+  ],
+  "budgetTotal": 17291.0,
+  "perHousehold": 346,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4065.0,
+      "perHousehold": 81,
+      "description": "allocated \u00a34.1m to Council Running Costs (\u2248\u00a381 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2595.0,
+      "perHousehold": 52,
+      "description": "allocated \u00a32.6m to Housing (\u2248\u00a352 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1952.0,
+      "perHousehold": 39,
+      "description": "allocated \u00a32.0m to Planning & Development (\u2248\u00a339 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6517.0,
+      "perHousehold": 130,
+      "description": "allocated \u00a36.5m to Environment & Streets (\u2248\u00a3130 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 104.0,
+      "perHousehold": 104.0,
+      "description": "raised Band D council tax by \u00a3104 (4.7%) to \u00a32305",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

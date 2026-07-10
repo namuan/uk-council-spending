@@ -1,0 +1,118 @@
+{
+  "slug": "uttlesford",
+  "name": "Uttlesford District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000077",
+  "colour": "hsl(93, 45%, 55%)",
+  "initials": "UTT",
+  "leader": "Cllr Petrina Sherwood",
+  "chiefExecutive": "Peter Holt",
+  "councillors": 39,
+  "website": "https://www.uttlesford.gov.uk",
+  "taxBands": {
+    "2021": 1885.0,
+    "2022": 1966.0,
+    "2023": 2045.0,
+    "2024": 2149.0,
+    "2025": 2237.0,
+    "2026": 2334.0
+  },
+  "taxCurrent": 2237.0,
+  "taxPrev": 2149.0,
+  "taxChange": 88.0,
+  "taxChangePct": 4.1,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5806.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5302.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3366.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2094.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1089.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -644.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 158.0
+    }
+  ],
+  "budgetTotal": 17815.0,
+  "perHousehold": 356,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3366.0,
+      "perHousehold": 67,
+      "description": "allocated \u00a33.4m to Planning & Development (\u2248\u00a367 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5302.0,
+      "perHousehold": 106,
+      "description": "allocated \u00a35.3m to Council Running Costs (\u2248\u00a3106 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2094.0,
+      "perHousehold": 42,
+      "description": "allocated \u00a32.1m to Culture & Leisure (\u2248\u00a342 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5806.0,
+      "perHousehold": 116,
+      "description": "allocated \u00a35.8m to Environment & Streets (\u2248\u00a3116 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 88.0,
+      "perHousehold": 88.0,
+      "description": "raised Band D council tax by \u00a388 (4.1%) to \u00a32237",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

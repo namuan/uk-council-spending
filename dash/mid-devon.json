@@ -1,0 +1,112 @@
+{
+  "slug": "mid-devon",
+  "name": "Mid Devon District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000042",
+  "colour": "hsl(56, 45%, 55%)",
+  "initials": "MD",
+  "leader": "Cllr Richard Chesterton",
+  "chiefExecutive": "Stephen Walford",
+  "councillors": 42,
+  "website": "https://www.middevon.gov.uk",
+  "taxBands": {
+    "2021": 2121.0,
+    "2022": 2186.0,
+    "2023": 2295.0,
+    "2024": 2404.0,
+    "2025": 2521.0,
+    "2026": 2656.0
+  },
+  "taxCurrent": 2521.0,
+  "taxPrev": 2404.0,
+  "taxChange": 117.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4932.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3779.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2338.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2040.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1875.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -427.0
+    }
+  ],
+  "budgetTotal": 14964.0,
+  "perHousehold": 299,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4932.0,
+      "perHousehold": 99,
+      "description": "allocated \u00a34.9m to Environment & Streets (\u2248\u00a399 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2338.0,
+      "perHousehold": 47,
+      "description": "allocated \u00a32.3m to Culture & Leisure (\u2248\u00a347 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2040.0,
+      "perHousehold": 41,
+      "description": "allocated \u00a32.0m to Planning & Development (\u2248\u00a341 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3779.0,
+      "perHousehold": 76,
+      "description": "allocated \u00a33.8m to Council Running Costs (\u2248\u00a376 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 117.0,
+      "perHousehold": 117.0,
+      "description": "raised Band D council tax by \u00a3117 (4.9%) to \u00a32521",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "surrey-heath",
+  "name": "Surrey Heath District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000214",
+  "colour": "hsl(91, 45%, 55%)",
+  "initials": "SH",
+  "leader": "Cllr Shaun Maygar",
+  "chiefExecutive": "Damian Roberts",
+  "councillors": 35,
+  "website": "https://www.surreyheath.gov.uk",
+  "taxBands": {
+    "2021": 2084.0,
+    "2022": 2177.0,
+    "2023": 2248.0,
+    "2024": 2356.0,
+    "2025": 2468.0,
+    "2026": 2585.0
+  },
+  "taxCurrent": 2468.0,
+  "taxPrev": 2356.0,
+  "taxChange": 112.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5852.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4586.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -3139.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2052.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1887.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 531.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 189.0
+    }
+  ],
+  "budgetTotal": 15097.0,
+  "perHousehold": 302,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1887.0,
+      "perHousehold": 38,
+      "description": "allocated \u00a31.9m to Culture & Leisure (\u2248\u00a338 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5852.0,
+      "perHousehold": 117,
+      "description": "allocated \u00a35.9m to Environment & Streets (\u2248\u00a3117 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2052.0,
+      "perHousehold": 41,
+      "description": "allocated \u00a32.1m to Housing (\u2248\u00a341 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4586.0,
+      "perHousehold": 92,
+      "description": "allocated \u00a34.6m to Council Running Costs (\u2248\u00a392 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 112.0,
+      "perHousehold": 112.0,
+      "description": "raised Band D council tax by \u00a3112 (4.8%) to \u00a32468",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

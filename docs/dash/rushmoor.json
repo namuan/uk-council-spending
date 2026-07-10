@@ -1,0 +1,118 @@
+{
+  "slug": "rushmoor",
+  "name": "Rushmoor District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000092",
+  "colour": "hsl(68, 45%, 55%)",
+  "initials": "RUS",
+  "leader": "Cllr Marina Mayall",
+  "chiefExecutive": "Paul Shackley",
+  "councillors": 39,
+  "website": "https://www.rushmoor.gov.uk",
+  "taxBands": {
+    "2021": 1862.0,
+    "2022": 1922.0,
+    "2023": 2018.0,
+    "2024": 2110.0,
+    "2025": 2213.0,
+    "2026": 2320.0
+  },
+  "taxCurrent": 2213.0,
+  "taxPrev": 2110.0,
+  "taxChange": 103.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5983.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4841.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2897.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2612.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2590.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 628.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 5.0
+    }
+  ],
+  "budgetTotal": 19556.0,
+  "perHousehold": 391,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5983.0,
+      "perHousehold": 120,
+      "description": "allocated \u00a36.0m to Environment & Streets (\u2248\u00a3120 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2612.0,
+      "perHousehold": 52,
+      "description": "allocated \u00a32.6m to Culture & Leisure (\u2248\u00a352 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4841.0,
+      "perHousehold": 97,
+      "description": "allocated \u00a34.8m to Council Running Costs (\u2248\u00a397 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2897.0,
+      "perHousehold": 58,
+      "description": "allocated \u00a32.9m to Housing (\u2248\u00a358 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 103.0,
+      "perHousehold": 103.0,
+      "description": "raised Band D council tax by \u00a3103 (4.9%) to \u00a32213",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

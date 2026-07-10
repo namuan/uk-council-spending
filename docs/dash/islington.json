@@ -1,0 +1,142 @@
+{
+  "slug": "islington",
+  "name": "Islington",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000019",
+  "colour": "hsl(218, 45%, 55%)",
+  "initials": "ISL",
+  "leader": "",
+  "chiefExecutive": "Victoria Lawson",
+  "councillors": 51,
+  "website": "https://www.islington.gov.uk",
+  "taxBands": {
+    "2021": 1640.0,
+    "2022": 1710.0,
+    "2023": 1815.0,
+    "2024": 1921.0,
+    "2025": 2012.0,
+    "2026": 2108.0
+  },
+  "taxCurrent": 2012.0,
+  "taxPrev": 1921.0,
+  "taxChange": 91.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 202730.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 124159.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 101262.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 30196.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 29435.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 28150.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -18906.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 17868.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 16488.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5314.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5260.0
+    }
+  ],
+  "budgetTotal": 560862.0,
+  "perHousehold": 5099,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 30196.0,
+      "perHousehold": 275,
+      "description": "allocated \u00a330.2m to Other Services (\u2248\u00a3275 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 101262.0,
+      "perHousehold": 921,
+      "description": "allocated \u00a3101.3m to Children's Social Care (\u2248\u00a3921 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 124159.0,
+      "perHousehold": 1129,
+      "description": "allocated \u00a3124.2m to Adult Social Care (\u2248\u00a31129 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 202730.0,
+      "perHousehold": 1843,
+      "description": "allocated \u00a3202.7m to Education (\u2248\u00a31843 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 91.0,
+      "perHousehold": 91.0,
+      "description": "raised Band D council tax by \u00a391 (4.7%) to \u00a32012",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

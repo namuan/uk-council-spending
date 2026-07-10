@@ -1,0 +1,112 @@
+{
+  "slug": "fareham",
+  "name": "Fareham District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000087",
+  "colour": "hsl(301, 45%, 55%)",
+  "initials": "FAR",
+  "leader": "Cllr Simon Martin",
+  "chiefExecutive": "Peter Wilson",
+  "councillors": 32,
+  "website": "https://www.fareham.gov.uk",
+  "taxBands": {
+    "2021": 1818.0,
+    "2022": 1878.0,
+    "2023": 1973.0,
+    "2024": 2063.0,
+    "2025": 2165.0,
+    "2026": 2271.0
+  },
+  "taxCurrent": 2165.0,
+  "taxPrev": 2063.0,
+  "taxChange": 102.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5011.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4754.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4052.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3025.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2307.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -659.0
+    }
+  ],
+  "budgetTotal": 19149.0,
+  "perHousehold": 383,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3025.0,
+      "perHousehold": 60,
+      "description": "allocated \u00a33.0m to Planning & Development (\u2248\u00a360 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5011.0,
+      "perHousehold": 100,
+      "description": "allocated \u00a35.0m to Council Running Costs (\u2248\u00a3100 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4052.0,
+      "perHousehold": 81,
+      "description": "allocated \u00a34.1m to Housing (\u2248\u00a381 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4754.0,
+      "perHousehold": 95,
+      "description": "allocated \u00a34.8m to Environment & Streets (\u2248\u00a395 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 102.0,
+      "perHousehold": 102.0,
+      "description": "raised Band D council tax by \u00a3102 (4.9%) to \u00a32165",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

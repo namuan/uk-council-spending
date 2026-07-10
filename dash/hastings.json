@@ -1,0 +1,124 @@
+{
+  "slug": "hastings",
+  "name": "Hastings District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000062",
+  "colour": "hsl(135, 45%, 55%)",
+  "initials": "HAS",
+  "leader": "Cllr Julia Sherwin",
+  "chiefExecutive": "Jane Hartnell",
+  "councillors": 32,
+  "website": "https://www.hastings.gov.uk",
+  "taxBands": {
+    "2021": 2133.0,
+    "2022": 2219.0,
+    "2023": 2328.0,
+    "2024": 2437.0,
+    "2025": 2554.0,
+    "2026": 2677.0
+  },
+  "taxCurrent": 2554.0,
+  "taxPrev": 2437.0,
+  "taxChange": 117.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 10069.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7088.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4218.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -4055.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2475.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -933.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 120.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 33.0
+    }
+  ],
+  "budgetTotal": 24003.0,
+  "perHousehold": 480,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4218.0,
+      "perHousehold": 84,
+      "description": "allocated \u00a34.2m to Environment & Streets (\u2248\u00a384 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2475.0,
+      "perHousehold": 50,
+      "description": "allocated \u00a32.5m to Culture & Leisure (\u2248\u00a350 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7088.0,
+      "perHousehold": 142,
+      "description": "allocated \u00a37.1m to Council Running Costs (\u2248\u00a3142 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 10069.0,
+      "perHousehold": 201,
+      "description": "allocated \u00a310.1m to Housing (\u2248\u00a3201 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 117.0,
+      "perHousehold": 117.0,
+      "description": "raised Band D council tax by \u00a3117 (4.8%) to \u00a32554",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

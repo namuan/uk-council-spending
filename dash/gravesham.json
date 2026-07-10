@@ -1,0 +1,118 @@
+{
+  "slug": "gravesham",
+  "name": "Gravesham District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000109",
+  "colour": "hsl(99, 45%, 55%)",
+  "initials": "GRA",
+  "leader": "Cllr John Burden",
+  "chiefExecutive": "Stuart Bobby",
+  "councillors": 39,
+  "website": "https://www.gravesham.gov.uk",
+  "taxBands": {
+    "2021": 1942.0,
+    "2022": 2003.0,
+    "2023": 2104.0,
+    "2024": 2205.0,
+    "2025": 2313.0,
+    "2026": 2408.0
+  },
+  "taxCurrent": 2313.0,
+  "taxPrev": 2205.0,
+  "taxChange": 108.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 6095.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5673.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3727.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2024.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -829.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 541.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 337.0
+    }
+  ],
+  "budgetTotal": 18397.0,
+  "perHousehold": 368,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 6095.0,
+      "perHousehold": 122,
+      "description": "allocated \u00a36.1m to Other Services (\u2248\u00a3122 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5673.0,
+      "perHousehold": 113,
+      "description": "allocated \u00a35.7m to Environment & Streets (\u2248\u00a3113 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3727.0,
+      "perHousehold": 75,
+      "description": "allocated \u00a33.7m to Housing (\u2248\u00a375 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2024.0,
+      "perHousehold": 40,
+      "description": "allocated \u00a32.0m to Culture & Leisure (\u2248\u00a340 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 108.0,
+      "perHousehold": 108.0,
+      "description": "raised Band D council tax by \u00a3108 (4.9%) to \u00a32313",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

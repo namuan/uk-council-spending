@@ -1,0 +1,112 @@
+{
+  "slug": "huntingdonshire",
+  "name": "Huntingdonshire District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000011",
+  "colour": "hsl(99, 45%, 55%)",
+  "initials": "HUN",
+  "leader": "Cllr Stephen Ferguson",
+  "chiefExecutive": "Michelle Sacks",
+  "councillors": 52,
+  "website": "https://www.huntingdonshire.gov.uk",
+  "taxBands": {
+    "2021": 1986.0,
+    "2022": 2075.0,
+    "2023": 2192.0,
+    "2024": 2322.0,
+    "2025": 2440.0,
+    "2026": 2556.0
+  },
+  "taxCurrent": 2440.0,
+  "taxPrev": 2322.0,
+  "taxChange": 118.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8893.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8827.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4421.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3213.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2966.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -943.0
+    }
+  ],
+  "budgetTotal": 28320.0,
+  "perHousehold": 566,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8893.0,
+      "perHousehold": 178,
+      "description": "allocated \u00a38.9m to Council Running Costs (\u2248\u00a3178 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3213.0,
+      "perHousehold": 64,
+      "description": "allocated \u00a33.2m to Housing (\u2248\u00a364 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4421.0,
+      "perHousehold": 88,
+      "description": "allocated \u00a34.4m to Culture & Leisure (\u2248\u00a388 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8827.0,
+      "perHousehold": 177,
+      "description": "allocated \u00a38.8m to Environment & Streets (\u2248\u00a3177 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 118.0,
+      "perHousehold": 118.0,
+      "description": "raised Band D council tax by \u00a3118 (5.1%) to \u00a32440",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

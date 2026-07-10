@@ -1,0 +1,142 @@
+{
+  "slug": "shropshire",
+  "name": "Shropshire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000051",
+  "colour": "hsl(63, 45%, 55%)",
+  "initials": "SHR",
+  "leader": "",
+  "chiefExecutive": "Andy Begley",
+  "councillors": 74,
+  "website": "https://www.shropshire.gov.uk",
+  "taxBands": {
+    "2021": 1926.0,
+    "2022": 2000.0,
+    "2023": 2101.0,
+    "2024": 2204.0,
+    "2025": 2319.0,
+    "2026": 2528.0
+  },
+  "taxCurrent": 2319.0,
+  "taxPrev": 2204.0,
+  "taxChange": 115.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 149020.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 143160.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 70499.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 40824.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 18033.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 17067.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10245.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8468.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7278.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2797.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 2011.0
+    }
+  ],
+  "budgetTotal": 469402.0,
+  "perHousehold": 4694,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 149020.0,
+      "perHousehold": 1490,
+      "description": "allocated \u00a3149.0m to Education (\u2248\u00a31490 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 40824.0,
+      "perHousehold": 408,
+      "description": "allocated \u00a340.8m to Environment & Streets (\u2248\u00a3408 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 70499.0,
+      "perHousehold": 705,
+      "description": "allocated \u00a370.5m to Children's Social Care (\u2248\u00a3705 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 143160.0,
+      "perHousehold": 1432,
+      "description": "allocated \u00a3143.2m to Adult Social Care (\u2248\u00a31432 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (5.2%) to \u00a32319",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

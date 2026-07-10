@@ -1,0 +1,136 @@
+{
+  "slug": "southampton",
+  "name": "Southampton Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000045",
+  "colour": "hsl(32, 45%, 55%)",
+  "initials": "SOU",
+  "leader": "Cllr Satvir Kaur",
+  "chiefExecutive": "Mike Harris",
+  "councillors": 51,
+  "website": "https://www.southampton.gov.uk",
+  "taxBands": {
+    "2021": 1941.0,
+    "2022": 1956.0,
+    "2023": 2058.0,
+    "2024": 2157.0,
+    "2025": 2266.0,
+    "2026": 2381.0
+  },
+  "taxCurrent": 2266.0,
+  "taxPrev": 2157.0,
+  "taxChange": 109.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 221352.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 127096.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 73291.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 26502.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 18848.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 14113.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 13978.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 11836.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8782.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 6020.0
+    }
+  ],
+  "budgetTotal": 521818.0,
+  "perHousehold": 5218,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 26502.0,
+      "perHousehold": 265,
+      "description": "allocated \u00a326.5m to Environment & Streets (\u2248\u00a3265 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 221352.0,
+      "perHousehold": 2214,
+      "description": "allocated \u00a3221.4m to Education (\u2248\u00a32214 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 127096.0,
+      "perHousehold": 1271,
+      "description": "allocated \u00a3127.1m to Adult Social Care (\u2248\u00a31271 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 73291.0,
+      "perHousehold": 733,
+      "description": "allocated \u00a373.3m to Children's Social Care (\u2248\u00a3733 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (5.1%) to \u00a32266",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "gedling",
+  "name": "Gedling District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000173",
+  "colour": "hsl(260, 45%, 55%)",
+  "initials": "GED",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 41,
+  "website": "https://www.gedling.gov.uk",
+  "taxBands": {
+    "2021": 2101.0,
+    "2022": 2182.0,
+    "2023": 2288.0,
+    "2024": 2394.0,
+    "2025": 2507.0,
+    "2026": 2610.0
+  },
+  "taxCurrent": 2507.0,
+  "taxPrev": 2394.0,
+  "taxChange": 113.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5024.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3866.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3678.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2033.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1893.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 103.0
+    }
+  ],
+  "budgetTotal": 16597.0,
+  "perHousehold": 332,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5024.0,
+      "perHousehold": 100,
+      "description": "allocated \u00a35.0m to Environment & Streets (\u2248\u00a3100 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2033.0,
+      "perHousehold": 41,
+      "description": "allocated \u00a32.0m to Planning & Development (\u2248\u00a341 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3678.0,
+      "perHousehold": 74,
+      "description": "allocated \u00a33.7m to Culture & Leisure (\u2248\u00a374 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3866.0,
+      "perHousehold": 77,
+      "description": "allocated \u00a33.9m to Council Running Costs (\u2248\u00a377 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (4.7%) to \u00a32507",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

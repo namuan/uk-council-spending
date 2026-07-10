@@ -1,0 +1,112 @@
+{
+  "slug": "mid-suffolk",
+  "name": "Mid Suffolk District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000203",
+  "colour": "hsl(92, 45%, 55%)",
+  "initials": "MS",
+  "leader": "Cllr Richard Kemp",
+  "chiefExecutive": "Arthur Mayfield",
+  "councillors": 34,
+  "website": "https://www.midsuffolk.gov.uk",
+  "taxBands": {
+    "2021": 1885.0,
+    "2022": 1941.0,
+    "2023": 2017.0,
+    "2024": 2111.0,
+    "2025": 2208.0,
+    "2026": 2317.0
+  },
+  "taxCurrent": 2208.0,
+  "taxPrev": 2111.0,
+  "taxChange": 97.0,
+  "taxChangePct": 4.6,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4323.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3698.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2577.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1928.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 1728.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -51.0
+    }
+  ],
+  "budgetTotal": 14254.0,
+  "perHousehold": 285,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2577.0,
+      "perHousehold": 52,
+      "description": "allocated \u00a32.6m to Culture & Leisure (\u2248\u00a352 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1928.0,
+      "perHousehold": 39,
+      "description": "allocated \u00a31.9m to Housing (\u2248\u00a339 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4323.0,
+      "perHousehold": 86,
+      "description": "allocated \u00a34.3m to Environment & Streets (\u2248\u00a386 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3698.0,
+      "perHousehold": 74,
+      "description": "allocated \u00a33.7m to Planning & Development (\u2248\u00a374 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 97.0,
+      "perHousehold": 97.0,
+      "description": "raised Band D council tax by \u00a397 (4.6%) to \u00a32208",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

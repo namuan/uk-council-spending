@@ -1,0 +1,142 @@
+{
+  "slug": "leicester",
+  "name": "Leicester Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000016",
+  "colour": "hsl(240, 45%, 55%)",
+  "initials": "LEI",
+  "leader": "",
+  "chiefExecutive": "Alison Greenhill",
+  "councillors": 54,
+  "website": "https://www.leicester.gov.uk",
+  "taxBands": {
+    "2021": 2012.0,
+    "2022": 2078.0,
+    "2023": 2186.0,
+    "2024": 2293.0,
+    "2025": 2408.0,
+    "2026": 2529.0
+  },
+  "taxCurrent": 2408.0,
+  "taxPrev": 2293.0,
+  "taxChange": 115.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 338798.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 211913.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 106578.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 35819.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 30104.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 25813.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 21150.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 18460.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 13171.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 7243.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2818.0
+    }
+  ],
+  "budgetTotal": 811867.0,
+  "perHousehold": 8119,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 211913.0,
+      "perHousehold": 2119,
+      "description": "allocated \u00a3211.9m to Adult Social Care (\u2248\u00a32119 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 35819.0,
+      "perHousehold": 358,
+      "description": "allocated \u00a335.8m to Environment & Streets (\u2248\u00a3358 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 106578.0,
+      "perHousehold": 1066,
+      "description": "allocated \u00a3106.6m to Children's Social Care (\u2248\u00a31066 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 338798.0,
+      "perHousehold": 3388,
+      "description": "allocated \u00a3338.8m to Education (\u2248\u00a33388 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (5.0%) to \u00a32408",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "south-kesteven",
+  "name": "South Kesteven District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000141",
+  "colour": "hsl(225, 45%, 55%)",
+  "initials": "SK",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 56,
+  "website": "https://www.southkesteven.gov.uk",
+  "taxBands": {
+    "2021": 1837.0,
+    "2022": 1922.0,
+    "2023": 2015.0,
+    "2024": 2115.0,
+    "2025": 2187.0,
+    "2026": 2260.0
+  },
+  "taxCurrent": 2187.0,
+  "taxPrev": 2115.0,
+  "taxChange": 72.0,
+  "taxChangePct": 3.4,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8202.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4464.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3650.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2473.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1838.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -210.0
+    }
+  ],
+  "budgetTotal": 20627.0,
+  "perHousehold": 413,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8202.0,
+      "perHousehold": 164,
+      "description": "allocated \u00a38.2m to Environment & Streets (\u2248\u00a3164 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3650.0,
+      "perHousehold": 73,
+      "description": "allocated \u00a33.6m to Council Running Costs (\u2248\u00a373 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4464.0,
+      "perHousehold": 89,
+      "description": "allocated \u00a34.5m to Planning & Development (\u2248\u00a389 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2473.0,
+      "perHousehold": 49,
+      "description": "allocated \u00a32.5m to Culture & Leisure (\u2248\u00a349 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 72.0,
+      "perHousehold": 72.0,
+      "description": "raised Band D council tax by \u00a372 (3.4%) to \u00a32187",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

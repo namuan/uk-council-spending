@@ -1,0 +1,142 @@
+{
+  "slug": "bournemouth-christchurch-and-poole",
+  "name": "Bournemouth, Christchurch & Poole Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000058",
+  "colour": "hsl(279, 45%, 55%)",
+  "initials": "BP",
+  "leader": "",
+  "chiefExecutive": "G Farrant",
+  "councillors": 76,
+  "website": "https://www.bcpcouncil.gov.uk",
+  "taxBands": {
+    "2021": 1882.0,
+    "2022": 1955.0,
+    "2023": 2055.0,
+    "2024": 2157.0,
+    "2025": 2265.0,
+    "2026": 2436.0
+  },
+  "taxCurrent": 2265.0,
+  "taxPrev": 2157.0,
+  "taxChange": 108.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 179971.0
+    },
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 160273.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 91393.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 41083.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 27710.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 22270.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 21772.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 18636.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 15698.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 6432.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 4633.0
+    }
+  ],
+  "budgetTotal": 589871.0,
+  "perHousehold": 5899,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 41083.0,
+      "perHousehold": 411,
+      "description": "allocated \u00a341.1m to Environment & Streets (\u2248\u00a3411 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 179971.0,
+      "perHousehold": 1800,
+      "description": "allocated \u00a3180.0m to Adult Social Care (\u2248\u00a31800 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 91393.0,
+      "perHousehold": 914,
+      "description": "allocated \u00a391.4m to Children's Social Care (\u2248\u00a3914 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 160273.0,
+      "perHousehold": 1603,
+      "description": "allocated \u00a3160.3m to Education (\u2248\u00a31603 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 108.0,
+      "perHousehold": 108.0,
+      "description": "raised Band D council tax by \u00a3108 (5.0%) to \u00a32265",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

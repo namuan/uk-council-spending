@@ -1,0 +1,112 @@
+{
+  "slug": "fenland",
+  "name": "Fenland District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000010",
+  "colour": "hsl(56, 45%, 55%)",
+  "initials": "FEN",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 43,
+  "website": "https://www.fenland.gov.uk",
+  "taxBands": {
+    "2021": 2029.0,
+    "2022": 2111.0,
+    "2023": 2214.0,
+    "2024": 2331.0,
+    "2025": 2433.0,
+    "2026": 2538.0
+  },
+  "taxCurrent": 2433.0,
+  "taxPrev": 2331.0,
+  "taxChange": 102.0,
+  "taxChangePct": 4.4,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6952.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6562.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2160.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1857.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 736.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 725.0
+    }
+  ],
+  "budgetTotal": 18992.0,
+  "perHousehold": 380,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6952.0,
+      "perHousehold": 139,
+      "description": "allocated \u00a37.0m to Environment & Streets (\u2248\u00a3139 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2160.0,
+      "perHousehold": 43,
+      "description": "allocated \u00a32.2m to Housing (\u2248\u00a343 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6562.0,
+      "perHousehold": 131,
+      "description": "allocated \u00a36.6m to Council Running Costs (\u2248\u00a3131 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1857.0,
+      "perHousehold": 37,
+      "description": "allocated \u00a31.9m to Planning & Development (\u2248\u00a337 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 102.0,
+      "perHousehold": 102.0,
+      "description": "raised Band D council tax by \u00a3102 (4.4%) to \u00a32433",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

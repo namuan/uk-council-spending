@@ -1,0 +1,112 @@
+{
+  "slug": "broxbourne",
+  "name": "Broxbourne District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000095",
+  "colour": "hsl(242, 45%, 55%)",
+  "initials": "BRO",
+  "leader": "Cllr Corina Gander",
+  "chiefExecutive": "Jeff Stack",
+  "councillors": 30,
+  "website": "https://www.broxbourne.gov.uk",
+  "taxBands": {
+    "2021": 1827.0,
+    "2022": 1901.0,
+    "2023": 1997.0,
+    "2024": 2095.0,
+    "2025": 2198.0,
+    "2026": 2306.0
+  },
+  "taxCurrent": 2198.0,
+  "taxPrev": 2095.0,
+  "taxChange": 103.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6081.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 2737.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2253.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 2201.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1957.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1931.0
+    }
+  ],
+  "budgetTotal": 17160.0,
+  "perHousehold": 343,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 2737.0,
+      "perHousehold": 55,
+      "description": "allocated \u00a32.7m to Environment & Streets (\u2248\u00a355 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 2201.0,
+      "perHousehold": 44,
+      "description": "allocated \u00a32.2m to Roads & Transport (\u2248\u00a344 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6081.0,
+      "perHousehold": 122,
+      "description": "allocated \u00a36.1m to Council Running Costs (\u2248\u00a3122 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2253.0,
+      "perHousehold": 45,
+      "description": "allocated \u00a32.3m to Housing (\u2248\u00a345 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 103.0,
+      "perHousehold": 103.0,
+      "description": "raised Band D council tax by \u00a3103 (4.9%) to \u00a32198",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

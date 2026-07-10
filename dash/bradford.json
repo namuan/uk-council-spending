@@ -1,0 +1,142 @@
+{
+  "slug": "bradford",
+  "name": "Bradford Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000032",
+  "colour": "hsl(144, 45%, 55%)",
+  "initials": "BRA",
+  "leader": "Cllr Susan Hinchcliffe",
+  "chiefExecutive": "Dr Lorraine O'Donnell",
+  "councillors": 90,
+  "website": "https://www.bradford.gov.uk",
+  "taxBands": {
+    "2021": 1796.0,
+    "2022": 1857.0,
+    "2023": 1956.0,
+    "2024": 2055.0,
+    "2025": 2246.0,
+    "2026": 2361.0
+  },
+  "taxCurrent": 2246.0,
+  "taxPrev": 2055.0,
+  "taxChange": 191.0,
+  "taxChangePct": 9.3,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 408201.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 252703.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 217361.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 57414.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 54850.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 49939.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 32556.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 23005.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 22964.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 17132.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 11860.0
+    }
+  ],
+  "budgetTotal": 1147985.0,
+  "perHousehold": 8831,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 408201.0,
+      "perHousehold": 3140,
+      "description": "allocated \u00a3408.2m to Education (\u2248\u00a33140 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 217361.0,
+      "perHousehold": 1672,
+      "description": "allocated \u00a3217.4m to Adult Social Care (\u2248\u00a31672 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 252703.0,
+      "perHousehold": 1944,
+      "description": "allocated \u00a3252.7m to Children's Social Care (\u2248\u00a31944 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 57414.0,
+      "perHousehold": 442,
+      "description": "allocated \u00a357.4m to Public Health (\u2248\u00a3442 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 191.0,
+      "perHousehold": 191.0,
+      "description": "raised Band D council tax by \u00a3191 (9.3%) to \u00a32246",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "isles-of-scilly",
+  "name": "Isles of Scilly Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000053",
+  "colour": "hsl(340, 45%, 55%)",
+  "initials": "IS",
+  "leader": "Cllr Robert Francis",
+  "chiefExecutive": "Theo Sherr-Lucas",
+  "councillors": 16,
+  "website": "https://www.scilly.gov.uk",
+  "taxBands": {
+    "2021": 1631.0,
+    "2022": 1683.0,
+    "2023": 1769.0,
+    "2024": 1857.0,
+    "2025": 1950.0,
+    "2026": 2048.0
+  },
+  "taxCurrent": 1950.0,
+  "taxPrev": 1857.0,
+  "taxChange": 93.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2975.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 1348.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 1136.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 673.0
+    },
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 560.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 397.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": -219.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 148.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 142.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 49.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": -10.0
+    }
+  ],
+  "budgetTotal": 7428.0,
+  "perHousehold": 74,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 1136.0,
+      "perHousehold": 11,
+      "description": "allocated \u00a31.1m to Adult Social Care (\u2248\u00a311 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2975.0,
+      "perHousehold": 30,
+      "description": "allocated \u00a33.0m to Council Running Costs (\u2248\u00a330 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 673.0,
+      "perHousehold": 7,
+      "description": "allocated \u00a30.7m to Other Services (\u2248\u00a37 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 1348.0,
+      "perHousehold": 13,
+      "description": "allocated \u00a31.3m to Environment & Streets (\u2248\u00a313 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 93.0,
+      "perHousehold": 93.0,
+      "description": "raised Band D council tax by \u00a393 (5.0%) to \u00a31950",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

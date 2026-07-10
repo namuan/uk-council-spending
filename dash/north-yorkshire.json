@@ -1,0 +1,140 @@
+{
+  "slug": "north-yorkshire",
+  "name": "North Yorkshire Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000065",
+  "colour": "hsl(153, 45%, 55%)",
+  "initials": "NY",
+  "leader": "Cllr Carl Les",
+  "chiefExecutive": "Richard Flinton",
+  "councillors": 90,
+  "website": "https://www.northyorks.gov.uk",
+  "taxBands": {
+    "2023": 2178.0,
+    "2024": 2283.0,
+    "2025": 2418.0,
+    "2026": 2544.0
+  },
+  "taxCurrent": 2418.0,
+  "taxPrev": 2283.0,
+  "taxChange": 135.0,
+  "taxChangePct": 5.9,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 418464.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 273880.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 89656.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 78988.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 63354.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 34303.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 31035.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 28633.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 23386.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 17374.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 11184.0
+    }
+  ],
+  "budgetTotal": 1070257.0,
+  "perHousehold": 10703,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 273880.0,
+      "perHousehold": 2739,
+      "description": "allocated \u00a3273.9m to Adult Social Care (\u2248\u00a32739 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 78988.0,
+      "perHousehold": 790,
+      "description": "allocated \u00a379.0m to Children's Social Care (\u2248\u00a3790 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 89656.0,
+      "perHousehold": 897,
+      "description": "allocated \u00a389.7m to Environment & Streets (\u2248\u00a3897 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 418464.0,
+      "perHousehold": 4185,
+      "description": "allocated \u00a3418.5m to Education (\u2248\u00a34185 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 135.0,
+      "perHousehold": 135.0,
+      "description": "raised Band D council tax by \u00a3135 (5.9%) to \u00a32418",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "blackburn-with-darwen",
+  "name": "Blackburn with Darwen Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000008",
+  "colour": "hsl(170, 45%, 55%)",
+  "initials": "BD",
+  "leader": "Cllr Phil Riley",
+  "chiefExecutive": "Denise Park",
+  "councillors": 51,
+  "website": "https://www.blackburn.gov.uk",
+  "taxBands": {
+    "2021": 1936.0,
+    "2022": 2016.0,
+    "2023": 2121.0,
+    "2024": 2225.0,
+    "2025": 2337.0,
+    "2026": 2455.0
+  },
+  "taxCurrent": 2337.0,
+  "taxPrev": 2225.0,
+  "taxChange": 112.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 145026.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 78428.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 48860.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 18982.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 17497.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 7958.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7261.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5983.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 5942.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4965.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 1965.0
+    }
+  ],
+  "budgetTotal": 342867.0,
+  "perHousehold": 3429,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 145026.0,
+      "perHousehold": 1450,
+      "description": "allocated \u00a3145.0m to Education (\u2248\u00a31450 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 48860.0,
+      "perHousehold": 489,
+      "description": "allocated \u00a348.9m to Children's Social Care (\u2248\u00a3489 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 78428.0,
+      "perHousehold": 784,
+      "description": "allocated \u00a378.4m to Adult Social Care (\u2248\u00a3784 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 18982.0,
+      "perHousehold": 190,
+      "description": "allocated \u00a319.0m to Public Health (\u2248\u00a3190 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 112.0,
+      "perHousehold": 112.0,
+      "description": "raised Band D council tax by \u00a3112 (5.0%) to \u00a32337",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

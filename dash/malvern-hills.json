@@ -1,0 +1,112 @@
+{
+  "slug": "malvern-hills",
+  "name": "Malvern Hills District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000235",
+  "colour": "hsl(28, 45%, 55%)",
+  "initials": "MH",
+  "leader": "Cllr Sarah Rouse",
+  "chiefExecutive": "Vic Allison",
+  "councillors": 31,
+  "website": "https://www.malvernhills.gov.uk",
+  "taxBands": {
+    "2021": 1913.0,
+    "2022": 1984.0,
+    "2023": 2082.0,
+    "2024": 2181.0,
+    "2025": 2281.0,
+    "2026": 2451.0
+  },
+  "taxCurrent": 2281.0,
+  "taxPrev": 2181.0,
+  "taxChange": 100.0,
+  "taxChangePct": 4.6,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5880.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3237.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1056.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 837.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 820.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -171.0
+    }
+  ],
+  "budgetTotal": 11830.0,
+  "perHousehold": 237,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 837.0,
+      "perHousehold": 17,
+      "description": "allocated \u00a30.8m to Housing (\u2248\u00a317 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3237.0,
+      "perHousehold": 65,
+      "description": "allocated \u00a33.2m to Environment & Streets (\u2248\u00a365 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5880.0,
+      "perHousehold": 118,
+      "description": "allocated \u00a35.9m to Council Running Costs (\u2248\u00a3118 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1056.0,
+      "perHousehold": 21,
+      "description": "allocated \u00a31.1m to Planning & Development (\u2248\u00a321 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 100.0,
+      "perHousehold": 100.0,
+      "description": "raised Band D council tax by \u00a3100 (4.6%) to \u00a32281",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

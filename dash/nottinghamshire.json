@@ -1,0 +1,141 @@
+{
+  "slug": "nottinghamshire",
+  "name": "Nottinghamshire County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000024",
+  "colour": "hsl(19, 45%, 55%)",
+  "initials": "NOT",
+  "leader": "Cllr Mick Barton",
+  "chiefExecutive": "Adrian Smith",
+  "councillors": 66,
+  "website": "https://www.nottinghamshire.gov.uk",
+  "taxBands": {
+    "2021": 1580.85,
+    "2022": 1644.09,
+    "2023": 1724.0,
+    "2024": 1807.0,
+    "2025": 1895.0
+  },
+  "taxCurrent": 1895.0,
+  "taxPrev": 1807.0,
+  "taxChange": 88.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 543612.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 395729.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 205390.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 54666.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 43720.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 41736.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 19172.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 15798.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 12792.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 1392.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": -37.0
+    }
+  ],
+  "budgetTotal": 1334007.0,
+  "perHousehold": 3811,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 205390.0,
+      "perHousehold": 587,
+      "description": "allocated \u00a3205.4m to Children's Social Care (\u2248\u00a3587 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 395729.0,
+      "perHousehold": 1131,
+      "description": "allocated \u00a3395.7m to Adult Social Care (\u2248\u00a31131 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 543612.0,
+      "perHousehold": 1553,
+      "description": "allocated \u00a3543.6m to Education (\u2248\u00a31553 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 54666.0,
+      "perHousehold": 156,
+      "description": "allocated \u00a354.7m to Public Health (\u2248\u00a3156 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 88.0,
+      "perHousehold": 88.0,
+      "description": "raised Band D council tax by \u00a388 (4.9%) to \u00a31895",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

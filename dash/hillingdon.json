@@ -1,0 +1,142 @@
+{
+  "slug": "hillingdon",
+  "name": "Hillingdon",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000017",
+  "colour": "hsl(147, 45%, 55%)",
+  "initials": "HIL",
+  "leader": "Cllr Ian Edwards",
+  "chiefExecutive": "T Zaman",
+  "councillors": 53,
+  "website": "https://www.hillingdon.gov.uk",
+  "taxBands": {
+    "2021": 1603.0,
+    "2022": 1659.0,
+    "2023": 1760.0,
+    "2024": 1864.0,
+    "2025": 1952.0,
+    "2026": 2045.0
+  },
+  "taxCurrent": 1952.0,
+  "taxPrev": 1864.0,
+  "taxChange": 88.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 245353.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 108588.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 69398.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 27650.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 19396.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 19047.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 16570.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10731.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2240.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -722.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 27.0
+    }
+  ],
+  "budgetTotal": 516760.0,
+  "perHousehold": 4698,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 245353.0,
+      "perHousehold": 2230,
+      "description": "allocated \u00a3245.4m to Education (\u2248\u00a32230 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 108588.0,
+      "perHousehold": 987,
+      "description": "allocated \u00a3108.6m to Adult Social Care (\u2248\u00a3987 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 27650.0,
+      "perHousehold": 251,
+      "description": "allocated \u00a327.6m to Housing (\u2248\u00a3251 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 69398.0,
+      "perHousehold": 631,
+      "description": "allocated \u00a369.4m to Children's Social Care (\u2248\u00a3631 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 88.0,
+      "perHousehold": 88.0,
+      "description": "raised Band D council tax by \u00a388 (4.7%) to \u00a31952",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

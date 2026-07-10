@@ -1,0 +1,118 @@
+{
+  "slug": "broxtowe",
+  "name": "Broxtowe District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000172",
+  "colour": "hsl(174, 45%, 55%)",
+  "initials": "BRO",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 44,
+  "website": "https://www.broxtowe.gov.uk",
+  "taxBands": {
+    "2021": 2107.0,
+    "2022": 2188.0,
+    "2023": 2293.0,
+    "2024": 2401.0,
+    "2025": 2516.0,
+    "2026": 2618.0
+  },
+  "taxCurrent": 2516.0,
+  "taxPrev": 2401.0,
+  "taxChange": 115.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3812.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3418.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2336.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1771.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 1292.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 869.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 218.0
+    }
+  ],
+  "budgetTotal": 13716.0,
+  "perHousehold": 274,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3812.0,
+      "perHousehold": 76,
+      "description": "allocated \u00a33.8m to Environment & Streets (\u2248\u00a376 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2336.0,
+      "perHousehold": 47,
+      "description": "allocated \u00a32.3m to Culture & Leisure (\u2248\u00a347 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3418.0,
+      "perHousehold": 68,
+      "description": "allocated \u00a33.4m to Council Running Costs (\u2248\u00a368 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1771.0,
+      "perHousehold": 35,
+      "description": "allocated \u00a31.8m to Planning & Development (\u2248\u00a335 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (4.8%) to \u00a32516",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

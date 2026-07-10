@@ -1,0 +1,112 @@
+{
+  "slug": "newcastle-under-lyme",
+  "name": "Newcastle-under-Lyme District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000195",
+  "colour": "hsl(73, 45%, 55%)",
+  "initials": "NEW",
+  "leader": "Cllr Simon Tagg",
+  "chiefExecutive": "Martin Hamilton",
+  "councillors": 44,
+  "website": "https://www.newcastle-staffs.gov.uk",
+  "taxBands": {
+    "2021": 1900.0,
+    "2022": 1958.0,
+    "2023": 2049.0,
+    "2024": 2144.0,
+    "2025": 2245.0,
+    "2026": 2334.0
+  },
+  "taxCurrent": 2245.0,
+  "taxPrev": 2144.0,
+  "taxChange": 101.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7218.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2663.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2653.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2088.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1815.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -325.0
+    }
+  ],
+  "budgetTotal": 16437.0,
+  "perHousehold": 329,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2663.0,
+      "perHousehold": 53,
+      "description": "allocated \u00a32.7m to Culture & Leisure (\u2248\u00a353 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 2653.0,
+      "perHousehold": 53,
+      "description": "allocated \u00a32.7m to Council Running Costs (\u2248\u00a353 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7218.0,
+      "perHousehold": 144,
+      "description": "allocated \u00a37.2m to Environment & Streets (\u2248\u00a3144 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2088.0,
+      "perHousehold": 42,
+      "description": "allocated \u00a32.1m to Housing (\u2248\u00a342 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 101.0,
+      "perHousehold": 101.0,
+      "description": "raised Band D council tax by \u00a3101 (4.7%) to \u00a32245",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "north-norfolk",
+  "name": "North Norfolk District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000147",
+  "colour": "hsl(237, 45%, 55%)",
+  "initials": "NN",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 40,
+  "website": "https://www.north-norfolk.gov.uk",
+  "taxBands": {
+    "2021": 1968.0,
+    "2022": 2030.0,
+    "2023": 2129.0,
+    "2024": 2232.0,
+    "2025": 2341.0,
+    "2026": 2460.0
+  },
+  "taxCurrent": 2341.0,
+  "taxPrev": 2232.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7432.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6162.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5513.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2605.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2547.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1937.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -695.0
+    }
+  ],
+  "budgetTotal": 24259.0,
+  "perHousehold": 485,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2605.0,
+      "perHousehold": 52,
+      "description": "allocated \u00a32.6m to Housing (\u2248\u00a352 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6162.0,
+      "perHousehold": 123,
+      "description": "allocated \u00a36.2m to Council Running Costs (\u2248\u00a3123 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 7432.0,
+      "perHousehold": 149,
+      "description": "allocated \u00a37.4m to Environment & Streets (\u2248\u00a3149 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5513.0,
+      "perHousehold": 110,
+      "description": "allocated \u00a35.5m to Planning & Development (\u2248\u00a3110 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.9%) to \u00a32341",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

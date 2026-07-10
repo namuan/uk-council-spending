@@ -1,0 +1,124 @@
+{
+  "slug": "wyre-forest",
+  "name": "Wyre Forest District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000239",
+  "colour": "hsl(116, 45%, 55%)",
+  "initials": "WF",
+  "leader": "Cllr Helen Dyke",
+  "chiefExecutive": "Ian Miller",
+  "councillors": 33,
+  "website": "https://www.wyreforestdc.gov.uk",
+  "taxBands": {
+    "2021": 1939.0,
+    "2022": 2012.0,
+    "2023": 2112.0,
+    "2024": 2215.0,
+    "2025": 2327.0,
+    "2026": 2512.0
+  },
+  "taxCurrent": 2327.0,
+  "taxPrev": 2215.0,
+  "taxChange": 112.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5609.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3602.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2162.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1703.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 924.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 453.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 87.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 2.0
+    }
+  ],
+  "budgetTotal": 14542.0,
+  "perHousehold": 291,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 3602.0,
+      "perHousehold": 72,
+      "description": "allocated \u00a33.6m to Environment & Streets (\u2248\u00a372 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1703.0,
+      "perHousehold": 34,
+      "description": "allocated \u00a31.7m to Culture & Leisure (\u2248\u00a334 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5609.0,
+      "perHousehold": 112,
+      "description": "allocated \u00a35.6m to Council Running Costs (\u2248\u00a3112 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2162.0,
+      "perHousehold": 43,
+      "description": "allocated \u00a32.2m to Housing (\u2248\u00a343 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 112.0,
+      "perHousehold": 112.0,
+      "description": "raised Band D council tax by \u00a3112 (5.1%) to \u00a32327",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

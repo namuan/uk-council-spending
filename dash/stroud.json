@@ -1,0 +1,118 @@
+{
+  "slug": "stroud",
+  "name": "Stroud District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000082",
+  "colour": "hsl(334, 45%, 55%)",
+  "initials": "STR",
+  "leader": "",
+  "chiefExecutive": "Kathy O'Leary",
+  "councillors": 51,
+  "website": "https://www.stroud.gov.uk",
+  "taxBands": {
+    "2021": 1993.0,
+    "2022": 2054.0,
+    "2023": 2155.0,
+    "2024": 2260.0,
+    "2025": 2369.0,
+    "2026": 2491.0
+  },
+  "taxCurrent": 2369.0,
+  "taxPrev": 2260.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8805.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4715.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2776.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2744.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1785.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -223.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 80.0
+    }
+  ],
+  "budgetTotal": 20905.0,
+  "perHousehold": 418,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2776.0,
+      "perHousehold": 56,
+      "description": "allocated \u00a32.8m to Culture & Leisure (\u2248\u00a356 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2744.0,
+      "perHousehold": 55,
+      "description": "allocated \u00a32.7m to Planning & Development (\u2248\u00a355 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4715.0,
+      "perHousehold": 94,
+      "description": "allocated \u00a34.7m to Council Running Costs (\u2248\u00a394 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8805.0,
+      "perHousehold": 176,
+      "description": "allocated \u00a38.8m to Environment & Streets (\u2248\u00a3176 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.8%) to \u00a32369",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

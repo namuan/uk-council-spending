@@ -1,0 +1,112 @@
+{
+  "slug": "vale-of-white-horse",
+  "name": "Vale of White Horse District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000180",
+  "colour": "hsl(68, 45%, 55%)",
+  "initials": "VH",
+  "leader": "Cllr Emily Smith",
+  "chiefExecutive": "Patrick Arran",
+  "councillors": 38,
+  "website": "https://www.whitehorsedc.gov.uk",
+  "taxBands": {
+    "2021": 2029.0,
+    "2022": 2124.0,
+    "2023": 2231.0,
+    "2024": 2342.0,
+    "2025": 2457.0,
+    "2026": 2577.0
+  },
+  "taxCurrent": 2457.0,
+  "taxPrev": 2342.0,
+  "taxChange": 115.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8525.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6078.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3497.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2347.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 1673.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 113.0
+    }
+  ],
+  "budgetTotal": 22233.0,
+  "perHousehold": 445,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8525.0,
+      "perHousehold": 170,
+      "description": "allocated \u00a38.5m to Environment & Streets (\u2248\u00a3170 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6078.0,
+      "perHousehold": 122,
+      "description": "allocated \u00a36.1m to Council Running Costs (\u2248\u00a3122 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3497.0,
+      "perHousehold": 70,
+      "description": "allocated \u00a33.5m to Planning & Development (\u2248\u00a370 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2347.0,
+      "perHousehold": 47,
+      "description": "allocated \u00a32.3m to Housing (\u2248\u00a347 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (4.9%) to \u00a32457",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

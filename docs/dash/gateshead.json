@@ -1,0 +1,142 @@
+{
+  "slug": "gateshead",
+  "name": "Gateshead Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000037",
+  "colour": "hsl(19, 45%, 55%)",
+  "initials": "GAT",
+  "leader": "Cllr Martin Gannon",
+  "chiefExecutive": "Dale Owens",
+  "councillors": 66,
+  "website": "https://www.gateshead.gov.uk",
+  "taxBands": {
+    "2021": 2145.0,
+    "2022": 2214.0,
+    "2023": 2332.0,
+    "2024": 2451.0,
+    "2025": 2578.0,
+    "2026": 2716.0
+  },
+  "taxCurrent": 2578.0,
+  "taxPrev": 2451.0,
+  "taxChange": 127.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 148343.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 100398.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 57305.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 20106.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 18146.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 15597.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 13246.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 11443.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 6057.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5894.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5469.0
+    }
+  ],
+  "budgetTotal": 402004.0,
+  "perHousehold": 3092,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 100398.0,
+      "perHousehold": 772,
+      "description": "allocated \u00a3100.4m to Adult Social Care (\u2248\u00a3772 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 57305.0,
+      "perHousehold": 441,
+      "description": "allocated \u00a357.3m to Children's Social Care (\u2248\u00a3441 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 20106.0,
+      "perHousehold": 155,
+      "description": "allocated \u00a320.1m to Environment & Streets (\u2248\u00a3155 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 148343.0,
+      "perHousehold": 1141,
+      "description": "allocated \u00a3148.3m to Education (\u2248\u00a31141 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 127.0,
+      "perHousehold": 127.0,
+      "description": "raised Band D council tax by \u00a3127 (5.2%) to \u00a32578",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

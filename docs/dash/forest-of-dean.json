@@ -1,0 +1,112 @@
+{
+  "slug": "forest-of-dean",
+  "name": "Forest of Dean District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000080",
+  "colour": "hsl(83, 45%, 55%)",
+  "initials": "FD",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 38,
+  "website": "https://www.fdean.gov.uk",
+  "taxBands": {
+    "2021": 1955.0,
+    "2022": 2016.0,
+    "2023": 2116.0,
+    "2024": 2221.0,
+    "2025": 2327.0,
+    "2026": 2443.0
+  },
+  "taxCurrent": 2327.0,
+  "taxPrev": 2221.0,
+  "taxChange": 106.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5637.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4956.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2092.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1259.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 99.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 70.0
+    }
+  ],
+  "budgetTotal": 14113.0,
+  "perHousehold": 282,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5637.0,
+      "perHousehold": 113,
+      "description": "allocated \u00a35.6m to Environment & Streets (\u2248\u00a3113 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2092.0,
+      "perHousehold": 42,
+      "description": "allocated \u00a32.1m to Planning & Development (\u2248\u00a342 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4956.0,
+      "perHousehold": 99,
+      "description": "allocated \u00a35.0m to Council Running Costs (\u2248\u00a399 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1259.0,
+      "perHousehold": 25,
+      "description": "allocated \u00a31.3m to Housing (\u2248\u00a325 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 106.0,
+      "perHousehold": 106.0,
+      "description": "raised Band D council tax by \u00a3106 (4.8%) to \u00a32327",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

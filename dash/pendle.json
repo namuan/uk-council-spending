@@ -1,0 +1,112 @@
+{
+  "slug": "pendle",
+  "name": "Pendle District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000122",
+  "colour": "hsl(304, 45%, 55%)",
+  "initials": "PEN",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 33,
+  "website": "https://www.pendle.gov.uk",
+  "taxBands": {
+    "2021": 2129.0,
+    "2022": 2211.0,
+    "2023": 2302.0,
+    "2024": 2415.0,
+    "2025": 2535.0,
+    "2026": 2640.0
+  },
+  "taxCurrent": 2535.0,
+  "taxPrev": 2415.0,
+  "taxChange": 120.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5479.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5062.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2340.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1460.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1183.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 571.0
+    }
+  ],
+  "budgetTotal": 16095.0,
+  "perHousehold": 322,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1460.0,
+      "perHousehold": 29,
+      "description": "allocated \u00a31.5m to Housing (\u2248\u00a329 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5479.0,
+      "perHousehold": 110,
+      "description": "allocated \u00a35.5m to Council Running Costs (\u2248\u00a3110 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5062.0,
+      "perHousehold": 101,
+      "description": "allocated \u00a35.1m to Environment & Streets (\u2248\u00a3101 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2340.0,
+      "perHousehold": 47,
+      "description": "allocated \u00a32.3m to Culture & Leisure (\u2248\u00a347 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 120.0,
+      "perHousehold": 120.0,
+      "description": "raised Band D council tax by \u00a3120 (5.0%) to \u00a32535",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

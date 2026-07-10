@@ -1,0 +1,135 @@
+{
+  "slug": "cambridgeshire",
+  "name": "Cambridgeshire County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000003",
+  "colour": "hsl(238, 45%, 55%)",
+  "initials": "CAM",
+  "leader": "Cllr Lucy Nethsingha",
+  "chiefExecutive": "Stephen Moir",
+  "councillors": 61,
+  "website": "https://www.cambridgeshire.gov.uk",
+  "taxBands": {
+    "2021": 1399.77,
+    "2022": 1469.61,
+    "2023": 1543.0,
+    "2024": 1620.0,
+    "2025": 1701.0
+  },
+  "taxCurrent": 1701.0,
+  "taxPrev": 1620.0,
+  "taxChange": 81.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 395982.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 270939.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 116503.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 48597.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 35486.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 30348.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 6997.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6512.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 3213.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": -2297.0
+    }
+  ],
+  "budgetTotal": 914577.0,
+  "perHousehold": 2613,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 395982.0,
+      "perHousehold": 1131,
+      "description": "allocated \u00a3396.0m to Education (\u2248\u00a31131 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 48597.0,
+      "perHousehold": 139,
+      "description": "allocated \u00a348.6m to Environment & Streets (\u2248\u00a3139 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 270939.0,
+      "perHousehold": 774,
+      "description": "allocated \u00a3270.9m to Adult Social Care (\u2248\u00a3774 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 116503.0,
+      "perHousehold": 333,
+      "description": "allocated \u00a3116.5m to Children's Social Care (\u2248\u00a3333 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 81.0,
+      "perHousehold": 81.0,
+      "description": "raised Band D council tax by \u00a381 (5.0%) to \u00a31701",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

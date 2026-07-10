@@ -1,0 +1,118 @@
+{
+  "slug": "breckland",
+  "name": "Breckland District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000143",
+  "colour": "hsl(172, 45%, 55%)",
+  "initials": "BRE",
+  "leader": "Cllr Sam Chapman-Allen",
+  "chiefExecutive": "Maxine O'Mahony",
+  "councillors": 49,
+  "website": "https://www.breckland.gov.uk",
+  "taxBands": {
+    "2021": 1949.0,
+    "2022": 2011.0,
+    "2023": 2114.0,
+    "2024": 2219.0,
+    "2025": 2329.0,
+    "2026": 2444.0
+  },
+  "taxCurrent": 2329.0,
+  "taxPrev": 2219.0,
+  "taxChange": 110.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7650.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6268.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3947.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3440.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2907.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 487.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 364.0
+    }
+  ],
+  "budgetTotal": 25063.0,
+  "perHousehold": 501,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7650.0,
+      "perHousehold": 153,
+      "description": "allocated \u00a37.7m to Council Running Costs (\u2248\u00a3153 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3947.0,
+      "perHousehold": 79,
+      "description": "allocated \u00a33.9m to Culture & Leisure (\u2248\u00a379 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6268.0,
+      "perHousehold": 125,
+      "description": "allocated \u00a36.3m to Environment & Streets (\u2248\u00a3125 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3440.0,
+      "perHousehold": 69,
+      "description": "allocated \u00a33.4m to Housing (\u2248\u00a369 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 110.0,
+      "perHousehold": 110.0,
+      "description": "raised Band D council tax by \u00a3110 (5.0%) to \u00a32329",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

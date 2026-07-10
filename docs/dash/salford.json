@@ -1,0 +1,136 @@
+{
+  "slug": "salford",
+  "name": "Salford Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000006",
+  "colour": "hsl(20, 45%, 55%)",
+  "initials": "SAL",
+  "leader": "City Mayor Paul Dennett",
+  "chiefExecutive": "Stephen Young",
+  "councillors": 60,
+  "website": "https://www.salford.gov.uk",
+  "taxBands": {
+    "2021": 2015.0,
+    "2022": 2105.0,
+    "2023": 2214.0,
+    "2024": 2324.0,
+    "2025": 2452.0,
+    "2026": 2594.0
+  },
+  "taxCurrent": 2452.0,
+  "taxPrev": 2324.0,
+  "taxChange": 128.0,
+  "taxChangePct": 5.5,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 259088.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 120441.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 75495.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 23411.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 16554.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 14175.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 13093.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 12154.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6792.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 4372.0
+    }
+  ],
+  "budgetTotal": 545575.0,
+  "perHousehold": 4197,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 120441.0,
+      "perHousehold": 926,
+      "description": "allocated \u00a3120.4m to Adult Social Care (\u2248\u00a3926 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 75495.0,
+      "perHousehold": 581,
+      "description": "allocated \u00a375.5m to Children's Social Care (\u2248\u00a3581 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 259088.0,
+      "perHousehold": 1993,
+      "description": "allocated \u00a3259.1m to Education (\u2248\u00a31993 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 23411.0,
+      "perHousehold": 180,
+      "description": "allocated \u00a323.4m to Public Health (\u2248\u00a3180 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 128.0,
+      "perHousehold": 128.0,
+      "description": "raised Band D council tax by \u00a3128 (5.5%) to \u00a32452",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

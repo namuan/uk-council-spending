@@ -1,0 +1,135 @@
+{
+  "slug": "devon",
+  "name": "Devon County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000008",
+  "colour": "hsl(260, 45%, 55%)",
+  "initials": "DEV",
+  "leader": "Cllr Julian Brazil",
+  "chiefExecutive": "",
+  "councillors": 60,
+  "website": "https://www.devon.gov.uk",
+  "taxBands": {
+    "2021": 1511.28,
+    "2022": 1556.46,
+    "2023": 1634.0,
+    "2024": 1716.0,
+    "2025": 1801.0
+  },
+  "taxCurrent": 1801.0,
+  "taxPrev": 1716.0,
+  "taxChange": 85.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 495372.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 389916.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 201431.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 56410.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 46448.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 36875.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 11617.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 10643.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 8848.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1499.0
+    }
+  ],
+  "budgetTotal": 1259059.0,
+  "perHousehold": 3597,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 201431.0,
+      "perHousehold": 576,
+      "description": "allocated \u00a3201.4m to Children's Social Care (\u2248\u00a3576 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 56410.0,
+      "perHousehold": 161,
+      "description": "allocated \u00a356.4m to Roads & Transport (\u2248\u00a3161 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 495372.0,
+      "perHousehold": 1415,
+      "description": "allocated \u00a3495.4m to Education (\u2248\u00a31415 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 389916.0,
+      "perHousehold": 1114,
+      "description": "allocated \u00a3389.9m to Adult Social Care (\u2248\u00a31114 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 85.0,
+      "perHousehold": 85.0,
+      "description": "raised Band D council tax by \u00a385 (5.0%) to \u00a31801",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

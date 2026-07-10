@@ -1,0 +1,142 @@
+{
+  "slug": "north-somerset",
+  "name": "North Somerset Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000024",
+  "colour": "hsl(350, 45%, 55%)",
+  "initials": "NS",
+  "leader": "",
+  "chiefExecutive": "Jo Walker",
+  "councillors": 50,
+  "website": "https://www.n-somerset.gov.uk",
+  "taxBands": {
+    "2021": 1900.0,
+    "2022": 1959.0,
+    "2023": 2062.0,
+    "2024": 2165.0,
+    "2025": 2295.0,
+    "2026": 2491.0
+  },
+  "taxCurrent": 2295.0,
+  "taxPrev": 2165.0,
+  "taxChange": 130.0,
+  "taxChangePct": 6.0,
+  "budgetCategories": [
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 101724.0
+    },
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 78018.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 42683.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 23746.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 12057.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 11482.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 11293.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 7353.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6773.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4066.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 8.0
+    }
+  ],
+  "budgetTotal": 299203.0,
+  "perHousehold": 2992,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 23746.0,
+      "perHousehold": 237,
+      "description": "allocated \u00a323.7m to Environment & Streets (\u2248\u00a3237 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 42683.0,
+      "perHousehold": 427,
+      "description": "allocated \u00a342.7m to Children's Social Care (\u2248\u00a3427 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 101724.0,
+      "perHousehold": 1017,
+      "description": "allocated \u00a3101.7m to Adult Social Care (\u2248\u00a31017 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 78018.0,
+      "perHousehold": 780,
+      "description": "allocated \u00a378.0m to Education (\u2248\u00a3780 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 130.0,
+      "perHousehold": 130.0,
+      "description": "raised Band D council tax by \u00a3130 (6.0%) to \u00a32295",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

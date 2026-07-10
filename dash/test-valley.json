@@ -1,0 +1,118 @@
+{
+  "slug": "test-valley",
+  "name": "Test Valley District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000093",
+  "colour": "hsl(291, 45%, 55%)",
+  "initials": "TV",
+  "leader": "Cllr Phil North",
+  "chiefExecutive": "Andy Ferrier",
+  "councillors": 43,
+  "website": "https://www.testvalley.gov.uk",
+  "taxBands": {
+    "2021": 1838.0,
+    "2022": 1899.0,
+    "2023": 1996.0,
+    "2024": 2089.0,
+    "2025": 2197.0,
+    "2026": 2306.0
+  },
+  "taxCurrent": 2197.0,
+  "taxPrev": 2089.0,
+  "taxChange": 108.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6080.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5883.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4230.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4197.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2337.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 926.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 35.0
+    }
+  ],
+  "budgetTotal": 23688.0,
+  "perHousehold": 474,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4230.0,
+      "perHousehold": 85,
+      "description": "allocated \u00a34.2m to Council Running Costs (\u2248\u00a385 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4197.0,
+      "perHousehold": 84,
+      "description": "allocated \u00a34.2m to Housing (\u2248\u00a384 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5883.0,
+      "perHousehold": 118,
+      "description": "allocated \u00a35.9m to Planning & Development (\u2248\u00a3118 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6080.0,
+      "perHousehold": 122,
+      "description": "allocated \u00a36.1m to Environment & Streets (\u2248\u00a3122 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 108.0,
+      "perHousehold": 108.0,
+      "description": "raised Band D council tax by \u00a3108 (5.2%) to \u00a32197",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

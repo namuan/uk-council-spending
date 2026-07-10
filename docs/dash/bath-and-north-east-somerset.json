@@ -1,0 +1,142 @@
+{
+  "slug": "bath-and-north-east-somerset",
+  "name": "Bath & North East Somerset Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000022",
+  "colour": "hsl(53, 45%, 55%)",
+  "initials": "BS",
+  "leader": "",
+  "chiefExecutive": "William Godfrey",
+  "councillors": 59,
+  "website": "https://www.bathnes.gov.uk",
+  "taxBands": {
+    "2021": 1891.0,
+    "2022": 1950.0,
+    "2023": 2052.0,
+    "2024": 2155.0,
+    "2025": 2266.0,
+    "2026": 2383.0
+  },
+  "taxCurrent": 2266.0,
+  "taxPrev": 2155.0,
+  "taxChange": 111.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 82125.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 80746.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 39992.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 26227.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 10640.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8693.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 7266.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": -6185.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 2968.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": -1810.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 1089.0
+    }
+  ],
+  "budgetTotal": 259746.0,
+  "perHousehold": 2597,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 26227.0,
+      "perHousehold": 262,
+      "description": "allocated \u00a326.2m to Environment & Streets (\u2248\u00a3262 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 80746.0,
+      "perHousehold": 807,
+      "description": "allocated \u00a380.7m to Adult Social Care (\u2248\u00a3807 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 39992.0,
+      "perHousehold": 400,
+      "description": "allocated \u00a340.0m to Children's Social Care (\u2248\u00a3400 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 82125.0,
+      "perHousehold": 821,
+      "description": "allocated \u00a382.1m to Education (\u2248\u00a3821 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 111.0,
+      "perHousehold": 111.0,
+      "description": "raised Band D council tax by \u00a3111 (5.2%) to \u00a32266",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SpendFeed — Track Council Spending Across All 317 English Councils</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f8f9fb;
+    --card: #ffffff;
+    --text: #111827;
+    --text2: #4b5563;
+    --text3: #9ca3af;
+    --border: #e5e7eb;
+    --blue: #2563eb;
+    --blue-bg: #eff6ff;
+    --green: #16a34a;
+    --green-bg: #f0fdf4;
+    --red: #dc2626;
+    --red-bg: #fef2f2;
+    --amber: #d97706;
+    --amber-bg: #fffbeb;
+    --purple: #7c3aed;
+    --font: 'Inter', system-ui, -apple-system, sans-serif;
+    --mono: 'DM Mono', monospace;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-lg: 0 10px 40px rgba(0,0,0,0.08);
+    --radius: 14px;
+    --radius-sm: 10px;
+  }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+
+  /* ── LANDING ── */
+  .landing {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 60px 20px 40px;
+    text-align: center;
+  }
+  .landing-logo {
+    font-size: 2rem; font-weight: 800; letter-spacing: -0.04em;
+    margin-bottom: 8px;
+  }
+  .landing-logo span { color: var(--blue); }
+  .landing h1 {
+    font-size: 1.6rem; font-weight: 700; letter-spacing: -0.03em;
+    margin-bottom: 6px; line-height: 1.2;
+  }
+  .landing .sub {
+    font-size: 0.95rem; color: var(--text2);
+    margin-bottom: 8px; line-height: 1.5;
+  }
+  .landing .coverage {
+    font-size: 0.78rem; color: var(--text3);
+    margin-bottom: 28px; line-height: 1.5;
+  }
+  .landing .coverage strong { color: var(--text2); font-weight: 600; }
+
+  /* ── COUNCIL SELECTOR ── */
+  .selector-wrap {
+    position: relative; max-width: 480px; margin: 0 auto;
+  }
+  .selector-input {
+    width: 100%; padding: 14px 20px 14px 48px;
+    border: 2px solid var(--border); border-radius: var(--radius);
+    font-size: 0.95rem; font-family: var(--font); color: var(--text);
+    background: var(--card); outline: none;
+    box-shadow: var(--shadow); transition: border-color 0.2s, box-shadow 0.2s;
+    -webkit-appearance: none;
+  }
+  .selector-input:focus {
+    border-color: var(--blue); box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+  }
+  .selector-input::placeholder { color: var(--text3); }
+  .selector-icon {
+    position: absolute; left: 16px; top: 50%; transform: translateY(-50%);
+    font-size: 1.15rem; pointer-events: none;
+  }
+  .selector-clear {
+    position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+    background: none; border: none; font-size: 1.2rem; cursor: pointer;
+    color: var(--text3); padding: 4px; display: none; line-height: 1;
+  }
+  .selector-clear.visible { display: block; }
+
+  .selector-dropdown {
+    position: absolute; top: calc(100% + 6px); left: 0; right: 0;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); box-shadow: var(--shadow-lg);
+    max-height: 340px; overflow-y: auto; z-index: 50; display: none;
+  }
+  .selector-dropdown.show { display: block; }
+  .selector-group {
+    padding: 6px 14px; font-size: 0.68rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--text3); background: var(--bg);
+  }
+  .selector-option {
+    display: flex; align-items: center; gap: 12px;
+    padding: 10px 16px; cursor: pointer; transition: background 0.1s;
+    border-bottom: 1px solid var(--border);
+  }
+  .selector-option:last-child { border-bottom: none; }
+  .selector-option:hover, .selector-option.focused { background: var(--blue-bg); }
+  .selector-option .opt-avatar {
+    width: 38px; height: 38px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.75rem; font-weight: 700; color: #fff;
+    flex-shrink: 0; letter-spacing: -0.02em;
+  }
+  .selector-option .opt-info { flex: 1; min-width: 0; }
+  .selector-option .opt-name {
+    font-weight: 600; font-size: 0.88rem; color: var(--text);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .selector-option .opt-type {
+    font-size: 0.72rem; color: var(--text3);
+  }
+  .selector-option .opt-tax {
+    font-family: var(--mono); font-size: 0.82rem; font-weight: 600;
+    color: var(--text2); white-space: nowrap;
+  }
+  .selector-empty {
+    padding: 24px; text-align: center; color: var(--text3); font-size: 0.9rem;
+  }
+
+  /* ── POPULAR COUNCILS ── */
+  .popular {
+    max-width: 480px; margin: 24px auto 0;
+  }
+  .popular-title {
+    font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--text3); margin-bottom: 10px;
+  }
+  .popular-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+  }
+  .popular-chip {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 12px; background: var(--card);
+    border: 1px solid var(--border); border-radius: 10px;
+    cursor: pointer; transition: all 0.15s; font-size: 0.82rem; font-weight: 500;
+  }
+  .popular-chip:hover { border-color: var(--blue); background: var(--blue-bg); }
+  .popular-chip .chip-avatar {
+    width: 28px; height: 28px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.62rem; font-weight: 700; color: #fff; flex-shrink: 0;
+  }
+
+  /* ── DASHBOARD ── */
+  .dashboard {
+    max-width: 640px; margin: 0 auto; padding: 0 16px 40px;
+    display: none;
+  }
+  .dashboard.active { display: block; }
+  .dash-header {
+    display: flex; align-items: center; gap: 12px;
+    padding: 16px 0;
+  }
+  .dash-back {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 50%; width: 38px; height: 38px;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; font-size: 1.1rem; color: var(--text2);
+    flex-shrink: 0; transition: all 0.15s;
+  }
+  .dash-back:hover { background: var(--blue-bg); color: var(--blue); border-color: var(--blue); }
+  .dash-logo {
+    font-size: 1.1rem; font-weight: 800; letter-spacing: -0.03em;
+    cursor: pointer;
+  }
+  .dash-logo span { color: var(--blue); }
+  .dash-actions { margin-left: auto; display: flex; gap: 8px; }
+  .dash-btn {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 20px; padding: 6px 14px;
+    font-size: 0.8rem; font-weight: 500; cursor: pointer;
+    font-family: var(--font); color: var(--text2);
+    transition: all 0.15s;
+  }
+  .dash-btn:hover { border-color: var(--blue); color: var(--blue); }
+  .dash-btn.watching { background: var(--blue-bg); color: var(--blue); border-color: var(--blue); }
+
+  /* Council hero */
+  .council-hero {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 28px 24px 24px;
+    text-align: center; margin-bottom: 16px;
+    box-shadow: var(--shadow);
+  }
+  .council-avatar {
+    width: 80px; height: 80px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.6rem; font-weight: 800; color: #fff;
+    margin: 0 auto 12px; letter-spacing: -0.03em;
+  }
+  .council-name {
+    font-size: 1.5rem; font-weight: 700; letter-spacing: -0.03em;
+    line-height: 1.2;
+  }
+  .council-type-badge {
+    display: inline-block; margin-top: 6px; padding: 3px 12px;
+    border-radius: 12px; font-size: 0.75rem; font-weight: 500;
+    color: #fff;
+  }
+
+  /* Stats grid */
+  .stats-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 2px; background: var(--border);
+    border-radius: var(--radius-sm); overflow: hidden;
+    margin-bottom: 16px; box-shadow: var(--shadow);
+  }
+  .stat-card {
+    background: var(--card); padding: 16px 12px; text-align: center;
+  }
+  .stat-card .stat-val {
+    font-family: var(--mono); font-size: 1.05rem; font-weight: 700;
+    color: var(--text); line-height: 1.1;
+  }
+  .stat-card .stat-lbl {
+    font-size: 0.65rem; color: var(--text3); margin-top: 3px;
+    text-transform: uppercase; letter-spacing: 0.04em; line-height: 1.2;
+  }
+  .stat-card .stat-sub {
+    font-size: 0.68rem; margin-top: 1px; font-weight: 500;
+  }
+  .stat-up { color: var(--red); }
+  .stat-down { color: var(--green); }
+
+  /* Chart section */
+  .dash-section {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 20px; margin-bottom: 16px;
+    box-shadow: var(--shadow);
+  }
+  .dash-section h3 {
+    font-size: 0.78rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--text3); margin-bottom: 16px;
+  }
+  .chart-wrap { position: relative; }
+  .chart-wrap canvas { width: 100% !important; max-height: 280px; }
+
+  /* Budget rows */
+  .budget-row {
+    display: flex; align-items: center; gap: 10px; padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .budget-row:last-child { border-bottom: none; }
+  .budget-icon { font-size: 1.2rem; width: 28px; text-align: center; flex-shrink: 0; }
+  .budget-info { flex: 1; min-width: 0; }
+  .budget-label { font-size: 0.84rem; font-weight: 500; }
+  .budget-bar {
+    height: 5px; border-radius: 3px; background: var(--border);
+    margin-top: 4px; overflow: hidden;
+  }
+  .budget-bar-fill { height: 100%; border-radius: 3px; transition: width 0.5s ease-out; }
+  .budget-amount {
+    font-family: var(--mono); font-size: 0.82rem; font-weight: 600;
+    text-align: right; white-space: nowrap;
+  }
+  .budget-percent {
+    font-size: 0.68rem; color: var(--text3); display: block; font-weight: 400;
+  }
+
+  /* Feed */
+  .feed-item {
+    display: flex; gap: 12px; padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: flex-start;
+  }
+  .feed-item:last-child { border-bottom: none; }
+  .feed-icon {
+    font-size: 1.4rem; width: 32px; text-align: center; flex-shrink: 0;
+  }
+  .feed-body { flex: 1; min-width: 0; }
+  .feed-desc { font-size: 0.85rem; color: var(--text); line-height: 1.4; }
+  .feed-time { font-size: 0.72rem; color: var(--text3); margin-top: 3px; }
+  .feed-amount {
+    font-family: var(--mono); font-size: 0.85rem; font-weight: 600;
+    white-space: nowrap; text-align: right;
+  }
+  .feed-badge {
+    display: inline-block; padding: 1px 8px; border-radius: 8px;
+    font-size: 0.65rem; font-weight: 500; margin-right: 6px;
+  }
+  .badge-budget { background: var(--green-bg); color: var(--green); }
+  .badge-tax { background: var(--red-bg); color: var(--red); }
+
+  /* Loading */
+  .loading {
+    text-align: center; padding: 80px 20px; color: var(--text3);
+  }
+  .loading .spinner {
+    width: 36px; height: 36px; border: 3px solid var(--border);
+    border-top-color: var(--blue); border-radius: 50%;
+    animation: spin 0.7s linear infinite; margin: 0 auto 16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Error */
+  .error-msg {
+    text-align: center; padding: 40px 20px;
+    background: var(--red-bg); border: 1px solid #fecaca;
+    border-radius: var(--radius); color: var(--red);
+    margin: 16px 0;
+  }
+
+  /* Footer */
+  .dash-footer {
+    text-align: center; padding: 24px 16px;
+    font-size: 0.78rem; color: var(--text3); line-height: 1.6;
+  }
+  .dash-footer a { color: var(--blue); }
+
+  /* View switcher */
+  .landing.hidden { display: none; }
+
+  /* Responsive */
+  @media (max-width: 500px) {
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .landing { padding: 40px 16px 30px; }
+    .landing h1 { font-size: 1.35rem; }
+    .popular-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ LANDING ═══════════ -->
+<div class="landing" id="landing">
+  <div class="landing-logo">Spend<span>Feed</span></div>
+  <h1>How does your council spend your money?</h1>
+  <p class="sub">Select your council to see a full breakdown of tax, budgets, and spending — with per-household estimates.</p>
+  <p class="coverage">Covers <strong>all 317 English councils</strong> across every tier: county councils, unitary authorities, metropolitan districts, London boroughs, and lower-tier district councils. Data from <strong>CivAccount</strong> under the Open Government Licence.</p>
+
+  <div class="selector-wrap" id="selectorWrap">
+    <span class="selector-icon">🔍</span>
+    <input type="text" class="selector-input" id="councilSearch"
+           placeholder="Type your council name…"
+           autocomplete="off" autofocus>
+    <button class="selector-clear" id="selectorClear" onclick="clearSearch()">✕</button>
+    <div class="selector-dropdown" id="selectorDropdown"></div>
+  </div>
+
+  <div class="popular">
+    <div class="popular-title">Largest budgets</div>
+    <div class="popular-grid" id="popularGrid"></div>
+  </div>
+</div>
+
+<!-- ═══════════ DASHBOARD ═══════════ -->
+<div class="dashboard" id="dashboard">
+  <div class="dash-header">
+    <button class="dash-back" onclick="goHome()" title="Back to search">←</button>
+    <div class="dash-logo" onclick="goHome()">Spend<span>Feed</span></div>
+    <div class="dash-actions">
+      <button class="dash-btn" id="btnWatch" onclick="toggleWatch()">☆ Watch</button>
+      <button class="dash-btn" id="btnShare" onclick="shareCouncil()">🔗 Share</button>
+    </div>
+  </div>
+  <div id="dashContent">
+    <div class="loading"><div class="spinner"></div><p>Loading council data…</p></div>
+  </div>
+  <div class="dash-footer">
+    Data from <a href="https://www.civaccount.co.uk" target="_blank">CivAccount</a> · Open Government Licence v3.0<br>
+    <span style="font-size:0.72rem;">Per-household figures are estimates based on average household counts by council type.</span>
+  </div>
+</div>
+
+<script>
+// ── State ──
+let councilIndex = [];
+let currentCouncil = null;
+let currentData = null;
+let watchedSet = new Set(JSON.parse(localStorage.getItem('spendfeed_watched') || '[]'));
+let chartInstance = null;
+const TYPE_COLOURS = {
+  'County Council': '#3d7a5c', 'District Council': '#b8953c',
+  'London Borough': '#3d7ea6', 'Metropolitan District': '#6b4e8a',
+  'Unitary Authority': '#8b5a3c',
+};
+
+// ── Load council index ──
+async function loadIndex() {
+  const res = await fetch('dash/index.json');
+  councilIndex = await res.json();
+  renderPopular();
+  setupSearch();
+  // Check for URL param
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('council');
+  if (slug) loadCouncil(slug);
+}
+loadIndex();
+
+// ── Top councils by budget ──
+function renderPopular() {
+  const top = [...councilIndex]
+    .filter(c => c.budget > 0)
+    .sort((a, b) => b.budget - a.budget)
+    .slice(0, 8);
+  const grid = document.getElementById('popularGrid');
+  grid.innerHTML = top.map(c => `
+    <div class="popular-chip" onclick="loadCouncil('${c.slug}')">
+      <div class="chip-avatar" style="background:${c.colour}">${c.initials}</div>
+      <span style="flex:1;">${c.name}</span>
+      <span style="font-family:var(--mono);font-size:0.72rem;color:var(--text3);">${fmtMoney(c.budget * 1000)}</span>
+    </div>
+  `).join('');
+}
+
+// ── Search ──
+const searchInput = document.getElementById('councilSearch');
+const dropdown = document.getElementById('selectorDropdown');
+const clearBtn = document.getElementById('selectorClear');
+let focusedIdx = -1;
+
+function setupSearch() {
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.toLowerCase().trim();
+    clearBtn.classList.toggle('visible', q.length > 0);
+    focusedIdx = -1;
+
+    if (q.length < 1) {
+      dropdown.classList.remove('show');
+      return;
+    }
+
+    const matches = councilIndex.filter(c =>
+      c.name.toLowerCase().includes(q) ||
+      c.typeName.toLowerCase().includes(q) ||
+      c.slug.includes(q)
+    ).slice(0, 30);
+
+    if (matches.length === 0) {
+      dropdown.innerHTML = '<div class="selector-empty">No councils found</div>';
+    } else {
+      // Group by type
+      const grouped = {};
+      matches.forEach(c => {
+        if (!grouped[c.typeName]) grouped[c.typeName] = [];
+        grouped[c.typeName].push(c);
+      });
+
+      let html = '';
+      for (const [type, councils] of Object.entries(grouped)) {
+        html += `<div class="selector-group">${type}</div>`;
+        councils.forEach(c => {
+          html += `
+          <div class="selector-option" data-slug="${c.slug}" onclick="loadCouncil('${c.slug}')">
+            <div class="opt-avatar" style="background:${c.colour}">${c.initials}</div>
+            <div class="opt-info">
+              <div class="opt-name">${c.name}</div>
+              <div class="opt-type">${c.typeName}</div>
+            </div>
+            <div class="opt-tax">£${c.tax2025.toFixed(0)}</div>
+          </div>`;
+        });
+      }
+      dropdown.innerHTML = html;
+    }
+    dropdown.classList.add('show');
+  });
+
+  searchInput.addEventListener('keydown', (e) => {
+    const opts = dropdown.querySelectorAll('.selector-option');
+    if (!opts.length) return;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      focusedIdx = Math.min(focusedIdx + 1, opts.length - 1);
+      updateFocus(opts);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      focusedIdx = Math.max(focusedIdx - 1, 0);
+      updateFocus(opts);
+    } else if (e.key === 'Enter' && focusedIdx >= 0) {
+      e.preventDefault();
+      opts[focusedIdx].click();
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#selectorWrap')) dropdown.classList.remove('show');
+  });
+}
+
+function updateFocus(opts) {
+  opts.forEach((o, i) => o.classList.toggle('focused', i === focusedIdx));
+  if (focusedIdx >= 0) opts[focusedIdx].scrollIntoView({ block: 'nearest' });
+}
+
+function clearSearch() {
+  searchInput.value = '';
+  dropdown.classList.remove('show');
+  clearBtn.classList.remove('visible');
+}
+
+// ── Navigation ──
+function goHome() {
+  document.getElementById('landing').classList.remove('hidden');
+  document.getElementById('dashboard').classList.remove('active');
+  document.getElementById('dashContent').innerHTML =
+    '<div class="loading"><div class="spinner"></div><p>Loading council data…</p></div>';
+  currentCouncil = null;
+  currentData = null;
+  if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
+  history.pushState(null, '', window.location.pathname);
+  searchInput.value = '';
+  searchInput.focus();
+}
+
+async function loadCouncil(slug) {
+  document.getElementById('landing').classList.add('hidden');
+  document.getElementById('dashboard').classList.add('active');
+  document.getElementById('dashContent').innerHTML =
+    '<div class="loading"><div class="spinner"></div><p>Loading council data…</p></div>';
+  currentCouncil = slug;
+  history.pushState(null, '', `?council=${slug}`);
+  window.scrollTo(0, 0);
+
+  try {
+    const data = await loadLocal(slug);
+    if (!data) throw new Error('Council not found');
+    currentData = data;
+    renderDashboard();
+  } catch (e) {
+    document.getElementById('dashContent').innerHTML =
+      `<div class="error-msg">Could not load data for "${slug}". <a href="javascript:goHome()">Try another council</a></div>`;
+  }
+}
+
+async function loadLocal(slug) {
+  try {
+    const res = await fetch(`dash/${slug}.json`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch { return null; }
+}
+
+// ── Dashboard rendering ──
+function renderDashboard() {
+  const d = currentData;
+  if (!d) return;
+
+  const typeColour = TYPE_COLOURS[d.typeName] || '#6b7280';
+  const maxBudget = Math.max(...d.budgetCategories.map(c => Math.abs(c.amount)), 1);
+  const isWatched = watchedSet.has(d.slug);
+
+  // Update watch button
+  document.getElementById('btnWatch').textContent = isWatched ? '★ Watching' : '☆ Watch';
+  document.getElementById('btnWatch').classList.toggle('watching', isWatched);
+
+  // Budget rows
+  const budgetRows = d.budgetCategories.map((c, i) => {
+    const pct = Math.abs(c.amount) / maxBudget * 100;
+    const pctOfTotal = (c.amount / d.budgetTotal * 100).toFixed(1);
+    const colour = c.amount >= 0 ? 'var(--blue)' : 'var(--red)';
+    return `
+    <div class="budget-row">
+      <div class="budget-icon">${c.icon}</div>
+      <div class="budget-info">
+        <div class="budget-label">${c.label}</div>
+        <div class="budget-bar"><div class="budget-bar-fill" style="width:${pct}%;background:${colour}"></div></div>
+      </div>
+      <div class="budget-amount">
+        ${fmtMoney(c.amount * 1000)}
+        <span class="budget-percent">${pctOfTotal}%</span>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Feed items
+  const feedItems = d.feedItems.map(f => {
+    const badge = f.type === 'tax'
+      ? '<span class="feed-badge badge-tax">Tax</span>'
+      : '<span class="feed-badge badge-budget">Budget</span>';
+    return `
+    <div class="feed-item">
+      <div class="feed-icon">${f.icon}</div>
+      <div class="feed-body">
+        <div class="feed-desc">${badge}${f.description}</div>
+        <div class="feed-time">${fmtTime(f.timestamp)}</div>
+      </div>
+      <div class="feed-amount">${fmtMoney(f.amount * 1000)}</div>
+    </div>`;
+  }).join('');
+
+  // Tax change
+  const taxChangeSign = d.taxChange >= 0 ? '+' : '';
+  const taxChangeClass = d.taxChange >= 0 ? 'stat-up' : 'stat-down';
+
+  const html = `
+  <div class="council-hero">
+    <div class="council-avatar" style="background:${d.colour}">${d.initials}</div>
+    <div class="council-name">${d.name}</div>
+    <div class="council-type-badge" style="background:${typeColour}">${d.typeName}</div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-val">${fmtMoney(d.budgetTotal * 1000)}</div>
+      <div class="stat-lbl">Total Budget</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">£${d.taxCurrent.toFixed(0)}</div>
+      <div class="stat-lbl">Band D Tax 2025</div>
+      <div class="stat-sub ${taxChangeClass}">${taxChangeSign}£${Math.abs(d.taxChange).toFixed(0)} (${taxChangeSign}${d.taxChangePct}%)</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">${fmtMoney(d.perHousehold)}</div>
+      <div class="stat-lbl">Per Household</div>
+      <div class="stat-sub" style="color:var(--text3)">Estimate</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">${d.councillors}</div>
+      <div class="stat-lbl">Councillors</div>
+      <div class="stat-sub" style="color:var(--text3)">${d.leader ? 'Led by ' + d.leader.split(' ').slice(-1)[0] : ''}</div>
+    </div>
+  </div>
+
+  <div class="dash-section">
+    <h3>📈 Council Tax Trend (Band D)</h3>
+    <div class="chart-wrap"><canvas id="chartTax"></canvas></div>
+  </div>
+
+  <div class="dash-section">
+    <h3>💰 Budget Breakdown</h3>
+    ${budgetRows}
+  </div>
+
+  <div class="dash-section" style="padding-bottom:8px;">
+    <h3>📰 Recent Activity</h3>
+    ${feedItems || '<p style="color:var(--text3);font-size:0.85rem;padding:10px 0;">No recent activity to show.</p>'}
+  </div>
+
+  <div class="dash-section">
+    <h3>👤 Leadership</h3>
+    <div class="budget-row">
+      <div class="budget-icon">👔</div>
+      <div class="budget-info"><div class="budget-label">Council Leader</div></div>
+      <div class="budget-amount" style="font-family:var(--font);font-size:0.85rem;">${d.leader || 'Not listed'}</div>
+    </div>
+    <div class="budget-row">
+      <div class="budget-icon">🏢</div>
+      <div class="budget-info"><div class="budget-label">Chief Executive</div></div>
+      <div class="budget-amount" style="font-family:var(--font);font-size:0.85rem;">${d.chiefExecutive || 'Not listed'}</div>
+    </div>
+    ${d.website ? `
+    <div class="budget-row" style="cursor:pointer;" onclick="window.open('${d.website}','_blank')">
+      <div class="budget-icon">🌐</div>
+      <div class="budget-info"><div class="budget-label">Website</div></div>
+      <div class="budget-amount" style="font-family:var(--font);font-size:0.8rem;color:var(--blue);">Visit →</div>
+    </div>` : ''}
+  </div>
+  `;
+
+  document.getElementById('dashContent').innerHTML = html;
+  renderChart();
+}
+
+// ── Tax trend chart ──
+function renderChart() {
+  if (!currentData || !currentData.taxBands) return;
+  if (chartInstance) chartInstance.destroy();
+
+  // Wait for Chart.js to be available
+  if (typeof Chart === 'undefined') {
+    setTimeout(renderChart, 100);
+    return;
+  }
+
+  const years = Object.keys(currentData.taxBands).sort();
+  const values = years.map(y => currentData.taxBands[y]);
+  const ctx = document.getElementById('chartTax');
+  if (!ctx) return;
+
+  const gradient = ctx.getContext('2d').createLinearGradient(0, 0, 0, 280);
+  gradient.addColorStop(0, 'rgba(37,99,235,0.18)');
+  gradient.addColorStop(1, 'rgba(37,99,235,0.02)');
+
+  chartInstance = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: years,
+      datasets: [{
+        label: 'Band D Council Tax (£)',
+        data: values,
+        borderColor: '#2563eb',
+        backgroundColor: gradient,
+        fill: true,
+        tension: 0.35,
+        pointBackgroundColor: '#2563eb',
+        pointRadius: 5,
+        pointHoverRadius: 8,
+        borderWidth: 2.5,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => `£${ctx.parsed.y.toFixed(2)}`
+          }
+        }
+      },
+      scales: {
+        y: {
+          grid: { color: '#f3f4f6' },
+          ticks: { callback: v => '£' + v },
+          min: Math.min(...values) - 100,
+        },
+        x: { grid: { display: false } }
+      },
+      interaction: { intersect: false, mode: 'index' }
+    }
+  });
+}
+
+// ── Watch / Share ──
+function toggleWatch() {
+  if (!currentCouncil) return;
+  if (watchedSet.has(currentCouncil)) {
+    watchedSet.delete(currentCouncil);
+  } else {
+    watchedSet.add(currentCouncil);
+  }
+  localStorage.setItem('spendfeed_watched', JSON.stringify([...watchedSet]));
+  const btn = document.getElementById('btnWatch');
+  const isWatched = watchedSet.has(currentCouncil);
+  btn.textContent = isWatched ? '★ Watching' : '☆ Watch';
+  btn.classList.toggle('watching', isWatched);
+}
+
+function shareCouncil() {
+  if (!currentCouncil) return;
+  const url = window.location.href;
+  if (navigator.share) {
+    navigator.share({ title: currentData?.name || 'Council', url });
+  } else {
+    navigator.clipboard.writeText(url).then(() => {
+      const btn = document.getElementById('btnShare');
+      btn.textContent = '✓ Copied!';
+      setTimeout(() => { btn.textContent = '🔗 Share'; }, 2000);
+    });
+  }
+}
+
+// ── Back button ──
+window.addEventListener('popstate', () => {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('council');
+  if (slug) {
+    loadCouncil(slug);
+  } else {
+    goHome();
+  }
+});
+
+// ── Utils ──
+function fmtMoney(n) {
+  if (Math.abs(n) >= 1e9) return '£' + (n / 1e9).toFixed(1) + 'bn';
+  if (Math.abs(n) >= 1e6) return '£' + (n / 1e6).toFixed(1) + 'm';
+  if (Math.abs(n) >= 1e3) return '£' + (n / 1e3).toFixed(0) + 'k';
+  return '£' + n.toFixed(0);
+}
+
+function fmtTime(ts) {
+  const d = new Date(ts);
+  const now = new Date();
+  const diff = now - d;
+  const days = Math.floor(diff / 86400000);
+  if (days === 0) return 'Today';
+  if (days === 1) return 'Yesterday';
+  if (days < 7) return days + 'd ago';
+  if (days < 30) return Math.floor(days / 7) + 'w ago';
+  if (days < 365) return Math.floor(days / 30) + 'mo ago';
+  return Math.floor(days / 365) + 'y ago';
+}
+</script>
+</body>
+</html>

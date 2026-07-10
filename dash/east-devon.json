@@ -1,0 +1,112 @@
+{
+  "slug": "east-devon",
+  "name": "East Devon District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000040",
+  "colour": "hsl(279, 45%, 55%)",
+  "initials": "ED",
+  "leader": "Cllr Paul Sherwood",
+  "chiefExecutive": "Mark Williams",
+  "councillors": 60,
+  "website": "https://www.eastdevon.gov.uk",
+  "taxBands": {
+    "2021": 2062.0,
+    "2022": 2130.0,
+    "2023": 2236.0,
+    "2024": 2348.0,
+    "2025": 2461.0,
+    "2026": 2595.0
+  },
+  "taxCurrent": 2461.0,
+  "taxPrev": 2348.0,
+  "taxChange": 113.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 12837.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5553.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5011.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4189.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -3296.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3167.0
+    }
+  ],
+  "budgetTotal": 30757.0,
+  "perHousehold": 615,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 5011.0,
+      "perHousehold": 100,
+      "description": "allocated \u00a35.0m to Council Running Costs (\u2248\u00a3100 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 5553.0,
+      "perHousehold": 111,
+      "description": "allocated \u00a35.6m to Culture & Leisure (\u2248\u00a3111 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 12837.0,
+      "perHousehold": 257,
+      "description": "allocated \u00a312.8m to Environment & Streets (\u2248\u00a3257 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4189.0,
+      "perHousehold": 84,
+      "description": "allocated \u00a34.2m to Planning & Development (\u2248\u00a384 per household)",
+      "timestamp": "2025-08-14"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (4.8%) to \u00a32461",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

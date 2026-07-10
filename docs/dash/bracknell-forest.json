@@ -1,0 +1,136 @@
+{
+  "slug": "bracknell-forest",
+  "name": "Bracknell Forest Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000036",
+  "colour": "hsl(203, 45%, 55%)",
+  "initials": "BF",
+  "leader": "",
+  "chiefExecutive": "S Halliwell",
+  "councillors": 41,
+  "website": "https://www.bracknell-forest.gov.uk",
+  "taxBands": {
+    "2021": 1782.0,
+    "2022": 1861.0,
+    "2023": 1957.0,
+    "2024": 2051.0,
+    "2025": 2155.0,
+    "2026": 2265.0
+  },
+  "taxCurrent": 2155.0,
+  "taxPrev": 2051.0,
+  "taxChange": 104.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 107701.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 49662.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 27865.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 16131.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 7519.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6653.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 5407.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3601.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3142.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2728.0
+    }
+  ],
+  "budgetTotal": 230409.0,
+  "perHousehold": 2304,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 27865.0,
+      "perHousehold": 279,
+      "description": "allocated \u00a327.9m to Children's Social Care (\u2248\u00a3279 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 16131.0,
+      "perHousehold": 161,
+      "description": "allocated \u00a316.1m to Environment & Streets (\u2248\u00a3161 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 107701.0,
+      "perHousehold": 1077,
+      "description": "allocated \u00a3107.7m to Education (\u2248\u00a31077 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 49662.0,
+      "perHousehold": 497,
+      "description": "allocated \u00a349.7m to Adult Social Care (\u2248\u00a3497 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 104.0,
+      "perHousehold": 104.0,
+      "description": "raised Band D council tax by \u00a3104 (5.1%) to \u00a32155",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

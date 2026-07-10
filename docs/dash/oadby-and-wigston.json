@@ -1,0 +1,112 @@
+{
+  "slug": "oadby-and-wigston",
+  "name": "Oadby & Wigston District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000135",
+  "colour": "hsl(219, 45%, 55%)",
+  "initials": "OW",
+  "leader": "Cllr John Boyce",
+  "chiefExecutive": "Anne Court",
+  "councillors": 26,
+  "website": "https://www.oadby-wigston.gov.uk",
+  "taxBands": {
+    "2021": 1963.0,
+    "2022": 2025.0,
+    "2023": 2125.0,
+    "2024": 2224.0,
+    "2025": 2330.0,
+    "2026": 2407.0
+  },
+  "taxCurrent": 2330.0,
+  "taxPrev": 2224.0,
+  "taxChange": 106.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4957.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 1398.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 959.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -598.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 527.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": -492.0
+    }
+  ],
+  "budgetTotal": 7841.0,
+  "perHousehold": 157,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 959.0,
+      "perHousehold": 19,
+      "description": "allocated \u00a31.0m to Planning & Development (\u2248\u00a319 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 527.0,
+      "perHousehold": 11,
+      "description": "allocated \u00a30.5m to Housing (\u2248\u00a311 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4957.0,
+      "perHousehold": 99,
+      "description": "allocated \u00a35.0m to Council Running Costs (\u2248\u00a399 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 1398.0,
+      "perHousehold": 28,
+      "description": "allocated \u00a31.4m to Environment & Streets (\u2248\u00a328 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 106.0,
+      "perHousehold": 106.0,
+      "description": "raised Band D council tax by \u00a3106 (4.8%) to \u00a32330",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

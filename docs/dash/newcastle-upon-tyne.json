@@ -1,0 +1,142 @@
+{
+  "slug": "newcastle-upon-tyne",
+  "name": "Newcastle upon Tyne Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000021",
+  "colour": "hsl(108, 45%, 55%)",
+  "initials": "NT",
+  "leader": "Cllr Karen Kilgour",
+  "chiefExecutive": "Pam Smith",
+  "councillors": 78,
+  "website": "https://www.newcastle.gov.uk",
+  "taxBands": {
+    "2021": 2024.0,
+    "2022": 2088.0,
+    "2023": 2182.0,
+    "2024": 2294.0,
+    "2025": 2413.0,
+    "2026": 2542.0
+  },
+  "taxCurrent": 2413.0,
+  "taxPrev": 2294.0,
+  "taxChange": 119.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 238291.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 179460.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 70802.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 39024.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 30942.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 9851.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 9540.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 8624.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 3744.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 83.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 21.0
+    }
+  ],
+  "budgetTotal": 590382.0,
+  "perHousehold": 4541,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 179460.0,
+      "perHousehold": 1380,
+      "description": "allocated \u00a3179.5m to Adult Social Care (\u2248\u00a31380 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 238291.0,
+      "perHousehold": 1833,
+      "description": "allocated \u00a3238.3m to Education (\u2248\u00a31833 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 39024.0,
+      "perHousehold": 300,
+      "description": "allocated \u00a339.0m to Environment & Streets (\u2248\u00a3300 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 70802.0,
+      "perHousehold": 545,
+      "description": "allocated \u00a370.8m to Children's Social Care (\u2248\u00a3545 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 119.0,
+      "perHousehold": 119.0,
+      "description": "raised Band D council tax by \u00a3119 (5.2%) to \u00a32413",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

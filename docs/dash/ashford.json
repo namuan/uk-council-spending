@@ -1,0 +1,112 @@
+{
+  "slug": "ashford",
+  "name": "Ashford District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000105",
+  "colour": "hsl(180, 45%, 55%)",
+  "initials": "ASH",
+  "leader": "Cllr Noel Ovenden",
+  "chiefExecutive": "Tracey Kerly",
+  "councillors": 47,
+  "website": "https://www.ashford.gov.uk",
+  "taxBands": {
+    "2021": 1941.0,
+    "2022": 2000.0,
+    "2023": 2101.0,
+    "2024": 2202.0,
+    "2025": 2311.0,
+    "2026": 2410.0
+  },
+  "taxCurrent": 2311.0,
+  "taxPrev": 2202.0,
+  "taxChange": 109.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10936.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6480.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4425.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2859.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1577.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -694.0
+    }
+  ],
+  "budgetTotal": 26277.0,
+  "perHousehold": 526,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6480.0,
+      "perHousehold": 130,
+      "description": "allocated \u00a36.5m to Housing (\u2248\u00a3130 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 2859.0,
+      "perHousehold": 57,
+      "description": "allocated \u00a32.9m to Culture & Leisure (\u2248\u00a357 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 10936.0,
+      "perHousehold": 219,
+      "description": "allocated \u00a310.9m to Environment & Streets (\u2248\u00a3219 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4425.0,
+      "perHousehold": 88,
+      "description": "allocated \u00a34.4m to Council Running Costs (\u2248\u00a388 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (5.0%) to \u00a32311",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

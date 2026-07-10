@@ -1,0 +1,140 @@
+{
+  "slug": "somerset",
+  "name": "Somerset Council",
+  "type": "UA",
+  "typeName": "Unitary Authority",
+  "onsCode": "E06000066",
+  "colour": "hsl(179, 45%, 55%)",
+  "initials": "SOM",
+  "leader": "Cllr Bill Revans",
+  "chiefExecutive": "Duncan Sharkey",
+  "councillors": 110,
+  "website": "https://www.somerset.gov.uk",
+  "taxBands": {
+    "2023": 2116.0,
+    "2024": 2267.0,
+    "2025": 2439.0,
+    "2026": 2561.0
+  },
+  "taxCurrent": 2439.0,
+  "taxPrev": 2267.0,
+  "taxChange": 172.0,
+  "taxChangePct": 7.6,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 328080.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 310620.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 128267.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 71394.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 28394.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 23650.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 18179.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 15711.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 15585.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 11057.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 2749.0
+    }
+  ],
+  "budgetTotal": 953686.0,
+  "perHousehold": 9537,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 328080.0,
+      "perHousehold": 3281,
+      "description": "allocated \u00a3328.1m to Education (\u2248\u00a33281 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 310620.0,
+      "perHousehold": 3106,
+      "description": "allocated \u00a3310.6m to Adult Social Care (\u2248\u00a33106 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 128267.0,
+      "perHousehold": 1283,
+      "description": "allocated \u00a3128.3m to Children's Social Care (\u2248\u00a31283 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 71394.0,
+      "perHousehold": 714,
+      "description": "allocated \u00a371.4m to Environment & Streets (\u2248\u00a3714 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 172.0,
+      "perHousehold": 172.0,
+      "description": "raised Band D council tax by \u00a3172 (7.6%) to \u00a32439",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "elmbridge",
+  "name": "Elmbridge District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000207",
+  "colour": "hsl(306, 45%, 55%)",
+  "initials": "ELM",
+  "leader": "Cllr Oliver Maybury",
+  "chiefExecutive": "Robert Gilliat",
+  "councillors": 48,
+  "website": "https://www.elmbridge.gov.uk",
+  "taxBands": {
+    "2021": 2067.0,
+    "2022": 2159.0,
+    "2023": 2230.0,
+    "2024": 2334.0,
+    "2025": 2443.0,
+    "2026": 2558.0
+  },
+  "taxCurrent": 2443.0,
+  "taxPrev": 2334.0,
+  "taxChange": 109.0,
+  "taxChangePct": 4.7,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8237.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8057.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6030.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 3668.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3336.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2611.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -2474.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 49.0
+    }
+  ],
+  "budgetTotal": 31988.0,
+  "perHousehold": 640,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 6030.0,
+      "perHousehold": 121,
+      "description": "allocated \u00a36.0m to Housing (\u2248\u00a3121 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 8057.0,
+      "perHousehold": 161,
+      "description": "allocated \u00a38.1m to Environment & Streets (\u2248\u00a3161 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8237.0,
+      "perHousehold": 165,
+      "description": "allocated \u00a38.2m to Council Running Costs (\u2248\u00a3165 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 3668.0,
+      "perHousehold": 73,
+      "description": "allocated \u00a33.7m to Adult Social Care (\u2248\u00a373 per household)",
+      "timestamp": "2025-10-18"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 109.0,
+      "perHousehold": 109.0,
+      "description": "raised Band D council tax by \u00a3109 (4.7%) to \u00a32443",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

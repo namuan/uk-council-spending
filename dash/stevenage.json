@@ -1,0 +1,112 @@
+{
+  "slug": "stevenage",
+  "name": "Stevenage District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000243",
+  "colour": "hsl(122, 45%, 55%)",
+  "initials": "STE",
+  "leader": "",
+  "chiefExecutive": "",
+  "councillors": 39,
+  "website": "https://www.stevenage.gov.uk",
+  "taxBands": {
+    "2021": 1904.0,
+    "2022": 1978.0,
+    "2023": 2076.0,
+    "2024": 2176.0,
+    "2025": 2281.0,
+    "2026": 2392.0
+  },
+  "taxCurrent": 2281.0,
+  "taxPrev": 2176.0,
+  "taxChange": 105.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6230.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4661.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3114.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -1777.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1341.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 689.0
+    }
+  ],
+  "budgetTotal": 16035.0,
+  "perHousehold": 321,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 4661.0,
+      "perHousehold": 93,
+      "description": "allocated \u00a34.7m to Council Running Costs (\u2248\u00a393 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 6230.0,
+      "perHousehold": 125,
+      "description": "allocated \u00a36.2m to Environment & Streets (\u2248\u00a3125 per household)",
+      "timestamp": "2026-01-24"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3114.0,
+      "perHousehold": 62,
+      "description": "allocated \u00a33.1m to Culture & Leisure (\u2248\u00a362 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 1341.0,
+      "perHousehold": 27,
+      "description": "allocated \u00a31.3m to Planning & Development (\u2248\u00a327 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 105.0,
+      "perHousehold": 105.0,
+      "description": "raised Band D council tax by \u00a3105 (4.8%) to \u00a32281",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

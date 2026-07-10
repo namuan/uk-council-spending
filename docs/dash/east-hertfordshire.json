@@ -1,0 +1,112 @@
+{
+  "slug": "east-hertfordshire",
+  "name": "East Hertfordshire District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000242",
+  "colour": "hsl(203, 45%, 55%)",
+  "initials": "EH",
+  "leader": "Cllr Peter Boylan",
+  "chiefExecutive": "Richard Cassidy",
+  "councillors": 50,
+  "website": "https://www.eastherts.gov.uk",
+  "taxBands": {
+    "2021": 1942.0,
+    "2022": 2017.0,
+    "2023": 2117.0,
+    "2024": 2225.0,
+    "2025": 2340.0,
+    "2026": 2455.0
+  },
+  "taxCurrent": 2340.0,
+  "taxPrev": 2225.0,
+  "taxChange": 115.0,
+  "taxChangePct": 5.2,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7291.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5563.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4274.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3256.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3133.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -962.0
+    }
+  ],
+  "budgetTotal": 23517.0,
+  "perHousehold": 470,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 4274.0,
+      "perHousehold": 85,
+      "description": "allocated \u00a34.3m to Planning & Development (\u2248\u00a385 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 3256.0,
+      "perHousehold": 65,
+      "description": "allocated \u00a33.3m to Housing (\u2248\u00a365 per household)",
+      "timestamp": "2026-06-19"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 5563.0,
+      "perHousehold": 111,
+      "description": "allocated \u00a35.6m to Environment & Streets (\u2248\u00a3111 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 7291.0,
+      "perHousehold": 146,
+      "description": "allocated \u00a37.3m to Council Running Costs (\u2248\u00a3146 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (5.2%) to \u00a32340",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

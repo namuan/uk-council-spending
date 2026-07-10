@@ -1,0 +1,118 @@
+{
+  "slug": "cherwell",
+  "name": "Cherwell District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000177",
+  "colour": "hsl(56, 45%, 55%)",
+  "initials": "CHE",
+  "leader": "",
+  "chiefExecutive": "Gordon Stewart",
+  "councillors": 48,
+  "website": "https://www.cherwell.gov.uk",
+  "taxBands": {
+    "2021": 2041.0,
+    "2022": 2138.0,
+    "2023": 2243.0,
+    "2024": 2351.0,
+    "2025": 2464.0,
+    "2026": 2583.0
+  },
+  "taxCurrent": 2464.0,
+  "taxPrev": 2351.0,
+  "taxChange": 113.0,
+  "taxChangePct": 4.8,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 9435.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6869.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5723.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4531.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 3979.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 3351.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 24.0
+    }
+  ],
+  "budgetTotal": 33912.0,
+  "perHousehold": 678,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5723.0,
+      "perHousehold": 114,
+      "description": "allocated \u00a35.7m to Planning & Development (\u2248\u00a3114 per household)",
+      "timestamp": "2025-11-07"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 9435.0,
+      "perHousehold": 189,
+      "description": "allocated \u00a39.4m to Environment & Streets (\u2248\u00a3189 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 4531.0,
+      "perHousehold": 91,
+      "description": "allocated \u00a34.5m to Housing (\u2248\u00a391 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6869.0,
+      "perHousehold": 137,
+      "description": "allocated \u00a36.9m to Council Running Costs (\u2248\u00a3137 per household)",
+      "timestamp": "2025-05-03"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 113.0,
+      "perHousehold": 113.0,
+      "description": "raised Band D council tax by \u00a3113 (4.8%) to \u00a32464",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

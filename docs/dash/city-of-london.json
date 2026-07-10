@@ -1,0 +1,142 @@
+{
+  "slug": "city-of-london",
+  "name": "City of London",
+  "type": "LB",
+  "typeName": "London Borough",
+  "onsCode": "E09000001",
+  "colour": "hsl(109, 45%, 55%)",
+  "initials": "OL",
+  "leader": "Policy Chairman of the City of London Corporation",
+  "chiefExecutive": "John Barradell",
+  "councillors": 125,
+  "website": "https://www.cityoflondon.gov.uk",
+  "taxBands": {
+    "2021": 1049.0,
+    "2022": 1075.0,
+    "2023": 1146.0,
+    "2024": 1218.0,
+    "2025": 1274.0,
+    "2026": 1330.0
+  },
+  "taxCurrent": 1274.0,
+  "taxPrev": 1218.0,
+  "taxChange": 56.0,
+  "taxChangePct": 4.6,
+  "budgetCategories": [
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 179540.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 46635.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 17261.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 10485.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 9179.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 7190.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 5902.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 5836.0
+    },
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 5121.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -3245.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 1773.0
+    }
+  ],
+  "budgetTotal": 288922.0,
+  "perHousehold": 2627,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 10485.0,
+      "perHousehold": 95,
+      "description": "allocated \u00a310.5m to Council Running Costs (\u2248\u00a395 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 46635.0,
+      "perHousehold": 424,
+      "description": "allocated \u00a346.6m to Culture & Leisure (\u2248\u00a3424 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 17261.0,
+      "perHousehold": 157,
+      "description": "allocated \u00a317.3m to Environment & Streets (\u2248\u00a3157 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 179540.0,
+      "perHousehold": 1632,
+      "description": "allocated \u00a3179.5m to Other Services (\u2248\u00a31632 per household)",
+      "timestamp": "2026-02-10"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 56.0,
+      "perHousehold": 56.0,
+      "description": "raised Band D council tax by \u00a356 (4.6%) to \u00a31274",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

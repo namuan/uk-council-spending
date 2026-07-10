@@ -1,0 +1,118 @@
+{
+  "slug": "east-suffolk",
+  "name": "East Suffolk District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000244",
+  "colour": "hsl(196, 45%, 55%)",
+  "initials": "ES",
+  "leader": "Cllr Steve Gallant",
+  "chiefExecutive": "Stephen Baker",
+  "councillors": 55,
+  "website": "https://www.eastsuffolk.gov.uk",
+  "taxBands": {
+    "2021": 1879.0,
+    "2022": 1939.0,
+    "2023": 2019.0,
+    "2024": 2118.0,
+    "2025": 2222.0,
+    "2026": 2335.0
+  },
+  "taxCurrent": 2222.0,
+  "taxPrev": 2118.0,
+  "taxChange": 104.0,
+  "taxChangePct": 4.9,
+  "budgetCategories": [
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 20450.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 14511.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8488.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8396.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 4509.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -784.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 690.0
+    }
+  ],
+  "budgetTotal": 57044.0,
+  "perHousehold": 1141,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 8488.0,
+      "perHousehold": 170,
+      "description": "allocated \u00a38.5m to Housing (\u2248\u00a3170 per household)",
+      "timestamp": "2026-06-01"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 14511.0,
+      "perHousehold": 290,
+      "description": "allocated \u00a314.5m to Planning & Development (\u2248\u00a3290 per household)",
+      "timestamp": "2026-04-02"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 8396.0,
+      "perHousehold": 168,
+      "description": "allocated \u00a38.4m to Council Running Costs (\u2248\u00a3168 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 20450.0,
+      "perHousehold": 409,
+      "description": "allocated \u00a320.4m to Environment & Streets (\u2248\u00a3409 per household)",
+      "timestamp": "2025-09-02"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 104.0,
+      "perHousehold": 104.0,
+      "description": "raised Band D council tax by \u00a3104 (4.9%) to \u00a32222",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

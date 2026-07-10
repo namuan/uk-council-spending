@@ -1,0 +1,142 @@
+{
+  "slug": "manchester",
+  "name": "Manchester Council",
+  "type": "MD",
+  "typeName": "Metropolitan District",
+  "onsCode": "E08000003",
+  "colour": "hsl(345, 45%, 55%)",
+  "initials": "MAN",
+  "leader": "Cllr Bev Craig",
+  "chiefExecutive": "Tom Stannard",
+  "councillors": 96,
+  "website": "https://www.manchester.gov.uk",
+  "taxBands": {
+    "2021": 1806.0,
+    "2022": 1873.0,
+    "2023": 1970.0,
+    "2024": 2068.0,
+    "2025": 2183.0,
+    "2026": 2312.0
+  },
+  "taxCurrent": 2183.0,
+  "taxPrev": 2068.0,
+  "taxChange": 115.0,
+  "taxChangePct": 5.6,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 506791.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 314808.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 195643.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 65914.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 60917.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 53227.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 41173.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 28272.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 26702.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 1840.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 600.0
+    }
+  ],
+  "budgetTotal": 1295887.0,
+  "perHousehold": 9968,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 195643.0,
+      "perHousehold": 1505,
+      "description": "allocated \u00a3195.6m to Children's Social Care (\u2248\u00a31505 per household)",
+      "timestamp": "2026-04-22"
+    },
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 506791.0,
+      "perHousehold": 3898,
+      "description": "allocated \u00a3506.8m to Education (\u2248\u00a33898 per household)",
+      "timestamp": "2025-12-12"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 314808.0,
+      "perHousehold": 2422,
+      "description": "allocated \u00a3314.8m to Adult Social Care (\u2248\u00a32422 per household)",
+      "timestamp": "2025-06-21"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 65914.0,
+      "perHousehold": 507,
+      "description": "allocated \u00a365.9m to Housing (\u2248\u00a3507 per household)",
+      "timestamp": "2025-04-15"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 115.0,
+      "perHousehold": 115.0,
+      "description": "raised Band D council tax by \u00a3115 (5.6%) to \u00a32183",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

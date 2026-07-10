@@ -1,0 +1,112 @@
+{
+  "slug": "hart",
+  "name": "Hart District Council",
+  "type": "SD",
+  "typeName": "District Council",
+  "onsCode": "E07000089",
+  "colour": "hsl(65, 45%, 55%)",
+  "initials": "HAR",
+  "leader": "Cllr David Sherwin",
+  "chiefExecutive": "Daryl Phillips",
+  "councillors": 33,
+  "website": "https://www.hart.gov.uk",
+  "taxBands": {
+    "2021": 1914.0,
+    "2022": 1978.0,
+    "2023": 2079.0,
+    "2024": 2174.0,
+    "2025": 2285.0,
+    "2026": 2400.0
+  },
+  "taxCurrent": 2285.0,
+  "taxPrev": 2174.0,
+  "taxChange": 111.0,
+  "taxChangePct": 5.1,
+  "budgetCategories": [
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6850.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4067.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2143.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1441.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": -1017.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": -210.0
+    }
+  ],
+  "budgetTotal": 14501.0,
+  "perHousehold": 290,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 4067.0,
+      "perHousehold": 81,
+      "description": "allocated \u00a34.1m to Environment & Streets (\u2248\u00a381 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 1441.0,
+      "perHousehold": 29,
+      "description": "allocated \u00a31.4m to Housing (\u2248\u00a329 per household)",
+      "timestamp": "2026-03-15"
+    },
+    {
+      "type": "budget",
+      "category": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 6850.0,
+      "perHousehold": 137,
+      "description": "allocated \u00a36.8m to Council Running Costs (\u2248\u00a3137 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "budget",
+      "category": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 2143.0,
+      "perHousehold": 43,
+      "description": "allocated \u00a32.1m to Planning & Development (\u2248\u00a343 per household)",
+      "timestamp": "2026-01-06"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 111.0,
+      "perHousehold": 111.0,
+      "description": "raised Band D council tax by \u00a3111 (5.1%) to \u00a32285",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}

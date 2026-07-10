@@ -1,0 +1,141 @@
+{
+  "slug": "hampshire",
+  "name": "Hampshire County Council",
+  "type": "SC",
+  "typeName": "County Council",
+  "onsCode": "E10000014",
+  "colour": "hsl(36, 45%, 55%)",
+  "initials": "HAM",
+  "leader": "Cllr Nick Adams-King",
+  "chiefExecutive": "Gary Westbrook",
+  "councillors": 78,
+  "website": "https://www.hants.gov.uk",
+  "taxBands": {
+    "2021": 1350.45,
+    "2022": 1390.86,
+    "2023": 1460.0,
+    "2024": 1533.0,
+    "2025": 1610.0
+  },
+  "taxCurrent": 1610.0,
+  "taxPrev": 1533.0,
+  "taxChange": 77.0,
+  "taxChangePct": 5.0,
+  "budgetCategories": [
+    {
+      "cat": "education",
+      "label": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 1404034.0
+    },
+    {
+      "cat": "adult_social_care",
+      "label": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 642847.0
+    },
+    {
+      "cat": "childrens_social_care",
+      "label": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 300348.0
+    },
+    {
+      "cat": "transport",
+      "label": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 77607.0
+    },
+    {
+      "cat": "environmental",
+      "label": "Environment & Streets",
+      "icon": "\ud83c\udf33",
+      "amount": 72683.0
+    },
+    {
+      "cat": "public_health",
+      "label": "Public Health",
+      "icon": "\ud83c\udfe5",
+      "amount": 65114.0
+    },
+    {
+      "cat": "cultural",
+      "label": "Culture & Leisure",
+      "icon": "\ud83c\udfad",
+      "amount": 24292.0
+    },
+    {
+      "cat": "central_services",
+      "label": "Council Running Costs",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "amount": 13539.0
+    },
+    {
+      "cat": "other",
+      "label": "Other Services",
+      "icon": "\ud83d\udccb",
+      "amount": 5857.0
+    },
+    {
+      "cat": "planning",
+      "label": "Planning & Development",
+      "icon": "\ud83d\udcd0",
+      "amount": 5368.0
+    },
+    {
+      "cat": "housing",
+      "label": "Housing",
+      "icon": "\ud83c\udfe0",
+      "amount": 62.0
+    }
+  ],
+  "budgetTotal": 2611751.0,
+  "perHousehold": 7462,
+  "feedItems": [
+    {
+      "type": "budget",
+      "category": "Education",
+      "icon": "\ud83d\udcda",
+      "amount": 1404034.0,
+      "perHousehold": 4012,
+      "description": "allocated \u00a31404.0m to Education (\u2248\u00a34012 per household)",
+      "timestamp": "2026-07-05"
+    },
+    {
+      "type": "budget",
+      "category": "Adult Social Care",
+      "icon": "\ud83d\udc74",
+      "amount": 642847.0,
+      "perHousehold": 1837,
+      "description": "allocated \u00a3642.8m to Adult Social Care (\u2248\u00a31837 per household)",
+      "timestamp": "2026-05-08"
+    },
+    {
+      "type": "budget",
+      "category": "Roads & Transport",
+      "icon": "\ud83d\udee3\ufe0f",
+      "amount": 77607.0,
+      "perHousehold": 222,
+      "description": "allocated \u00a377.6m to Roads & Transport (\u2248\u00a3222 per household)",
+      "timestamp": "2026-02-28"
+    },
+    {
+      "type": "budget",
+      "category": "Children's Social Care",
+      "icon": "\ud83d\udc76",
+      "amount": 300348.0,
+      "perHousehold": 858,
+      "description": "allocated \u00a3300.3m to Children's Social Care (\u2248\u00a3858 per household)",
+      "timestamp": "2025-07-09"
+    },
+    {
+      "type": "tax",
+      "category": "Council Tax",
+      "icon": "\ud83d\udcc8",
+      "amount": 77.0,
+      "perHousehold": 77.0,
+      "description": "raised Band D council tax by \u00a377 (5.0%) to \u00a31610",
+      "timestamp": "2025-03-15"
+    }
+  ]
+}
