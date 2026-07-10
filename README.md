@@ -2,6 +2,8 @@
 
 Track how every English council spends your money — a Venmo-inspired dashboard for local government finance.
 
+![Kent County Council dashboard](screenshot.png)
+
 **317 councils · Zero backend · Free and open data**
 
 ## How it works
@@ -34,3 +36,7 @@ python3 -m http.server 8080
 ## Deploy
 
 Push to GitHub and enable Pages from the `/docs` folder.
+
+## License
+
+Code: [MIT](LICENSE) · Data: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
