@@ -67,11 +67,11 @@ Tax data already covers 2021–2026. If the CivAccount API provides historical b
 
 "Download as CSV" button on any comparison table. Simple to add on the frontend (generate CSV from the in-memory data, trigger download). Useful for journalists and researchers who want to analyse the data themselves.
 
-### 10. Council detail page improvements
+### 10. Council detail page improvements [x]
 
-- **Spending per capita** — currently shows per household; per capita would be more standard
-- **Service descriptions** — short plain-English explanations of what each budget category covers
-- **Change indicators** — if historical budget data becomes available, show whether spending on each category went up or down
+- **Spending per capita** — shows spending per resident using ONS mid-2024 population estimates
+- **Service descriptions** — shows a short plain-English explanation for every budget category
+- **Change indicators** — shows whether category spending went up or down when historical budget data is supplied
 
 ---
 

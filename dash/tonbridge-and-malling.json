@@ -27,52 +27,71 @@
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 6633.0
+      "description": "Core staff, finance, IT, legal and democratic services.",
+      "amount": 6633.0,
+      "perCapita": 48.5
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 5982.0
+      "description": "Waste, street cleaning, parks and environmental health.",
+      "amount": 5982.0,
+      "perCapita": 43.7
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": 3504.0
+      "description": "Libraries, museums, sports, arts and leisure services.",
+      "amount": 3504.0,
+      "perCapita": 25.6
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "amount": 3307.0
+      "description": "Housing advice, homelessness support and council homes.",
+      "amount": 3307.0,
+      "perCapita": 24.2
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 2860.0
+      "description": "Planning applications, building control and local development.",
+      "amount": 2860.0,
+      "perCapita": 20.9
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": -875.0
+      "description": "Road maintenance, public transport and local travel.",
+      "amount": -875.0,
+      "perCapita": -6.4
     },
     {
       "cat": "other",
       "label": "Other Services",
       "icon": "\ud83d\udccb",
-      "amount": 210.0
+      "description": "Other services not grouped in the categories above.",
+      "amount": 210.0,
+      "perCapita": 1.5
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
-      "amount": 62.0
+      "description": "Services that help people stay healthy and prevent illness.",
+      "amount": 62.0,
+      "perCapita": 0.5
     }
   ],
   "budgetTotal": 22558.0,
+  "population": 136853,
+  "populationYear": 2024,
+  "perCapita": 165,
   "perHousehold": 451,
   "feedItems": [
     {
@@ -80,8 +99,8 @@
       "category": "Culture & Leisure",
       "icon": "\ud83c\udfad",
       "amount": 3504.0,
-      "perHousehold": 70,
-      "description": "allocated \u00a33.5m to Culture & Leisure (\u2248\u00a370 per household)",
+      "perCapita": 26,
+      "description": "allocated \u00a33.5m to Culture & Leisure (\u2248\u00a326 per resident)",
       "timestamp": "2026-04-02"
     },
     {
@@ -89,8 +108,8 @@
       "category": "Housing",
       "icon": "\ud83c\udfe0",
       "amount": 3307.0,
-      "perHousehold": 66,
-      "description": "allocated \u00a33.3m to Housing (\u2248\u00a366 per household)",
+      "perCapita": 24,
+      "description": "allocated \u00a33.3m to Housing (\u2248\u00a324 per resident)",
       "timestamp": "2025-12-12"
     },
     {
@@ -98,8 +117,8 @@
       "category": "Environment & Streets",
       "icon": "\ud83c\udf33",
       "amount": 5982.0,
-      "perHousehold": 120,
-      "description": "allocated \u00a36.0m to Environment & Streets (\u2248\u00a3120 per household)",
+      "perCapita": 44,
+      "description": "allocated \u00a36.0m to Environment & Streets (\u2248\u00a344 per resident)",
       "timestamp": "2025-11-07"
     },
     {
@@ -107,8 +126,8 @@
       "category": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
       "amount": 6633.0,
-      "perHousehold": 133,
-      "description": "allocated \u00a36.6m to Council Running Costs (\u2248\u00a3133 per household)",
+      "perCapita": 48,
+      "description": "allocated \u00a36.6m to Council Running Costs (\u2248\u00a348 per resident)",
       "timestamp": "2025-08-14"
     },
     {
@@ -116,7 +135,7 @@
       "category": "Council Tax",
       "icon": "\ud83d\udcc8",
       "amount": 109.0,
-      "perHousehold": 109.0,
+      "perCapita": 109.0,
       "description": "raised Band D council tax by \u00a3109 (4.8%) to \u00a32375",
       "timestamp": "2025-03-15"
     }

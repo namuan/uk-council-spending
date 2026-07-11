@@ -22,6 +22,7 @@ from collections import defaultdict
 from pathlib import Path
 
 OUT_DIR = Path("dash")
+POPULATION_DATA_FILE = Path(__file__).with_name("council_population_2024.json")
 
 CAT_ICONS = {
     "education": "📚", "childrens_social_care": "👶", "adult_social_care": "👴",
@@ -37,6 +38,27 @@ CAT_LABELS = {
     "planning": "Planning & Development", "central_services": "Council Running Costs",
     "other": "Other Services",
 }
+
+CAT_DESCRIPTIONS = {
+    "education": "Schools, special educational needs and learning services.",
+    "childrens_social_care": "Support and safeguarding for children, young people and families.",
+    "adult_social_care": "Care and support for older and disabled adults.",
+    "public_health": "Services that help people stay healthy and prevent illness.",
+    "transport": "Road maintenance, public transport and local travel.",
+    "housing": "Housing advice, homelessness support and council homes.",
+    "cultural": "Libraries, museums, sports, arts and leisure services.",
+    "environmental": "Waste, street cleaning, parks and environmental health.",
+    "planning": "Planning applications, building control and local development.",
+    "central_services": "Core staff, finance, IT, legal and democratic services.",
+    "other": "Other services not grouped in the categories above.",
+}
+
+# CivAccount's population field is currently blank. These official estimates keep
+# the per-resident figures useful until the API provides population data directly.
+with open(POPULATION_DATA_FILE) as f:
+    POPULATION_DATA = json.load(f)
+POPULATIONS = POPULATION_DATA["populations"]
+POPULATION_YEAR = POPULATION_DATA["year"]
 
 HOUSEHOLDS = {
     "County Council": 350000, "Metropolitan District": 130000,
@@ -90,16 +112,20 @@ def load_rows():
                 "type_name": d.get("type_name", ""),
                 "website": d.get("website", ""),
                 "ons_code": d.get("ons_code", ""),
+                "population": d.get("population"),
             }
             ct = d.get("council_tax", {})
             for k, v in ct.items():
                 row[f"council_tax_{k}"] = v
             bd = d.get("budget", {})
+            row["budget"] = bd
             row["budget_total_service"] = bd.get("total_service")
             row["budget_net_current"] = bd.get("net_current")
+            row["budget_items"] = {}
             for item in bd.get("breakdown", []):
                 cat = item.get("category", "other")
                 row[f"budget_{cat}"] = item.get("amount_thousands")
+                row["budget_items"][cat] = item
             ld = d.get("leadership", {})
             row["leader"] = ld.get("council_leader", "")
             row["chief_executive"] = ld.get("chief_executive", "")
@@ -108,6 +134,45 @@ def load_rows():
         except Exception as e:
             print(f"  Warning: could not parse {fpath.name}: {e}")
     return rows
+
+
+def number_or_none(value):
+    """Return a numeric API value, leaving absent or malformed values as None."""
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def previous_budget_amounts(budget):
+    """Read prior-year category amounts when CivAccount supplies them.
+
+    The live API currently has no historical budget data. Supporting both a
+    previous-breakdown collection and per-category fields lets the dashboard
+    surface year-on-year changes without a frontend change when it is added.
+    """
+    amounts = {}
+    collections = [
+        budget.get("previous_breakdown"),
+        budget.get("breakdown_previous"),
+        budget.get("previous_year_breakdown"),
+    ]
+    previous_budget = budget.get("previous_budget")
+    if isinstance(previous_budget, dict):
+        collections.append(previous_budget.get("breakdown"))
+
+    for collection in collections:
+        if not isinstance(collection, list):
+            continue
+        for item in collection:
+            if not isinstance(item, dict):
+                continue
+            amount = number_or_none(item.get("amount_thousands"))
+            if item.get("category") and amount is not None:
+                amounts[item["category"]] = amount
+    return amounts
 
 
 def build_council_data(row):
@@ -131,6 +196,9 @@ def build_council_data(row):
     # Budget categories
     budget_cats = []
     total = 0
+    population = number_or_none(row.get("population")) or POPULATIONS.get(slug)
+    population = int(population) if population else None
+    prior_amounts = previous_budget_amounts(row.get("budget", {}))
     cat_order = ["education","childrens_social_care","adult_social_care","public_health",
                  "transport","housing","cultural","environmental","planning",
                  "central_services","other"]
@@ -140,30 +208,52 @@ def build_council_data(row):
         if val is not None and val != "":
             val = float(val)
             total += max(val, 0)
-            budget_cats.append({
+            budget_item = row.get("budget_items", {}).get(cat, {})
+            category = {
                 "cat": cat, "label": CAT_LABELS.get(cat, cat),
                 "icon": CAT_ICONS.get(cat, "📋"),
+                "description": CAT_DESCRIPTIONS.get(cat, ""),
                 "amount": round(val, 1),
-            })
+                "perCapita": round(val * 1000 / population, 1) if population else None,
+            }
+
+            # Accept likely future API field names on the current category item.
+            previous = next((
+                number_or_none(budget_item.get(key))
+                for key in (
+                    "previous_amount_thousands",
+                    "previous_year_amount_thousands",
+                    "prior_amount_thousands",
+                )
+                if number_or_none(budget_item.get(key)) is not None
+            ), prior_amounts.get(cat))
+            if previous is not None:
+                change = val - previous
+                category["previousAmount"] = round(previous, 1)
+                category["changeAmount"] = round(change, 1)
+                category["changePercent"] = round(change / abs(previous) * 100, 1) if previous else None
+
+            budget_cats.append(category)
     budget_cats.sort(key=lambda x: -abs(x["amount"]))
 
     hh = HOUSEHOLDS.get(tname, 80000)
     per_hh = round(total * 1000 / hh, 0) if hh else 0  # total is in thousands
+    per_capita = round(total * 1000 / population, 0) if population else None
 
     # Feed items for this council
     feed = []
     top_positive = [c for c in budget_cats if c["amount"] > 0][:4]
     for cat in top_positive:
-        ph = round(cat["amount"] / hh * 1000, 0) if hh else 0
+        pc = round(cat["amount"] * 1000 / population, 0) if population else None
         desc = f'allocated £{cat["amount"]/1000:.1f}m to {cat["label"]}'
-        if ph > 0:
-            desc += f' (≈£{ph:.0f} per household)'
+        if pc is not None:
+            desc += f' (≈£{pc:.0f} per resident)'
         feed.append({
             "type": "budget",
             "category": cat["label"],
             "icon": cat["icon"],
             "amount": round(cat["amount"], 0),
-            "perHousehold": int(ph),
+            "perCapita": int(pc) if pc is not None else None,
             "description": desc,
             "timestamp": random.choice(FEED_DATES),
         })
@@ -175,7 +265,7 @@ def build_council_data(row):
             "category": "Council Tax",
             "icon": "📈" if tax_chg > 0 else "📉",
             "amount": round(abs(tax_chg), 0),
-            "perHousehold": round(abs(tax_chg), 0),
+            "perCapita": round(abs(tax_chg), 0),
             "description": f'{direction} Band D council tax by £{abs(tax_chg):.0f} ({abs(tax_pct)}%) to £{tax_cur:.0f}',
             "timestamp": "2025-03-15",
         })
@@ -207,6 +297,9 @@ def build_council_data(row):
         "taxChangePct": tax_pct,
         "budgetCategories": budget_cats,
         "budgetTotal": round(total, 0),
+        "population": population,
+        "populationYear": POPULATION_YEAR if population else None,
+        "perCapita": int(per_capita) if per_capita is not None else None,
         "perHousehold": int(per_hh),
         "feedItems": feed,
     }

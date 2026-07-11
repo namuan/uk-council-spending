@@ -27,40 +27,55 @@
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 6952.0
+      "description": "Waste, street cleaning, parks and environmental health.",
+      "amount": 6952.0,
+      "perCapita": 66.3
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 6562.0
+      "description": "Core staff, finance, IT, legal and democratic services.",
+      "amount": 6562.0,
+      "perCapita": 62.6
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "amount": 2160.0
+      "description": "Housing advice, homelessness support and council homes.",
+      "amount": 2160.0,
+      "perCapita": 20.6
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 1857.0
+      "description": "Planning applications, building control and local development.",
+      "amount": 1857.0,
+      "perCapita": 17.7
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": 736.0
+      "description": "Road maintenance, public transport and local travel.",
+      "amount": 736.0,
+      "perCapita": 7.0
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": 725.0
+      "description": "Libraries, museums, sports, arts and leisure services.",
+      "amount": 725.0,
+      "perCapita": 6.9
     }
   ],
   "budgetTotal": 18992.0,
+  "population": 104896,
+  "populationYear": 2024,
+  "perCapita": 181,
   "perHousehold": 380,
   "feedItems": [
     {
@@ -68,8 +83,8 @@
       "category": "Environment & Streets",
       "icon": "\ud83c\udf33",
       "amount": 6952.0,
-      "perHousehold": 139,
-      "description": "allocated \u00a37.0m to Environment & Streets (\u2248\u00a3139 per household)",
+      "perCapita": 66,
+      "description": "allocated \u00a37.0m to Environment & Streets (\u2248\u00a366 per resident)",
       "timestamp": "2026-06-01"
     },
     {
@@ -77,8 +92,8 @@
       "category": "Housing",
       "icon": "\ud83c\udfe0",
       "amount": 2160.0,
-      "perHousehold": 43,
-      "description": "allocated \u00a32.2m to Housing (\u2248\u00a343 per household)",
+      "perCapita": 21,
+      "description": "allocated \u00a32.2m to Housing (\u2248\u00a321 per resident)",
       "timestamp": "2026-03-15"
     },
     {
@@ -86,8 +101,8 @@
       "category": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
       "amount": 6562.0,
-      "perHousehold": 131,
-      "description": "allocated \u00a36.6m to Council Running Costs (\u2248\u00a3131 per household)",
+      "perCapita": 63,
+      "description": "allocated \u00a36.6m to Council Running Costs (\u2248\u00a363 per resident)",
       "timestamp": "2025-08-14"
     },
     {
@@ -95,8 +110,8 @@
       "category": "Planning & Development",
       "icon": "\ud83d\udcd0",
       "amount": 1857.0,
-      "perHousehold": 37,
-      "description": "allocated \u00a31.9m to Planning & Development (\u2248\u00a337 per household)",
+      "perCapita": 18,
+      "description": "allocated \u00a31.9m to Planning & Development (\u2248\u00a318 per resident)",
       "timestamp": "2025-08-14"
     },
     {
@@ -104,7 +119,7 @@
       "category": "Council Tax",
       "icon": "\ud83d\udcc8",
       "amount": 102.0,
-      "perHousehold": 102.0,
+      "perCapita": 102.0,
       "description": "raised Band D council tax by \u00a3102 (4.4%) to \u00a32433",
       "timestamp": "2025-03-15"
     }
