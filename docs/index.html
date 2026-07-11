@@ -517,12 +517,17 @@
 
   <div class="compare-summary" id="compareSummary"></div>
 
-  <div class="dash-section">
+  <div class="dash-section" id="compareEmptyState" style="text-align:center;padding:60px 20px;color:var(--text3);">
+    <p style="font-size:1.1rem;margin-bottom:6px;">👆 Select a category above</p>
+    <p style="font-size:0.85rem;">Compare how all 317 English councils spend on any service.</p>
+  </div>
+
+  <div class="dash-section" id="compareChartSection" style="display:none;">
     <h3 id="compareChartTitle">📊 Top 20 Councils</h3>
     <div class="compare-chart-wrap"><canvas id="chartCompare"></canvas></div>
   </div>
 
-  <div class="dash-section" style="padding:0;">
+  <div class="dash-section" id="compareTableSection" style="display:none;padding:0;">
     <div class="compare-table-wrap">
       <table class="compare-table" id="compareTable">
         <thead><tr></tr></thead>
@@ -965,6 +970,8 @@ function showCompare(categoryKey, fromCouncil) {
     if (categoryKey) {
       document.getElementById('catSelect').value = categoryKey;
       changeCategory(categoryKey);
+    } else {
+      renderCompare();
     }
   });
 }
@@ -977,6 +984,7 @@ function closeCompare() {
   document.getElementById('compare').classList.remove('active');
   if (compareChartInstance) { compareChartInstance.destroy(); compareChartInstance = null; }
   currentCompareCategory = null;
+  document.getElementById('catSelect').value = '';
 
   if (compareFromCouncil) {
     loadCouncil(compareFromCouncil);
@@ -1053,13 +1061,23 @@ function getFilteredCouncils() {
 
 function renderCompare() {
   const councils = getFilteredCouncils();
+
+  const emptyState = document.getElementById('compareEmptyState');
+  const chartSection = document.getElementById('compareChartSection');
+  const tableSection = document.getElementById('compareTableSection');
+
   if (!councils.length && !currentCompareCategory) {
+    emptyState.style.display = '';
+    chartSection.style.display = 'none';
+    tableSection.style.display = 'none';
+    document.getElementById('typeFilters').innerHTML = '';
     document.getElementById('compareSummary').innerHTML = '';
-    document.getElementById('compareChartTitle').textContent = '📊 Select a Category';
-    document.getElementById('compareTable').querySelector('thead tr').innerHTML = '';
-    document.getElementById('compareTable').querySelector('tbody').innerHTML = '';
     return;
   }
+
+  emptyState.style.display = 'none';
+  chartSection.style.display = '';
+  tableSection.style.display = '';
 
   renderTypeFilters();
   renderCompareSummary(councils);
