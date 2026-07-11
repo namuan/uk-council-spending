@@ -13,6 +13,7 @@
       "amount": 108194.0,
       "budgetTotal": 1004457.0,
       "perHousehold": 1082,
+      "perCapita": 185.5,
       "percentOfBudget": 10.8
     },
     {
@@ -24,6 +25,7 @@
       "amount": 100411.0,
       "budgetTotal": 1609328.0,
       "perHousehold": 772,
+      "perCapita": 118.8,
       "percentOfBudget": 6.2
     },
     {
@@ -35,6 +37,7 @@
       "amount": 99389.0,
       "budgetTotal": 2512535.0,
       "perHousehold": 284,
+      "perCapita": 76.8,
       "percentOfBudget": 4.0
     },
     {
@@ -46,6 +49,7 @@
       "amount": 96757.0,
       "budgetTotal": 2206699.0,
       "perHousehold": 276,
+      "perCapita": 61.9,
       "percentOfBudget": 4.4
     },
     {
@@ -57,6 +61,7 @@
       "amount": 96282.0,
       "budgetTotal": 2809468.0,
       "perHousehold": 275,
+      "perCapita": 58.7,
       "percentOfBudget": 3.4
     },
     {
@@ -68,6 +73,7 @@
       "amount": 91984.0,
       "budgetTotal": 2403599.0,
       "perHousehold": 708,
+      "perCapita": 77.7,
       "percentOfBudget": 3.8
     },
     {
@@ -79,6 +85,7 @@
       "amount": 90358.0,
       "budgetTotal": 1939721.0,
       "perHousehold": 258,
+      "perCapita": 72.4,
       "percentOfBudget": 4.7
     },
     {
@@ -90,6 +97,7 @@
       "amount": 89656.0,
       "budgetTotal": 1070257.0,
       "perHousehold": 897,
+      "perCapita": 141.1,
       "percentOfBudget": 8.4
     },
     {
@@ -101,6 +109,7 @@
       "amount": 84962.0,
       "budgetTotal": 1446850.0,
       "perHousehold": 243,
+      "perCapita": 92.9,
       "percentOfBudget": 5.9
     },
     {
@@ -112,6 +121,7 @@
       "amount": 72683.0,
       "budgetTotal": 2611751.0,
       "perHousehold": 208,
+      "perCapita": 50.2,
       "percentOfBudget": 2.8
     },
     {
@@ -123,6 +133,7 @@
       "amount": 71394.0,
       "budgetTotal": 953686.0,
       "perHousehold": 714,
+      "perCapita": 121.4,
       "percentOfBudget": 7.5
     },
     {
@@ -134,6 +145,7 @@
       "amount": 68876.0,
       "budgetTotal": 561924.0,
       "perHousehold": 626,
+      "perCapita": 328.0,
       "percentOfBudget": 12.3
     },
     {
@@ -145,6 +157,7 @@
       "amount": 66210.0,
       "budgetTotal": 995882.0,
       "perHousehold": 662,
+      "perCapita": 123.1,
       "percentOfBudget": 6.6
     },
     {
@@ -156,6 +169,7 @@
       "amount": 59235.0,
       "budgetTotal": 865380.0,
       "perHousehold": 592,
+      "perCapita": 119.8,
       "percentOfBudget": 6.8
     },
     {
@@ -167,6 +181,7 @@
       "amount": 58886.0,
       "budgetTotal": 2104590.0,
       "perHousehold": 168,
+      "perCapita": 47.6,
       "percentOfBudget": 2.8
     },
     {
@@ -178,6 +193,7 @@
       "amount": 58729.0,
       "budgetTotal": 993650.0,
       "perHousehold": 534,
+      "perCapita": 177.0,
       "percentOfBudget": 5.9
     },
     {
@@ -189,6 +205,7 @@
       "amount": 58698.0,
       "budgetTotal": 1080882.0,
       "perHousehold": 452,
+      "perCapita": 100.8,
       "percentOfBudget": 5.4
     },
     {
@@ -200,6 +217,7 @@
       "amount": 56044.0,
       "budgetTotal": 1226044.0,
       "perHousehold": 160,
+      "perCapita": 68.1,
       "percentOfBudget": 4.6
     },
     {
@@ -211,6 +229,7 @@
       "amount": 55209.0,
       "budgetTotal": 870873.0,
       "perHousehold": 552,
+      "perCapita": 105.4,
       "percentOfBudget": 6.3
     },
     {
@@ -222,6 +241,7 @@
       "amount": 54850.0,
       "budgetTotal": 1147985.0,
       "perHousehold": 422,
+      "perCapita": 97.3,
       "percentOfBudget": 4.8
     },
     {
@@ -233,6 +253,7 @@
       "amount": 53773.0,
       "budgetTotal": 1370851.0,
       "perHousehold": 154,
+      "perCapita": 57.2,
       "percentOfBudget": 3.9
     },
     {
@@ -244,6 +265,7 @@
       "amount": 53671.0,
       "budgetTotal": 617069.0,
       "perHousehold": 488,
+      "perCapita": 170.5,
       "percentOfBudget": 8.7
     },
     {
@@ -255,6 +277,7 @@
       "amount": 53227.0,
       "budgetTotal": 1295887.0,
       "perHousehold": 409,
+      "perCapita": 90.3,
       "percentOfBudget": 4.1
     },
     {
@@ -266,6 +289,7 @@
       "amount": 52680.0,
       "budgetTotal": 1241727.0,
       "perHousehold": 151,
+      "perCapita": 58.1,
       "percentOfBudget": 4.2
     },
     {
@@ -277,6 +301,7 @@
       "amount": 48597.0,
       "budgetTotal": 914577.0,
       "perHousehold": 139,
+      "perCapita": 68.4,
       "percentOfBudget": 5.3
     },
     {
@@ -288,6 +313,7 @@
       "amount": 48226.0,
       "budgetTotal": 624224.0,
       "perHousehold": 482,
+      "perCapita": 135.5,
       "percentOfBudget": 7.7
     },
     {
@@ -299,6 +325,7 @@
       "amount": 46448.0,
       "budgetTotal": 1259059.0,
       "perHousehold": 133,
+      "perCapita": 55.1,
       "percentOfBudget": 3.7
     },
     {
@@ -310,6 +337,7 @@
       "amount": 45601.0,
       "budgetTotal": 554895.0,
       "perHousehold": 456,
+      "perCapita": 162.6,
       "percentOfBudget": 8.2
     },
     {
@@ -321,6 +349,7 @@
       "amount": 45429.0,
       "budgetTotal": 753227.0,
       "perHousehold": 413,
+      "perCapita": 111.0,
       "percentOfBudget": 6.0
     },
     {
@@ -332,6 +361,7 @@
       "amount": 44328.0,
       "budgetTotal": 917975.0,
       "perHousehold": 127,
+      "perCapita": 79.0,
       "percentOfBudget": 4.8
     },
     {
@@ -343,6 +373,7 @@
       "amount": 43903.0,
       "budgetTotal": 600729.0,
       "perHousehold": 338,
+      "perCapita": 119.4,
       "percentOfBudget": 7.3
     },
     {
@@ -354,6 +385,7 @@
       "amount": 43604.0,
       "budgetTotal": 690781.0,
       "perHousehold": 436,
+      "perCapita": 117.3,
       "percentOfBudget": 6.3
     },
     {
@@ -365,6 +397,7 @@
       "amount": 42826.0,
       "budgetTotal": 837774.0,
       "perHousehold": 122,
+      "perCapita": 68.9,
       "percentOfBudget": 5.1
     },
     {
@@ -376,6 +409,7 @@
       "amount": 42680.0,
       "budgetTotal": 675908.0,
       "perHousehold": 427,
+      "perCapita": 101.3,
       "percentOfBudget": 6.3
     },
     {
@@ -387,6 +421,7 @@
       "amount": 42392.0,
       "budgetTotal": 911868.0,
       "perHousehold": 121,
+      "perCapita": 56.9,
       "percentOfBudget": 4.6
     },
     {
@@ -398,6 +433,7 @@
       "amount": 42245.0,
       "budgetTotal": 645567.0,
       "perHousehold": 422,
+      "perCapita": 96.1,
       "percentOfBudget": 6.5
     },
     {
@@ -409,6 +445,7 @@
       "amount": 42106.0,
       "budgetTotal": 661219.0,
       "perHousehold": 383,
+      "perCapita": 140.6,
       "percentOfBudget": 6.4
     },
     {
@@ -420,6 +457,7 @@
       "amount": 41736.0,
       "budgetTotal": 1334007.0,
       "perHousehold": 119,
+      "perCapita": 48.7,
       "percentOfBudget": 3.1
     },
     {
@@ -431,6 +469,7 @@
       "amount": 41592.0,
       "budgetTotal": 588413.0,
       "perHousehold": 416,
+      "perCapita": 146.5,
       "percentOfBudget": 7.1
     },
     {
@@ -442,6 +481,7 @@
       "amount": 41223.0,
       "budgetTotal": 634733.0,
       "perHousehold": 412,
+      "perCapita": 124.5,
       "percentOfBudget": 6.5
     },
     {
@@ -453,6 +493,7 @@
       "amount": 41083.0,
       "budgetTotal": 589871.0,
       "perHousehold": 411,
+      "perCapita": 100.5,
       "percentOfBudget": 7.0
     },
     {
@@ -464,6 +505,7 @@
       "amount": 41030.0,
       "budgetTotal": 357017.0,
       "perHousehold": 373,
+      "perCapita": 283.9,
       "percentOfBudget": 11.5
     },
     {
@@ -475,6 +517,7 @@
       "amount": 40824.0,
       "budgetTotal": 469402.0,
       "perHousehold": 408,
+      "perCapita": 122.8,
       "percentOfBudget": 8.7
     },
     {
@@ -486,6 +529,7 @@
       "amount": 39676.0,
       "budgetTotal": 716766.0,
       "perHousehold": 305,
+      "perCapita": 88.6,
       "percentOfBudget": 5.5
     },
     {
@@ -497,6 +541,7 @@
       "amount": 39328.0,
       "budgetTotal": 987684.0,
       "perHousehold": 393,
+      "perCapita": 68.0,
       "percentOfBudget": 4.0
     },
     {
@@ -508,6 +553,7 @@
       "amount": 39024.0,
       "budgetTotal": 590382.0,
       "perHousehold": 300,
+      "perCapita": 121.7,
       "percentOfBudget": 6.6
     },
     {
@@ -519,6 +565,7 @@
       "amount": 38771.0,
       "budgetTotal": 489689.0,
       "perHousehold": 298,
+      "perCapita": 134.3,
       "percentOfBudget": 7.9
     },
     {
@@ -530,6 +577,7 @@
       "amount": 38106.0,
       "budgetTotal": 530405.0,
       "perHousehold": 381,
+      "perCapita": 115.0,
       "percentOfBudget": 7.2
     },
     {
@@ -541,6 +589,7 @@
       "amount": 37987.0,
       "budgetTotal": 713818.0,
       "perHousehold": 292,
+      "perCapita": 107.4,
       "percentOfBudget": 5.3
     },
     {
@@ -552,6 +601,7 @@
       "amount": 37730.0,
       "budgetTotal": 467778.0,
       "perHousehold": 377,
+      "perCapita": 137.0,
       "percentOfBudget": 8.1
     },
     {
@@ -563,6 +613,7 @@
       "amount": 37525.0,
       "budgetTotal": 590858.0,
       "perHousehold": 375,
+      "perCapita": 96.2,
       "percentOfBudget": 6.4
     },
     {
@@ -574,6 +625,7 @@
       "amount": 36278.0,
       "budgetTotal": 1015826.0,
       "perHousehold": 104,
+      "perCapita": 47.5,
       "percentOfBudget": 3.6
     },
     {
@@ -585,6 +637,7 @@
       "amount": 36067.0,
       "budgetTotal": 504749.0,
       "perHousehold": 361,
+      "perCapita": 117.7,
       "percentOfBudget": 7.1
     },
     {
@@ -596,6 +649,7 @@
       "amount": 35819.0,
       "budgetTotal": 811867.0,
       "perHousehold": 358,
+      "perCapita": 92.2,
       "percentOfBudget": 4.4
     },
     {
@@ -607,6 +661,7 @@
       "amount": 35643.0,
       "budgetTotal": 440084.0,
       "perHousehold": 356,
+      "perCapita": 154.8,
       "percentOfBudget": 8.1
     },
     {
@@ -618,6 +673,7 @@
       "amount": 35419.0,
       "budgetTotal": 1068063.0,
       "perHousehold": 101,
+      "perCapita": 44.9,
       "percentOfBudget": 3.3
     },
     {
@@ -629,6 +685,7 @@
       "amount": 35308.0,
       "budgetTotal": 657781.0,
       "perHousehold": 321,
+      "perCapita": 100.0,
       "percentOfBudget": 5.4
     },
     {
@@ -640,6 +697,7 @@
       "amount": 34775.0,
       "budgetTotal": 735502.0,
       "perHousehold": 316,
+      "perCapita": 130.4,
       "percentOfBudget": 4.7
     },
     {
@@ -651,6 +709,7 @@
       "amount": 34537.0,
       "budgetTotal": 681218.0,
       "perHousehold": 314,
+      "perCapita": 159.2,
       "percentOfBudget": 5.1
     },
     {
@@ -662,6 +721,7 @@
       "amount": 34506.0,
       "budgetTotal": 425541.0,
       "perHousehold": 345,
+      "perCapita": 117.9,
       "percentOfBudget": 8.1
     },
     {
@@ -673,6 +733,7 @@
       "amount": 34009.0,
       "budgetTotal": 475737.0,
       "perHousehold": 309,
+      "perCapita": 101.4,
       "percentOfBudget": 7.1
     },
     {
@@ -684,6 +745,7 @@
       "amount": 33913.0,
       "budgetTotal": 356164.0,
       "perHousehold": 308,
+      "perCapita": 179.7,
       "percentOfBudget": 9.5
     },
     {
@@ -695,6 +757,7 @@
       "amount": 33484.0,
       "budgetTotal": 467284.0,
       "perHousehold": 335,
+      "perCapita": 109.5,
       "percentOfBudget": 7.2
     },
     {
@@ -706,6 +769,7 @@
       "amount": 31843.0,
       "budgetTotal": 733002.0,
       "perHousehold": 289,
+      "perCapita": 105.7,
       "percentOfBudget": 4.3
     },
     {
@@ -717,6 +781,7 @@
       "amount": 31744.0,
       "budgetTotal": 718719.0,
       "perHousehold": 289,
+      "perCapita": 100.2,
       "percentOfBudget": 4.4
     },
     {
@@ -728,6 +793,7 @@
       "amount": 30605.0,
       "budgetTotal": 946543.0,
       "perHousehold": 87,
+      "perCapita": 45.7,
       "percentOfBudget": 3.2
     },
     {
@@ -739,6 +805,7 @@
       "amount": 30535.0,
       "budgetTotal": 485587.0,
       "perHousehold": 235,
+      "perCapita": 95.5,
       "percentOfBudget": 6.3
     },
     {
@@ -750,6 +817,7 @@
       "amount": 30278.0,
       "budgetTotal": 1220205.0,
       "perHousehold": 233,
+      "perCapita": 59.5,
       "percentOfBudget": 2.5
     },
     {
@@ -761,6 +829,7 @@
       "amount": 30190.0,
       "budgetTotal": 634547.0,
       "perHousehold": 232,
+      "perCapita": 87.5,
       "percentOfBudget": 4.8
     },
     {
@@ -772,6 +841,7 @@
       "amount": 30025.0,
       "budgetTotal": 620975.0,
       "perHousehold": 231,
+      "perCapita": 81.4,
       "percentOfBudget": 4.8
     },
     {
@@ -783,6 +853,7 @@
       "amount": 29823.0,
       "budgetTotal": 348978.0,
       "perHousehold": 271,
+      "perCapita": 116.3,
       "percentOfBudget": 8.5
     },
     {
@@ -794,6 +865,7 @@
       "amount": 29724.0,
       "budgetTotal": 687709.0,
       "perHousehold": 270,
+      "perCapita": 79.4,
       "percentOfBudget": 4.3
     },
     {
@@ -805,6 +877,7 @@
       "amount": 29148.0,
       "budgetTotal": 558021.0,
       "perHousehold": 291,
+      "perCapita": 78.0,
       "percentOfBudget": 5.2
     },
     {
@@ -816,6 +889,7 @@
       "amount": 28150.0,
       "budgetTotal": 560862.0,
       "perHousehold": 256,
+      "perCapita": 126.2,
       "percentOfBudget": 5.0
     },
     {
@@ -827,6 +901,7 @@
       "amount": 27207.0,
       "budgetTotal": 466982.0,
       "perHousehold": 272,
+      "perCapita": 86.1,
       "percentOfBudget": 5.8
     },
     {
@@ -838,6 +913,7 @@
       "amount": 27035.0,
       "budgetTotal": 1020433.0,
       "perHousehold": 77,
+      "perCapita": 34.4,
       "percentOfBudget": 2.6
     },
     {
@@ -849,6 +925,7 @@
       "amount": 26821.0,
       "budgetTotal": 740520.0,
       "perHousehold": 244,
+      "perCapita": 69.5,
       "percentOfBudget": 3.6
     },
     {
@@ -860,6 +937,7 @@
       "amount": 26502.0,
       "budgetTotal": 521818.0,
       "perHousehold": 265,
+      "perCapita": 102.2,
       "percentOfBudget": 5.1
     },
     {
@@ -871,6 +949,7 @@
       "amount": 26306.0,
       "budgetTotal": 307632.0,
       "perHousehold": 263,
+      "perCapita": 159.3,
       "percentOfBudget": 8.6
     },
     {
@@ -882,6 +961,7 @@
       "amount": 26227.0,
       "budgetTotal": 259746.0,
       "perHousehold": 262,
+      "perCapita": 131.1,
       "percentOfBudget": 10.1
     },
     {
@@ -893,6 +973,7 @@
       "amount": 26207.0,
       "budgetTotal": 652965.0,
       "perHousehold": 238,
+      "perCapita": 64.7,
       "percentOfBudget": 4.0
     },
     {
@@ -904,6 +985,7 @@
       "amount": 26189.0,
       "budgetTotal": 549694.0,
       "perHousehold": 201,
+      "perCapita": 78.9,
       "percentOfBudget": 4.8
     },
     {
@@ -915,6 +997,7 @@
       "amount": 25261.0,
       "budgetTotal": 861943.0,
       "perHousehold": 72,
+      "perCapita": 40.0,
       "percentOfBudget": 2.9
     },
     {
@@ -926,6 +1009,7 @@
       "amount": 24986.0,
       "budgetTotal": 449438.0,
       "perHousehold": 250,
+      "perCapita": 91.1,
       "percentOfBudget": 5.6
     },
     {
@@ -937,6 +1021,7 @@
       "amount": 24412.0,
       "budgetTotal": 436491.0,
       "perHousehold": 244,
+      "perCapita": 102.1,
       "percentOfBudget": 5.6
     },
     {
@@ -948,6 +1033,7 @@
       "amount": 24302.0,
       "budgetTotal": 602148.0,
       "perHousehold": 187,
+      "perCapita": 82.2,
       "percentOfBudget": 4.0
     },
     {
@@ -959,6 +1045,7 @@
       "amount": 23860.0,
       "budgetTotal": 441124.0,
       "perHousehold": 184,
+      "perCapita": 111.0,
       "percentOfBudget": 5.4
     },
     {
@@ -970,6 +1057,7 @@
       "amount": 23746.0,
       "budgetTotal": 299203.0,
       "perHousehold": 237,
+      "perCapita": 105.7,
       "percentOfBudget": 7.9
     },
     {
@@ -981,6 +1069,7 @@
       "amount": 23610.0,
       "budgetTotal": 448998.0,
       "perHousehold": 182,
+      "perCapita": 93.8,
       "percentOfBudget": 5.3
     },
     {
@@ -992,6 +1081,7 @@
       "amount": 23055.0,
       "budgetTotal": 398200.0,
       "perHousehold": 231,
+      "perCapita": 84.7,
       "percentOfBudget": 5.8
     },
     {
@@ -1003,6 +1093,7 @@
       "amount": 22920.0,
       "budgetTotal": 377406.0,
       "perHousehold": 229,
+      "perCapita": 117.0,
       "percentOfBudget": 6.1
     },
     {
@@ -1014,6 +1105,7 @@
       "amount": 22830.0,
       "budgetTotal": 368150.0,
       "perHousehold": 228,
+      "perCapita": 106.5,
       "percentOfBudget": 6.2
     },
     {
@@ -1025,6 +1117,7 @@
       "amount": 22714.0,
       "budgetTotal": 317079.0,
       "perHousehold": 227,
+      "perCapita": 132.6,
       "percentOfBudget": 7.2
     },
     {
@@ -1036,6 +1129,7 @@
       "amount": 22457.0,
       "budgetTotal": 473622.0,
       "perHousehold": 225,
+      "perCapita": 83.0,
       "percentOfBudget": 4.7
     },
     {
@@ -1047,6 +1141,7 @@
       "amount": 22183.0,
       "budgetTotal": 644977.0,
       "perHousehold": 202,
+      "perCapita": 84.1,
       "percentOfBudget": 3.4
     },
     {
@@ -1058,6 +1153,7 @@
       "amount": 22177.0,
       "budgetTotal": 262218.0,
       "perHousehold": 222,
+      "perCapita": 122.5,
       "percentOfBudget": 8.5
     },
     {
@@ -1069,6 +1165,7 @@
       "amount": 21965.0,
       "budgetTotal": 360770.0,
       "perHousehold": 169,
+      "perCapita": 104.1,
       "percentOfBudget": 6.1
     },
     {
@@ -1080,6 +1177,7 @@
       "amount": 21444.0,
       "budgetTotal": 572388.0,
       "perHousehold": 195,
+      "perCapita": 76.7,
       "percentOfBudget": 3.7
     },
     {
@@ -1091,6 +1189,7 @@
       "amount": 20899.0,
       "budgetTotal": 382378.0,
       "perHousehold": 161,
+      "perCapita": 94.5,
       "percentOfBudget": 5.5
     },
     {
@@ -1102,6 +1201,7 @@
       "amount": 20851.0,
       "budgetTotal": 440998.0,
       "perHousehold": 190,
+      "perCapita": 95.4,
       "percentOfBudget": 4.7
     },
     {
@@ -1113,6 +1213,7 @@
       "amount": 20461.0,
       "budgetTotal": 290351.0,
       "perHousehold": 205,
+      "perCapita": 109.3,
       "percentOfBudget": 7.0
     },
     {
@@ -1124,6 +1225,7 @@
       "amount": 20450.0,
       "budgetTotal": 57044.0,
       "perHousehold": 409,
+      "perCapita": 81.9,
       "percentOfBudget": 35.8
     },
     {
@@ -1135,6 +1237,7 @@
       "amount": 20439.0,
       "budgetTotal": 288591.0,
       "perHousehold": 204,
+      "perCapita": 141.7,
       "percentOfBudget": 7.1
     },
     {
@@ -1146,6 +1249,7 @@
       "amount": 20428.0,
       "budgetTotal": 616249.0,
       "perHousehold": 186,
+      "perCapita": 63.6,
       "percentOfBudget": 3.3
     },
     {
@@ -1157,6 +1261,7 @@
       "amount": 20142.0,
       "budgetTotal": 517138.0,
       "perHousehold": 155,
+      "perCapita": 71.6,
       "percentOfBudget": 3.9
     },
     {
@@ -1168,6 +1273,7 @@
       "amount": 20106.0,
       "budgetTotal": 402004.0,
       "perHousehold": 155,
+      "perCapita": 99.2,
       "percentOfBudget": 5.0
     },
     {
@@ -1179,6 +1285,7 @@
       "amount": 19891.0,
       "budgetTotal": 328832.0,
       "perHousehold": 199,
+      "perCapita": 96.2,
       "percentOfBudget": 6.0
     },
     {
@@ -1190,6 +1297,7 @@
       "amount": 19843.0,
       "budgetTotal": 423042.0,
       "perHousehold": 153,
+      "perCapita": 71.7,
       "percentOfBudget": 4.7
     },
     {
@@ -1201,6 +1309,7 @@
       "amount": 19219.0,
       "budgetTotal": 252636.0,
       "perHousehold": 192,
+      "perCapita": 103.7,
       "percentOfBudget": 7.6
     },
     {
@@ -1212,6 +1321,7 @@
       "amount": 19047.0,
       "budgetTotal": 516760.0,
       "perHousehold": 173,
+      "perCapita": 57.9,
       "percentOfBudget": 3.7
     },
     {
@@ -1223,6 +1333,7 @@
       "amount": 18648.0,
       "budgetTotal": 324976.0,
       "perHousehold": 186,
+      "perCapita": 76.5,
       "percentOfBudget": 5.7
     },
     {
@@ -1234,6 +1345,7 @@
       "amount": 18515.0,
       "budgetTotal": 514610.0,
       "perHousehold": 168,
+      "perCapita": 54.8,
       "percentOfBudget": 3.6
     },
     {
@@ -1245,6 +1357,7 @@
       "amount": 18229.0,
       "budgetTotal": 344895.0,
       "perHousehold": 182,
+      "perCapita": 95.4,
       "percentOfBudget": 5.3
     },
     {
@@ -1256,6 +1369,7 @@
       "amount": 18201.0,
       "budgetTotal": 251362.0,
       "perHousehold": 182,
+      "perCapita": 87.0,
       "percentOfBudget": 7.2
     },
     {
@@ -1267,6 +1381,7 @@
       "amount": 18146.0,
       "budgetTotal": 313681.0,
       "perHousehold": 181,
+      "perCapita": 99.2,
       "percentOfBudget": 5.8
     },
     {
@@ -1278,6 +1393,7 @@
       "amount": 17559.0,
       "budgetTotal": 262017.0,
       "perHousehold": 176,
+      "perCapita": 125.3,
       "percentOfBudget": 6.7
     },
     {
@@ -1289,6 +1405,7 @@
       "amount": 17497.0,
       "budgetTotal": 342867.0,
       "perHousehold": 175,
+      "perCapita": 107.6,
       "percentOfBudget": 5.1
     },
     {
@@ -1300,6 +1417,7 @@
       "amount": 17261.0,
       "budgetTotal": 288922.0,
       "perHousehold": 157,
+      "perCapita": 1142.3,
       "percentOfBudget": 6.0
     },
     {
@@ -1311,6 +1429,7 @@
       "amount": 17259.0,
       "budgetTotal": 553942.0,
       "perHousehold": 133,
+      "perCapita": 56.8,
       "percentOfBudget": 3.1
     },
     {
@@ -1322,6 +1441,7 @@
       "amount": 17151.0,
       "budgetTotal": 653122.0,
       "perHousehold": 156,
+      "perCapita": 52.4,
       "percentOfBudget": 2.6
     },
     {
@@ -1333,6 +1453,7 @@
       "amount": 17085.0,
       "budgetTotal": 613523.0,
       "perHousehold": 131,
+      "perCapita": 52.0,
       "percentOfBudget": 2.8
     },
     {
@@ -1344,6 +1465,7 @@
       "amount": 17081.0,
       "budgetTotal": 254517.0,
       "perHousehold": 171,
+      "perCapita": 106.8,
       "percentOfBudget": 6.7
     },
     {
@@ -1355,6 +1477,7 @@
       "amount": 16997.0,
       "budgetTotal": 367046.0,
       "perHousehold": 155,
+      "perCapita": 79.2,
       "percentOfBudget": 4.6
     },
     {
@@ -1366,6 +1489,7 @@
       "amount": 16996.0,
       "budgetTotal": 341542.0,
       "perHousehold": 170,
+      "perCapita": 87.2,
       "percentOfBudget": 5.0
     },
     {
@@ -1377,6 +1501,7 @@
       "amount": 16620.0,
       "budgetTotal": 361340.0,
       "perHousehold": 166,
+      "perCapita": 77.2,
       "percentOfBudget": 4.6
     },
     {
@@ -1388,6 +1513,7 @@
       "amount": 16568.0,
       "budgetTotal": 542002.0,
       "perHousehold": 151,
+      "perCapita": 55.3,
       "percentOfBudget": 3.1
     },
     {
@@ -1399,6 +1525,7 @@
       "amount": 16381.0,
       "budgetTotal": 524749.0,
       "perHousehold": 126,
+      "perCapita": 57.2,
       "percentOfBudget": 3.1
     },
     {
@@ -1410,6 +1537,7 @@
       "amount": 16334.0,
       "budgetTotal": 283822.0,
       "perHousehold": 148,
+      "perCapita": 94.6,
       "percentOfBudget": 5.8
     },
     {
@@ -1421,6 +1549,7 @@
       "amount": 16167.0,
       "budgetTotal": 393319.0,
       "perHousehold": 147,
+      "perCapita": 59.7,
       "percentOfBudget": 4.1
     },
     {
@@ -1432,6 +1561,7 @@
       "amount": 16131.0,
       "budgetTotal": 230409.0,
       "perHousehold": 161,
+      "perCapita": 123.3,
       "percentOfBudget": 7.0
     },
     {
@@ -1443,6 +1573,7 @@
       "amount": 15991.0,
       "budgetTotal": 577521.0,
       "perHousehold": 123,
+      "perCapita": 51.6,
       "percentOfBudget": 2.8
     },
     {
@@ -1454,6 +1585,7 @@
       "amount": 15415.0,
       "budgetTotal": 341963.0,
       "perHousehold": 119,
+      "perCapita": 101.8,
       "percentOfBudget": 4.5
     },
     {
@@ -1465,6 +1597,7 @@
       "amount": 15269.0,
       "budgetTotal": 42560.0,
       "perHousehold": 305,
+      "perCapita": 79.1,
       "percentOfBudget": 35.9
     },
     {
@@ -1476,6 +1609,7 @@
       "amount": 14603.0,
       "budgetTotal": 38801.0,
       "perHousehold": 292,
+      "perCapita": 88.0,
       "percentOfBudget": 37.6
     },
     {
@@ -1487,6 +1621,7 @@
       "amount": 14357.0,
       "budgetTotal": 365945.0,
       "perHousehold": 131,
+      "perCapita": 73.0,
       "percentOfBudget": 3.9
     },
     {
@@ -1498,6 +1633,7 @@
       "amount": 14356.0,
       "budgetTotal": 451157.0,
       "perHousehold": 110,
+      "perCapita": 59.9,
       "percentOfBudget": 3.2
     },
     {
@@ -1509,6 +1645,7 @@
       "amount": 14175.0,
       "budgetTotal": 545575.0,
       "perHousehold": 109,
+      "perCapita": 48.2,
       "percentOfBudget": 2.6
     },
     {
@@ -1520,6 +1657,7 @@
       "amount": 14159.0,
       "budgetTotal": 563725.0,
       "perHousehold": 129,
+      "perCapita": 60.8,
       "percentOfBudget": 2.5
     },
     {
@@ -1531,6 +1669,7 @@
       "amount": 13929.0,
       "budgetTotal": 205360.0,
       "perHousehold": 139,
+      "perCapita": 87.6,
       "percentOfBudget": 6.8
     },
     {
@@ -1542,6 +1681,7 @@
       "amount": 13897.0,
       "budgetTotal": 29944.0,
       "perHousehold": 278,
+      "perCapita": 95.7,
       "percentOfBudget": 46.4
     },
     {
@@ -1553,6 +1693,7 @@
       "amount": 13830.0,
       "budgetTotal": 487579.0,
       "perHousehold": 106,
+      "perCapita": 55.0,
       "percentOfBudget": 2.8
     },
     {
@@ -1564,6 +1705,7 @@
       "amount": 13665.0,
       "budgetTotal": 32062.0,
       "perHousehold": 273,
+      "perCapita": 80.4,
       "percentOfBudget": 42.6
     },
     {
@@ -1575,6 +1717,7 @@
       "amount": 13541.0,
       "budgetTotal": 41140.0,
       "perHousehold": 271,
+      "perCapita": 69.9,
       "percentOfBudget": 32.9
     },
     {
@@ -1586,6 +1729,7 @@
       "amount": 13429.0,
       "budgetTotal": 218062.0,
       "perHousehold": 134,
+      "perCapita": 96.5,
       "percentOfBudget": 6.2
     },
     {
@@ -1597,6 +1741,7 @@
       "amount": 13068.0,
       "budgetTotal": 478020.0,
       "perHousehold": 101,
+      "perCapita": 55.5,
       "percentOfBudget": 2.7
     },
     {
@@ -1608,6 +1753,7 @@
       "amount": 12978.0,
       "budgetTotal": 280356.0,
       "perHousehold": 130,
+      "perCapita": 83.1,
       "percentOfBudget": 4.6
     },
     {
@@ -1619,6 +1765,7 @@
       "amount": 12941.0,
       "budgetTotal": 273946.0,
       "perHousehold": 129,
+      "perCapita": 98.4,
       "percentOfBudget": 4.7
     },
     {
@@ -1630,6 +1777,7 @@
       "amount": 12871.0,
       "budgetTotal": 432630.0,
       "perHousehold": 99,
+      "perCapita": 79.2,
       "percentOfBudget": 3.0
     },
     {
@@ -1641,6 +1789,7 @@
       "amount": 12837.0,
       "budgetTotal": 30757.0,
       "perHousehold": 257,
+      "perCapita": 81.1,
       "percentOfBudget": 41.7
     },
     {
@@ -1652,6 +1801,7 @@
       "amount": 12585.0,
       "budgetTotal": 441140.0,
       "perHousehold": 114,
+      "perCapita": 45.6,
       "percentOfBudget": 2.9
     },
     {
@@ -1663,6 +1813,7 @@
       "amount": 12559.0,
       "budgetTotal": 444875.0,
       "perHousehold": 97,
+      "perCapita": 52.1,
       "percentOfBudget": 2.8
     },
     {
@@ -1674,6 +1825,7 @@
       "amount": 12398.0,
       "budgetTotal": 33239.0,
       "perHousehold": 248,
+      "perCapita": 80.0,
       "percentOfBudget": 37.3
     },
     {
@@ -1685,6 +1837,7 @@
       "amount": 12200.0,
       "budgetTotal": 27713.0,
       "perHousehold": 244,
+      "perCapita": 88.8,
       "percentOfBudget": 44.0
     },
     {
@@ -1696,6 +1849,7 @@
       "amount": 11858.0,
       "budgetTotal": 29780.0,
       "perHousehold": 237,
+      "perCapita": 74.9,
       "percentOfBudget": 39.8
     },
     {
@@ -1707,6 +1861,7 @@
       "amount": 11843.0,
       "budgetTotal": 25358.0,
       "perHousehold": 237,
+      "perCapita": 67.2,
       "percentOfBudget": 46.7
     },
     {
@@ -1718,6 +1873,7 @@
       "amount": 11735.0,
       "budgetTotal": 29966.0,
       "perHousehold": 235,
+      "perCapita": 58.6,
       "percentOfBudget": 39.2
     },
     {
@@ -1729,6 +1885,7 @@
       "amount": 11674.0,
       "budgetTotal": 180380.0,
       "perHousehold": 117,
+      "perCapita": 103.8,
       "percentOfBudget": 6.5
     },
     {
@@ -1740,6 +1897,7 @@
       "amount": 11583.0,
       "budgetTotal": 338729.0,
       "perHousehold": 116,
+      "perCapita": 51.8,
       "percentOfBudget": 3.4
     },
     {
@@ -1751,6 +1909,7 @@
       "amount": 11425.0,
       "budgetTotal": 26915.0,
       "perHousehold": 228,
+      "perCapita": 82.5,
       "percentOfBudget": 42.4
     },
     {
@@ -1762,6 +1921,7 @@
       "amount": 11173.0,
       "budgetTotal": 248599.0,
       "perHousehold": 112,
+      "perCapita": 66.8,
       "percentOfBudget": 4.5
     },
     {
@@ -1773,6 +1933,7 @@
       "amount": 10974.0,
       "budgetTotal": 30685.0,
       "perHousehold": 219,
+      "perCapita": 91.6,
       "percentOfBudget": 35.8
     },
     {
@@ -1784,6 +1945,7 @@
       "amount": 10936.0,
       "budgetTotal": 26277.0,
       "perHousehold": 219,
+      "perCapita": 77.6,
       "percentOfBudget": 41.6
     },
     {
@@ -1795,6 +1957,7 @@
       "amount": 10840.0,
       "budgetTotal": 21283.0,
       "perHousehold": 217,
+      "perCapita": 118.3,
       "percentOfBudget": 50.9
     },
     {
@@ -1806,6 +1969,7 @@
       "amount": 10740.0,
       "budgetTotal": 287294.0,
       "perHousehold": 107,
+      "perCapita": 75.8,
       "percentOfBudget": 3.7
     },
     {
@@ -1817,6 +1981,7 @@
       "amount": 10665.0,
       "budgetTotal": 380771.0,
       "perHousehold": 82,
+      "perCapita": 56.5,
       "percentOfBudget": 2.8
     },
     {
@@ -1828,6 +1993,7 @@
       "amount": 10507.0,
       "budgetTotal": 193907.0,
       "perHousehold": 105,
+      "perCapita": 107.0,
       "percentOfBudget": 5.4
     },
     {
@@ -1839,6 +2005,7 @@
       "amount": 10049.0,
       "budgetTotal": 27427.0,
       "perHousehold": 201,
+      "perCapita": 70.4,
       "percentOfBudget": 36.6
     },
     {
@@ -1850,6 +2017,7 @@
       "amount": 10047.0,
       "budgetTotal": 29009.0,
       "perHousehold": 201,
+      "perCapita": 80.4,
       "percentOfBudget": 34.6
     },
     {
@@ -1861,6 +2029,7 @@
       "amount": 9760.0,
       "budgetTotal": 28730.0,
       "perHousehold": 195,
+      "perCapita": 51.8,
       "percentOfBudget": 34.0
     },
     {
@@ -1872,6 +2041,7 @@
       "amount": 9608.0,
       "budgetTotal": 21461.0,
       "perHousehold": 192,
+      "perCapita": 75.7,
       "percentOfBudget": 44.8
     },
     {
@@ -1883,6 +2053,7 @@
       "amount": 9561.0,
       "budgetTotal": 29370.0,
       "perHousehold": 191,
+      "perCapita": 59.0,
       "percentOfBudget": 32.6
     },
     {
@@ -1894,6 +2065,7 @@
       "amount": 9481.0,
       "budgetTotal": 34444.0,
       "perHousehold": 190,
+      "perCapita": 63.5,
       "percentOfBudget": 27.5
     },
     {
@@ -1905,6 +2077,7 @@
       "amount": 9435.0,
       "budgetTotal": 33912.0,
       "perHousehold": 189,
+      "perCapita": 55.4,
       "percentOfBudget": 27.8
     },
     {
@@ -1916,6 +2089,7 @@
       "amount": 9398.0,
       "budgetTotal": 23502.0,
       "perHousehold": 188,
+      "perCapita": 68.5,
       "percentOfBudget": 40.0
     },
     {
@@ -1927,6 +2101,7 @@
       "amount": 9374.0,
       "budgetTotal": 16634.0,
       "perHousehold": 187,
+      "perCapita": 94.4,
       "percentOfBudget": 56.4
     },
     {
@@ -1938,6 +2113,7 @@
       "amount": 9344.0,
       "budgetTotal": 32206.0,
       "perHousehold": 187,
+      "perCapita": 59.8,
       "percentOfBudget": 29.0
     },
     {
@@ -1949,6 +2125,7 @@
       "amount": 9259.0,
       "budgetTotal": 25083.0,
       "perHousehold": 185,
+      "perCapita": 71.8,
       "percentOfBudget": 36.9
     },
     {
@@ -1960,6 +2137,7 @@
       "amount": 9100.0,
       "budgetTotal": 38024.0,
       "perHousehold": 182,
+      "perCapita": 48.2,
       "percentOfBudget": 23.9
     },
     {
@@ -1971,6 +2149,7 @@
       "amount": 9076.0,
       "budgetTotal": 17270.0,
       "perHousehold": 182,
+      "perCapita": 98.5,
       "percentOfBudget": 52.6
     },
     {
@@ -1982,6 +2161,7 @@
       "amount": 8967.0,
       "budgetTotal": 25882.0,
       "perHousehold": 179,
+      "perCapita": 96.5,
       "percentOfBudget": 34.6
     },
     {
@@ -1993,6 +2173,7 @@
       "amount": 8948.0,
       "budgetTotal": 28469.0,
       "perHousehold": 179,
+      "perCapita": 47.7,
       "percentOfBudget": 31.4
     },
     {
@@ -2004,6 +2185,7 @@
       "amount": 8862.0,
       "budgetTotal": 26913.0,
       "perHousehold": 177,
+      "perCapita": 56.5,
       "percentOfBudget": 32.9
     },
     {
@@ -2015,6 +2197,7 @@
       "amount": 8827.0,
       "budgetTotal": 28320.0,
       "perHousehold": 177,
+      "perCapita": 46.3,
       "percentOfBudget": 31.2
     },
     {
@@ -2026,6 +2209,7 @@
       "amount": 8824.0,
       "budgetTotal": 23957.0,
       "perHousehold": 176,
+      "perCapita": 51.1,
       "percentOfBudget": 36.8
     },
     {
@@ -2037,6 +2221,7 @@
       "amount": 8822.0,
       "budgetTotal": 24831.0,
       "perHousehold": 176,
+      "perCapita": 56.4,
       "percentOfBudget": 35.5
     },
     {
@@ -2048,6 +2233,7 @@
       "amount": 8805.0,
       "budgetTotal": 20905.0,
       "perHousehold": 176,
+      "perCapita": 70.1,
       "percentOfBudget": 42.1
     },
     {
@@ -2059,6 +2245,7 @@
       "amount": 8668.0,
       "budgetTotal": 24846.0,
       "perHousehold": 173,
+      "perCapita": 52.8,
       "percentOfBudget": 34.9
     },
     {
@@ -2070,6 +2257,7 @@
       "amount": 8632.0,
       "budgetTotal": 18613.0,
       "perHousehold": 173,
+      "perCapita": 85.3,
       "percentOfBudget": 46.4
     },
     {
@@ -2081,6 +2269,7 @@
       "amount": 8542.0,
       "budgetTotal": 22913.0,
       "perHousehold": 171,
+      "perCapita": 63.0,
       "percentOfBudget": 37.3
     },
     {
@@ -2092,6 +2281,7 @@
       "amount": 8525.0,
       "budgetTotal": 22233.0,
       "perHousehold": 170,
+      "perCapita": 57.1,
       "percentOfBudget": 38.3
     },
     {
@@ -2103,6 +2293,7 @@
       "amount": 8247.0,
       "budgetTotal": 22639.0,
       "perHousehold": 165,
+      "perCapita": 67.2,
       "percentOfBudget": 36.4
     },
     {
@@ -2114,6 +2305,7 @@
       "amount": 8233.0,
       "budgetTotal": 22123.0,
       "perHousehold": 165,
+      "perCapita": 73.2,
       "percentOfBudget": 37.2
     },
     {
@@ -2125,6 +2317,7 @@
       "amount": 8214.0,
       "budgetTotal": 337913.0,
       "perHousehold": 63,
+      "perCapita": 41.3,
       "percentOfBudget": 2.4
     },
     {
@@ -2136,6 +2329,7 @@
       "amount": 8202.0,
       "budgetTotal": 20627.0,
       "perHousehold": 164,
+      "perCapita": 55.7,
       "percentOfBudget": 39.8
     },
     {
@@ -2147,6 +2341,7 @@
       "amount": 8164.0,
       "budgetTotal": 30744.0,
       "perHousehold": 163,
+      "perCapita": 58.2,
       "percentOfBudget": 26.6
     },
     {
@@ -2158,6 +2353,7 @@
       "amount": 8116.0,
       "budgetTotal": 26040.0,
       "perHousehold": 162,
+      "perCapita": 77.2,
       "percentOfBudget": 31.2
     },
     {
@@ -2169,6 +2365,7 @@
       "amount": 8114.0,
       "budgetTotal": 26972.0,
       "perHousehold": 162,
+      "perCapita": 50.3,
       "percentOfBudget": 30.1
     },
     {
@@ -2180,6 +2377,7 @@
       "amount": 8091.0,
       "budgetTotal": 24513.0,
       "perHousehold": 162,
+      "perCapita": 53.4,
       "percentOfBudget": 33.0
     },
     {
@@ -2191,6 +2389,7 @@
       "amount": 8070.0,
       "budgetTotal": 25438.0,
       "perHousehold": 161,
+      "perCapita": 54.8,
       "percentOfBudget": 31.7
     },
     {
@@ -2202,6 +2401,7 @@
       "amount": 8058.0,
       "budgetTotal": 27428.0,
       "perHousehold": 161,
+      "perCapita": 48.3,
       "percentOfBudget": 29.4
     },
     {
@@ -2213,6 +2413,7 @@
       "amount": 8057.0,
       "budgetTotal": 31988.0,
       "perHousehold": 161,
+      "perCapita": 56.8,
       "percentOfBudget": 25.2
     },
     {
@@ -2224,6 +2425,7 @@
       "amount": 7969.0,
       "budgetTotal": 22553.0,
       "perHousehold": 159,
+      "perCapita": 54.5,
       "percentOfBudget": 35.3
     },
     {
@@ -2235,6 +2437,7 @@
       "amount": 7942.0,
       "budgetTotal": 26903.0,
       "perHousehold": 159,
+      "perCapita": 57.4,
       "percentOfBudget": 29.5
     },
     {
@@ -2246,6 +2449,7 @@
       "amount": 7908.0,
       "budgetTotal": 25944.0,
       "perHousehold": 158,
+      "perCapita": 54.5,
       "percentOfBudget": 30.5
     },
     {
@@ -2257,6 +2461,7 @@
       "amount": 7866.0,
       "budgetTotal": 26160.0,
       "perHousehold": 157,
+      "perCapita": 48.6,
       "percentOfBudget": 30.1
     },
     {
@@ -2268,6 +2473,7 @@
       "amount": 7837.0,
       "budgetTotal": 22678.0,
       "perHousehold": 157,
+      "perCapita": 61.3,
       "percentOfBudget": 34.6
     },
     {
@@ -2279,6 +2485,7 @@
       "amount": 7799.0,
       "budgetTotal": 17037.0,
       "perHousehold": 156,
+      "perCapita": 108.7,
       "percentOfBudget": 45.8
     },
     {
@@ -2290,6 +2497,7 @@
       "amount": 7756.0,
       "budgetTotal": 68762.0,
       "perHousehold": 78,
+      "perCapita": 187.1,
       "percentOfBudget": 11.3
     },
     {
@@ -2301,6 +2509,7 @@
       "amount": 7703.0,
       "budgetTotal": 18952.0,
       "perHousehold": 154,
+      "perCapita": 65.6,
       "percentOfBudget": 40.6
     },
     {
@@ -2312,6 +2521,7 @@
       "amount": 7667.0,
       "budgetTotal": 22894.0,
       "perHousehold": 153,
+      "perCapita": 59.2,
       "percentOfBudget": 33.5
     },
     {
@@ -2323,6 +2533,7 @@
       "amount": 7575.0,
       "budgetTotal": 23278.0,
       "perHousehold": 152,
+      "perCapita": 40.2,
       "percentOfBudget": 32.5
     },
     {
@@ -2334,6 +2545,7 @@
       "amount": 7566.0,
       "budgetTotal": 32466.0,
       "perHousehold": 151,
+      "perCapita": 46.5,
       "percentOfBudget": 23.3
     },
     {
@@ -2345,6 +2557,7 @@
       "amount": 7555.0,
       "budgetTotal": 15781.0,
       "perHousehold": 151,
+      "perCapita": 106.3,
       "percentOfBudget": 47.9
     },
     {
@@ -2356,6 +2569,7 @@
       "amount": 7523.0,
       "budgetTotal": 18248.0,
       "perHousehold": 150,
+      "perCapita": 62.2,
       "percentOfBudget": 41.2
     },
     {
@@ -2367,6 +2581,7 @@
       "amount": 7513.0,
       "budgetTotal": 24329.0,
       "perHousehold": 150,
+      "perCapita": 55.9,
       "percentOfBudget": 30.9
     },
     {
@@ -2378,6 +2593,7 @@
       "amount": 7500.0,
       "budgetTotal": 25481.0,
       "perHousehold": 150,
+      "perCapita": 70.0,
       "percentOfBudget": 29.4
     },
     {
@@ -2389,6 +2605,7 @@
       "amount": 7432.0,
       "budgetTotal": 24259.0,
       "perHousehold": 149,
+      "perCapita": 72.0,
       "percentOfBudget": 30.6
     },
     {
@@ -2400,6 +2617,7 @@
       "amount": 7366.0,
       "budgetTotal": 21483.0,
       "perHousehold": 147,
+      "perCapita": 56.7,
       "percentOfBudget": 34.3
     },
     {
@@ -2411,6 +2629,7 @@
       "amount": 7338.0,
       "budgetTotal": 21900.0,
       "perHousehold": 147,
+      "perCapita": 60.3,
       "percentOfBudget": 33.5
     },
     {
@@ -2422,6 +2641,7 @@
       "amount": 7264.0,
       "budgetTotal": 18253.0,
       "perHousehold": 145,
+      "perCapita": 56.0,
       "percentOfBudget": 39.8
     },
     {
@@ -2433,6 +2653,7 @@
       "amount": 7241.0,
       "budgetTotal": 17722.0,
       "perHousehold": 145,
+      "perCapita": 64.7,
       "percentOfBudget": 40.9
     },
     {
@@ -2444,6 +2665,7 @@
       "amount": 7218.0,
       "budgetTotal": 16437.0,
       "perHousehold": 144,
+      "perCapita": 56.5,
       "percentOfBudget": 43.9
     },
     {
@@ -2455,6 +2677,7 @@
       "amount": 7152.0,
       "budgetTotal": 20039.0,
       "perHousehold": 143,
+      "perCapita": 51.6,
       "percentOfBudget": 35.7
     },
     {
@@ -2466,6 +2689,7 @@
       "amount": 7072.0,
       "budgetTotal": 23427.0,
       "perHousehold": 141,
+      "perCapita": 51.2,
       "percentOfBudget": 30.2
     },
     {
@@ -2477,6 +2701,7 @@
       "amount": 7000.0,
       "budgetTotal": 21264.0,
       "perHousehold": 140,
+      "perCapita": 47.2,
       "percentOfBudget": 32.9
     },
     {
@@ -2488,6 +2713,7 @@
       "amount": 6961.0,
       "budgetTotal": 18152.0,
       "perHousehold": 139,
+      "perCapita": 72.4,
       "percentOfBudget": 38.3
     },
     {
@@ -2499,6 +2725,7 @@
       "amount": 6952.0,
       "budgetTotal": 18992.0,
       "perHousehold": 139,
+      "perCapita": 66.3,
       "percentOfBudget": 36.6
     },
     {
@@ -2510,6 +2737,7 @@
       "amount": 6906.0,
       "budgetTotal": 19754.0,
       "perHousehold": 138,
+      "perCapita": 62.7,
       "percentOfBudget": 35.0
     },
     {
@@ -2521,6 +2749,7 @@
       "amount": 6872.0,
       "budgetTotal": 18922.0,
       "perHousehold": 137,
+      "perCapita": 45.5,
       "percentOfBudget": 36.3
     },
     {
@@ -2532,6 +2761,7 @@
       "amount": 6831.0,
       "budgetTotal": 18318.0,
       "perHousehold": 137,
+      "perCapita": 55.6,
       "percentOfBudget": 37.3
     },
     {
@@ -2543,6 +2773,7 @@
       "amount": 6811.0,
       "budgetTotal": 21107.0,
       "perHousehold": 136,
+      "perCapita": 54.5,
       "percentOfBudget": 32.3
     },
     {
@@ -2554,6 +2785,7 @@
       "amount": 6743.0,
       "budgetTotal": 16399.0,
       "perHousehold": 135,
+      "perCapita": 53.2,
       "percentOfBudget": 41.1
     },
     {
@@ -2565,6 +2797,7 @@
       "amount": 6628.0,
       "budgetTotal": 20606.0,
       "perHousehold": 133,
+      "perCapita": 46.8,
       "percentOfBudget": 32.2
     },
     {
@@ -2576,6 +2809,7 @@
       "amount": 6582.0,
       "budgetTotal": 20837.0,
       "perHousehold": 132,
+      "perCapita": 50.5,
       "percentOfBudget": 31.6
     },
     {
@@ -2587,6 +2821,7 @@
       "amount": 6578.0,
       "budgetTotal": 18182.0,
       "perHousehold": 132,
+      "perCapita": 55.4,
       "percentOfBudget": 36.2
     },
     {
@@ -2598,6 +2833,7 @@
       "amount": 6517.0,
       "budgetTotal": 17291.0,
       "perHousehold": 130,
+      "perCapita": 64.8,
       "percentOfBudget": 37.7
     },
     {
@@ -2609,6 +2845,7 @@
       "amount": 6516.0,
       "budgetTotal": 16504.0,
       "perHousehold": 130,
+      "perCapita": 62.2,
       "percentOfBudget": 39.5
     },
     {
@@ -2620,6 +2857,7 @@
       "amount": 6505.0,
       "budgetTotal": 18501.0,
       "perHousehold": 130,
+      "perCapita": 47.1,
       "percentOfBudget": 35.2
     },
     {
@@ -2631,6 +2869,7 @@
       "amount": 6483.0,
       "budgetTotal": 17211.0,
       "perHousehold": 130,
+      "perCapita": 63.6,
       "percentOfBudget": 37.7
     },
     {
@@ -2642,6 +2881,7 @@
       "amount": 6427.0,
       "budgetTotal": 18497.0,
       "perHousehold": 129,
+      "perCapita": 52.5,
       "percentOfBudget": 34.7
     },
     {
@@ -2653,6 +2893,7 @@
       "amount": 6359.0,
       "budgetTotal": 27356.0,
       "perHousehold": 127,
+      "perCapita": 59.4,
       "percentOfBudget": 23.2
     },
     {
@@ -2664,6 +2905,7 @@
       "amount": 6351.0,
       "budgetTotal": 12854.0,
       "perHousehold": 127,
+      "perCapita": 56.1,
       "percentOfBudget": 49.4
     },
     {
@@ -2675,6 +2917,7 @@
       "amount": 6268.0,
       "budgetTotal": 25063.0,
       "perHousehold": 125,
+      "perCapita": 42.7,
       "percentOfBudget": 25.0
     },
     {
@@ -2686,6 +2929,7 @@
       "amount": 6241.0,
       "budgetTotal": 11756.0,
       "perHousehold": 125,
+      "perCapita": 53.5,
       "percentOfBudget": 53.1
     },
     {
@@ -2697,6 +2941,7 @@
       "amount": 6239.0,
       "budgetTotal": 42685.0,
       "perHousehold": 125,
+      "perCapita": 41.2,
       "percentOfBudget": 14.6
     },
     {
@@ -2708,6 +2953,7 @@
       "amount": 6230.0,
       "budgetTotal": 16035.0,
       "perHousehold": 125,
+      "perCapita": 67.9,
       "percentOfBudget": 38.9
     },
     {
@@ -2719,6 +2965,7 @@
       "amount": 6228.0,
       "budgetTotal": 18664.0,
       "perHousehold": 125,
+      "perCapita": 59.8,
       "percentOfBudget": 33.4
     },
     {
@@ -2730,6 +2977,7 @@
       "amount": 6117.0,
       "budgetTotal": 15371.0,
       "perHousehold": 122,
+      "perCapita": 66.5,
       "percentOfBudget": 39.8
     },
     {
@@ -2741,6 +2989,7 @@
       "amount": 6080.0,
       "budgetTotal": 23688.0,
       "perHousehold": 122,
+      "perCapita": 45.0,
       "percentOfBudget": 25.7
     },
     {
@@ -2752,6 +3001,7 @@
       "amount": 5983.0,
       "budgetTotal": 19556.0,
       "perHousehold": 120,
+      "perCapita": 56.6,
       "percentOfBudget": 30.6
     },
     {
@@ -2763,6 +3013,7 @@
       "amount": 5982.0,
       "budgetTotal": 22558.0,
       "perHousehold": 120,
+      "perCapita": 43.7,
       "percentOfBudget": 26.5
     },
     {
@@ -2774,6 +3025,7 @@
       "amount": 5913.0,
       "budgetTotal": 20040.0,
       "perHousehold": 118,
+      "perCapita": 49.4,
       "percentOfBudget": 29.5
     },
     {
@@ -2785,6 +3037,7 @@
       "amount": 5852.0,
       "budgetTotal": 15097.0,
       "perHousehold": 117,
+      "perCapita": 61.9,
       "percentOfBudget": 38.8
     },
     {
@@ -2796,6 +3049,7 @@
       "amount": 5806.0,
       "budgetTotal": 17815.0,
       "perHousehold": 116,
+      "perCapita": 61.0,
       "percentOfBudget": 32.6
     },
     {
@@ -2807,6 +3061,7 @@
       "amount": 5673.0,
       "budgetTotal": 18397.0,
       "perHousehold": 113,
+      "perCapita": 51.3,
       "percentOfBudget": 30.8
     },
     {
@@ -2818,6 +3073,7 @@
       "amount": 5671.0,
       "budgetTotal": 24401.0,
       "perHousehold": 113,
+      "perCapita": 35.6,
       "percentOfBudget": 23.2
     },
     {
@@ -2829,6 +3085,7 @@
       "amount": 5637.0,
       "budgetTotal": 14113.0,
       "perHousehold": 113,
+      "perCapita": 62.8,
       "percentOfBudget": 39.9
     },
     {
@@ -2840,6 +3097,7 @@
       "amount": 5591.0,
       "budgetTotal": 13750.0,
       "perHousehold": 112,
+      "perCapita": 57.8,
       "percentOfBudget": 40.7
     },
     {
@@ -2851,6 +3109,7 @@
       "amount": 5563.0,
       "budgetTotal": 23517.0,
       "perHousehold": 111,
+      "perCapita": 35.5,
       "percentOfBudget": 23.7
     },
     {
@@ -2862,6 +3121,7 @@
       "amount": 5499.0,
       "budgetTotal": 14634.0,
       "perHousehold": 110,
+      "perCapita": 63.9,
       "percentOfBudget": 37.6
     },
     {
@@ -2873,6 +3133,7 @@
       "amount": 5487.0,
       "budgetTotal": 16761.0,
       "perHousehold": 110,
+      "perCapita": 44.8,
       "percentOfBudget": 32.7
     },
     {
@@ -2884,6 +3145,7 @@
       "amount": 5433.0,
       "budgetTotal": 16899.0,
       "perHousehold": 109,
+      "perCapita": 54.8,
       "percentOfBudget": 32.1
     },
     {
@@ -2895,6 +3157,7 @@
       "amount": 5409.0,
       "budgetTotal": 21025.0,
       "perHousehold": 108,
+      "perCapita": 58.7,
       "percentOfBudget": 25.7
     },
     {
@@ -2906,6 +3169,7 @@
       "amount": 5401.0,
       "budgetTotal": 12603.0,
       "perHousehold": 108,
+      "perCapita": 77.3,
       "percentOfBudget": 42.9
     },
     {
@@ -2917,6 +3181,7 @@
       "amount": 5298.0,
       "budgetTotal": 22136.0,
       "perHousehold": 106,
+      "perCapita": 45.6,
       "percentOfBudget": 23.9
     },
     {
@@ -2928,6 +3193,7 @@
       "amount": 5298.0,
       "budgetTotal": 17525.0,
       "perHousehold": 106,
+      "perCapita": 37.4,
       "percentOfBudget": 30.2
     },
     {
@@ -2939,6 +3205,7 @@
       "amount": 5292.0,
       "budgetTotal": 31383.0,
       "perHousehold": 106,
+      "perCapita": 42.7,
       "percentOfBudget": 16.9
     },
     {
@@ -2950,6 +3217,7 @@
       "amount": 5245.0,
       "budgetTotal": 13774.0,
       "perHousehold": 105,
+      "perCapita": 54.7,
       "percentOfBudget": 38.1
     },
     {
@@ -2961,6 +3229,7 @@
       "amount": 5232.0,
       "budgetTotal": 25104.0,
       "perHousehold": 105,
+      "perCapita": 49.5,
       "percentOfBudget": 20.8
     },
     {
@@ -2972,6 +3241,7 @@
       "amount": 5143.0,
       "budgetTotal": 15396.0,
       "perHousehold": 103,
+      "perCapita": 47.5,
       "percentOfBudget": 33.4
     },
     {
@@ -2983,6 +3253,7 @@
       "amount": 5122.0,
       "budgetTotal": 16255.0,
       "perHousehold": 102,
+      "perCapita": 61.1,
       "percentOfBudget": 31.5
     },
     {
@@ -2994,6 +3265,7 @@
       "amount": 5066.0,
       "budgetTotal": 17604.0,
       "perHousehold": 101,
+      "perCapita": 41.9,
       "percentOfBudget": 28.8
     },
     {
@@ -3005,6 +3277,7 @@
       "amount": 5062.0,
       "budgetTotal": 16095.0,
       "perHousehold": 101,
+      "perCapita": 50.7,
       "percentOfBudget": 31.5
     },
     {
@@ -3016,6 +3289,7 @@
       "amount": 5025.0,
       "budgetTotal": 15752.0,
       "perHousehold": 100,
+      "perCapita": 47.1,
       "percentOfBudget": 31.9
     },
     {
@@ -3027,6 +3301,7 @@
       "amount": 5024.0,
       "budgetTotal": 16597.0,
       "perHousehold": 100,
+      "perCapita": 41.8,
       "percentOfBudget": 30.3
     },
     {
@@ -3038,6 +3313,7 @@
       "amount": 4932.0,
       "budgetTotal": 14964.0,
       "perHousehold": 99,
+      "perCapita": 58.0,
       "percentOfBudget": 33.0
     },
     {
@@ -3049,6 +3325,7 @@
       "amount": 4910.0,
       "budgetTotal": 14509.0,
       "perHousehold": 98,
+      "perCapita": 54.7,
       "percentOfBudget": 33.8
     },
     {
@@ -3060,6 +3337,7 @@
       "amount": 4800.0,
       "budgetTotal": 14414.0,
       "perHousehold": 96,
+      "perCapita": 49.5,
       "percentOfBudget": 33.3
     },
     {
@@ -3071,6 +3349,7 @@
       "amount": 4784.0,
       "budgetTotal": 18253.0,
       "perHousehold": 96,
+      "perCapita": 33.5,
       "percentOfBudget": 26.2
     },
     {
@@ -3082,6 +3361,7 @@
       "amount": 4754.0,
       "budgetTotal": 19149.0,
       "perHousehold": 95,
+      "perCapita": 41.2,
       "percentOfBudget": 24.8
     },
     {
@@ -3093,6 +3373,7 @@
       "amount": 4709.0,
       "budgetTotal": 21128.0,
       "perHousehold": 94,
+      "perCapita": 41.2,
       "percentOfBudget": 22.3
     },
     {
@@ -3104,6 +3385,7 @@
       "amount": 4660.0,
       "budgetTotal": 13493.0,
       "perHousehold": 93,
+      "perCapita": 41.6,
       "percentOfBudget": 34.5
     },
     {
@@ -3115,6 +3397,7 @@
       "amount": 4605.0,
       "budgetTotal": 13581.0,
       "perHousehold": 92,
+      "perCapita": 66.6,
       "percentOfBudget": 33.9
     },
     {
@@ -3126,6 +3409,7 @@
       "amount": 4593.0,
       "budgetTotal": 14317.0,
       "perHousehold": 92,
+      "perCapita": 50.7,
       "percentOfBudget": 32.1
     },
     {
@@ -3137,6 +3421,7 @@
       "amount": 4560.0,
       "budgetTotal": 15131.0,
       "perHousehold": 91,
+      "perCapita": 39.9,
       "percentOfBudget": 30.1
     },
     {
@@ -3148,6 +3433,7 @@
       "amount": 4503.0,
       "budgetTotal": 14001.0,
       "perHousehold": 90,
+      "perCapita": 56.8,
       "percentOfBudget": 32.2
     },
     {
@@ -3159,6 +3445,7 @@
       "amount": 4370.0,
       "budgetTotal": 10600.0,
       "perHousehold": 87,
+      "perCapita": 74.2,
       "percentOfBudget": 41.2
     },
     {
@@ -3170,6 +3457,7 @@
       "amount": 4323.0,
       "budgetTotal": 14254.0,
       "perHousehold": 86,
+      "perCapita": 39.0,
       "percentOfBudget": 30.3
     },
     {
@@ -3181,6 +3469,7 @@
       "amount": 4218.0,
       "budgetTotal": 24003.0,
       "perHousehold": 84,
+      "perCapita": 46.2,
       "percentOfBudget": 17.6
     },
     {
@@ -3192,6 +3481,7 @@
       "amount": 4217.0,
       "budgetTotal": 15534.0,
       "perHousehold": 84,
+      "perCapita": 52.0,
       "percentOfBudget": 27.1
     },
     {
@@ -3203,6 +3493,7 @@
       "amount": 4206.0,
       "budgetTotal": 15754.0,
       "perHousehold": 84,
+      "perCapita": 42.4,
       "percentOfBudget": 26.7
     },
     {
@@ -3214,6 +3505,7 @@
       "amount": 4187.0,
       "budgetTotal": 17080.0,
       "perHousehold": 84,
+      "perCapita": 47.2,
       "percentOfBudget": 24.5
     },
     {
@@ -3225,6 +3517,7 @@
       "amount": 4101.0,
       "budgetTotal": 16888.0,
       "perHousehold": 82,
+      "perCapita": 38.7,
       "percentOfBudget": 24.3
     },
     {
@@ -3236,6 +3529,7 @@
       "amount": 4067.0,
       "budgetTotal": 14501.0,
       "perHousehold": 81,
+      "perCapita": 39.4,
       "percentOfBudget": 28.0
     },
     {
@@ -3247,6 +3541,7 @@
       "amount": 4037.0,
       "budgetTotal": 14150.0,
       "perHousehold": 81,
+      "perCapita": 48.7,
       "percentOfBudget": 28.5
     },
     {
@@ -3258,6 +3553,7 @@
       "amount": 4024.0,
       "budgetTotal": 16202.0,
       "perHousehold": 80,
+      "perCapita": 37.7,
       "percentOfBudget": 24.8
     },
     {
@@ -3269,6 +3565,7 @@
       "amount": 3906.0,
       "budgetTotal": 12490.0,
       "perHousehold": 78,
+      "perCapita": 58.2,
       "percentOfBudget": 31.3
     },
     {
@@ -3280,6 +3577,7 @@
       "amount": 3889.0,
       "budgetTotal": 15114.0,
       "perHousehold": 78,
+      "perCapita": 38.2,
       "percentOfBudget": 25.7
     },
     {
@@ -3291,6 +3589,7 @@
       "amount": 3889.0,
       "budgetTotal": 16933.0,
       "perHousehold": 78,
+      "perCapita": 39.6,
       "percentOfBudget": 23.0
     },
     {
@@ -3302,6 +3601,7 @@
       "amount": 3875.0,
       "budgetTotal": 11111.0,
       "perHousehold": 78,
+      "perCapita": 58.9,
       "percentOfBudget": 34.9
     },
     {
@@ -3313,6 +3613,7 @@
       "amount": 3812.0,
       "budgetTotal": 13716.0,
       "perHousehold": 76,
+      "perCapita": 33.3,
       "percentOfBudget": 27.8
     },
     {
@@ -3324,6 +3625,7 @@
       "amount": 3730.0,
       "budgetTotal": 14492.0,
       "perHousehold": 75,
+      "perCapita": 43.7,
       "percentOfBudget": 25.7
     },
     {
@@ -3335,6 +3637,7 @@
       "amount": 3602.0,
       "budgetTotal": 14542.0,
       "perHousehold": 72,
+      "perCapita": 34.7,
       "percentOfBudget": 24.8
     },
     {
@@ -3346,6 +3649,7 @@
       "amount": 3588.0,
       "budgetTotal": 18040.0,
       "perHousehold": 72,
+      "perCapita": 43.1,
       "percentOfBudget": 19.9
     },
     {
@@ -3357,6 +3661,7 @@
       "amount": 3485.0,
       "budgetTotal": 14552.0,
       "perHousehold": 70,
+      "perCapita": 38.5,
       "percentOfBudget": 23.9
     },
     {
@@ -3368,6 +3673,7 @@
       "amount": 3404.0,
       "budgetTotal": 10738.0,
       "perHousehold": 68,
+      "perCapita": 63.0,
       "percentOfBudget": 31.7
     },
     {
@@ -3379,6 +3685,7 @@
       "amount": 3294.0,
       "budgetTotal": 21700.0,
       "perHousehold": 66,
+      "perCapita": 32.2,
       "percentOfBudget": 15.2
     },
     {
@@ -3390,6 +3697,7 @@
       "amount": 3237.0,
       "budgetTotal": 11830.0,
       "perHousehold": 65,
+      "perCapita": 38.9,
       "percentOfBudget": 27.4
     },
     {
@@ -3401,6 +3709,7 @@
       "amount": 3036.0,
       "budgetTotal": 20150.0,
       "perHousehold": 61,
+      "perCapita": 29.1,
       "percentOfBudget": 15.1
     },
     {
@@ -3412,6 +3721,7 @@
       "amount": 2737.0,
       "budgetTotal": 17160.0,
       "perHousehold": 55,
+      "perCapita": 26.9,
       "percentOfBudget": 15.9
     },
     {
@@ -3423,6 +3733,7 @@
       "amount": 2667.0,
       "budgetTotal": 21029.0,
       "perHousehold": 53,
+      "perCapita": 30.4,
       "percentOfBudget": 12.7
     },
     {
@@ -3434,6 +3745,7 @@
       "amount": 2486.0,
       "budgetTotal": 11181.0,
       "perHousehold": 50,
+      "perCapita": 38.3,
       "percentOfBudget": 22.2
     },
     {
@@ -3445,6 +3757,7 @@
       "amount": 2283.0,
       "budgetTotal": 10432.0,
       "perHousehold": 46,
+      "perCapita": 31.3,
       "percentOfBudget": 21.9
     },
     {
@@ -3456,6 +3769,7 @@
       "amount": 2049.0,
       "budgetTotal": 18696.0,
       "perHousehold": 41,
+      "perCapita": 18.0,
       "percentOfBudget": 11.0
     },
     {
@@ -3467,6 +3781,7 @@
       "amount": 2020.0,
       "budgetTotal": 12818.0,
       "perHousehold": 40,
+      "perCapita": 16.6,
       "percentOfBudget": 15.8
     },
     {
@@ -3478,6 +3793,7 @@
       "amount": 1398.0,
       "budgetTotal": 7841.0,
       "perHousehold": 28,
+      "perCapita": 22.7,
       "percentOfBudget": 17.8
     },
     {
@@ -3489,6 +3805,7 @@
       "amount": 1348.0,
       "budgetTotal": 7428.0,
       "perHousehold": 13,
+      "perCapita": 569.7,
       "percentOfBudget": 18.1
     }
   ]

@@ -29,73 +29,86 @@
       "label": "Education",
       "icon": "\ud83d\udcda",
       "amount": 140792.0,
-      "description": "Funding for local schools, children's education services, and early years provision."
+      "description": "Funding for local schools, children's education services, and early years provision.",
+      "perCapita": 481.1
     },
     {
       "cat": "adult_social_care",
       "label": "Adult Social Care",
       "icon": "\ud83d\udc74",
       "amount": 102886.0,
-      "description": "Care services for elderly and vulnerable adults, including home care and residential placements."
+      "description": "Care services for elderly and vulnerable adults, including home care and residential placements.",
+      "perCapita": 351.6
     },
     {
       "cat": "childrens_social_care",
       "label": "Children's Social Care",
       "icon": "\ud83d\udc76",
       "amount": 79641.0,
-      "description": "Services to protect and support children, including fostering, adoption, and family support."
+      "description": "Services to protect and support children, including fostering, adoption, and family support.",
+      "perCapita": 272.1
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
       "amount": 34506.0,
-      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services."
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services.",
+      "perCapita": 117.9
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
       "amount": 19038.0,
-      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection."
+      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection.",
+      "perCapita": 65.1
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
       "amount": 17128.0,
-      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes."
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes.",
+      "perCapita": 58.5
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
       "amount": 10158.0,
-      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance."
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance.",
+      "perCapita": 34.7
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
       "amount": 9402.0,
-      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning."
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning.",
+      "perCapita": 32.1
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
       "amount": 8242.0,
-      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes."
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes.",
+      "perCapita": 28.2
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
       "amount": 3748.0,
-      "description": "Planning applications, building control, economic development, and regeneration projects."
+      "description": "Planning applications, building control, economic development, and regeneration projects.",
+      "perCapita": 12.8
     }
   ],
   "budgetTotal": 425541.0,
+  "population": 292655,
+  "populationYear": 2024,
+  "perCapita": 1454,
   "perHousehold": 4255,
   "feedItems": [
     {
@@ -103,8 +116,9 @@
       "category": "Environment & Streets",
       "icon": "\ud83c\udf33",
       "amount": 34506.0,
+      "perCapita": 118,
       "perHousehold": 345,
-      "description": "allocated \u00a334.5m to Environment & Streets (\u2248\u00a3345 per household)",
+      "description": "allocated \u00a334.5m to Environment & Streets (\u2248\u00a3118 per resident)",
       "timestamp": "2025-11-07"
     },
     {
@@ -112,8 +126,9 @@
       "category": "Education",
       "icon": "\ud83d\udcda",
       "amount": 140792.0,
+      "perCapita": 481,
       "perHousehold": 1408,
-      "description": "allocated \u00a3140.8m to Education (\u2248\u00a31408 per household)",
+      "description": "allocated \u00a3140.8m to Education (\u2248\u00a3481 per resident)",
       "timestamp": "2025-06-21"
     },
     {
@@ -121,8 +136,9 @@
       "category": "Adult Social Care",
       "icon": "\ud83d\udc74",
       "amount": 102886.0,
+      "perCapita": 352,
       "perHousehold": 1029,
-      "description": "allocated \u00a3102.9m to Adult Social Care (\u2248\u00a31029 per household)",
+      "description": "allocated \u00a3102.9m to Adult Social Care (\u2248\u00a3352 per resident)",
       "timestamp": "2025-05-03"
     },
     {
@@ -130,8 +146,9 @@
       "category": "Children's Social Care",
       "icon": "\ud83d\udc76",
       "amount": 79641.0,
+      "perCapita": 272,
       "perHousehold": 796,
-      "description": "allocated \u00a379.6m to Children's Social Care (\u2248\u00a3796 per household)",
+      "description": "allocated \u00a379.6m to Children's Social Care (\u2248\u00a3272 per resident)",
       "timestamp": "2025-04-15"
     },
     {
@@ -139,6 +156,7 @@
       "category": "Council Tax",
       "icon": "\ud83d\udcc8",
       "amount": 107.0,
+      "perCapita": 107.0,
       "perHousehold": 107.0,
       "description": "raised Band D council tax by \u00a3107 (5.1%) to \u00a32215",
       "timestamp": "2025-03-15"

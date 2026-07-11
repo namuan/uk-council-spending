@@ -323,6 +323,13 @@
   .budget-percent {
     font-size: 0.68rem; color: var(--text3); display: block; font-weight: 400;
   }
+  .budget-change {
+    display: block; margin-top: 2px; font-family: var(--font); font-size: 0.66rem;
+    font-weight: 600; line-height: 1.2;
+  }
+  .budget-change-up { color: var(--blue); }
+  .budget-change-down { color: var(--purple); }
+  .budget-change-flat { color: var(--text3); }
 
   /* Feed */
   .feed-item {
@@ -475,7 +482,7 @@
   /* Budget row clickable */
   .budget-row.clickable { cursor: pointer; }
   .budget-row.clickable:hover { background: var(--blue-bg); border-radius: 8px; }
-  .budget-row.clickable .budget-label { color: var(--blue); text-decoration: underline; }
+  .budget-row.clickable .budget-label-main { color: var(--blue); text-decoration: underline; }
 
   .compare-chart-wrap { position: relative; height: 360px; }
   .compare-chart-wrap canvas { width: 100% !important; max-height: 400px; }
@@ -498,7 +505,7 @@
 <div class="landing" id="landing">
   <div class="landing-logo">Spend<span>Feed</span></div>
   <h1>How does your council spend your money?</h1>
-  <p class="sub">Select your council to see a full breakdown of tax, budgets, and spending — with per-household estimates.</p>
+  <p class="sub">Select your council to see a full breakdown of tax, budgets, and spending per resident.</p>
   <p class="coverage">Covers <strong>all 317 English councils</strong> across every tier: county councils, unitary authorities, metropolitan districts, London boroughs, and lower-tier district councils. Data from <strong>CivAccount</strong> under the Open Government Licence.</p>
 
   <div class="selector-wrap" id="selectorWrap">
@@ -551,7 +558,7 @@
   </div>
   <div class="dash-footer">
     Data from <a href="https://www.civaccount.co.uk" target="_blank">CivAccount</a> · Open Government Licence v3.0<br>
-    <span style="font-size:0.72rem;">Per-household figures are estimates based on average household counts by council type.</span>
+    <span style="font-size:0.72rem;">Per-resident figures use Office for National Statistics mid-2024 population estimates.</span>
   </div>
 </div>
 
@@ -910,23 +917,25 @@ function renderDashboard() {
   document.getElementById('btnWatch').textContent = isWatched ? '★ Watching' : '☆ Watch';
   document.getElementById('btnWatch').classList.toggle('watching', isWatched);
 
-  // Budget rows with descriptions and per-household
+  // Budget rows with descriptions and change indicators
   const budgetRows = d.budgetCategories.map((c, i) => {
     const pct = Math.abs(c.amount) / maxBudget * 100;
     const pctOfTotal = (c.amount / d.budgetTotal * 100).toFixed(1);
     const colour = c.amount >= 0 ? 'var(--blue)' : 'var(--red)';
     const desc = c.description || '';
+    const changeIndicator = budgetChangeIndicator(c);
     return `
     <div class="budget-row clickable" onclick="navigateCompare('${c.cat}', currentCompareMetric, '${d.slug}')" title="Compare all councils on ${c.label}">
       <div class="budget-icon">${c.icon}</div>
       <div class="budget-info">
-        <div class="budget-label">${c.label} <span style="font-size:0.7rem;color:var(--text3);">↗ compare</span></div>
+        <div class="budget-label"><span class="budget-label-main">${c.label}</span> <span style="font-size:0.7rem;color:var(--text3);">↗ compare</span></div>
         ${desc ? `<div class="budget-desc">${desc}</div>` : ''}
         <div class="budget-bar"><div class="budget-bar-fill" style="width:${pct}%;background:${colour}"></div></div>
       </div>
       <div class="budget-amount">
         ${fmtMoney(c.amount * 1000)}
         <span class="budget-percent">${pctOfTotal}%</span>
+        ${changeIndicator}
       </div>
     </div>`;
   }).join('');
@@ -950,6 +959,8 @@ function renderDashboard() {
   // Tax change
   const taxChangeSign = d.taxChange >= 0 ? '+' : '';
   const taxChangeClass = d.taxChange >= 0 ? 'stat-up' : 'stat-down';
+  const perCapitaValue = d.perCapita == null ? '—' : fmtMoney(d.perCapita);
+  const populationNote = d.populationYear ? `ONS mid-${d.populationYear}` : 'Not available';
 
   const html = `
   <div class="council-hero">
@@ -969,9 +980,9 @@ function renderDashboard() {
       <div class="stat-sub ${taxChangeClass}">${taxChangeSign}£${Math.abs(d.taxChange).toFixed(0)} (${taxChangeSign}${d.taxChangePct}%)</div>
     </div>
     <div class="stat-card">
-      <div class="stat-val">${fmtMoney(d.perHousehold)}</div>
-      <div class="stat-lbl">Per Household</div>
-      <div class="stat-sub" style="color:var(--text3)">Estimate</div>
+      <div class="stat-val">${perCapitaValue}</div>
+      <div class="stat-lbl">Per Resident</div>
+      <div class="stat-sub" style="color:var(--text3)">${populationNote}</div>
     </div>
     <div class="stat-card">
       <div class="stat-val">${d.councillors}</div>
@@ -1020,6 +1031,20 @@ function renderDashboard() {
 
   document.getElementById('dashContent').innerHTML = html;
   renderChart();
+}
+
+function budgetChangeIndicator(category) {
+  if (category.changeAmount == null) return '';
+
+  const change = category.changeAmount;
+  const direction = change > 0 ? 'up' : change < 0 ? 'down' : 'flat';
+  const arrow = change > 0 ? '↑' : change < 0 ? '↓' : '→';
+  const label = change > 0 ? 'Up' : change < 0 ? 'Down' : 'No change';
+  const percentage = category.changePercent == null
+    ? ''
+    : ` (${change > 0 ? '+' : ''}${category.changePercent}%)`;
+
+  return `<span class="budget-change budget-change-${direction}" title="Compared with the previous budget year">${arrow} ${label} ${fmtMoney(Math.abs(change) * 1000)}${percentage}</span>`;
 }
 
 // ── Tax trend chart ──
@@ -1271,10 +1296,10 @@ function downloadCompareCsv() {
       c.tax2021, c.tax2022, c.tax2023, c.tax2024, c.tax2026
     ]);
   } else {
-    headers = ['Council', 'Type', 'Region', 'Total spend (£)', 'Per household (£)', '% of budget'];
+    headers = ['Council', 'Type', 'Region', 'Total spend (£)', 'Per resident (£)', 'Per household (£)', '% of budget'];
     rows = councils.map(c => [
       c.name, c.typeName, c.region || '',
-      (c.amount * 1000).toFixed(0), c.perHousehold?.toFixed(0) || '', c.percentOfBudget?.toFixed(1) || ''
+      (c.amount * 1000).toFixed(0), c.perCapita?.toFixed(1) || '', c.perHousehold?.toFixed(0) || '', c.percentOfBudget?.toFixed(1) || ''
     ]);
   }
 
@@ -1623,6 +1648,7 @@ function renderCompareTable(councils) {
       { key: 'typeName', label: 'Type' },
       { key: 'region', label: 'Region' },
       { key: 'amount', label: 'Total spend' },
+      { key: 'perCapita', label: 'Per resident' },
       { key: 'perHousehold', label: 'Per household' },
       { key: 'percentOfBudget', label: '% of budget' },
     ];
@@ -1669,12 +1695,14 @@ function renderCompareTable(councils) {
       if (key === 'percentOfBudget') return c.percentOfBudget.toFixed(1) + '%';
       return '';
     };
+    const perCapVal = c.perCapita != null ? '£' + Math.round(c.perCapita).toLocaleString() : '—';
     return `<tr class="${rowClass}" onclick="navigateCouncil('${c.slug}')" style="cursor:pointer;">
       <td class="compare-row-rank">${i + 1}</td>
       <td class="compare-row-name">${c.name}</td>
       <td><span class="compare-row-type" style="background:${typeColours[c.typeName] || '#6b7280'}">${c.typeName}</span></td>
       <td style="font-size:0.72rem;color:var(--text3);">${c.region || ''}</td>
       <td class="compare-row-val">${metricFmt(c, 'amount')}</td>
+      <td class="compare-row-val">${perCapVal}</td>
       <td class="compare-row-val">${metricFmt(c, 'perHousehold')}</td>
       <td class="compare-row-val">${metricFmt(c, 'percentOfBudget')}</td>
     </tr>`;
