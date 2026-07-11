@@ -4,6 +4,7 @@
   "type": "UA",
   "typeName": "Unitary Authority",
   "onsCode": "E06000058",
+  "region": "South West",
   "colour": "hsl(279, 45%, 55%)",
   "initials": "BP",
   "leader": "",
@@ -27,67 +28,78 @@
       "cat": "adult_social_care",
       "label": "Adult Social Care",
       "icon": "\ud83d\udc74",
-      "amount": 179971.0
+      "amount": 179971.0,
+      "description": "Care services for elderly and vulnerable adults, including home care and residential placements."
     },
     {
       "cat": "education",
       "label": "Education",
       "icon": "\ud83d\udcda",
-      "amount": 160273.0
+      "amount": 160273.0,
+      "description": "Funding for local schools, children's education services, and early years provision."
     },
     {
       "cat": "childrens_social_care",
       "label": "Children's Social Care",
       "icon": "\ud83d\udc76",
-      "amount": 91393.0
+      "amount": 91393.0,
+      "description": "Services to protect and support children, including fostering, adoption, and family support."
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 41083.0
+      "amount": 41083.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services."
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 27710.0
+      "amount": 27710.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance."
     },
     {
       "cat": "other",
       "label": "Other Services",
       "icon": "\ud83d\udccb",
-      "amount": 22270.0
+      "amount": 22270.0,
+      "description": "Other service areas and cross-cutting budgets not allocated to specific categories."
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
-      "amount": 21772.0
+      "amount": 21772.0,
+      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection."
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": 18636.0
+      "amount": 18636.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes."
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "amount": 15698.0
+      "amount": 15698.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes."
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 6432.0
+      "amount": 6432.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects."
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": 4633.0
+      "amount": 4633.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning."
     }
   ],
   "budgetTotal": 589871.0,

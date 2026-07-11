@@ -4,6 +4,7 @@
   "type": "LB",
   "typeName": "London Borough",
   "onsCode": "E09000016",
+  "region": "London",
   "colour": "hsl(64, 45%, 55%)",
   "initials": "HAV",
   "leader": "",
@@ -27,67 +28,78 @@
       "cat": "education",
       "label": "Education",
       "icon": "\ud83d\udcda",
-      "amount": 200177.0
+      "amount": 200177.0,
+      "description": "Funding for local schools, children's education services, and early years provision."
     },
     {
       "cat": "adult_social_care",
       "label": "Adult Social Care",
       "icon": "\ud83d\udc74",
-      "amount": 100499.0
+      "amount": 100499.0,
+      "description": "Care services for elderly and vulnerable adults, including home care and residential placements."
     },
     {
       "cat": "childrens_social_care",
       "label": "Children's Social Care",
       "icon": "\ud83d\udc76",
-      "amount": 62849.0
+      "amount": 62849.0,
+      "description": "Services to protect and support children, including fostering, adoption, and family support."
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 20465.0
+      "amount": 20465.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance."
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "amount": 15968.0
+      "amount": 15968.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes."
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
-      "amount": 12787.0
+      "amount": 12787.0,
+      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection."
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 12585.0
+      "amount": 12585.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services."
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": 6663.0
+      "amount": 6663.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning."
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": 4185.0
+      "amount": 4185.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes."
     },
     {
       "cat": "other",
       "label": "Other Services",
       "icon": "\ud83d\udccb",
-      "amount": 4070.0
+      "amount": 4070.0,
+      "description": "Other service areas and cross-cutting budgets not allocated to specific categories."
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 892.0
+      "amount": 892.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects."
     }
   ],
   "budgetTotal": 441140.0,

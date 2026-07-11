@@ -4,6 +4,7 @@
   "type": "SC",
   "typeName": "County Council",
   "onsCode": "E10000028",
+  "region": "West Midlands",
   "colour": "hsl(242, 45%, 55%)",
   "initials": "STA",
   "leader": "Cllr Martin Murray",
@@ -26,55 +27,64 @@
       "cat": "education",
       "label": "Education",
       "icon": "\ud83d\udcda",
-      "amount": 491610.0
+      "amount": 491610.0,
+      "description": "Funding for local schools, children's education services, and early years provision."
     },
     {
       "cat": "adult_social_care",
       "label": "Adult Social Care",
       "icon": "\ud83d\udc74",
-      "amount": 358261.0
+      "amount": 358261.0,
+      "description": "Care services for elderly and vulnerable adults, including home care and residential placements."
     },
     {
       "cat": "childrens_social_care",
       "label": "Children's Social Care",
       "icon": "\ud83d\udc76",
-      "amount": 196787.0
+      "amount": 196787.0,
+      "description": "Services to protect and support children, including fostering, adoption, and family support."
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": 66389.0
+      "amount": 66389.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning."
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 52680.0
+      "amount": 52680.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services."
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
-      "amount": 46455.0
+      "amount": 46455.0,
+      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection."
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": 13907.0
+      "amount": 13907.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes."
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 8281.0
+      "amount": 8281.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance."
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 7357.0
+      "amount": 7357.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects."
     }
   ],
   "budgetTotal": 1241727.0,

@@ -4,6 +4,7 @@
   "type": "LB",
   "typeName": "London Borough",
   "onsCode": "E09000033",
+  "region": "London",
   "colour": "hsl(163, 45%, 55%)",
   "initials": "WES",
   "leader": "Cllr Adam Hug",
@@ -27,67 +28,78 @@
       "cat": "education",
       "label": "Education",
       "icon": "\ud83d\udcda",
-      "amount": 128468.0
+      "amount": 128468.0,
+      "description": "Funding for local schools, children's education services, and early years provision."
     },
     {
       "cat": "adult_social_care",
       "label": "Adult Social Care",
       "icon": "\ud83d\udc74",
-      "amount": 103337.0
+      "amount": 103337.0,
+      "description": "Care services for elderly and vulnerable adults, including home care and residential placements."
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "amount": 99607.0
+      "amount": 99607.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes."
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 68876.0
+      "amount": 68876.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services."
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": -55517.0
+      "amount": -55517.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning."
     },
     {
       "cat": "childrens_social_care",
       "label": "Children's Social Care",
       "icon": "\ud83d\udc76",
-      "amount": 45297.0
+      "amount": 45297.0,
+      "description": "Services to protect and support children, including fostering, adoption, and family support."
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
-      "amount": 39577.0
+      "amount": 39577.0,
+      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection."
     },
     {
       "cat": "other",
       "label": "Other Services",
       "icon": "\ud83d\udccb",
-      "amount": 28170.0
+      "amount": 28170.0,
+      "description": "Other service areas and cross-cutting budgets not allocated to specific categories."
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 20047.0
+      "amount": 20047.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance."
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 17568.0
+      "amount": 17568.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects."
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": 10977.0
+      "amount": 10977.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes."
     }
   ],
   "budgetTotal": 561924.0,

@@ -4,6 +4,7 @@
   "type": "SD",
   "typeName": "District Council",
   "onsCode": "E07000196",
+  "region": "West Midlands",
   "colour": "hsl(334, 45%, 55%)",
   "initials": "SS",
   "leader": "Cllr Roger Lees",
@@ -27,55 +28,64 @@
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 6455.0
+      "amount": 6455.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects."
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 4709.0
+      "amount": 4709.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services."
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 3797.0
+      "amount": 3797.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance."
     },
     {
       "cat": "other",
       "label": "Other Services",
       "icon": "\ud83d\udccb",
-      "amount": 2371.0
+      "amount": 2371.0,
+      "description": "Other service areas and cross-cutting budgets not allocated to specific categories."
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": 2258.0
+      "amount": 2258.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes."
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "amount": 1311.0
+      "amount": 1311.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes."
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": 171.0
+      "amount": 171.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning."
     },
     {
       "cat": "adult_social_care",
       "label": "Adult Social Care",
       "icon": "\ud83d\udc74",
-      "amount": 30.0
+      "amount": 30.0,
+      "description": "Care services for elderly and vulnerable adults, including home care and residential placements."
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
-      "amount": 26.0
+      "amount": 26.0,
+      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection."
     }
   ],
   "budgetTotal": 21128.0,

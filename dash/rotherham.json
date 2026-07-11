@@ -4,6 +4,7 @@
   "type": "MD",
   "typeName": "Metropolitan District",
   "onsCode": "E08000018",
+  "region": "Yorkshire and The Humber",
   "colour": "hsl(84, 45%, 55%)",
   "initials": "ROT",
   "leader": "",
@@ -27,61 +28,71 @@
       "cat": "education",
       "label": "Education",
       "icon": "\ud83d\udcda",
-      "amount": 138538.0
+      "amount": 138538.0,
+      "description": "Funding for local schools, children's education services, and early years provision."
     },
     {
       "cat": "adult_social_care",
       "label": "Adult Social Care",
       "icon": "\ud83d\udc74",
-      "amount": 121418.0
+      "amount": 121418.0,
+      "description": "Care services for elderly and vulnerable adults, including home care and residential placements."
     },
     {
       "cat": "childrens_social_care",
       "label": "Children's Social Care",
       "icon": "\ud83d\udc76",
-      "amount": 82041.0
+      "amount": 82041.0,
+      "description": "Services to protect and support children, including fostering, adoption, and family support."
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
-      "amount": 20874.0
+      "amount": 20874.0,
+      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection."
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 19843.0
+      "amount": 19843.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services."
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": 12590.0
+      "amount": 12590.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes."
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 10077.0
+      "amount": 10077.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance."
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": 7856.0
+      "amount": 7856.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning."
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "amount": 5019.0
+      "amount": 5019.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes."
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 4786.0
+      "amount": 4786.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects."
     }
   ],
   "budgetTotal": 423042.0,

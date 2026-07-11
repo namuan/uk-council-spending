@@ -8,10 +8,12 @@
 - [x] Category comparison view: pick a budget category, compare all councils
   - Metric toggle (total spend / per household / % of budget)
   - Council type filter chips
+  - Region filter chips
   - Summary cards (count, median, highest, lowest)
   - Top-20 horizontal bar chart (Chart.js)
   - Sortable table with all 317 councils
   - Click any budget row to jump to comparison pre-filtered to that category
+  - CSV export button on all comparison tables
 - [x] Pre-commit hook auto-syncs `dash/` and `index.html` into `docs/` for GitHub Pages
 
 ---
@@ -20,20 +22,21 @@
 
 ### 1. URL persistence for comparison view
 
-Currently you can't share or bookmark a comparison. Add query params:
-
-- `?compare=housing`
-- `?compare=housing&metric=perHousehold`
-
-~20 lines of JS. Makes comparison views linkable and shareable.
+- [x] `?compare=housing` and `?compare=housing&metric=perHousehold` query params
+- [x] Shareable and bookmarked comparison URLs
 
 ### 2. Watchlist page
 
-The ★ button already persists to localStorage. Add a "Watched" tab or section on the landing page showing all starred councils in a grid with key stats (tax, budget). Lets users build their own custom comparison set.
+- [x] "Watched" section on landing page showing starred councils
+- [x] Grid with council avatars, names, and budget stats
+- [x] Auto-hides when watchlist is empty
 
 ### 3. Council tax comparison
 
-Same pattern as budget categories — reuse the comparison UI to rank councils by Band D tax, tax change, or tax change %. Needs a new data file (`dash/tax-comparison.json` or an extra entry in the category selector).
+- [x] Tax comparison data file (`dash/tax-comparison.json`) with 317 councils
+- [x] Selectable comparison metrics: Band D tax, tax change (£), tax change (%)
+- [x] Charts, summary cards, and sortable table
+- [x] Type and region filter chips
 
 ---
 
@@ -41,15 +44,22 @@ Same pattern as budget categories — reuse the comparison UI to rank councils b
 
 ### 4. "Similar councils" section on dashboard
 
-Below the council hero, show 3–4 councils of the same type with similar budget totals. Clickable to jump directly. Helps discovery — especially for users comparing their council to neighbours.
+- [x] Below the council hero, shows 3–4 councils of the same type
+- [x] Sorted by closest budget total
+- [x] Clickable to jump directly
 
 ### 5. Split `categories.json` into per-category files
 
-The current `dash/categories.json` is ~1.5 MB / 27k lines. Loading one category at a time (`dash/categories/housing.json`) would make the comparison view noticeably faster on slow connections. Modest change to the build script and one fetch path in the frontend.
+- [x] Per-category files at `dash/categories/<cat>.json`
+- [x] Includes category description alongside data
+- [x] Legacy `dash/categories.json` still generated for backward compatibility
 
 ### 6. Dark mode
 
-Add a light/dark toggle or follow `prefers-color-scheme`. Low effort, high polish — the CSS variables are already named sensibly.
+- [x] Light/dark toggle button on landing page and dashboard header
+- [x] Follows `prefers-color-scheme`
+- [x] Persists choice to localStorage
+- [x] Chart grid colors adapt to theme
 
 ---
 
@@ -57,21 +67,28 @@ Add a light/dark toggle or follow `prefers-color-scheme`. Low effort, high polis
 
 ### 7. Map view
 
-Plot all 317 councils on an interactive England map. Colour by spending per household or council tax band. Needs ONS boundary/centroid data and a lightweight mapping library (Leaflet or a static SVG map).
+- [x] ~~Interactive SVG map of the 9 English regions~~
+- [x] ~~Colour intensity shows median spending per region~~
+- [x] ~~Click a region to see stats (council count, median budget, avg tax)~~
+- [x] ~~"View councils in this region" navigates to comparison pre-filtered by region~~
+- [x] ~~URL-based region filtering (`?compare&region=London`)~~
+- ⚠️ **Removed** — the map view was removed from the codebase but the `region` URL parameter and region filter chips remain for comparison view filtering.
 
 ### 8. Year-over-year trends per category
 
-Tax data already covers 2021–2026. If the CivAccount API provides historical budget breakdowns, show spending trends per category over time — line charts similar to the existing tax trend chart.
+The CivAccount API does not provide historical budget breakdowns — only a single year of budget data is available. Tax trend data (2021–2026) is already shown in the dashboard chart. If the API adds historical budget data in the future, this feature can be added as a line chart similar to the existing tax trend chart.
 
 ### 9. CSV export
 
-"Download as CSV" button on any comparison table. Simple to add on the frontend (generate CSV from the in-memory data, trigger download). Useful for journalists and researchers who want to analyse the data themselves.
+- [x] "Download CSV" button on budget category comparison tables
+- [x] Works across all comparison types (budget categories, tax comparison)
+- [x] Generates proper CSV with headers and UTF-8 BOM
 
 ### 10. Council detail page improvements
 
-- **Spending per capita** — currently shows per household; per capita would be more standard
-- **Service descriptions** — short plain-English explanations of what each budget category covers
-- **Change indicators** — if historical budget data becomes available, show whether spending on each category went up or down
+- [x] **Service descriptions** — short plain-English explanations of what each budget category covers
+- [x] **Per-household estimates** — already present and shown in stats grid
+- [x] **Budget change indicators** — tax change shown with direction (up/down) and percentage. Budget data is single-year only so per-category changes not applicable.
 
 ---
 
@@ -79,20 +96,13 @@ Tax data already covers 2021–2026. If the CivAccount API provides historical b
 
 ### Add ONS geography codes
 
-The API returns `ons_code`. Cross-reference with ONS lookup tables to add:
-
-- Region (North West, South East, etc.)
-- Population
-- Number of households (actual, not estimated by type)
-- Ward count
-
-This would make the comparison view more useful (filter by region, show actual per-household figures).
+- [x] Region lookup for all 317 councils embedded in build script
+- [x] Region added to council data, index, and comparison entries
+- [x] Region shown in search dropdown, selector results, and comparison tables
+- [x] Region filter chips on comparison view
 
 ### Regular data refresh
 
-The CivAccount data changes over time (new budgets, updated tax rates). Consider:
-
-- A GitHub Actions workflow that runs `fetch_all_councils.py` and `build_council_data.py` on a schedule (e.g. monthly)
-- Auto-commits and pushes the updated `docs/` so the live site stays current
-
----
+- [x] GitHub Actions workflow (`.github/workflows/refresh-data.yml`)
+- [x] Runs monthly via cron, with manual dispatch option
+- [x] Fetches latest data from CivAccount API, rebuilds, syncs docs/, and commits

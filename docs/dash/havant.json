@@ -4,6 +4,7 @@
   "type": "SD",
   "typeName": "District Council",
   "onsCode": "E07000090",
+  "region": "South East",
   "colour": "hsl(181, 45%, 55%)",
   "initials": "HAV",
   "leader": "",
@@ -27,37 +28,43 @@
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "amount": 9608.0
+      "amount": 9608.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services."
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "amount": 5441.0
+      "amount": 5441.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes."
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "amount": 3648.0
+      "amount": 3648.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects."
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "amount": 2764.0
+      "amount": 2764.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance."
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "amount": -1319.0
+      "amount": -1319.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning."
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "amount": -16.0
+      "amount": -16.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes."
     }
   ],
   "budgetTotal": 21461.0,
