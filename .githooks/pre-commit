@@ -1,0 +1,38 @@
+#!/bin/bash
+# Pre-commit hook: sync docs/ with dash/ and index.html, then auto-stage changes.
+#
+# On every commit, this syncs and stages:
+#   dash/       → docs/dash/
+#   index.html  → docs/index.html
+#
+# Any changes are automatically staged into the current commit.
+# Skip with:  git commit --no-verify
+
+set -e
+
+SYNCED=0
+
+# Sync data files
+while IFS= read -r line; do
+    if [ -n "$line" ]; then
+        [ "$SYNCED" -eq 0 ] && echo "  ↻ syncing dash/ → docs/dash/"
+        SYNCED=1
+    fi
+done < <(rsync -a --delete --itemize-changes dash/ docs/dash/ 2>&1)
+
+# Sync index.html
+if ! cmp -s index.html docs/index.html 2>/dev/null; then
+    cp index.html docs/index.html
+    echo "  ↻ syncing index.html → docs/index.html"
+    SYNCED=1
+fi
+
+# Stage any docs changes into the current commit
+if ! git diff --quiet docs/; then
+    git add docs/
+    echo "  ✓ staged synced docs for deploy"
+elif [ "$SYNCED" -eq 0 ]; then
+    echo "  ✓ docs/ up to date"
+fi
+
+exit 0
