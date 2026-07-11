@@ -331,12 +331,116 @@
   /* View switcher */
   .landing.hidden { display: none; }
 
+  /* ── COMPARE VIEW ── */
+  .compare {
+    display: none; max-width: 800px; margin: 0 auto; padding: 0 16px 40px;
+  }
+  .compare.active { display: block; }
+
+  .compare-controls {
+    display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    margin-bottom: 16px;
+  }
+  .compare-cat-select {
+    flex: 1; min-width: 200px; padding: 10px 14px;
+    border: 2px solid var(--border); border-radius: 10px;
+    font-size: 0.9rem; font-family: var(--font); color: var(--text);
+    background: var(--card); cursor: pointer; outline: none;
+    box-shadow: var(--shadow);
+  }
+  .compare-cat-select:focus { border-color: var(--blue); }
+
+  .compare-metric-toggle {
+    display: flex; gap: 3px; background: var(--border);
+    border-radius: 10px; padding: 3px; flex-shrink: 0;
+  }
+  .compare-metric-btn {
+    padding: 7px 14px; border: none; border-radius: 8px;
+    font-size: 0.78rem; font-weight: 500; font-family: var(--font);
+    cursor: pointer; background: transparent; color: var(--text2);
+    white-space: nowrap; transition: all 0.15s;
+  }
+  .compare-metric-btn.active {
+    background: var(--card); color: var(--text); font-weight: 600;
+    box-shadow: var(--shadow);
+  }
+
+  .compare-type-filters {
+    display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px;
+  }
+  .compare-type-chip {
+    padding: 5px 12px; border-radius: 14px;
+    font-size: 0.72rem; font-weight: 500; font-family: var(--font);
+    cursor: pointer; border: 1px solid var(--border);
+    background: var(--card); color: var(--text2);
+    transition: all 0.15s; white-space: nowrap;
+  }
+  .compare-type-chip:hover { border-color: var(--blue); }
+  .compare-type-chip.on {
+    color: #fff; border-color: transparent;
+  }
+
+  .compare-summary {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 2px; background: var(--border);
+    border-radius: var(--radius-sm); overflow: hidden;
+    margin-bottom: 16px; box-shadow: var(--shadow);
+  }
+  .compare-summary .stat-card { padding: 16px 10px; }
+
+  .compare-table-wrap { max-height: 520px; overflow-y: auto; }
+  .compare-table {
+    width: 100%; border-collapse: collapse; font-size: 0.82rem;
+  }
+  .compare-table thead { position: sticky; top: 0; z-index: 1; }
+  .compare-table th {
+    text-align: left; padding: 10px 14px;
+    background: var(--bg); font-size: 0.68rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--text3); border-bottom: 2px solid var(--border);
+    cursor: pointer; user-select: none; white-space: nowrap;
+  }
+  .compare-table th:hover { color: var(--text2); }
+  .compare-table th.sorted { color: var(--blue); }
+  .compare-table td {
+    padding: 9px 14px; border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+  .compare-table tbody tr { transition: background 0.1s; }
+  .compare-table tbody tr:hover { background: var(--blue-bg); }
+  .compare-row-name { font-weight: 500; }
+  .compare-row-type {
+    display: inline-block; padding: 1px 8px; border-radius: 8px;
+    font-size: 0.68rem; font-weight: 500; color: #fff;
+  }
+  .compare-row-val {
+    font-family: var(--mono); font-weight: 600; text-align: right;
+    white-space: nowrap;
+  }
+  .compare-row-rank {
+    text-align: center; font-family: var(--mono); font-size: 0.72rem;
+    color: var(--text3);
+  }
+  .compare-row-zero { color: var(--text3); }
+  .compare-row-neg { color: var(--red); }
+
+  /* Budget row clickable */
+  .budget-row.clickable { cursor: pointer; }
+  .budget-row.clickable:hover { background: var(--blue-bg); border-radius: 8px; }
+  .budget-row.clickable .budget-label { color: var(--blue); text-decoration: underline; }
+
+  .compare-chart-wrap { position: relative; height: 360px; }
+  .compare-chart-wrap canvas { width: 100% !important; max-height: 400px; }
+
   /* Responsive */
   @media (max-width: 500px) {
     .stats-grid { grid-template-columns: 1fr 1fr; }
+    .compare-summary { grid-template-columns: 1fr 1fr; }
     .landing { padding: 40px 16px 30px; }
     .landing h1 { font-size: 1.35rem; }
     .popular-grid { grid-template-columns: 1fr; }
+    .compare-controls { flex-direction: column; }
+    .compare-cat-select { width: 100%; }
   }
 </style>
 </head>
@@ -362,6 +466,10 @@
     <div class="popular-title">Largest budgets</div>
     <div class="popular-grid" id="popularGrid"></div>
   </div>
+
+  <p style="text-align:center;margin-top:24px;">
+    <a href="javascript:showCompare(null,null)" style="color:var(--blue);font-size:0.9rem;font-weight:500;">📊 Compare categories across all councils</a>
+  </p>
 </div>
 
 <!-- ═══════════ DASHBOARD ═══════════ -->
@@ -370,6 +478,7 @@
     <button class="dash-back" onclick="goHome()" title="Back to search">←</button>
     <div class="dash-logo" onclick="goHome()">Spend<span>Feed</span></div>
     <div class="dash-actions">
+      <button class="dash-btn" id="btnCompare" onclick="openCompareFromDashboard()">📊 Compare</button>
       <button class="dash-btn" id="btnWatch" onclick="toggleWatch()">☆ Watch</button>
       <button class="dash-btn" id="btnShare" onclick="shareCouncil()">🔗 Share</button>
     </div>
@@ -383,6 +492,46 @@
   </div>
 </div>
 
+<!-- ═══════════ COMPARE VIEW ═══════════ -->
+<div class="compare" id="compare">
+  <div class="dash-header">
+    <button class="dash-back" onclick="closeCompare()" title="Back">←</button>
+    <div class="dash-logo" onclick="goHome()">Spend<span>Feed</span></div>
+    <div class="dash-actions">
+      <button class="dash-btn" id="btnCompareBack" style="display:none;" onclick="closeCompare()">Back to Council</button>
+    </div>
+  </div>
+
+  <div class="compare-controls">
+    <select class="compare-cat-select" id="catSelect" onchange="changeCategory(this.value)">
+      <option value="">Select a category…</option>
+    </select>
+    <div class="compare-metric-toggle" id="metricToggle">
+      <button class="compare-metric-btn active" data-metric="amount" onclick="changeMetric('amount')">Total spend</button>
+      <button class="compare-metric-btn" data-metric="perHousehold" onclick="changeMetric('perHousehold')">Per household</button>
+      <button class="compare-metric-btn" data-metric="percentOfBudget" onclick="changeMetric('percentOfBudget')">% of budget</button>
+    </div>
+  </div>
+
+  <div class="compare-type-filters" id="typeFilters"></div>
+
+  <div class="compare-summary" id="compareSummary"></div>
+
+  <div class="dash-section">
+    <h3 id="compareChartTitle">📊 Top 20 Councils</h3>
+    <div class="compare-chart-wrap"><canvas id="chartCompare"></canvas></div>
+  </div>
+
+  <div class="dash-section" style="padding:0;">
+    <div class="compare-table-wrap">
+      <table class="compare-table" id="compareTable">
+        <thead><tr></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 <script>
 // ── State ──
 let councilIndex = [];
@@ -390,6 +539,14 @@ let currentCouncil = null;
 let currentData = null;
 let watchedSet = new Set(JSON.parse(localStorage.getItem('spendfeed_watched') || '[]'));
 let chartInstance = null;
+let compareChartInstance = null;
+let compareData = null;
+let currentCompareCategory = null;
+let currentCompareMetric = 'amount';
+let activeTypes = new Set();  // empty = show all
+let compareSortCol = null;
+let compareSortDir = 1;  // 1 = desc, -1 = asc
+let compareFromCouncil = null;
 const TYPE_COLOURS = {
   'County Council': '#3d7a5c', 'District Council': '#b8953c',
   'London Borough': '#3d7ea6', 'Metropolitan District': '#6b4e8a',
@@ -573,10 +730,10 @@ function renderDashboard() {
     const pctOfTotal = (c.amount / d.budgetTotal * 100).toFixed(1);
     const colour = c.amount >= 0 ? 'var(--blue)' : 'var(--red)';
     return `
-    <div class="budget-row">
+    <div class="budget-row clickable" onclick="showCompare('${c.cat}','${d.slug}')" title="Compare all councils on ${c.label}">
       <div class="budget-icon">${c.icon}</div>
       <div class="budget-info">
-        <div class="budget-label">${c.label}</div>
+        <div class="budget-label">${c.label} <span style="font-size:0.7rem;color:var(--text3);">↗ compare</span></div>
         <div class="budget-bar"><div class="budget-bar-fill" style="width:${pct}%;background:${colour}"></div></div>
       </div>
       <div class="budget-amount">
@@ -775,6 +932,333 @@ window.addEventListener('popstate', () => {
     goHome();
   }
 });
+
+// ── Category Comparison ──
+async function loadCompareData() {
+  if (compareData) return compareData;
+  try {
+    const res = await fetch('dash/categories.json');
+    if (!res.ok) throw new Error('Failed to load comparison data');
+    const json = await res.json();
+    compareData = json.categories;
+    return compareData;
+  } catch (e) {
+    console.error('Failed to load comparison data:', e);
+    return null;
+  }
+}
+
+function showCompare(categoryKey, fromCouncil) {
+  compareFromCouncil = fromCouncil;
+  document.getElementById('landing').classList.add('hidden');
+  document.getElementById('dashboard').classList.remove('active');
+  document.getElementById('compare').classList.add('active');
+
+  // Show back-to-council button if coming from a council
+  const btn = document.getElementById('btnCompareBack');
+  btn.style.display = fromCouncil ? '' : 'none';
+
+  window.scrollTo(0, 0);
+
+  loadCompareData().then(() => {
+    populateCategorySelect();
+    if (categoryKey) {
+      document.getElementById('catSelect').value = categoryKey;
+      changeCategory(categoryKey);
+    }
+  });
+}
+
+function openCompareFromDashboard() {
+  showCompare(null, currentCouncil);
+}
+
+function closeCompare() {
+  document.getElementById('compare').classList.remove('active');
+  if (compareChartInstance) { compareChartInstance.destroy(); compareChartInstance = null; }
+  currentCompareCategory = null;
+
+  if (compareFromCouncil) {
+    loadCouncil(compareFromCouncil);
+    compareFromCouncil = null;
+  } else {
+    goHome();
+  }
+}
+
+function populateCategorySelect() {
+  if (!compareData) return;
+  const sel = document.getElementById('catSelect');
+  let html = '<option value="">Select a category…</option>';
+  compareData.forEach(cat => {
+    html += `<option value="${cat.cat}">${cat.icon} ${cat.label}</option>`;
+  });
+  sel.innerHTML = html;
+}
+
+function changeCategory(catKey) {
+  if (!catKey) return;
+  currentCompareCategory = catKey;
+  activeTypes = new Set();
+  compareSortCol = null;
+  compareSortDir = 1;
+  renderCompare();
+}
+
+function changeMetric(metric) {
+  currentCompareMetric = metric;
+  document.querySelectorAll('.compare-metric-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.metric === metric);
+  });
+  compareSortCol = metric;
+  compareSortDir = 1;
+  renderCompare();
+}
+
+function toggleType(typeName) {
+  if (activeTypes.has(typeName)) {
+    activeTypes.delete(typeName);
+  } else {
+    activeTypes.add(typeName);
+  }
+  renderCompare();
+}
+
+function getFilteredCouncils() {
+  if (!compareData || !currentCompareCategory) return [];
+  const cat = compareData.find(c => c.cat === currentCompareCategory);
+  if (!cat) return [];
+
+  let councils = [...cat.councils];
+
+  // Apply type filter
+  if (activeTypes.size > 0) {
+    councils = councils.filter(c => activeTypes.has(c.typeName));
+  }
+
+  // Sort
+  if (compareSortCol) {
+    const dir = compareSortDir;
+    councils.sort((a, b) => {
+      let va = a[compareSortCol], vb = b[compareSortCol];
+      if (typeof va === 'string') {
+        return dir * va.localeCompare(vb);
+      }
+      return dir * (va - vb);
+    });
+  }
+
+  return councils;
+}
+
+function renderCompare() {
+  const councils = getFilteredCouncils();
+  if (!councils.length && !currentCompareCategory) {
+    document.getElementById('compareSummary').innerHTML = '';
+    document.getElementById('compareChartTitle').textContent = '📊 Select a Category';
+    document.getElementById('compareTable').querySelector('thead tr').innerHTML = '';
+    document.getElementById('compareTable').querySelector('tbody').innerHTML = '';
+    return;
+  }
+
+  renderTypeFilters();
+  renderCompareSummary(councils);
+  renderCompareChart(councils);
+  renderCompareTable(councils);
+}
+
+function renderTypeFilters() {
+  if (!compareData || !currentCompareCategory) return;
+  const cat = compareData.find(c => c.cat === currentCompareCategory);
+  if (!cat) return;
+
+  const types = [...new Set(cat.councils.map(c => c.typeName))].sort();
+  const colours = {
+    'County Council': '#3d7a5c', 'District Council': '#b8953c',
+    'London Borough': '#3d7ea6', 'Metropolitan District': '#6b4e8a',
+    'Unitary Authority': '#8b5a3c',
+  };
+
+  document.getElementById('typeFilters').innerHTML = types.map(t => {
+    const on = activeTypes.size === 0 || activeTypes.has(t);
+    const bg = colours[t] || '#6b7280';
+    return `<span class="compare-type-chip ${on ? 'on' : ''}" style="${on ? 'background:' + bg : ''}"
+            onclick="toggleType('${t}')">${t}</span>`;
+  }).join('');
+}
+
+function renderCompareSummary(councils) {
+  if (!councils.length) {
+    document.getElementById('compareSummary').innerHTML = '';
+    return;
+  }
+
+  const vals = councils.map(c => c[currentCompareMetric]).filter(v => v != null);
+  if (!vals.length) return;
+
+  const getVal = c => c[currentCompareMetric] ?? 0;
+  const sorted = [...councils].sort((a, b) => getVal(b) - getVal(a));
+  const median = vals.length % 2 === 1
+    ? vals.sort((a,b) => a-b)[Math.floor(vals.length/2)]
+    : (vals.sort((a,b) => a-b)[vals.length/2 - 1] + vals.sort((a,b) => a-b)[vals.length/2]) / 2;
+
+  const metricLabel = { amount: 'spend', perHousehold: 'per household', percentOfBudget: '% of budget' }[currentCompareMetric];
+  const fmt = currentCompareMetric === 'percentOfBudget'
+    ? v => v.toFixed(1) + '%'
+    : v => fmtMoney(v * (currentCompareMetric === 'amount' ? 1000 : 1));
+
+  document.getElementById('compareSummary').innerHTML = `
+    <div class="stat-card">
+      <div class="stat-val">${councils.length}</div>
+      <div class="stat-lbl">Councils</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">${fmt(median)}</div>
+      <div class="stat-lbl">Median ${metricLabel}</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">${fmt(getVal(sorted[0]))}</div>
+      <div class="stat-lbl">Highest</div>
+      <div class="stat-sub" style="font-size:0.7rem;color:var(--text3);">${sorted[0]?.name || ''}</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-val">${fmt(getVal(sorted[sorted.length - 1]))}</div>
+      <div class="stat-lbl">Lowest</div>
+      <div class="stat-sub" style="font-size:0.7rem;color:var(--text3);">${sorted[sorted.length - 1]?.name || ''}</div>
+    </div>`;
+}
+
+function renderCompareChart(councils) {
+  if (typeof Chart === 'undefined') {
+    setTimeout(() => renderCompareChart(councils), 100);
+    return;
+  }
+  if (compareChartInstance) { compareChartInstance.destroy(); compareChartInstance = null; }
+
+  const top = [...councils]
+    .filter(c => (c[currentCompareMetric] ?? 0) !== 0)
+    .sort((a, b) => (b[currentCompareMetric] ?? 0) - (a[currentCompareMetric] ?? 0))
+    .slice(0, 20);
+  if (!top.length) return;
+
+  const ctx = document.getElementById('chartCompare');
+  if (!ctx) return;
+
+  const metricLabel = { amount: 'Total spend (£m)', perHousehold: 'Per household (£)', percentOfBudget: '% of budget' }[currentCompareMetric];
+  document.getElementById('compareChartTitle').textContent = `📊 Top ${top.length} Councils`;
+
+  compareChartInstance = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: top.map(c => {
+        const name = c.name.replace(/ (Council|City Council|County Council|District Council|Borough Council|Metropolitan Borough Council)$/, '');
+        return name.length > 28 ? name.slice(0, 26) + '…' : name;
+      }),
+      datasets: [{
+        label: metricLabel,
+        data: top.map(c => {
+          const v = c[currentCompareMetric] ?? 0;
+          return currentCompareMetric === 'amount' ? v / 1000 : v;  // convert thousands to millions
+        }),
+        backgroundColor: top.map(c => {
+          const v = c[currentCompareMetric] ?? 0;
+          return v >= 0 ? 'rgba(37,99,235,0.75)' : 'rgba(220,38,38,0.75)';
+        }),
+        borderRadius: 4,
+        borderSkipped: false,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const v = ctx.parsed.x;
+              return currentCompareMetric === 'percentOfBudget' ? v.toFixed(1) + '%' : '£' + v.toFixed(1) + (currentCompareMetric === 'amount' ? 'm' : '');
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { color: '#f3f4f6' },
+          ticks: {
+            callback: v => currentCompareMetric === 'percentOfBudget' ? v + '%' : '£' + v + (currentCompareMetric === 'amount' ? 'm' : ''),
+          }
+        },
+        y: { grid: { display: false }, ticks: { font: { size: 11 } } }
+      },
+      interaction: { intersect: false, mode: 'index' }
+    }
+  });
+}
+
+function renderCompareTable(councils) {
+  if (!councils.length) {
+    document.getElementById('compareTable').querySelector('thead tr').innerHTML = '';
+    document.getElementById('compareTable').querySelector('tbody').innerHTML = '';
+    return;
+  }
+
+  const cols = [
+    { key: 'rank', label: '#' },
+    { key: 'name', label: 'Council' },
+    { key: 'typeName', label: 'Type' },
+    { key: 'amount', label: 'Total spend' },
+    { key: 'perHousehold', label: 'Per household' },
+    { key: 'percentOfBudget', label: '% of budget' },
+  ];
+
+  const activeSort = compareSortCol && compareSortDir === 1 ? ' ↓' : compareSortCol && compareSortDir === -1 ? ' ↑' : '';
+
+  document.getElementById('compareTable').querySelector('thead tr').innerHTML = cols.map(c => {
+    const sorted = compareSortCol === c.key ? ' sorted' : '';
+    const arrow = compareSortCol === c.key ? activeSort : '';
+    return `<th class="${sorted}" onclick="sortCompare('${c.key}')">${c.label}${arrow}</th>`;
+  }).join('');
+
+  const metricFmt = (c, key) => {
+    if (key === 'amount') return fmtMoney(c.amount * 1000);
+    if (key === 'perHousehold') {
+      const v = c.perHousehold;
+      const sign = v < 0 ? '−' : '';
+      return sign + '£' + Math.abs(v).toLocaleString();
+    }
+    if (key === 'percentOfBudget') return c.percentOfBudget.toFixed(1) + '%';
+    return '';
+  };
+
+  document.getElementById('compareTable').querySelector('tbody').innerHTML = councils.map((c, i) => {
+    const rowClass = (c[currentCompareMetric] ?? 0) === 0 ? ' compare-row-zero' : (c[currentCompareMetric] ?? 0) < 0 ? ' compare-row-neg' : '';
+    const typeColours = {
+      'County Council': '#3d7a5c', 'District Council': '#b8953c',
+      'London Borough': '#3d7ea6', 'Metropolitan District': '#6b4e8a',
+      'Unitary Authority': '#8b5a3c',
+    };
+    return `<tr class="${rowClass}" onclick="loadCouncil('${c.slug}')" style="cursor:pointer;">
+      <td class="compare-row-rank">${i + 1}</td>
+      <td class="compare-row-name">${c.name}</td>
+      <td><span class="compare-row-type" style="background:${typeColours[c.typeName] || '#6b7280'}">${c.typeName}</span></td>
+      <td class="compare-row-val">${metricFmt(c, 'amount')}</td>
+      <td class="compare-row-val">${metricFmt(c, 'perHousehold')}</td>
+      <td class="compare-row-val">${metricFmt(c, 'percentOfBudget')}</td>
+    </tr>`;
+  }).join('');
+}
+
+function sortCompare(col) {
+  if (compareSortCol === col) {
+    compareSortDir *= -1;
+  } else {
+    compareSortCol = col;
+    compareSortDir = 1;
+  }
+  renderCompare();
+}
 
 // ── Utils ──
 function fmtMoney(n) {

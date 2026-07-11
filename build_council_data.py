@@ -212,6 +212,58 @@ def build_council_data(row):
     }
 
 
+def build_categories_json(rows):
+    """Build categories.json: each category with all council data for comparison."""
+    cat_data = defaultdict(list)
+
+    for row in rows:
+        data = build_council_data(row)
+        slug = data["slug"]
+        name = data["name"]
+        ctype = data["type"]
+        type_name = data["typeName"]
+        budget_total = data["budgetTotal"]
+        households = HOUSEHOLDS.get(type_name, 80000)
+
+        for cat in data["budgetCategories"]:
+            amt = cat["amount"]  # thousands
+            cat_key = cat["cat"]
+
+            cat_data[cat_key].append({
+                "slug": slug,
+                "name": name,
+                "type": ctype,
+                "typeName": type_name,
+                "amount": amt,
+                "budgetTotal": budget_total,
+                "perHousehold": int(round(amt * 1000 / households, 0)) if households else 0,
+                "percentOfBudget": round(amt / budget_total * 100, 1) if budget_total else 0,
+            })
+
+    # Sort councils within each category by absolute amount descending
+    result = []
+    cat_order = ["education","childrens_social_care","adult_social_care","public_health",
+                 "transport","housing","cultural","environmental","planning",
+                 "central_services","other"]
+
+    for cat_key in cat_order:
+        if cat_key in cat_data:
+            councils_list = cat_data[cat_key]
+            councils_list.sort(key=lambda x: -abs(x["amount"]))
+            result.append({
+                "cat": cat_key,
+                "label": CAT_LABELS.get(cat_key, cat_key),
+                "icon": CAT_ICONS.get(cat_key, "📋"),
+                "councils": councils_list,
+            })
+
+    with open(OUT_DIR / "categories.json", "w") as f:
+        json.dump({"categories": result}, f, indent=2)
+
+    total_entries = sum(len(cat["councils"]) for cat in result)
+    print(f"  Wrote categories.json ({len(result)} categories, {total_entries} council entries)")
+
+
 def main():
     rows = load_rows()
     print(f"Loaded {len(rows)} councils")
@@ -247,6 +299,10 @@ def main():
             json.dump(data, f, indent=2)
 
     print(f"  Wrote {len(rows)} council files to {OUT_DIR.resolve()}/")
+
+    # Build category comparison data
+    build_categories_json(rows)
+
     print(f"\n  Total: {len(rows)} council data files + index.json")
 
 
