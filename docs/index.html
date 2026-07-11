@@ -468,7 +468,7 @@
   </div>
 
   <p style="text-align:center;margin-top:24px;">
-    <a href="javascript:showCompare(null,null)" style="color:var(--blue);font-size:0.9rem;font-weight:500;">📊 Compare categories across all councils</a>
+    <a href="javascript:navigateCompare(null)" style="color:var(--blue);font-size:0.9rem;font-weight:500;">📊 Compare categories across all councils</a>
   </p>
 </div>
 
@@ -564,10 +564,7 @@ async function loadIndex() {
   councilIndex = await res.json();
   renderPopular();
   setupSearch();
-  // Check for URL param
-  const params = new URLSearchParams(window.location.search);
-  const slug = params.get('council');
-  if (slug) loadCouncil(slug);
+  renderRoute();
 }
 loadIndex();
 
@@ -579,7 +576,7 @@ function renderPopular() {
     .slice(0, 8);
   const grid = document.getElementById('popularGrid');
   grid.innerHTML = top.map(c => `
-    <div class="popular-chip" onclick="loadCouncil('${c.slug}')">
+    <div class="popular-chip" onclick="navigateCouncil('${c.slug}')">
       <div class="chip-avatar" style="background:${c.colour}">${c.initials}</div>
       <span style="flex:1;">${c.name}</span>
       <span style="font-family:var(--mono);font-size:0.72rem;color:var(--text3);">${fmtMoney(c.budget * 1000)}</span>
@@ -625,7 +622,7 @@ function setupSearch() {
         html += `<div class="selector-group">${type}</div>`;
         councils.forEach(c => {
           html += `
-          <div class="selector-option" data-slug="${c.slug}" onclick="loadCouncil('${c.slug}')">
+          <div class="selector-option" data-slug="${c.slug}" onclick="navigateCouncil('${c.slug}')">
             <div class="opt-avatar" style="background:${c.colour}">${c.initials}</div>
             <div class="opt-info">
               <div class="opt-name">${c.name}</div>
@@ -676,14 +673,56 @@ function clearSearch() {
 
 // ── Navigation ──
 function goHome() {
+  history.pushState(null, '', window.location.pathname);
+  renderRoute();
+}
+
+function navigateCouncil(slug) {
+  history.pushState(null, '', `?council=${slug}`);
+  renderRoute();
+}
+
+function navigateCompare(categoryKey = null, metric = currentCompareMetric, fromCouncil = currentCouncil, mode = 'push') {
+  const parts = [categoryKey ? `compare=${encodeURIComponent(categoryKey)}` : 'compare'];
+  if (metric && metric !== 'amount') parts.push(`metric=${encodeURIComponent(metric)}`);
+  const url = '?' + parts.join('&');
+  history[mode === 'replace' ? 'replaceState' : 'pushState'](
+    {view: 'compare', fromCouncil},
+    '',
+    url
+  );
+  renderRoute();
+}
+
+function renderRoute() {
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('council');
+  const hasCompare = params.has('compare');
+  const compare = params.get('compare');
+  const metric = params.get('metric') || 'amount';
+
+  if (slug) {
+    loadCouncil(slug);
+  } else if (hasCompare) {
+    showCompareView(compare || null, metric, history.state?.fromCouncil || null);
+  } else {
+    showHomeView();
+  }
+}
+
+function showHomeView() {
   document.getElementById('landing').classList.remove('hidden');
   document.getElementById('dashboard').classList.remove('active');
+  document.getElementById('compare').classList.remove('active');
   document.getElementById('dashContent').innerHTML =
     '<div class="loading"><div class="spinner"></div><p>Loading council data…</p></div>';
   currentCouncil = null;
   currentData = null;
   if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
-  history.pushState(null, '', window.location.pathname);
+  if (compareChartInstance) { compareChartInstance.destroy(); compareChartInstance = null; }
+  currentCompareCategory = null;
+  compareFromCouncil = null;
+  document.getElementById('catSelect').value = '';
   searchInput.value = '';
   searchInput.focus();
 }
@@ -691,10 +730,13 @@ function goHome() {
 async function loadCouncil(slug) {
   document.getElementById('landing').classList.add('hidden');
   document.getElementById('dashboard').classList.add('active');
+  document.getElementById('compare').classList.remove('active');
+  if (compareChartInstance) { compareChartInstance.destroy(); compareChartInstance = null; }
+  currentCompareCategory = null;
+  compareFromCouncil = null;
   document.getElementById('dashContent').innerHTML =
     '<div class="loading"><div class="spinner"></div><p>Loading council data…</p></div>';
   currentCouncil = slug;
-  history.pushState(null, '', `?council=${slug}`);
   window.scrollTo(0, 0);
 
   try {
@@ -735,7 +777,7 @@ function renderDashboard() {
     const pctOfTotal = (c.amount / d.budgetTotal * 100).toFixed(1);
     const colour = c.amount >= 0 ? 'var(--blue)' : 'var(--red)';
     return `
-    <div class="budget-row clickable" onclick="showCompare('${c.cat}','${d.slug}')" title="Compare all councils on ${c.label}">
+    <div class="budget-row clickable" onclick="navigateCompare('${c.cat}', currentCompareMetric, '${d.slug}')" title="Compare all councils on ${c.label}">
       <div class="budget-icon">${c.icon}</div>
       <div class="budget-info">
         <div class="budget-label">${c.label} <span style="font-size:0.7rem;color:var(--text3);">↗ compare</span></div>
@@ -927,16 +969,8 @@ function shareCouncil() {
   }
 }
 
-// ── Back button ──
-window.addEventListener('popstate', () => {
-  const params = new URLSearchParams(window.location.search);
-  const slug = params.get('council');
-  if (slug) {
-    loadCouncil(slug);
-  } else {
-    goHome();
-  }
-});
+// ── Browser back/forward ──
+window.addEventListener('popstate', renderRoute);
 
 // ── Category Comparison ──
 async function loadCompareData() {
@@ -953,8 +987,10 @@ async function loadCompareData() {
   }
 }
 
-function showCompare(categoryKey, fromCouncil) {
+function showCompareView(categoryKey, metric = 'amount', fromCouncil = null) {
+  if (currentCompareCategory !== categoryKey) activeTypes = new Set();
   compareFromCouncil = fromCouncil;
+  currentCompareMetric = metric;
   document.getElementById('landing').classList.add('hidden');
   document.getElementById('dashboard').classList.remove('active');
   document.getElementById('compare').classList.add('active');
@@ -963,35 +999,35 @@ function showCompare(categoryKey, fromCouncil) {
   const btn = document.getElementById('btnCompareBack');
   btn.style.display = fromCouncil ? '' : 'none';
 
+  document.querySelectorAll('.compare-metric-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.metric === metric);
+  });
+
   window.scrollTo(0, 0);
 
   loadCompareData().then(() => {
     populateCategorySelect();
     if (categoryKey) {
       document.getElementById('catSelect').value = categoryKey;
-      changeCategory(categoryKey);
+      currentCompareCategory = categoryKey;
+      compareSortCol = metric;
+      compareSortDir = 1;
+      renderCompare();
     } else {
+      document.getElementById('catSelect').value = '';
+      currentCompareCategory = null;
       renderCompare();
     }
   });
 }
 
 function openCompareFromDashboard() {
-  showCompare(null, currentCouncil);
+  navigateCompare(null, currentCompareMetric, currentCouncil);
 }
 
 function closeCompare() {
-  document.getElementById('compare').classList.remove('active');
-  if (compareChartInstance) { compareChartInstance.destroy(); compareChartInstance = null; }
-  currentCompareCategory = null;
-  document.getElementById('catSelect').value = '';
-
-  if (compareFromCouncil) {
-    loadCouncil(compareFromCouncil);
-    compareFromCouncil = null;
-  } else {
-    goHome();
-  }
+  if (compareFromCouncil) navigateCouncil(compareFromCouncil);
+  else goHome();
 }
 
 function populateCategorySelect() {
@@ -1006,21 +1042,12 @@ function populateCategorySelect() {
 
 function changeCategory(catKey) {
   if (!catKey) return;
-  currentCompareCategory = catKey;
   activeTypes = new Set();
-  compareSortCol = null;
-  compareSortDir = 1;
-  renderCompare();
+  navigateCompare(catKey, currentCompareMetric, compareFromCouncil, 'replace');
 }
 
 function changeMetric(metric) {
-  currentCompareMetric = metric;
-  document.querySelectorAll('.compare-metric-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.metric === metric);
-  });
-  compareSortCol = metric;
-  compareSortDir = 1;
-  renderCompare();
+  navigateCompare(currentCompareCategory, metric, compareFromCouncil, 'replace');
 }
 
 function toggleType(typeName) {
@@ -1257,7 +1284,7 @@ function renderCompareTable(councils) {
       'London Borough': '#3d7ea6', 'Metropolitan District': '#6b4e8a',
       'Unitary Authority': '#8b5a3c',
     };
-    return `<tr class="${rowClass}" onclick="loadCouncil('${c.slug}')" style="cursor:pointer;">
+    return `<tr class="${rowClass}" onclick="navigateCouncil('${c.slug}')" style="cursor:pointer;">
       <td class="compare-row-rank">${i + 1}</td>
       <td class="compare-row-name">${c.name}</td>
       <td><span class="compare-row-type" style="background:${typeColours[c.typeName] || '#6b7280'}">${c.typeName}</span></td>
