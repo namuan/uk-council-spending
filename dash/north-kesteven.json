@@ -4,6 +4,7 @@
   "type": "SD",
   "typeName": "District Council",
   "onsCode": "E07000139",
+  "region": "East Midlands",
   "colour": "hsl(142, 45%, 55%)",
   "initials": "NK",
   "leader": "Cllr Richard Wright",
@@ -27,56 +28,56 @@
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "description": "Waste, street cleaning, parks and environmental health.",
       "amount": 6427.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services.",
       "perCapita": 52.5
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "description": "Core staff, finance, IT, legal and democratic services.",
       "amount": 5214.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance.",
       "perCapita": 42.6
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "description": "Planning applications, building control and local development.",
       "amount": 3633.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects.",
       "perCapita": 29.7
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "description": "Libraries, museums, sports, arts and leisure services.",
       "amount": 1518.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes.",
       "perCapita": 12.4
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "description": "Housing advice, homelessness support and council homes.",
       "amount": 1484.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes.",
       "perCapita": 12.1
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "description": "Road maintenance, public transport and local travel.",
       "amount": 163.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning.",
       "perCapita": 1.3
     },
     {
       "cat": "adult_social_care",
       "label": "Adult Social Care",
       "icon": "\ud83d\udc74",
-      "description": "Care and support for older and disabled adults.",
       "amount": 58.0,
+      "description": "Care services for elderly and vulnerable adults, including home care and residential placements.",
       "perCapita": 0.5
     }
   ],
@@ -92,6 +93,7 @@
       "icon": "\ud83d\udcd0",
       "amount": 3633.0,
       "perCapita": 30,
+      "perHousehold": 73,
       "description": "allocated \u00a33.6m to Planning & Development (\u2248\u00a330 per resident)",
       "timestamp": "2026-04-22"
     },
@@ -101,6 +103,7 @@
       "icon": "\ud83c\udf33",
       "amount": 6427.0,
       "perCapita": 52,
+      "perHousehold": 129,
       "description": "allocated \u00a36.4m to Environment & Streets (\u2248\u00a352 per resident)",
       "timestamp": "2026-01-24"
     },
@@ -110,6 +113,7 @@
       "icon": "\ud83c\udfad",
       "amount": 1518.0,
       "perCapita": 12,
+      "perHousehold": 30,
       "description": "allocated \u00a31.5m to Culture & Leisure (\u2248\u00a312 per resident)",
       "timestamp": "2026-01-24"
     },
@@ -119,6 +123,7 @@
       "icon": "\ud83c\udfdb\ufe0f",
       "amount": 5214.0,
       "perCapita": 43,
+      "perHousehold": 104,
       "description": "allocated \u00a35.2m to Council Running Costs (\u2248\u00a343 per resident)",
       "timestamp": "2025-04-15"
     },
@@ -128,6 +133,7 @@
       "icon": "\ud83d\udcc8",
       "amount": 74.0,
       "perCapita": 74.0,
+      "perHousehold": 74.0,
       "description": "raised Band D council tax by \u00a374 (3.4%) to \u00a32261",
       "timestamp": "2025-03-15"
     }

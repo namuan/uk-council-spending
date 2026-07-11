@@ -4,6 +4,7 @@
   "type": "SD",
   "typeName": "District Council",
   "onsCode": "E07000235",
+  "region": "West Midlands",
   "colour": "hsl(28, 45%, 55%)",
   "initials": "MH",
   "leader": "Cllr Sarah Rouse",
@@ -27,48 +28,48 @@
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "description": "Core staff, finance, IT, legal and democratic services.",
       "amount": 5880.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance.",
       "perCapita": 70.7
     },
     {
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "description": "Waste, street cleaning, parks and environmental health.",
       "amount": 3237.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services.",
       "perCapita": 38.9
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "description": "Planning applications, building control and local development.",
       "amount": 1056.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects.",
       "perCapita": 12.7
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "description": "Housing advice, homelessness support and council homes.",
       "amount": 837.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes.",
       "perCapita": 10.1
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "description": "Libraries, museums, sports, arts and leisure services.",
       "amount": 820.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes.",
       "perCapita": 9.9
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "description": "Road maintenance, public transport and local travel.",
       "amount": -171.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning.",
       "perCapita": -2.1
     }
   ],
@@ -84,6 +85,7 @@
       "icon": "\ud83c\udfe0",
       "amount": 837.0,
       "perCapita": 10,
+      "perHousehold": 17,
       "description": "allocated \u00a30.8m to Housing (\u2248\u00a310 per resident)",
       "timestamp": "2026-03-15"
     },
@@ -93,6 +95,7 @@
       "icon": "\ud83c\udf33",
       "amount": 3237.0,
       "perCapita": 39,
+      "perHousehold": 65,
       "description": "allocated \u00a33.2m to Environment & Streets (\u2248\u00a339 per resident)",
       "timestamp": "2026-02-28"
     },
@@ -102,6 +105,7 @@
       "icon": "\ud83c\udfdb\ufe0f",
       "amount": 5880.0,
       "perCapita": 71,
+      "perHousehold": 118,
       "description": "allocated \u00a35.9m to Council Running Costs (\u2248\u00a371 per resident)",
       "timestamp": "2026-01-24"
     },
@@ -111,6 +115,7 @@
       "icon": "\ud83d\udcd0",
       "amount": 1056.0,
       "perCapita": 13,
+      "perHousehold": 21,
       "description": "allocated \u00a31.1m to Planning & Development (\u2248\u00a313 per resident)",
       "timestamp": "2025-12-12"
     },
@@ -120,6 +125,7 @@
       "icon": "\ud83d\udcc8",
       "amount": 100.0,
       "perCapita": 100.0,
+      "perHousehold": 100.0,
       "description": "raised Band D council tax by \u00a3100 (4.6%) to \u00a32281",
       "timestamp": "2025-03-15"
     }

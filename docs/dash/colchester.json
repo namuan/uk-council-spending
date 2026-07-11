@@ -4,6 +4,7 @@
   "type": "SD",
   "typeName": "District Council",
   "onsCode": "E07000071",
+  "region": "East of England",
   "colour": "hsl(218, 45%, 55%)",
   "initials": "COL",
   "leader": "",
@@ -27,48 +28,48 @@
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "description": "Waste, street cleaning, parks and environmental health.",
       "amount": 11735.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services.",
       "perCapita": 58.6
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "description": "Libraries, museums, sports, arts and leisure services.",
       "amount": 7073.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes.",
       "perCapita": 35.3
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "description": "Core staff, finance, IT, legal and democratic services.",
       "amount": 6198.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance.",
       "perCapita": 31.0
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "description": "Housing advice, homelessness support and council homes.",
       "amount": 3893.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes.",
       "perCapita": 19.4
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "description": "Road maintenance, public transport and local travel.",
       "amount": -1702.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning.",
       "perCapita": -8.5
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "description": "Planning applications, building control and local development.",
       "amount": 1067.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects.",
       "perCapita": 5.3
     }
   ],
@@ -84,6 +85,7 @@
       "icon": "\ud83c\udfe0",
       "amount": 3893.0,
       "perCapita": 19,
+      "perHousehold": 78,
       "description": "allocated \u00a33.9m to Housing (\u2248\u00a319 per resident)",
       "timestamp": "2026-02-28"
     },
@@ -93,6 +95,7 @@
       "icon": "\ud83c\udfad",
       "amount": 7073.0,
       "perCapita": 35,
+      "perHousehold": 141,
       "description": "allocated \u00a37.1m to Culture & Leisure (\u2248\u00a335 per resident)",
       "timestamp": "2025-07-09"
     },
@@ -102,6 +105,7 @@
       "icon": "\ud83c\udf33",
       "amount": 11735.0,
       "perCapita": 59,
+      "perHousehold": 235,
       "description": "allocated \u00a311.7m to Environment & Streets (\u2248\u00a359 per resident)",
       "timestamp": "2025-05-03"
     },
@@ -111,6 +115,7 @@
       "icon": "\ud83c\udfdb\ufe0f",
       "amount": 6198.0,
       "perCapita": 31,
+      "perHousehold": 124,
       "description": "allocated \u00a36.2m to Council Running Costs (\u2248\u00a331 per resident)",
       "timestamp": "2025-05-03"
     },
@@ -120,6 +125,7 @@
       "icon": "\ud83d\udcc8",
       "amount": 85.0,
       "perCapita": 85.0,
+      "perHousehold": 85.0,
       "description": "raised Band D council tax by \u00a385 (4.0%) to \u00a32192",
       "timestamp": "2025-03-15"
     }

@@ -4,6 +4,7 @@
   "type": "SD",
   "typeName": "District Council",
   "onsCode": "E07000106",
+  "region": "South East",
   "colour": "hsl(288, 45%, 55%)",
   "initials": "CAN",
   "leader": "Cllr Alan Baldock",
@@ -27,56 +28,56 @@
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "description": "Waste, street cleaning, parks and environmental health.",
       "amount": 9561.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services.",
       "perCapita": 59.0
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "description": "Road maintenance, public transport and local travel.",
       "amount": -5790.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning.",
       "perCapita": -35.7
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "description": "Core staff, finance, IT, legal and democratic services.",
       "amount": 5567.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance.",
       "perCapita": 34.3
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "description": "Libraries, museums, sports, arts and leisure services.",
       "amount": 4289.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes.",
       "perCapita": 26.5
     },
     {
       "cat": "other",
       "label": "Other Services",
       "icon": "\ud83d\udccb",
-      "description": "Other services not grouped in the categories above.",
       "amount": 3902.0,
+      "description": "Other service areas and cross-cutting budgets not allocated to specific categories.",
       "perCapita": 24.1
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "description": "Housing advice, homelessness support and council homes.",
       "amount": 3482.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes.",
       "perCapita": 21.5
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "description": "Planning applications, building control and local development.",
       "amount": 2569.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects.",
       "perCapita": 15.8
     }
   ],
@@ -92,6 +93,7 @@
       "icon": "\ud83c\udfdb\ufe0f",
       "amount": 5567.0,
       "perCapita": 34,
+      "perHousehold": 111,
       "description": "allocated \u00a35.6m to Council Running Costs (\u2248\u00a334 per resident)",
       "timestamp": "2026-07-05"
     },
@@ -101,6 +103,7 @@
       "icon": "\ud83c\udf33",
       "amount": 9561.0,
       "perCapita": 59,
+      "perHousehold": 191,
       "description": "allocated \u00a39.6m to Environment & Streets (\u2248\u00a359 per resident)",
       "timestamp": "2026-05-08"
     },
@@ -110,6 +113,7 @@
       "icon": "\ud83c\udfad",
       "amount": 4289.0,
       "perCapita": 26,
+      "perHousehold": 86,
       "description": "allocated \u00a34.3m to Culture & Leisure (\u2248\u00a326 per resident)",
       "timestamp": "2026-03-15"
     },
@@ -119,6 +123,7 @@
       "icon": "\ud83d\udccb",
       "amount": 3902.0,
       "perCapita": 24,
+      "perHousehold": 78,
       "description": "allocated \u00a33.9m to Other Services (\u2248\u00a324 per resident)",
       "timestamp": "2025-10-18"
     },
@@ -128,6 +133,7 @@
       "icon": "\ud83d\udcc8",
       "amount": 107.0,
       "perCapita": 107.0,
+      "perHousehold": 107.0,
       "description": "raised Band D council tax by \u00a3107 (4.8%) to \u00a32322",
       "timestamp": "2025-03-15"
     }

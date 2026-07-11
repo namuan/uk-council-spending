@@ -4,6 +4,7 @@
   "type": "SD",
   "typeName": "District Council",
   "onsCode": "E07000077",
+  "region": "East of England",
   "colour": "hsl(93, 45%, 55%)",
   "initials": "UTT",
   "leader": "Cllr Petrina Sherwood",
@@ -27,56 +28,56 @@
       "cat": "environmental",
       "label": "Environment & Streets",
       "icon": "\ud83c\udf33",
-      "description": "Waste, street cleaning, parks and environmental health.",
       "amount": 5806.0,
+      "description": "Waste collection and recycling, street cleaning, environmental health, and regulatory services.",
       "perCapita": 61.0
     },
     {
       "cat": "central_services",
       "label": "Council Running Costs",
       "icon": "\ud83c\udfdb\ufe0f",
-      "description": "Core staff, finance, IT, legal and democratic services.",
       "amount": 5302.0,
+      "description": "Council tax collection, HR, finance, IT, legal services, and democratic governance.",
       "perCapita": 55.7
     },
     {
       "cat": "planning",
       "label": "Planning & Development",
       "icon": "\ud83d\udcd0",
-      "description": "Planning applications, building control and local development.",
       "amount": 3366.0,
+      "description": "Planning applications, building control, economic development, and regeneration projects.",
       "perCapita": 35.4
     },
     {
       "cat": "cultural",
       "label": "Culture & Leisure",
       "icon": "\ud83c\udfad",
-      "description": "Libraries, museums, sports, arts and leisure services.",
       "amount": 2094.0,
+      "description": "Libraries, museums, parks, leisure centres, sports facilities, and arts programmes.",
       "perCapita": 22.0
     },
     {
       "cat": "housing",
       "label": "Housing",
       "icon": "\ud83c\udfe0",
-      "description": "Housing advice, homelessness support and council homes.",
       "amount": 1089.0,
+      "description": "Housing benefit, homelessness services, council housing management, and affordable housing programmes.",
       "perCapita": 11.5
     },
     {
       "cat": "transport",
       "label": "Roads & Transport",
       "icon": "\ud83d\udee3\ufe0f",
-      "description": "Road maintenance, public transport and local travel.",
       "amount": -644.0,
+      "description": "Road maintenance, public transport subsidies, street lighting, and transport planning.",
       "perCapita": -6.8
     },
     {
       "cat": "public_health",
       "label": "Public Health",
       "icon": "\ud83c\udfe5",
-      "description": "Services that help people stay healthy and prevent illness.",
       "amount": 158.0,
+      "description": "Health improvement programmes, sexual health services, drug and alcohol services, and health protection.",
       "perCapita": 1.7
     }
   ],
@@ -92,6 +93,7 @@
       "icon": "\ud83d\udcd0",
       "amount": 3366.0,
       "perCapita": 35,
+      "perHousehold": 67,
       "description": "allocated \u00a33.4m to Planning & Development (\u2248\u00a335 per resident)",
       "timestamp": "2026-06-19"
     },
@@ -101,6 +103,7 @@
       "icon": "\ud83c\udfdb\ufe0f",
       "amount": 5302.0,
       "perCapita": 56,
+      "perHousehold": 106,
       "description": "allocated \u00a35.3m to Council Running Costs (\u2248\u00a356 per resident)",
       "timestamp": "2026-02-28"
     },
@@ -110,6 +113,7 @@
       "icon": "\ud83c\udfad",
       "amount": 2094.0,
       "perCapita": 22,
+      "perHousehold": 42,
       "description": "allocated \u00a32.1m to Culture & Leisure (\u2248\u00a322 per resident)",
       "timestamp": "2026-02-10"
     },
@@ -119,6 +123,7 @@
       "icon": "\ud83c\udf33",
       "amount": 5806.0,
       "perCapita": 61,
+      "perHousehold": 116,
       "description": "allocated \u00a35.8m to Environment & Streets (\u2248\u00a361 per resident)",
       "timestamp": "2025-11-07"
     },
@@ -128,6 +133,7 @@
       "icon": "\ud83d\udcc8",
       "amount": 88.0,
       "perCapita": 88.0,
+      "perHousehold": 88.0,
       "description": "raised Band D council tax by \u00a388 (4.1%) to \u00a32237",
       "timestamp": "2025-03-15"
     }
